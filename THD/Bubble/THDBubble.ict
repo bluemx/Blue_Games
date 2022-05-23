@@ -1,0 +1,2759 @@
+ctjsVersion: 1.7.0
+notes: /* empty */
+libs:
+  mouse: {}
+  keyboard: {}
+  keyboard.polyfill: {}
+  sound.howler: {}
+  touch:
+    mousetouch: true
+    preventdefault: false
+  place:
+    undefined: ''
+    gridX: 512
+    gridY: 512
+    debugMode: false
+    debugText: 16
+  fittoscreen:
+    mode: scaleFit
+textures:
+  - name: bucket_green
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 99
+      - 73
+    marginx: 0
+    marginy: 0
+    imgWidth: 198
+    imgHeight: 146
+    width: 198
+    height: 146
+    offx: 0
+    offy: 0
+    origname: i00b337f1-0c95-4ae2-9b2c-ff9d401c8a14.png
+    shape: rect
+    left: 99
+    right: 99
+    top: 73
+    bottom: 73
+    uid: 00b337f1-0c95-4ae2-9b2c-ff9d401c8a14
+    padding: 1
+    source: >-
+      /Users/albinrdz/Library/Mobile
+      Documents/com~apple~CloudDocs/WORK/THEHOMEDEPOT/bubblesResources/bucket_green.png
+    lastmod: 1632342567001
+    tiled: true
+  - name: drop_blue
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 29
+      - 29
+    marginx: 0
+    marginy: 0
+    imgWidth: 58
+    imgHeight: 58
+    width: 58
+    height: 58
+    offx: 0
+    offy: 0
+    origname: i2f19617c-917d-4222-8968-4ee5eb962fa3.png
+    shape: circle
+    left: 29
+    right: 29
+    top: 29
+    bottom: 29
+    uid: 2f19617c-917d-4222-8968-4ee5eb962fa3
+    padding: 1
+    source: >-
+      /Users/albinrdz/Library/Mobile
+      Documents/com~apple~CloudDocs/WORK/THEHOMEDEPOT/bubblesResources/drop_blue.png
+    r: 28
+    lastmod: 1632867653345
+  - name: bucket_pink
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 99
+      - 73
+    marginx: 0
+    marginy: 0
+    imgWidth: 198
+    imgHeight: 146
+    width: 198
+    height: 146
+    offx: 0
+    offy: 0
+    origname: i8daf266b-07f6-4527-9be2-51df2140d309.png
+    shape: rect
+    left: 99
+    right: 99
+    top: 73
+    bottom: 73
+    uid: 8daf266b-07f6-4527-9be2-51df2140d309
+    padding: 1
+    source: >-
+      /Users/albinrdz/Library/Mobile
+      Documents/com~apple~CloudDocs/WORK/THEHOMEDEPOT/bubblesResources/bucket_pink.png
+    lastmod: 1632342561451
+    tiled: true
+  - name: bucket_blue
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 99
+      - 73
+    marginx: 0
+    marginy: 0
+    imgWidth: 198
+    imgHeight: 146
+    width: 198
+    height: 146
+    offx: 0
+    offy: 0
+    origname: id1427d60-b8f1-427d-9f2c-0e45c1ec1da4.png
+    shape: rect
+    left: 99
+    right: 99
+    top: 73
+    bottom: 73
+    uid: d1427d60-b8f1-427d-9f2c-0e45c1ec1da4
+    padding: 1
+    source: >-
+      /Users/albinrdz/Library/Mobile
+      Documents/com~apple~CloudDocs/WORK/THEHOMEDEPOT/bubblesResources/bucket_blue.png
+    lastmod: 1632342569249
+    stripPoints:
+      - x: 0
+        'y': -73
+      - x: 94
+        'y': -23
+      - x: 58
+        'y': 59
+      - x: -58
+        'y': 59
+      - x: -94
+        'y': -23
+    closedStrip: true
+    tiled: true
+  - name: drop_orange
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 29
+      - 29
+    marginx: 0
+    marginy: 0
+    imgWidth: 58
+    imgHeight: 58
+    width: 58
+    height: 58
+    offx: 0
+    offy: 0
+    origname: i8ab71d5a-4309-4207-81fd-269d2462d9dc.png
+    shape: circle
+    left: 24
+    right: 25
+    top: 24
+    bottom: 24
+    uid: 8ab71d5a-4309-4207-81fd-269d2462d9dc
+    padding: 1
+    source: >-
+      /Users/albinrdz/Library/Mobile
+      Documents/com~apple~CloudDocs/WORK/THEHOMEDEPOT/bubblesResources/drop_orange.png
+    r: 28
+    lastmod: 1632867663548
+  - name: drop_green
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 29
+      - 29
+    marginx: 0
+    marginy: 0
+    imgWidth: 58
+    imgHeight: 57
+    width: 58
+    height: 58
+    offx: 0
+    offy: 0
+    origname: ie0fd7170-64b2-4497-a213-17b524b7d252.png
+    shape: circle
+    left: 29
+    right: 29
+    top: 29
+    bottom: 29
+    uid: e0fd7170-64b2-4497-a213-17b524b7d252
+    padding: 1
+    source: >-
+      /Users/albinrdz/Library/Mobile
+      Documents/com~apple~CloudDocs/WORK/THEHOMEDEPOT/bubblesResources/drop_green.png
+    r: 28
+    lastmod: 1632867651156
+  - name: drop_pink
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 29
+      - 29
+    marginx: 0
+    marginy: 0
+    imgWidth: 58
+    imgHeight: 57
+    width: 58
+    height: 57
+    offx: 0
+    offy: 0
+    origname: i58bbf411-60f4-4aea-884f-926622196614.png
+    shape: circle
+    left: 24
+    right: 25
+    top: 24
+    bottom: 25
+    uid: 58bbf411-60f4-4aea-884f-926622196614
+    padding: 1
+    source: >-
+      /Users/albinrdz/Library/Mobile
+      Documents/com~apple~CloudDocs/WORK/THEHOMEDEPOT/bubblesResources/drop_pink.png
+    r: 28
+    lastmod: 1632867677218
+  - name: bucket_orange
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 99
+      - 73
+    marginx: 0
+    marginy: 0
+    imgWidth: 198
+    imgHeight: 146
+    width: 198
+    height: 146
+    offx: 0
+    offy: 0
+    origname: i3061dcc7-e783-491f-8e7a-8ace9e3f6034.png
+    shape: rect
+    left: 99
+    right: 99
+    top: 73
+    bottom: 73
+    uid: 3061dcc7-e783-491f-8e7a-8ace9e3f6034
+    padding: 1
+    source: >-
+      /Users/albinrdz/Library/Mobile
+      Documents/com~apple~CloudDocs/WORK/THEHOMEDEPOT/bubblesResources/bucket_orange.png
+    lastmod: 1632342564466
+    tiled: true
+  - name: droptile
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 32
+      - 32
+    marginx: 0
+    marginy: 0
+    imgWidth: 65
+    imgHeight: 64
+    width: 65
+    height: 64
+    offx: 0
+    offy: 0
+    origname: i7c066502-5ac0-4c4a-9377-6c7d95f03ad8.png
+    shape: circle
+    left: 32
+    right: 33
+    top: 32
+    bottom: 32
+    uid: 7c066502-5ac0-4c4a-9377-6c7d95f03ad8
+    padding: 1
+    source: >-
+      /Users/albinrdz/Library/Mobile
+      Documents/com~apple~CloudDocs/WORK/THEHOMEDEPOT/bubblesResources/droptile2.png
+    lastmod: 1632418593375
+    stripPoints:
+      - x: 0
+        'y': -32
+      - x: 31
+        'y': -10
+      - x: 19
+        'y': 26
+      - x: -19
+        'y': 26
+      - x: -31
+        'y': -10
+    closedStrip: true
+    r: 32
+  - name: thehomedepot
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 129
+    imgHeight: 129
+    width: 129
+    height: 129
+    offx: 0
+    offy: 0
+    origname: i58b830d3-71d9-4c04-be14-98202bc53a09.png
+    shape: rect
+    left: 0
+    right: 129
+    top: 0
+    bottom: 129
+    uid: 58b830d3-71d9-4c04-be14-98202bc53a09
+    padding: 1
+    source: >-
+      /Users/albinrdz/Library/Mobile
+      Documents/com~apple~CloudDocs/WORK/THEHOMEDEPOT/bubblesResources/thehomedepot.png
+    ignoreTiledUse: true
+  - name: pink
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 16
+    imgHeight: 16
+    width: 16
+    height: 16
+    offx: 0
+    offy: 0
+    origname: i34c2dd0d-84c1-46f1-9c8b-e9f57d9f5b2c.png
+    shape: rect
+    left: 0
+    right: 16
+    top: 0
+    bottom: 16
+    uid: 34c2dd0d-84c1-46f1-9c8b-e9f57d9f5b2c
+    padding: 1
+    source: /Users/albinrdz/Desktop/pink.png
+  - name: green
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 16
+    imgHeight: 16
+    width: 16
+    height: 16
+    offx: 0
+    offy: 0
+    origname: i4a053200-5383-45ff-a95d-7be99e127172.png
+    shape: rect
+    left: 0
+    right: 16
+    top: 0
+    bottom: 16
+    uid: 4a053200-5383-45ff-a95d-7be99e127172
+    padding: 1
+    source: /Users/albinrdz/Desktop/green.png
+  - name: blue
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 8
+      - 8
+    marginx: 0
+    marginy: 0
+    imgWidth: 16
+    imgHeight: 16
+    width: 16
+    height: 16
+    offx: 0
+    offy: 0
+    origname: i0ab87a37-3f4e-4e65-8614-4bc6c6cf39ec.png
+    shape: circle
+    left: 8
+    right: 8
+    top: 8
+    bottom: 8
+    uid: 0ab87a37-3f4e-4e65-8614-4bc6c6cf39ec
+    padding: 1
+    source: /Users/albinrdz/Desktop/blue.png
+    lastmod: 1632246504268
+    r: 8
+  - name: orange
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 16
+    imgHeight: 16
+    width: 16
+    height: 16
+    offx: 0
+    offy: 0
+    origname: i25e7f6ad-de35-414b-b3af-407d9b27d7a6.png
+    shape: rect
+    left: 0
+    right: 16
+    top: 0
+    bottom: 16
+    uid: 25e7f6ad-de35-414b-b3af-407d9b27d7a6
+    padding: 1
+    source: /Users/albinrdz/Desktop/orange.png
+  - name: scope_blue
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 6
+      - 48
+    marginx: 0
+    marginy: 0
+    imgWidth: 12
+    imgHeight: 48
+    width: 12
+    height: 48
+    offx: 0
+    offy: 0
+    origname: i087df4bf-9474-4b24-bb18-8735ac8c6194.png
+    shape: rect
+    left: 6
+    right: 6
+    top: 48
+    bottom: 0
+    uid: 087df4bf-9474-4b24-bb18-8735ac8c6194
+    padding: 1
+    source: /Users/albinrdz/Desktop/scope_blue.png
+    lastmod: 1632243013970
+  - name: scope_orange
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 6
+      - 48
+    marginx: 0
+    marginy: 0
+    imgWidth: 12
+    imgHeight: 48
+    width: 12
+    height: 48
+    offx: 0
+    offy: 0
+    origname: i30cdacc6-204a-4868-8862-41d0934d31f6.png
+    shape: rect
+    left: 6
+    right: 6
+    top: 48
+    bottom: 0
+    uid: 30cdacc6-204a-4868-8862-41d0934d31f6
+    padding: 1
+    source: /Users/albinrdz/Desktop/scope_orange.png
+    r: 6
+    stripPoints:
+      - x: 0
+        'y': -24
+      - x: 6
+        'y': -7
+      - x: 4
+        'y': 19
+      - x: -4
+        'y': 19
+      - x: -6
+        'y': -7
+    closedStrip: true
+    lastmod: 1632243019356
+  - name: scope_pink
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 6
+      - 48
+    marginx: 0
+    marginy: 0
+    imgWidth: 12
+    imgHeight: 48
+    width: 12
+    height: 48
+    offx: 0
+    offy: 0
+    origname: i6bc5b4e6-4b90-454b-b689-c356ecd5e72b.png
+    shape: rect
+    left: 6
+    right: 6
+    top: 48
+    bottom: 0
+    uid: 6bc5b4e6-4b90-454b-b689-c356ecd5e72b
+    padding: 1
+    source: /Users/albinrdz/Desktop/scope_pink.png
+    lastmod: 1632243021856
+  - name: scope_green
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 6
+      - 48
+    marginx: 0
+    marginy: 0
+    imgWidth: 12
+    imgHeight: 48
+    width: 12
+    height: 48
+    offx: 0
+    offy: 0
+    origname: i7e5b4247-acc7-4504-92ae-7d06240d4c5e.png
+    shape: rect
+    left: 6
+    right: 6
+    top: 48
+    bottom: 0
+    uid: 7e5b4247-acc7-4504-92ae-7d06240d4c5e
+    padding: 1
+    source: /Users/albinrdz/Desktop/scope_green.png
+    lastmod: 1632243016734
+  - name: splashSprite
+    untill: 0
+    grid:
+      - 6
+      - 1
+    axis:
+      - 32
+      - 32
+    marginx: 0
+    marginy: 0
+    imgWidth: 384
+    imgHeight: 64
+    width: 64
+    height: 64
+    offx: 0
+    offy: 0
+    origname: ia68c7cc4-3af1-4af7-9f2e-cc7258d9b613.png
+    shape: rect
+    left: 32
+    right: 32
+    top: 32
+    bottom: 32
+    uid: a68c7cc4-3af1-4af7-9f2e-cc7258d9b613
+    padding: 1
+    source: /Users/albinrdz/Desktop/splashSprite.png
+    r: 32
+    lastmod: 1632252240572
+    tiled: false
+  - name: splashAnim_green
+    untill: 0
+    grid:
+      - 3
+      - 1
+    axis:
+      - 32
+      - 32
+    marginx: 0
+    marginy: 0
+    imgWidth: 192
+    imgHeight: 64
+    width: 64
+    height: 64
+    offx: 0
+    offy: 0
+    origname: i414c8827-b389-41b7-b5e5-28c7461eec6b.png
+    shape: rect
+    left: 32
+    right: 32
+    top: 32
+    bottom: 32
+    uid: 414c8827-b389-41b7-b5e5-28c7461eec6b
+    padding: 1
+    source: /Users/albinrdz/Desktop/splashAnim_green.png
+    lastmod: 1632340791519
+  - name: splashAnim_orange
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 32
+      - 32
+    marginx: 0
+    marginy: 0
+    imgWidth: 192
+    imgHeight: 64
+    width: 64
+    height: 64
+    offx: 0
+    offy: 0
+    origname: i5b873366-c51b-40ef-b19f-57d9bae832dd.png
+    shape: rect
+    left: 32
+    right: 32
+    top: 32
+    bottom: 32
+    uid: 5b873366-c51b-40ef-b19f-57d9bae832dd
+    padding: 1
+    source: /Users/albinrdz/Desktop/splashAnim_orange.png
+    lastmod: 1632418470440
+  - name: splashAnim_pink
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 32
+      - 32
+    marginx: 0
+    marginy: 0
+    imgWidth: 192
+    imgHeight: 64
+    width: 64
+    height: 64
+    offx: 0
+    offy: 0
+    origname: i18595b0a-3bbc-4f92-af2f-4afbfcad6e24.png
+    shape: rect
+    left: 32
+    right: 32
+    top: 32
+    bottom: 32
+    uid: 18595b0a-3bbc-4f92-af2f-4afbfcad6e24
+    padding: 1
+    source: /Users/albinrdz/Desktop/splashAnim_pink.png
+    lastmod: 1632340807098
+  - name: splashAnim_blue
+    untill: 0
+    grid:
+      - 3
+      - 1
+    axis:
+      - 32
+      - 32
+    marginx: 0
+    marginy: 0
+    imgWidth: 192
+    imgHeight: 64
+    width: 64
+    height: 64
+    offx: 0
+    offy: 0
+    origname: ia332668a-bad9-4411-86d0-b2c7b7349a79.png
+    shape: rect
+    left: 32
+    right: 32
+    top: 32
+    bottom: 32
+    uid: a332668a-bad9-4411-86d0-b2c7b7349a79
+    padding: 1
+    source: /Users/albinrdz/Desktop/splashAnim_blue.png
+    lastmod: 1632340773647
+  - name: burst_pink
+    untill: 0
+    grid:
+      - 4
+      - 1
+    axis:
+      - 32
+      - 32
+    marginx: 0
+    marginy: 0
+    imgWidth: 256
+    imgHeight: 64
+    width: 64
+    height: 64
+    offx: 0
+    offy: 0
+    origname: i98d58133-42fb-4f26-be79-0ccbad4ccb9a.png
+    shape: rect
+    left: 32
+    right: 32
+    top: 32
+    bottom: 32
+    uid: 98d58133-42fb-4f26-be79-0ccbad4ccb9a
+    padding: 1
+    source: /Users/albinrdz/Desktop/burst_pink.png
+    lastmod: 1632410493379
+  - name: burst_orange
+    untill: 0
+    grid:
+      - 4
+      - 1
+    axis:
+      - 32
+      - 32
+    marginx: 0
+    marginy: 0
+    imgWidth: 256
+    imgHeight: 64
+    width: 64
+    height: 64
+    offx: 0
+    offy: 0
+    origname: ied979073-3030-4f16-b906-3d1e88ce5cfb.png
+    shape: rect
+    left: 32
+    right: 32
+    top: 32
+    bottom: 32
+    uid: ed979073-3030-4f16-b906-3d1e88ce5cfb
+    padding: 1
+    source: /Users/albinrdz/Desktop/burst_orange.png
+    lastmod: 1632410489058
+  - name: burst_green
+    untill: 0
+    grid:
+      - 4
+      - 1
+    axis:
+      - 32
+      - 32
+    marginx: 0
+    marginy: 0
+    imgWidth: 256
+    imgHeight: 64
+    width: 64
+    height: 64
+    offx: 0
+    offy: 0
+    origname: i52d875d2-c3e0-4a2c-b075-e7d8178959d2.png
+    shape: rect
+    left: 32
+    right: 32
+    top: 32
+    bottom: 32
+    uid: 52d875d2-c3e0-4a2c-b075-e7d8178959d2
+    padding: 1
+    source: /Users/albinrdz/Desktop/burst_green.png
+    lastmod: 1632410486454
+  - name: burst_blue
+    untill: 0
+    grid:
+      - 4
+      - 1
+    axis:
+      - 32
+      - 32
+    marginx: 0
+    marginy: 0
+    imgWidth: 256
+    imgHeight: 64
+    width: 64
+    height: 64
+    offx: 0
+    offy: 0
+    origname: i4e8cffe8-24b6-46cf-a4d7-a68b02acebd3.png
+    shape: rect
+    left: 32
+    right: 32
+    top: 32
+    bottom: 32
+    uid: 4e8cffe8-24b6-46cf-a4d7-a68b02acebd3
+    padding: 1
+    source: /Users/albinrdz/Desktop/burst_blue.png
+    lastmod: 1632410483493
+  - name: splashalone_pink
+    untill: 0
+    grid:
+      - 16
+      - 1
+    axis:
+      - 64
+      - 192
+    marginx: 0
+    marginy: 0
+    imgWidth: 2048
+    imgHeight: 192
+    width: 128
+    height: 192
+    offx: 0
+    offy: 0
+    origname: idefb2742-9695-4685-b3ac-125a75492664.png
+    shape: rect
+    left: 64
+    right: 64
+    top: 192
+    bottom: 0
+    uid: defb2742-9695-4685-b3ac-125a75492664
+    padding: 1
+    source: /Users/albinrdz/Desktop/splashalone_pink.png
+    lastmod: 1632432703704
+  - name: splashalone_blue
+    untill: 0
+    grid:
+      - 16
+      - 1
+    axis:
+      - 64
+      - 192
+    marginx: 0
+    marginy: 0
+    imgWidth: 2048
+    imgHeight: 192
+    width: 128
+    height: 192
+    offx: 0
+    offy: 0
+    origname: i9a7d5e7a-8840-4495-ba6f-c0a76377676c.png
+    shape: rect
+    left: 64
+    right: 64
+    top: 192
+    bottom: 0
+    uid: 9a7d5e7a-8840-4495-ba6f-c0a76377676c
+    padding: 1
+    source: /Users/albinrdz/Desktop/splashalone_blue.png
+    lastmod: 1632432674200
+  - name: splashalone_orange
+    untill: 0
+    grid:
+      - 16
+      - 1
+    axis:
+      - 64
+      - 192
+    marginx: 0
+    marginy: 0
+    imgWidth: 2048
+    imgHeight: 192
+    width: 128
+    height: 192
+    offx: 0
+    offy: 0
+    origname: i8bbe0d13-7a6e-49ee-880f-93db650a7f7f.png
+    shape: rect
+    left: 64
+    right: 64
+    top: 192
+    bottom: 0
+    uid: 8bbe0d13-7a6e-49ee-880f-93db650a7f7f
+    padding: 1
+    source: /Users/albinrdz/Desktop/splashalone_orange.png
+    lastmod: 1632432694771
+  - name: splashalone_green
+    untill: 0
+    grid:
+      - 16
+      - 1
+    axis:
+      - 64
+      - 192
+    marginx: 0
+    marginy: 0
+    imgWidth: 2048
+    imgHeight: 192
+    width: 128
+    height: 192
+    offx: 0
+    offy: 0
+    origname: i17379426-4472-46bb-8a01-e6d9025aa1b9.png
+    shape: rect
+    left: 64
+    right: 64
+    top: 192
+    bottom: 0
+    uid: 17379426-4472-46bb-8a01-e6d9025aa1b9
+    padding: 1
+    source: /Users/albinrdz/Desktop/splashalone_green.png
+    lastmod: 1632432685328
+  - name: floor
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 210
+      - 140
+    marginx: 0
+    marginy: 0
+    imgWidth: 420
+    imgHeight: 140
+    width: 420
+    height: 140
+    offx: 0
+    offy: 0
+    origname: i86e8c777-f3fd-44d0-9760-41e7ee861cda.png
+    shape: rect
+    left: 210
+    right: 210
+    top: 140
+    bottom: 0
+    uid: 86e8c777-f3fd-44d0-9760-41e7ee861cda
+    padding: 1
+    source: /Users/albinrdz/Desktop/floor.png
+    tiled: true
+    lastmod: 1632438680116
+  - name: timer
+    untill: 0
+    grid:
+      - 1
+      - 11
+    axis:
+      - 77
+      - 18
+    marginx: 0
+    marginy: 0
+    imgWidth: 154
+    imgHeight: 407
+    width: 154
+    height: 37
+    offx: 0
+    offy: 0
+    origname: i9b466b9c-bea0-46d0-a3bc-be1e653eeb48.png
+    shape: rect
+    left: 77
+    right: 77
+    top: 18
+    bottom: 19
+    uid: 9b466b9c-bea0-46d0-a3bc-be1e653eeb48
+    padding: 1
+    source: /Users/albinrdz/Desktop/timer.png
+    lastmod: 1632439443366
+  - name: btncomenzar
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 255
+      - 87
+    marginx: 0
+    marginy: 0
+    imgWidth: 510
+    imgHeight: 174
+    width: 510
+    height: 174
+    offx: 0
+    offy: 0
+    origname: i26d38f93-11cb-48af-aefa-18f32774d01a.png
+    shape: rect
+    left: 255
+    right: 255
+    top: 87
+    bottom: 87
+    uid: 26d38f93-11cb-48af-aefa-18f32774d01a
+    padding: 1
+    source: /Users/albinrdz/Desktop/btncomenzar.png
+    lastmod: 1632440026403
+  - name: playpause
+    untill: 0
+    grid:
+      - 3
+      - 1
+    axis:
+      - 32
+      - 32
+    marginx: 0
+    marginy: 0
+    imgWidth: 192
+    imgHeight: 64
+    width: 64
+    height: 64
+    offx: 0
+    offy: 0
+    origname: i04aea4a6-be6e-4e65-8453-10a7317df61f.png
+    shape: rect
+    left: 32
+    right: 32
+    top: 32
+    bottom: 32
+    uid: 04aea4a6-be6e-4e65-8453-10a7317df61f
+    padding: 1
+    source: /Users/albinrdz/Desktop/playpause.png
+    lastmod: 1632864025763
+  - name: pausedbg
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 544
+    imgHeight: 800
+    width: 544
+    height: 800
+    offx: 0
+    offy: 0
+    origname: i39685529-7f56-4862-9c6f-d2071436fe96.png
+    shape: rect
+    left: 0
+    right: 544
+    top: 0
+    bottom: 800
+    uid: 39685529-7f56-4862-9c6f-d2071436fe96
+    padding: 1
+    source: /Users/albinrdz/Desktop/pausedbg.png
+    tiled: true
+    lastmod: 1632866754793
+  - name: screen_intro2
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 544
+    imgHeight: 960
+    width: 544
+    height: 960
+    offx: 0
+    offy: 0
+    origname: i805b1081-c4d0-4ea3-a629-a4c8aa2cbaa4.png
+    shape: rect
+    left: 0
+    right: 544
+    top: 0
+    bottom: 960
+    uid: 805b1081-c4d0-4ea3-a629-a4c8aa2cbaa4
+    padding: 1
+    source: /Users/albinrdz/Desktop/screen_intro2.png
+    tiled: true
+    lastmod: 1632953321681
+  - name: screen_intro
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 544
+    imgHeight: 960
+    width: 544
+    height: 960
+    offx: 0
+    offy: 0
+    origname: ie2c1dd1f-7c20-4340-b92f-3d8e5a96db3f.png
+    shape: rect
+    left: 0
+    right: 544
+    top: 0
+    bottom: 960
+    uid: e2c1dd1f-7c20-4340-b92f-3d8e5a96db3f
+    padding: 1
+    source: /Users/albinrdz/Desktop/screen_intro.png
+    tiled: true
+    lastmod: 1632953318237
+  - name: screen_end
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 544
+    imgHeight: 960
+    width: 544
+    height: 960
+    offx: 0
+    offy: 0
+    origname: i0c1d276f-f1d2-4380-8cab-ffdcff5ba8bf.png
+    shape: rect
+    left: 0
+    right: 544
+    top: 0
+    bottom: 960
+    uid: 0c1d276f-f1d2-4380-8cab-ffdcff5ba8bf
+    padding: 1
+    source: /Users/albinrdz/Desktop/screen_end.png
+    tiled: true
+    lastmod: 1633032067636
+  - name: btn_siguiente
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 356
+    imgHeight: 78
+    width: 356
+    height: 78
+    offx: 0
+    offy: 0
+    origname: i3aa33354-d6d4-4ca8-a1f8-f233ac082133.png
+    shape: rect
+    left: 0
+    right: 356
+    top: 0
+    bottom: 78
+    uid: 3aa33354-d6d4-4ca8-a1f8-f233ac082133
+    padding: 1
+    source: /Users/albinrdz/Desktop/btn_siguiente.png
+  - name: btn_back
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 106
+    imgHeight: 78
+    width: 106
+    height: 78
+    offx: 0
+    offy: 0
+    origname: i7fc3fa0b-8022-43df-8c2d-2bceff10a98a.png
+    shape: rect
+    left: 0
+    right: 106
+    top: 0
+    bottom: 78
+    uid: 7fc3fa0b-8022-43df-8c2d-2bceff10a98a
+    padding: 1
+    source: /Users/albinrdz/Desktop/btn_back.png
+  - name: btn_comenzar
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 356
+    imgHeight: 78
+    width: 356
+    height: 78
+    offx: 0
+    offy: 0
+    origname: iafd706e3-381c-4530-b461-6fe3fa62ad11.png
+    shape: rect
+    left: 0
+    right: 356
+    top: 0
+    bottom: 78
+    uid: afd706e3-381c-4530-b461-6fe3fa62ad11
+    padding: 1
+    source: /Users/albinrdz/Desktop/btn_comenzar.png
+skeletons: []
+types:
+  - name: droptile
+    depth: 0
+    oncreate: |+
+
+
+      var _this = this
+      /*
+      this.containTxt = new PIXI.Text( '-',{fontSize: 14} );
+      this.containTxt.x = -20
+      this.containTxt.y = -10;
+      this.addChild(this.containTxt);
+      */
+      this.touching = []
+
+      this.cleanDrop = function (burstTexture) {
+          //Burst animation
+          var burstAnim = ct.types.copy('burst', this.x, this.y)
+          burstAnim.tex = 'burst_'+burstTexture
+          burstAnim.animationSpeed =0.5;
+          burstAnim.play()
+
+          this.contain = null
+          this.tex = 'droptile'
+          //this.containTxt.text = '-'
+          this.touching = []
+      }
+
+
+      this.touchings = function (){
+          var touchingAll = 0;
+
+          var neardropsT = this.neardrops
+          for(var x in neardropsT){
+              var nears = neardropsT[x]
+              var touching = [];
+              //near drops list
+              var droptile = ct.room.droptiles[nears[1]][nears[0]]
+              //if droptile contains and is equal to _this.contain
+              if(droptile && droptile.contain == _this.contain){
+                  
+                  //How many is each one touching
+                  for(var n in droptile.neardrops){
+                      var row = droptile.neardrops[n][1]
+                      var column = droptile.neardrops[n][0]
+                      var near = ct.room.droptiles[row][column]
+                      if(near.contain && near.contain == droptile.contain){
+                          touching.push(droptile)
+                      }
+                  }
+                  // Save touchings in each droptile
+                  droptile.touching = touching
+              }
+              touchingAll += touching.length*1
+          }
+          return touchingAll
+      }
+
+
+
+
+      this.burst = function (burstType) {
+
+          ct.sound.spawn('burst')
+          ct.room.addPoints(this.contain, 'normal', this.x, this.y)
+
+          ct.camera.shake = .5
+          var texturecontain = this.contain
+          //Burst near bubbles
+          var neardrops = this.neardrops
+          var contain = this.contain
+          
+          var nearAlonesForCheck = []
+          
+
+          if(burstType == 'alone'){
+              var alone = ct.types.copy('droptileAlone', this.x, this.y);
+              alone.tex = 'drop_'+this.contain;
+              alone.animationSpeed = 0.8;
+              ct.room.check1stLine()
+              this.cleanDrop(texturecontain)
+              return false;
+          }
+
+
+
+          ct.u.wait(50)
+          .then(() => {
+                  this.cleanDrop(texturecontain)
+                  
+                  for(var x in neardrops){
+                      var nears = neardrops[x]
+                      var touching = [];
+                      //near drops list
+                      var droptile = ct.room.droptiles[nears[1]][nears[0]]
+                      //if droptile contains and is equal to _this.contain
+                      if(droptile && droptile.contain == contain){
+                          this.touching.push(droptile)
+                              droptile.burst()
+                      } else if(droptile && droptile.contain != contain){
+                          nearAlonesForCheck.push(droptile)
+                      }
+                  }
+          })
+          
+          ct.room.check1stLine()
+          //ct.room.burstAlones(nearAlonesForCheck)
+      }
+
+    onstep: |
+      this.move();
+    ondraw: |
+      /*
+      if(this.contain){
+          this.containTxt.text = this.contain +' '+this.touching.length
+      }
+      */
+      /*
+
+          for(var i in this.neardrops){
+              var row = this.neardrops[i][1]
+              var column = this.neardrops[i][0]
+              var dt = ct.room.droptiles[row][column]        
+              var overlay = new PIXI.Graphics();
+
+              var overlay = new PIXI.Graphics();
+              overlay.beginFill(0xaa0000);
+              overlay.drawPolygon(this.x, this.y, dt.x, dt.y)
+              overlay.endFill();
+
+              this.addChild(overlay);
+              //console.log(this.x,',' , this.y, ' | ' , dt.x, ',',dt.y)
+          }
+
+      */
+    ondestroy: ''
+    texture: 7c066502-5ac0-4c4a-9377-6c7d95f03ad8
+    extends: {}
+    uid: 6ef184c2-e2d2-43f6-ae6e-240f67e1ce5a
+    lastmod: 1632956417133
+  - name: dropshoot
+    depth: 0
+    oncreate: |+
+
+      this.previousCollided = null
+
+      ct.sound.spawn('drop')
+
+
+    onstep: |+
+      this.move();
+      var _this = this
+
+
+      // KILL IF OUTSIDE TOP
+      if(this.y<0){
+          ct.room.emptylineFN()
+          this.kill = true;
+      }
+
+      // WALL BOUNCE
+      if(this.x> (ct.viewWidth - this.width ) || this.x < this.width ){
+          this.hspeed = this.hspeed*-1;
+      }
+
+      // COLLISIONS
+      var collided = ct.place.meet(this, this.x, this.y, 'droptile')
+
+
+
+      if(collided) {
+
+          if(collided.contain && collided.isLast){
+              ct.room.GameOverFN()
+          }
+
+          if(collided.contain && this.previousCollided){
+              //Destroy
+              this.kill = true;
+              //Append color
+              this.previousCollided.tex = 'drop_'+this.tex.replace('drop_', '');
+              this.previousCollided.contain = this.tex.replace('drop_', '');
+              // Splash animation
+              
+              var splash = ct.types.copy('splashSprite', this.x, this.previousCollided.y);
+              splash.tex = 'splashAnim_'+this.tex.replace('drop_','')
+
+              //Cheak near balls
+              //checkNear(this.previousCollided.neardrops)
+
+              var istouching3 = this.previousCollided.touchings(this.previousCollided.contain)
+              //If the the near is at least 2 (is touching the new and another) then  BURST
+              if(istouching3>=2){
+                  this.previousCollided.burst()
+              }
+              
+
+          } else {
+              this.previousCollided = collided
+          }
+
+          
+      }
+
+
+
+
+
+    ondraw: ''
+    ondestroy: ''
+    texture: 0ab87a37-3f4e-4e65-8614-4bc6c6cf39ec
+    extends: {}
+    uid: b7b3a297-068c-4ef3-af77-fe4b5ce9de34
+    lastmod: 1632956393366
+  - name: scope
+    depth: 0
+    oncreate: |-
+      this.ROTDirection = 'left'
+      this.rotateSpeed = 1.5
+      this.ROTAngle = 60
+
+      this.currentColor = 'blue'
+
+
+
+
+      this.changeCurrentColor = function () {
+          this.currentColor = ct.room.dropsColors[Math.round(Math.random()*ct.room.colLen)];
+          this.tex = 'scope_'+this.currentColor
+          for (var bucket of ct.types.list['bucket']) {
+              bucket.tex = 'bucket_'+this.currentColor;
+          }
+
+      }
+
+
+
+      // On Start
+      var _this = this
+      setTimeout(function (){
+          _this.changeCurrentColor()
+      }, 250);
+    onstep: |+
+      this.move();
+
+      if(!ct.room.paused){
+
+
+          // ------------------------------
+          // SCOPE ROTATION
+          if(this.ROTDirection == 'left' ){
+              this.rotation = this.rotation - this.rotateSpeed
+          } else if (this.ROTDirection == 'right') {
+              this.rotation = this.rotation + this.rotateSpeed
+          }
+
+          if(this.ROTDirection == 'right' && this.rotation > this.ROTAngle){
+              this.ROTDirection = 'left'
+          } else if (this.ROTDirection == 'left' && this.rotation< -this.ROTAngle){
+              this.ROTDirection = 'right'
+          }
+
+          // ------------------------------
+          // SHOOT
+          if(ct.actions.Shoot.released){
+              var xposition = this.x-(this.rotation/1)
+              bullet = ct.types.copy('dropshoot', xposition, this.y-this.height);
+              bullet.tex = 'drop_'+this.currentColor;
+              bullet.addSpeed(24, this.rotation + 90)
+              this.changeCurrentColor()
+          }
+
+
+
+
+          if(ct.room.gameover){
+              this.kill = true;
+          }
+
+      }
+
+
+
+
+    ondraw: ''
+    ondestroy: ''
+    texture: 087df4bf-9474-4b24-bb18-8735ac8c6194
+    extends: {}
+    uid: 9db17f58-63af-44c3-b5d0-c985e5c461e5
+    lastmod: 1632953811132
+  - name: splashSprite
+    depth: -1
+    oncreate: |-
+      this.rotation =  Math.round(Math.random()*360);
+      var scaleit = .5+(Math.random()*1)
+      this.scale.x = scaleit
+      this.scale.y = scaleit
+      this.currentFrame = Math.round(Math.random()*2)
+
+
+
+
+
+      var killtime = ct.timer.add(2500, 'killsplash');
+      killtime.then(() => {
+          this.kill = true
+      })
+    onstep: |-
+      this.move();
+
+          
+    ondraw: ''
+    ondestroy: ''
+    texture: a68c7cc4-3af1-4af7-9f2e-cc7258d9b613
+    extends: {}
+    uid: e484611a-6a66-4441-ab06-6948e89cc0b9
+    lastmod: 1632956280627
+  - name: bucket
+    depth: 0
+    oncreate: ''
+    onstep: this.move();
+    ondraw: ''
+    ondestroy: ''
+    texture: d1427d60-b8f1-427d-9f2c-0e45c1ec1da4
+    extends: {}
+    uid: 1923d81b-29ce-4663-a93e-ba5f28be81f3
+    lastmod: 1632342383291
+  - name: burst
+    depth: 0
+    oncreate: |-
+      var killtime = ct.timer.add(1000, 'killsplash');
+      killtime.then(() => {
+          this.kill = true
+      })
+    onstep: |-
+      this.move();
+
+
+      if(this.currentFrame==3){
+          this.kill = true
+          //this.kill = true;
+      }
+    ondraw: ''
+    ondestroy: ''
+    texture: 4e8cffe8-24b6-46cf-a4d7-a68b02acebd3
+    extends: {}
+    uid: 589891e7-b7e5-4d29-b976-0ab18b99836c
+    lastmod: 1632956341803
+  - name: droptileAlone
+    depth: 0
+    oncreate: |-
+      this.speed = 10;
+      this.direction = -90;
+    onstep: |-
+      this.move();
+      if(this.y>ct.viewHeight){
+          var splashalone = ct.types.copy('splashalone', this.x, ct.viewHeight);
+          splashalone.tex = 'splashalone_'+this.tex.replace('drop_','');
+          splashalone.play()
+          ct.sound.spawn('splash')
+          this.kill = true;
+      }
+    ondraw: |
+      /*
+      if(this.contain){
+          this.containTxt.text = this.contain +' '+this.touching.length
+      }
+      */
+      /*
+
+          for(var i in this.neardrops){
+              var row = this.neardrops[i][1]
+              var column = this.neardrops[i][0]
+              var dt = ct.room.droptiles[row][column]        
+              var overlay = new PIXI.Graphics();
+
+              var overlay = new PIXI.Graphics();
+              overlay.beginFill(0xaa0000);
+              overlay.drawPolygon(this.x, this.y, dt.x, dt.y)
+              overlay.endFill();
+
+              this.addChild(overlay);
+              //console.log(this.x,',' , this.y, ' | ' , dt.x, ',',dt.y)
+          }
+
+      */
+    ondestroy: ''
+    texture: 7c066502-5ac0-4c4a-9377-6c7d95f03ad8
+    extends:
+      ctype: '99'
+    uid: d3dd960e-5479-4140-8d0f-b81f2b6ddfef
+    lastmod: 1632956694699
+  - name: splashalone
+    depth: 0
+    oncreate: >-
+      ct.room.addPoints(this.tex.replace('splashalone_', ''), 'splashalone',
+      this.x, this.y-20)
+    onstep: |-
+      this.move();
+
+      if(this.currentFrame==15){
+          this.kill = true;
+      }
+    ondraw: ''
+    ondestroy: ''
+    texture: 9a7d5e7a-8840-4495-ba6f-c0a76377676c
+    extends: {}
+    uid: ad2fa4ec-4a7b-4749-96e2-624c14ae2019
+    lastmod: 1632956403704
+  - name: timer
+    depth: 0
+    oncreate: |+
+      var _this = this
+      this.times = 0
+
+      this.gotoAndStop(10)
+
+      //60 segundos
+      this.fullTime = 60
+
+
+      var timerinterval = setInterval(function () {
+          //Check for outside GameOver
+          if(ct.room.gameover){
+              clearInterval(timerinterval)
+              return false
+          }
+
+
+          //_this.times += 1
+          //_this.gotoAndStop(10 - _this.times)
+          if(!ct.room.paused){
+              _this.fullTime -=1
+          }
+
+          var timeSecTo10 =  Math.round(_this.fullTime/6)
+
+          _this.gotoAndStop(  timeSecTo10 )
+
+          
+
+
+          // Time end: GameOver FN
+          if(_this.currentFrame==0){
+              ct.room.GameOverFN()
+          }
+
+
+
+      }, 1000)
+
+    onstep: |+
+      this.move();
+
+    ondraw: ''
+    ondestroy: ''
+    texture: 9b466b9c-bea0-46d0-a3bc-be1e653eeb48
+    extends: {}
+    uid: 7f04eaea-c5fc-4698-b461-1d7617c77492
+    lastmod: 1632865611334
+  - name: btncomenzar
+    depth: 0
+    oncreate: ''
+    onstep: |-
+      this.move();
+
+      if (ct.touch.collideUi(this)) {
+          ct.rooms.switch('Game');
+      }
+    ondraw: ''
+    ondestroy: ''
+    texture: 26d38f93-11cb-48af-aefa-18f32774d01a
+    extends: {}
+    uid: 788c1b52-bbd3-46dc-91c9-d4ee861844c1
+    lastmod: 1632955785697
+  - name: playpause
+    depth: 6
+    oncreate: |+
+
+
+      this.pauseRoom
+
+    onstep: |-
+      this.move();
+
+      if (ct.touch.collideUi(this)) {
+          if(!ct.room.gameover){
+              if(!this.pressed){
+                  if(this.currentFrame==0){
+                      //PAUSE
+                      ct.room.paused = true;
+                      ct.pixiApp.ticker.speed = 0;
+                      this.gotoAndStop(1);
+                      this.x = 480;
+                      this.pauseRoom = ct.rooms.append('Paused', { isUi: true });
+                  } else if(this.currentFrame==1){
+                      //PLAY
+                      setTimeout(function () {
+                          ct.room.paused = false;
+                          ct.pixiApp.ticker.speed = 1;
+                      },200)
+                      this.gotoAndStop(0);
+                      this.x = 64;
+                      ct.rooms.remove(this.pauseRoom)
+                  }
+                  
+              }
+          }
+      }
+    ondraw: ''
+    ondestroy: ''
+    texture: 04aea4a6-be6e-4e65-8453-10a7317df61f
+    extends: {}
+    uid: 4895cabc-130a-4a79-8454-d250a366c12a
+    lastmod: 1632957195353
+  - name: points
+    depth: 0
+    oncreate: |-
+      this.pointLabel = new PIXI.Text('+9', ct.styles.get('points'));
+      this.pointLabel.x = 0;
+      this.pointLabel.y = 0;
+      this.addChild(this.pointLabel);
+
+
+
+      var timer = ct.timer.add(500, 'killtimer');
+      timer.then(() => {
+          this.kill = true
+      })
+    onstep: |-
+      this.move();
+      this.y-=1
+    ondraw: ''
+    ondestroy: ''
+    texture: -1
+    extends: {}
+    uid: 333b98b5-c42e-413e-a739-deb1f6472b51
+    lastmod: 1632938348170
+  - name: btn_back
+    depth: 1
+    oncreate: |+
+      this.pressed = false
+
+    onstep: |-
+      this.move();
+
+      this.move();
+
+      if (ct.touch.collideUi(this)) {
+             this.tint = 0xF5A568
+
+          if(!this.pressed){
+              this.pressed = true;
+              ct.u.wait(150).then(() => {
+                  ct.rooms.switch('Start')
+              })
+          }
+      }
+    ondraw: ''
+    ondestroy: ''
+    texture: 7fc3fa0b-8022-43df-8c2d-2bceff10a98a
+    extends: {}
+    uid: 1281308a-1847-4b2b-baa3-eb2156a24157
+    lastmod: 1633027127273
+  - name: btn_comenzar
+    depth: 1
+    oncreate: this.pressed = false
+    onstep: |-
+      this.move();
+
+      if (ct.touch.collideUi(this)) {
+              this.tint = 0xF5A568
+
+          if(!this.pressed){
+              this.pressed = true;
+              ct.sound.spawn('wave')
+              ct.u.wait(150).then(() => {
+                  ct.rooms.switch('Game')
+              })
+          }
+      }
+    ondraw: ''
+    ondestroy: ''
+    texture: afd706e3-381c-4530-b461-6fe3fa62ad11
+    extends: {}
+    uid: 2aa15139-db50-447a-b84c-659cf389994a
+    lastmod: 1632955940602
+  - name: btn_siguiente
+    depth: 1
+    oncreate: this.pressed = false;
+    onstep: |-
+      this.move();
+
+      if (ct.touch.collideUi(this)) {
+              this.tint = 0xF5A568
+
+          if(!this.pressed){
+              this.pressed = true;
+              ct.sound.spawn('wave')
+              ct.u.wait(150).then(() => {
+                  ct.rooms.switch('Start2')
+              })
+          }
+      }
+    ondraw: ''
+    ondestroy: ''
+    texture: 3aa33354-d6d4-4ca8-a1f8-f233ac082133
+    extends: {}
+    uid: 0d9d57d2-d382-48e8-8fd7-310a70a6990f
+    lastmod: 1632955380441
+  - name: btn_back_exit
+    depth: 1
+    oncreate: |-
+      this.pressed = true
+
+      ct.u.wait(1000)
+      .then(() => {
+          this.pressed = false
+      })
+    onstep: |-
+      this.move();
+
+      if (ct.touch.collideUi(this)) {
+          if(!this.pressed){
+              this.pressed = true;
+              
+              window.parent.postMessage("closegame", "*");
+
+              console.log('closegame')
+          }
+      }
+    ondraw: ''
+    ondestroy: ''
+    texture: 7fc3fa0b-8022-43df-8c2d-2bceff10a98a
+    extends: {}
+    uid: d3d08892-2530-4088-8248-d026f19bc50d
+    lastmod: 1632955188225
+sounds:
+  - name: burst
+    uid: 57abff83-e0f7-46ae-b258-56eb8c1dfe48
+    origname: s57abff83-e0f7-46ae-b258-56eb8c1dfe48.mp3
+    lastmod: 1632418026251
+    poolSize: 3
+  - name: drop
+    uid: bced79b7-a599-4e57-ac46-f8783ee1090c
+    origname: sbced79b7-a599-4e57-ac46-f8783ee1090c.mp3
+    lastmod: 1632417380979
+    poolSize: 5
+  - name: wave
+    uid: efe1e943-a521-4ffa-9341-067dd7e77d99
+    origname: sefe1e943-a521-4ffa-9341-067dd7e77d99.mp3
+    lastmod: 1632956006848
+  - name: splash
+    uid: 5a59936c-e924-42ce-9714-0c9f7681bc86
+    poolSize: 2
+    origname: s5a59936c-e924-42ce-9714-0c9f7681bc86.mp3
+    lastmod: 1632956210595
+  - name: end
+    uid: 4db9c70a-ee26-4848-96d6-91f8a462ab0a
+    origname: s4db9c70a-ee26-4848-96d6-91f8a462ab0a.mp3
+    lastmod: 1632956825633
+styles:
+  - name: regular
+    uid: 78a39155-c836-43e2-8b50-59ff02ca6dcb
+    origname: s59ff02ca6dcb
+    font:
+      family: '"CTPROJFONTOpenSans-Regular", "OpenSans-Regular", sans-serif'
+      size: 12
+      weight: 400
+      italic: false
+    lastmod: 1632421527425
+  - name: boldScore
+    uid: 8d79cd6f-accd-4595-af6b-fd8f1cf00838
+    origname: sfd8f1cf00838
+    font:
+      family: '"CTPROJFONTOpenSans-ExtraBold", "OpenSans-ExtraBold", sans-serif'
+      size: 46
+      weight: 400
+      italic: false
+      halign: center
+    lastmod: 1632939555778
+    fill:
+      type: '0'
+      color: '#F4750D'
+  - name: boldScore_txt
+    uid: 0a809f7f-3919-4656-bb70-5175f5a0f3e9
+    origname: s5175f5a0f3e9
+    font:
+      family: '"CTPROJFONTOpenSans-ExtraBold", "OpenSans-ExtraBold", sans-serif'
+      size: 26
+      weight: 400
+      italic: false
+      halign: center
+    lastmod: 1632438876802
+    fill:
+      type: '0'
+      color: '#808080'
+  - name: points
+    uid: bfccd469-6870-4a29-b593-f963688fa287
+    origname: sf963688fa287
+    font:
+      family: '"CTPROJFONTOpenSans-ExtraBold", "OpenSans-ExtraBold", sans-serif'
+      size: 20
+      weight: 400
+      italic: false
+      halign: center
+    lastmod: 1632937930913
+    fill:
+      type: '1'
+      color: '#F4750D'
+      color1: '#D6D6D6'
+      color2: '#C4BEB9'
+      gradtype: '1'
+    stroke:
+      color: '#FFFFFF'
+      weight: 4
+  - name: boldScore_BIG
+    uid: 35613b61-a15a-4958-906a-dc84ce867069
+    origname: sdc84ce867069
+    font:
+      family: '"CTPROJFONTOpenSans-ExtraBold", "OpenSans-ExtraBold", sans-serif'
+      size: 94
+      weight: 400
+      italic: false
+      halign: center
+    lastmod: 1632957930042
+    fill:
+      type: '0'
+      color: '#F4750D'
+  - name: boldScore_txt_BIG
+    uid: 5ae920a9-6da2-4986-87ae-5149e06be0ec
+    origname: s5149e06be0ec
+    font:
+      family: '"CTPROJFONTOpenSans-ExtraBold", "OpenSans-ExtraBold", sans-serif'
+      size: 40
+      weight: 400
+      italic: false
+      halign: center
+    lastmod: 1632957449366
+    fill:
+      type: '0'
+      color: '#808080'
+rooms:
+  - name: Game
+    oncreate: >-
+      ct.room.dropsColors = ['blue', 'green', 'pink', 'orange']
+
+      //ct.room.dropsColors = ['blue', 'green']
+
+      ct.room.colLen = ct.room.dropsColors.length-1
+
+
+      ct.room.paused = false
+
+
+
+
+      //---------------------------------------
+
+      // SCORE
+
+      ct.room.score = 0
+
+
+      this.scoreLabel = new PIXI.Text(ct.room.score,
+      ct.styles.get('boldScore'));
+
+      this.scoreLabel.anchor.set(0.5, 0.5);
+
+      this.scoreLabel.x = ct.viewWidth - 86;
+
+      this.scoreLabel.y = 50;
+
+      this.addChild(this.scoreLabel);
+
+
+
+      this.scoreLabelTXT = new PIXI.Text('puntos',
+      ct.styles.get('boldScore_txt'));
+
+      this.scoreLabelTXT.x = ct.viewWidth - 130;
+
+      this.scoreLabelTXT.y = 70;
+
+      this.addChild(this.scoreLabelTXT);
+
+
+      //---------------------------------------
+
+
+
+      // CREATE DROPTILES
+
+      var droptileSize = 64;
+
+      var lineyStart = 160;
+
+      var lineXPosition = [96, 64]; //first, second
+
+      var xLines = 7;
+
+      var yLines = 9;
+
+
+      //Descend Interval
+
+      var descendSpeed = 100000;
+
+      var descendInterval = setInterval(descend, descendSpeed)
+
+
+      ct.room.descendTime = true
+
+
+
+      // CREATE ARRAY OF DROPTILES 
+
+      var droptilesArray = []
+
+      var Ys = 0
+
+      while(Ys < yLines){ droptilesArray.push([]); Ys++; }
+
+      for(var ys in droptilesArray){
+          var Xs = 0;
+          while(Xs < xLines){ droptilesArray[ys].push([]); Xs++; }
+      }
+
+
+
+      // CREATE DROPTILES
+
+      var repeatY = 0;
+
+      while(repeatY < yLines){
+          var repeatX = 0;
+          while(repeatX < xLines){
+              var startPosX = lineXPosition[(repeatY%2===0?0:1)]
+              var posX = startPosX + (repeatX*droptileSize)
+              var posY = lineyStart+(droptileSize*repeatY)
+              //Add itemcopy
+              var droptile = ct.types.copy('droptile', posX, posY)
+              
+              
+              if(repeatY == yLines-1){
+                  droptile.isLast = true;
+              }
+              
+              droptile.coordinates = [repeatY, repeatX]
+
+              //Near items
+              droptile.neardrops = []
+              //Near items: TOP
+              if(repeatY>0){
+                  droptile.neardrops.push([repeatX, repeatY-1])
+                  if(repeatX<xLines-1 && (repeatY%2===0)){ droptile.neardrops.push([repeatX+1, repeatY-1]) }
+                  if(repeatX>0 && !(repeatY%2===0)){ droptile.neardrops.push([repeatX-1, repeatY-1]) }
+              }
+              //Near items: RIGHT
+              if(repeatX<xLines-1){ droptile.neardrops.push([repeatX+1, repeatY]) }
+              //Near items: BOTTOM
+              if(repeatY<yLines-1){
+                  droptile.neardrops.push([repeatX, repeatY+1])
+                  
+                  if(repeatX<xLines-1 && (repeatY%2===0)){ droptile.neardrops.push([repeatX+1, repeatY+1]) }
+                  if(repeatX>0 && !(repeatY%2===0)){ droptile.neardrops.push([repeatX-1, repeatY+1]) }
+              }
+              //Near items: LEFT
+              if(repeatX>0){ droptile.neardrops.push([repeatX-1, repeatY]) }
+
+              // Add to array
+              droptilesArray[repeatY][repeatX] = droptile
+              repeatX++;
+          }
+          repeatY++;
+      }
+
+
+
+
+      // FILL FIRST LINE
+
+      function populateLines(lines){
+
+          var populatedLines = lines
+          var populating = 0
+          while(populating<populatedLines){
+              for(var i in droptilesArray[populating]){
+                  var colorSet = ct.room.dropsColors[Math.round(Math.random()*ct.room.colLen)]
+                  droptilesArray[populating][i].tex = 'drop_'+colorSet;
+                  droptilesArray[populating][i].contain = colorSet;
+              }
+              populating++;
+          }
+      }
+
+
+      populateLines(4)
+
+
+
+
+
+      this.emptylineFN = function () {
+          descend()
+      }
+
+
+
+
+      //DESCEND
+
+      function descend() {
+
+          if(!ct.room.descendTime){
+              return false
+          } 
+          
+          // VERIFIY LAST LINE = GAMEOVER
+          for(var l in droptilesArray[droptilesArray.length-1] ){
+              if(droptilesArray[droptilesArray.length-1][l].contain){
+                  ct.room.GameOverFN()
+              }
+          }
+          //If not gameover
+          if(!ct.room.gameover){
+              //OK... DESCEND
+              //Loop Y in mainarray
+              for(var y in droptilesArray){
+                  var reverseY = (droptilesArray.length-1)-y;
+                  var yrows = droptilesArray[reverseY]
+                  //Loop x in each row
+                  for(var x in yrows){
+                      //if drop has contain
+                      if(yrows[x].contain){
+                          //Lower one file
+                          droptilesArray[reverseY+1][x].tex = yrows[x].tex
+                          droptilesArray[reverseY+1][x].contain = yrows[x].contain
+                          //Remove from previous
+                          yrows[x].tex = 'droptile'
+                          yrows[x].contain =  null
+                      }
+
+                  }
+              }
+
+
+              populateLines(1)
+
+              //REPEAT & INCREASE SPEED
+              clearInterval(descendInterval)
+              descendInterval = setInterval(descend, descendSpeed);
+              //  Safety for repeated descend lines
+              ct.room.descendTime = false
+              setTimeout(function(){
+                  ct.room.descendTime = true
+              },500)
+          }
+      }
+
+
+
+
+
+      ct.room.GameOverFN = function () {
+          console.warn('---------------')
+          console.log('GAME OVER')
+          clearInterval(descendInterval);
+          ct.room.gameover = true
+          
+
+
+
+          BurstAll()
+          ct.u.wait(1000)
+          .then(() => {
+              ct.rooms.merge('GameOver');
+              ct.sound.spawn('end');
+
+
+
+              this.scoreLabelEnd = new PIXI.Text(ct.room.score, ct.styles.get('boldScore_BIG'));
+              this.scoreLabelEnd.anchor.set(0.5, 0.5);
+
+              this.scoreLabelTXTEnd = new PIXI.Text('puntos', ct.styles.get('boldScore_txt_BIG'));
+              this.scoreLabelTXTEnd.anchor.set(0.5, 0.5);
+
+              this.scoreLabelEnd.depth = 11
+              this.scoreLabelTXTEnd.depth = 11
+
+              this.scoreLabelEnd.x = ct.viewWidth/2
+              this.scoreLabelEnd.y = (ct.viewHeight/2)-60
+
+              this.scoreLabelTXTEnd.x = ct.viewWidth/2
+              this.scoreLabelTXTEnd.y = (ct.viewHeight/2)
+
+              this.addChild(this.scoreLabelEnd);
+              this.addChild(this.scoreLabelTXTEnd);
+
+
+              this.endpart = ct.emitters.fire('endparticles', ct.viewWidth/2, ct.viewHeight/2, {depth: 11})
+
+              var endresult = {
+                  score:ct.room.score,
+                  points: this.pointsList
+              }
+              window.parent.postMessage(JSON.stringify(endresult), '*')
+
+              console.log(endresult)
+          })
+      }
+
+
+      function BurstAll(){
+          var counter = 0;
+          for(var y in droptilesArray){
+              var revY = (droptilesArray.length-1)-y;
+              for(var x in droptilesArray[revY]){
+                  var droptile = droptilesArray[revY][x]
+                  if(droptile.contain){
+                      droptile.cleanDrop(droptile.contain)
+                  }
+              }
+          }
+          
+      }
+
+
+
+
+
+      this.check1stLine = function () {
+          var empty = false
+          for(var x in ct.room.droptiles[0]){
+              var dropp = ct.room.droptiles[0][x]
+              if(!dropp.contain){
+                  empty = true
+              }
+          }   
+          if(empty){
+              descend()
+              
+          }
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      //SPLASH ALONE DROPTILES
+
+
+
+      var checkerY = 1
+
+      var checkerX = 0
+
+      var maxChekerY = droptilesArray.length-1
+
+      var maxChekerX = droptilesArray[0].length-1
+
+
+
+      var continuous = setInterval(function () {
+          if(ct.room.gameover){
+              clearInterval(continuous)
+              return false
+          }
+          // LOOP : conditional
+          if(checkerX > maxChekerX){ checkerY+=1; checkerX = 0; }
+          if(checkerY > maxChekerY) {checkerY=1; checkerX = 0;}
+
+
+          // OBJECT
+          var droptile = droptilesArray[checkerY][checkerX]
+          if(!droptile.contain ){
+              checkerX++;
+              return false
+          }
+
+          var neardrops = droptile.neardrops
+          var isempty = true
+          for(var n in neardrops){
+              if(neardrops[n][1] == droptile.coordinates[0]-1){
+                  var coorY = neardrops[n][1]
+                  var coorX = neardrops[n][0]
+                  var near = droptilesArray[coorY][coorX]
+                  if(near && near.contain){
+                      isempty = false
+                  }
+              }
+          }
+          if(isempty){
+              droptile.burst('alone');
+          }
+          // LOOP: action
+          checkerX++;
+
+      }, 10)
+
+
+
+
+
+
+
+
+
+      ct.room.droptiles = droptilesArray
+
+
+
+      function debug (item, color, posX, posY) {
+          var ov =  new PIXI.Graphics();
+          ov.beginFill(color);
+          ov.drawCircle(0, 0, 8);
+          ov.endFill();
+          item.addChild(ov);
+          ct.u.wait(100)
+              .then(() => {
+                  item.removeChild(ov);
+              })
+      }
+
+
+
+
+      this.pointsList = {
+          orange: 0,
+          blue: 0,
+          green: 0,
+          pink: 0,
+          splash: 0,
+          values: [['orange', 9], ['blue', 7], ['green', 6], ['pink', 4], ['splash', '0-100']]
+      }
+
+
+
+
+      this.addPoints = function (dropcolor, droptype, pointx, pointy){
+          var pointxpos = pointx
+          var pointypos = pointy
+
+
+          var points = 0;
+          switch (dropcolor){
+              case 'orange':
+                  points = 9;
+                  this.pointsList.orange +=1
+                  break;
+              case 'blue':
+                  points = 7;
+                  this.pointsList.blue +=1
+                  break;
+              case 'green':
+                  points = 6;
+                  this.pointsList.green +=1
+                  break;
+              case 'pink':
+                  points = 4;
+                  this.pointsList.pink +=1
+                  break;
+          }
+          if(droptype=='splashalone'){
+              points += Math.round(Math.random()*100);
+              this.pointsList.splash +=1
+          }
+
+          var pointview = ct.types.copy('points', pointxpos, pointypos)
+          pointview.pointLabel.text = '+'+points;
+
+          ct.room.score += points;
+      }
+    onstep: |
+      //this.descendCallTime+= ct.deltaUi
+    ondraw: |
+
+      this.scoreLabel.text = ct.room.score;
+    onleave: ''
+    width: 544
+    height: 960
+    backgrounds:
+      - depth: -1
+        texture: 86e8c777-f3fd-44d0-9760-41e7ee861cda
+        extends:
+          repeat: no-repeat
+          shiftY: 824
+          scaleY: 1
+          scaleX: 1.3
+      - depth: 0
+        texture: 58b830d3-71d9-4c04-be14-98202bc53a09
+        extends:
+          repeat: no-repeat
+          scaleX: 0.8
+          scaleY: 0.8
+          shiftX: 34
+          shiftY: 10
+    copies:
+      - x: 288
+        'y': 810
+        uid: 9db17f58-63af-44c3-b5d0-c985e5c461e5
+        exts: {}
+      - x: 288
+        'y': 896
+        uid: 1923d81b-29ce-4663-a93e-ba5f28be81f3
+        exts: {}
+      - x: 288
+        'y': 64
+        uid: 7f04eaea-c5fc-4698-b461-1d7617c77492
+        exts: {}
+      - x: 64
+        'y': 896
+        uid: 4895cabc-130a-4a79-8454-d250a366c12a
+        exts: {}
+    tiles:
+      - depth: -10
+        tiles: []
+        extends: {}
+    uid: 1ea4cdbd-4ed9-4ec3-9b12-2bdb994363f4
+    thumbnail: 2bdb994363f4
+    extends: {}
+    gridX: 32
+    gridY: 32
+    backgroundColor: '#FFFFFF'
+    lastmod: 1633028974220
+  - name: GameOver
+    oncreate: ''
+    onstep: ''
+    ondraw: ''
+    onleave: ''
+    width: 544
+    height: 960
+    backgrounds:
+      - depth: 10
+        texture: 0c1d276f-f1d2-4380-8cab-ffdcff5ba8bf
+        extends:
+          repeat: no-repeat
+    copies: []
+    tiles:
+      - depth: -10
+        tiles: []
+        extends: {}
+    uid: 3d0292ac-0e01-4418-9526-98eec0ea397a
+    thumbnail: 98eec0ea397a
+    extends:
+      isUi: true
+    gridX: 32
+    gridY: 32
+    lastmod: 1632958725189
+    backgroundColor: '#FFFFFF'
+  - name: Start
+    oncreate: ''
+    onstep: ''
+    ondraw: ''
+    onleave: ''
+    width: 544
+    height: 960
+    backgrounds:
+      - depth: 0
+        texture: e2c1dd1f-7c20-4340-b92f-3d8e5a96db3f
+        extends:
+          repeat: no-repeat
+    copies:
+      - x: 160
+        'y': 832
+        uid: 0d9d57d2-d382-48e8-8fd7-310a70a6990f
+        exts: {}
+      - x: 160
+        'y': 832
+        uid: 0d9d57d2-d382-48e8-8fd7-310a70a6990f
+        exts: {}
+      - x: 32
+        'y': 832
+        uid: d3d08892-2530-4088-8248-d026f19bc50d
+        exts: {}
+    tiles:
+      - depth: -10
+        tiles: []
+        extends: {}
+    uid: 5dac3056-eebb-4ff5-b4f2-107ca335fd4b
+    thumbnail: 107ca335fd4b
+    extends:
+      isUi: true
+    gridX: 32
+    gridY: 32
+    lastmod: 1632958659191
+    backgroundColor: '#F5750D'
+  - name: Paused
+    oncreate: >+
+      this.pausedLabel = new PIXI.Text('Juego Pausado',
+      ct.styles.get('boldScore'));
+
+      this.pausedLabel.anchor.set(0.5, 0.5);
+
+      this.pausedLabel.x = ct.viewWidth/2;
+
+      this.pausedLabel.y = 140;
+
+      this.addChild(this.pausedLabel);
+
+    onstep: ''
+    ondraw: ''
+    onleave: ''
+    width: 544
+    height: 960
+    backgrounds:
+      - depth: 0
+        texture: 39685529-7f56-4862-9c6f-d2071436fe96
+        extends:
+          repeat: no-repeat
+    copies: []
+    tiles:
+      - depth: -10
+        tiles: []
+        extends: {}
+    uid: a0324ff9-3dff-4d95-af5e-be3cfbbc6a4e
+    thumbnail: be3cfbbc6a4e
+    extends:
+      isUi: true
+    gridX: 32
+    gridY: 32
+    lastmod: 1632958604488
+    backgroundColor: '#FFFFFF'
+  - name: Start2
+    oncreate: ''
+    onstep: ''
+    ondraw: ''
+    onleave: ''
+    width: 544
+    height: 960
+    backgrounds:
+      - depth: 0
+        texture: 805b1081-c4d0-4ea3-a629-a4c8aa2cbaa4
+        extends:
+          repeat: no-repeat
+    copies:
+      - x: 160
+        'y': 832
+        uid: 2aa15139-db50-447a-b84c-659cf389994a
+        exts: {}
+      - x: 32
+        'y': 832
+        uid: 1281308a-1847-4b2b-baa3-eb2156a24157
+        exts: {}
+    tiles:
+      - depth: -10
+        tiles: []
+        extends: {}
+    uid: 8612a157-40fe-494b-90ef-326ae45b92d2
+    thumbnail: 326ae45b92d2
+    extends:
+      isUi: true
+    gridX: 32
+    gridY: 32
+    lastmod: 1632954960823
+    backgroundColor: '#F5750D'
+actions:
+  - name: Shoot
+    methods:
+      - code: mouse.Left
+      - code: touch.Any
+emitterTandems:
+  - name: endparticles
+    origname: ptea878ba9f5fe
+    emitters:
+      - texture: 8ab71d5a-4309-4207-81fd-269d2462d9dc
+        openedTabs:
+          - shape
+        settings:
+          alpha:
+            list:
+              - value: 0
+                time: 0
+              - value: 0.36498105679269455
+                time: 0.539650176252584
+              - value: 0
+                time: 1
+            isStepped: false
+          scale:
+            list:
+              - value: 1
+                time: 0
+              - value: 0.3
+                time: 1
+            isStepped: false
+          color:
+            list:
+              - value: ffffff
+                time: 0
+              - value: ffffff
+                time: 0.539650176252584
+              - value: ffffff
+                time: 1
+            isStepped: false
+          blendMode: normal
+          speed:
+            list:
+              - value: 199.99105045324148
+                time: 0
+              - value: 100
+                time: 1
+            isStepped: false
+          startRotation:
+            min: 0
+            max: 360
+          rotationSpeed:
+            min: 0
+            max: 0
+          rotationAcceleration: 0
+          lifetime:
+            min: 0.5
+            max: 0.5
+          frequency: 0.008
+          spawnChance: 0.35
+          particlesPerWave: 1
+          angleStart: 270
+          emitterLifetime: 0
+          maxParticles: 100
+          maxSpeed: 0
+          pos:
+            x: 0
+            'y': 0
+          acceleration:
+            x: 0
+            'y': 0
+          addAtBack: false
+          spawnType: circle
+          spawnCircle:
+            x: 0
+            'y': 0
+            r: 320
+          delay: 0
+        uid: e01b8bf0-a3fe-4a27-94e7-44599cbc0ce6
+      - texture: 2f19617c-917d-4222-8968-4ee5eb962fa3
+        openedTabs:
+          - texture
+          - spawning
+          - shape
+        settings:
+          alpha:
+            list:
+              - value: 0
+                time: 0
+              - value: 1
+                time: 0.5
+              - value: 0
+                time: 1
+            isStepped: false
+          scale:
+            list:
+              - value: 1
+                time: 0
+              - value: 0.3
+                time: 1
+            isStepped: false
+          color:
+            list:
+              - value: ffffff
+                time: 0
+              - value: ffffff
+                time: 0.5
+              - value: ffffff
+                time: 1
+            isStepped: false
+          blendMode: normal
+          speed:
+            list:
+              - value: 500
+                time: 0
+              - value: 100
+                time: 1
+            isStepped: false
+          startRotation:
+            min: 0
+            max: 360
+          rotationSpeed:
+            min: 0
+            max: 0
+          rotationAcceleration: 0
+          lifetime:
+            min: 0.5
+            max: 0.5
+          frequency: 0.05
+          spawnChance: 0.5
+          particlesPerWave: 1
+          angleStart: 270
+          emitterLifetime: 0
+          maxParticles: 100
+          maxSpeed: 0
+          pos:
+            x: 0
+            'y': 0
+          acceleration:
+            x: 0
+            'y': 0
+          addAtBack: false
+          spawnType: circle
+          spawnCircle:
+            x: 0
+            'y': 0
+            r: 160
+          delay: 0
+        uid: b44a5f15-72e9-41a3-b0a3-ab7a15f37078
+scripts: []
+starting: 0
+settings:
+  authoring:
+    author: ''
+    site: ''
+    title: Blue Pure Loyalty
+    version:
+      - 0
+      - 0
+      - 1
+    versionPostfix: ''
+  rendering:
+    usePixiLegacy: true
+    maxFPS: 60
+    pixelatedrender: false
+    highDensity: true
+    desktopMode: maximized
+  export:
+    windows: true
+    linux: true
+    mac: true
+    functionWrap: false
+    codeModifier: minify
+  branding:
+    icon: 58b830d3-71d9-4c04-be14-98202bc53a09
+    accent: '#F58428'
+    invertPreloaderScheme: true
+    hideLoadingLogo: true
+  fps: 30
+fonts:
+  - typefaceName: OpenSans-ExtraBold
+    weight: 400
+    italic: false
+    origname: f9fbd8c1b-0668-412e-9c99-4ca90123a2a4.ttf
+    lastmod: 1632421510467
+    bitmapFont: false
+    bitmapFontSize: 16
+    bitmapFontLineHeight: 18
+    charsets:
+      - allInFont
+    customCharset: ''
+    uid: 9fbd8c1b-0668-412e-9c99-4ca90123a2a4
+  - typefaceName: OpenSans-Regular
+    weight: 400
+    italic: false
+    origname: f446f037a-6d46-40de-beb7-5007d21290c2.ttf
+    lastmod: 1632421510472
+    bitmapFont: false
+    bitmapFontSize: 16
+    bitmapFontLineHeight: 18
+    charsets:
+      - allInFont
+    customCharset: ''
+    uid: 446f037a-6d46-40de-beb7-5007d21290c2
+palette: []
+styletick: .nan
+startroom: 5dac3056-eebb-4ff5-b4f2-107ca335fd4b
