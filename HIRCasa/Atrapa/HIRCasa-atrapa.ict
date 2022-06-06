@@ -376,7 +376,7 @@ textures:
     group: !<tag:yaml.org,2002:js/undefined> ''
     source: /Users/albinrdz/Downloads/Hir/Floor.png
     tiled: true
-  - lastmod: 1649697848902
+  - lastmod: 1654189707277
     type: texture
     name: Inst
     untill: 0
@@ -388,22 +388,22 @@ textures:
       - 0
     marginx: 0
     marginy: 0
-    imgWidth: 297
-    imgHeight: 85
-    width: 297
-    height: 85
+    imgWidth: 298
+    imgHeight: 92
+    width: 298
+    height: 92
     offx: 0
     offy: 0
     origname: iq6PMm41DPmqHWr.png
     shape: rect
     left: 0
-    right: 297
+    right: 298
     top: 0
-    bottom: 85
+    bottom: 92
     uid: q6PMm41DPmqHWr
     padding: 1
     group: !<tag:yaml.org,2002:js/undefined> ''
-    source: /Users/albinrdz/Downloads/Hir/Inst.png
+    source: /Users/fldsmdfr/Desktop/ceclularcomputadora.png
     tiled: true
   - lastmod: 1649686680916
     type: texture
@@ -711,7 +711,7 @@ styles:
       weight: 400
       italic: false
       halign: center
-    lastmod: 1632937930913
+    lastmod: 1654189379739
     fill:
       type: '1'
       color: '#F4750D'
@@ -783,7 +783,7 @@ styles:
     fill:
       type: '0'
       color: '#F39C14'
-    lastmod: 1649682574724
+    lastmod: 1654189394261
   - name: regularFont
     uid: k9cB6Dn2T64HhR
     origname: sT64HhR
@@ -843,7 +843,7 @@ styles:
       size: 12
       weight: '400'
       italic: false
-    lastmod: 1649693511047
+    lastmod: 1654189391632
 rooms:
   - name: 01Start
     oncreate: >+
@@ -942,8 +942,10 @@ rooms:
         texture: q6PMm41DPmqHWr
         extends:
           repeat: no-repeat
-          shiftX: 124
+          shiftX: 100
           shiftY: 676
+          scaleX: 1.2
+          scaleY: 1.2
     copies:
       - x: 64
         'y': 832
@@ -994,7 +996,7 @@ rooms:
       isUi: true
     gridX: 32
     gridY: 32
-    lastmod: 1654106202169
+    lastmod: 1654189770997
     backgroundColor: '#FFFFFF'
   - name: 02Start
     oncreate: >+
@@ -1136,14 +1138,14 @@ rooms:
       isUi: true
     gridX: 64
     gridY: 64
-    lastmod: 1654106333789
+    lastmod: 1654189728279
     backgroundColor: '#FFFFFF'
   - name: 03Game
     oncreate: >+
       loadfonts()
 
 
-      this.timerSpeed = 100
+      this.timerSpeed = 1000
 
 
       // TOPBAR
@@ -1338,12 +1340,10 @@ rooms:
 
       window.addEventListener('blur', function(){
           ct.pixiApp.ticker.speed = 0;
-          console.log('blur')
       });
 
       window.addEventListener('focus', function(){
           ct.pixiApp.ticker.speed = 1;
-          console.log('focus')
       });
 
     onstep: |+
@@ -1397,7 +1397,7 @@ rooms:
       isUi: true
     gridX: 64
     gridY: 64
-    lastmod: 1654108543726
+    lastmod: 1654189724048
     backgroundColor: '#FFFFFF'
   - name: 04End
     oncreate: >+
