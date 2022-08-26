@@ -202,9 +202,9 @@ textures:
     bottom: 960
     uid: 0c1d276f-f1d2-4380-8cab-ffdcff5ba8bf
     padding: 1
-    source: /Users/fldsmdfr/Desktop/screen_end.png
+    source: /Users/albinrdz/Desktop/screen_end.png
     tiled: true
-    lastmod: 1661556313316
+    lastmod: 1634567283368
   - name: btn_siguiente
     untill: 0
     grid:
@@ -438,7 +438,7 @@ textures:
     padding: 1
     source: /Users/albinrdz/Desktop/nut.png
     lastmod: 1633107732750
-  - lastmod: 1661554947066
+  - lastmod: 1661551184620
     type: texture
     name: screen_intro_extra
     untill: 0
@@ -467,34 +467,34 @@ textures:
     group: !<tag:yaml.org,2002:js/undefined> ''
     source: /Users/fldsmdfr/Desktop/screen_intro-extra.png
     tiled: true
-  - lastmod: 1661555824227
+  - lastmod: 1661552640255
     type: texture
-    name: anim
+    name: animttt
     untill: 0
     grid:
-      - 6
-      - 2
+      - 1
+      - 1
     axis:
       - 0
       - 0
     marginx: 0
     marginy: 0
-    imgWidth: 1200
-    imgHeight: 716
-    width: 200
-    height: 358
+    imgWidth: 2176
+    imgHeight: 1700
+    width: 2176
+    height: 1700
     offx: 0
     offy: 0
-    origname: im6JbpgpJMzfJ3Q.png
+    origname: i66wHzrPmjGWgRn.jpg
     shape: rect
     left: 0
-    right: 2400
+    right: 2176
     top: 0
-    bottom: 358
-    uid: m6JbpgpJMzfJ3Q
+    bottom: 1700
+    uid: 66wHzrPmjGWgRn
     padding: 1
     group: !<tag:yaml.org,2002:js/undefined> ''
-    source: /Users/fldsmdfr/Desktop/anim.png
+    source: /Users/fldsmdfr/Desktop/animttt.jpg
 skeletons: []
 sounds:
   - name: wave
@@ -626,14 +626,6 @@ rooms:
 
 
 
-      var requestMsg = {
-                  state:'gamestart',
-      }
-
-      window.parent.postMessage(JSON.stringify(requestMsg), '*')
-
-
-
       //---------------------------------------
 
       // SCORE
@@ -755,12 +747,11 @@ rooms:
 
               //this.endpart = ct.emitters.fire('endparticles', ct.viewWidth/2, ct.viewHeight/2, {depth: 11})
 
-              var requestMsg = {
-                  state:'gameover',
+              var endresult = {
                   score:ct.room.score,
                   points: this.pointsList
               }
-              window.parent.postMessage(JSON.stringify(requestMsg), '*')
+              window.parent.postMessage(JSON.stringify(endresult), '*')
 
               //console.log(endresult)
           })
@@ -892,7 +883,7 @@ rooms:
     gridX: 32
     gridY: 32
     backgroundColor: '#F5750D'
-    lastmod: 1661557542194
+    lastmod: 1661551762331
   - name: GameOver
     oncreate: ct.pixiApp.ticker.speed = 0;
     onstep: ''
@@ -916,14 +907,10 @@ rooms:
       isUi: true
     gridX: 32
     gridY: 32
-    lastmod: 1661556364481
+    lastmod: 1633115164385
     backgroundColor: '#FFFFFF'
   - name: Start
-    oncreate: |-
-      var requestMsg = {
-                  state:'gameopen',
-              }
-              window.parent.postMessage(JSON.stringify(requestMsg), '*')
+    oncreate: ''
     onstep: ''
     ondraw: ''
     onleave: ''
@@ -957,7 +944,7 @@ rooms:
       isUi: true
     gridX: 32
     gridY: 32
-    lastmod: 1661557573726
+    lastmod: 1633115196837
     backgroundColor: '#F5750D'
   - name: Paused
     oncreate: >+
@@ -1055,10 +1042,6 @@ rooms:
         'y': 832
         uid: zL5fkcm7D5MCfH
         exts: {}
-      - x: 160
-        'y': 288
-        uid: 3rJCb53R7ftHrr
-        exts: {}
     tiles:
       - depth: -10
         tiles: []
@@ -1069,7 +1052,7 @@ rooms:
       isUi: true
     gridX: 32
     gridY: 32
-    lastmod: 1661555814850
+    lastmod: 1661551236112
     backgroundColor: '#F5750D'
 actions:
   - name: TouchAction
@@ -1480,10 +1463,6 @@ templates:
               ct.u.wait(150).then(() => {
                   ct.rooms.switch('Game')
               })
-              var requestMsg = {
-                  state:'btn_comenzar',
-              }
-              window.parent.postMessage(JSON.stringify(requestMsg), '*')
           }
       }
     ondraw: ''
@@ -1491,7 +1470,7 @@ templates:
     texture: afd706e3-381c-4530-b461-6fe3fa62ad11
     extends: {}
     uid: 2aa15139-db50-447a-b84c-659cf389994a
-    lastmod: 1661557145616
+    lastmod: 1661551444524
   - name: btn_siguiente
     depth: 1
     oncreate: this.pressed = false;
@@ -1507,10 +1486,6 @@ templates:
               ct.u.wait(150).then(() => {
                   ct.rooms.switch('Start_extra')
               })
-              var requestMsg = {
-                  state:'btn_siguiente1',
-              }
-              window.parent.postMessage(JSON.stringify(requestMsg), '*')
           }
       }
     ondraw: ''
@@ -1518,7 +1493,7 @@ templates:
     texture: 3aa33354-d6d4-4ca8-a1f8-f233ac082133
     extends: {}
     uid: 0d9d57d2-d382-48e8-8fd7-310a70a6990f
-    lastmod: 1661557165858
+    lastmod: 1661551248507
   - name: btn_back_exit
     depth: 1
     oncreate: |-
@@ -1763,10 +1738,6 @@ templates:
               ct.u.wait(150).then(() => {
                   ct.rooms.switch('Start2')
               })
-              var requestMsg = {
-                  state:'btn_siguiente2',
-              }
-              window.parent.postMessage(JSON.stringify(requestMsg), '*')
           }
       }
     ondraw: ''
@@ -1774,17 +1745,4 @@ templates:
     texture: 3aa33354-d6d4-4ca8-a1f8-f233ac082133
     extends: {}
     uid: zL5fkcm7D5MCfH
-    lastmod: 1661557171965
-  - type: template
-    name: anim
-    depth: 0
-    oncreate: this.animationSpeed = 0.1
-    onstep: this.move();
-    ondraw: ''
-    ondestroy: ''
-    texture: m6JbpgpJMzfJ3Q
-    visible: true
-    extends: {}
-    lastmod: 1661557074382
-    uid: 3rJCb53R7ftHrr
-    playAnimationOnStart: true
+    lastmod: 1661551242359
