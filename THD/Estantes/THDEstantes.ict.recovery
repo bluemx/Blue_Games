@@ -438,9 +438,9 @@ textures:
     padding: 1
     source: /Users/albinrdz/Desktop/nut.png
     lastmod: 1633107732750
-  - lastmod: 1661551184620
+  - lastmod: 1661550403269
     type: texture
-    name: screen_intro_extra
+    name: screen_intro-extra
     untill: 0
     grid:
       - 1
@@ -456,45 +456,45 @@ textures:
     height: 960
     offx: 0
     offy: 0
-    origname: iRN7DpHJG48tz2B.png
+    origname: it1hMq7J3qJnQ4t.png
     shape: rect
     left: 0
     right: 544
     top: 0
     bottom: 960
-    uid: RN7DpHJG48tz2B
+    uid: t1hMq7J3qJnQ4t
     padding: 1
     group: !<tag:yaml.org,2002:js/undefined> ''
     source: /Users/fldsmdfr/Desktop/screen_intro-extra.png
     tiled: true
-  - lastmod: 1661552640255
+  - lastmod: 1661550082051
     type: texture
-    name: animttt
+    name: animation-tool-drop
     untill: 0
     grid:
-      - 1
+      - 13
       - 1
     axis:
       - 0
       - 0
     marginx: 0
     marginy: 0
-    imgWidth: 2176
-    imgHeight: 1700
-    width: 2176
-    height: 1700
+    imgWidth: 7072
+    imgHeight: 425
+    width: 544
+    height: 425
     offx: 0
     offy: 0
-    origname: i66wHzrPmjGWgRn.jpg
+    origname: i1nrBhf78zR8GbK.png
     shape: rect
     left: 0
-    right: 2176
+    right: 7072
     top: 0
-    bottom: 1700
-    uid: 66wHzrPmjGWgRn
+    bottom: 425
+    uid: 1nrBhf78zR8GbK
     padding: 1
     group: !<tag:yaml.org,2002:js/undefined> ''
-    source: /Users/fldsmdfr/Desktop/animttt.jpg
+    source: /Users/fldsmdfr/Desktop/animation-tool-drop.png
 skeletons: []
 sounds:
   - name: wave
@@ -638,7 +638,7 @@ rooms:
 
       this.scoreLabel.anchor.set(0.5, 0.5);
 
-      this.scoreLabel.x = ct.camera.width - 86;
+      this.scoreLabel.x = ct.viewWidth - 86;
 
       this.scoreLabel.y = 50;
 
@@ -649,7 +649,7 @@ rooms:
       this.scoreLabelTXT = new PIXI.Text('puntos',
       ct.styles.get('boldScore_txt'));
 
-      this.scoreLabelTXT.x = ct.camera.width - 130;
+      this.scoreLabelTXT.x = ct.viewWidth - 130;
 
       this.scoreLabelTXT.y = 70;
 
@@ -665,7 +665,7 @@ rooms:
 
       headerRectangle.beginFill(0xffffff);
 
-      headerRectangle.drawRect(0, 6, ct.camera.width, 110);
+      headerRectangle.drawRect(0, 6, ct.viewWidth, 110);
 
       headerRectangle.endFill()
 
@@ -687,12 +687,11 @@ rooms:
 
       var tX = 66
 
-      var tY = ct.camera.height-100
+      var tY = ct.viewHeight-100
 
       for(var i in toolsList){
           var item = toolsList[i]
-          
-          var tool = ct.templates.copy('tools', tX+(100*i), tY)
+          var tool = ct.types.copy('tools', tX+(100*i), tY)
           tool.scale.x = tool.scale.y = 0.6
           tool.gotoAndStop(i)
 
@@ -735,11 +734,11 @@ rooms:
               this.scoreLabelEnd.depth = 11
               this.scoreLabelTXTEnd.depth = 11
 
-              this.scoreLabelEnd.x = ct.camera.width/2
-              this.scoreLabelEnd.y = (ct.camera.height/2)-60
+              this.scoreLabelEnd.x = ct.viewWidth/2
+              this.scoreLabelEnd.y = (ct.viewHeight/2)-60
 
-              this.scoreLabelTXTEnd.x = ct.camera.width/2
-              this.scoreLabelTXTEnd.y = (ct.camera.height/2)
+              this.scoreLabelTXTEnd.x = ct.viewWidth/2
+              this.scoreLabelTXTEnd.y = (ct.viewHeight/2)
 
               this.addChild(this.scoreLabelEnd);
               this.addChild(this.scoreLabelTXTEnd);
@@ -804,7 +803,7 @@ rooms:
           var points = toolPointsValue
           this.pointsList[toolname] += points
 
-          var pointview = ct.templates.copy('points', pointxpos, pointypos)
+          var pointview = ct.types.copy('points', pointxpos, pointypos)
           pointview.pointLabel.text = '+'+points;
 
           ct.room.score += points;
@@ -883,7 +882,7 @@ rooms:
     gridX: 32
     gridY: 32
     backgroundColor: '#F5750D'
-    lastmod: 1661551762331
+    lastmod: 1661550151962
   - name: GameOver
     oncreate: ct.pixiApp.ticker.speed = 0;
     onstep: ''
@@ -944,7 +943,7 @@ rooms:
       isUi: true
     gridX: 32
     gridY: 32
-    lastmod: 1633115196837
+    lastmod: 1661550385607
     backgroundColor: '#F5750D'
   - name: Paused
     oncreate: >+
@@ -1021,7 +1020,7 @@ rooms:
     gridY: 32
     lastmod: 1634567680137
     backgroundColor: '#F5750D'
-  - name: Start_extra
+  - name: Start-extra
     oncreate: ''
     onstep: ''
     ondraw: ''
@@ -1030,29 +1029,49 @@ rooms:
     height: 960
     backgrounds:
       - depth: 0
-        texture: RN7DpHJG48tz2B
+        texture: e2c1dd1f-7c20-4340-b92f-3d8e5a96db3f
+        extends:
+          repeat: no-repeat
+      - depth: 0
+        texture: t1hMq7J3qJnQ4t
         extends:
           repeat: no-repeat
     copies:
+      - x: 160
+        'y': 832
+        uid: 0d9d57d2-d382-48e8-8fd7-310a70a6990f
+        exts: {}
+      - x: 160
+        'y': 832
+        uid: 0d9d57d2-d382-48e8-8fd7-310a70a6990f
+        exts: {}
       - x: 32
         'y': 832
         uid: d3d08892-2530-4088-8248-d026f19bc50d
         exts: {}
-      - x: 160
-        'y': 832
-        uid: zL5fkcm7D5MCfH
+      - x: 0
+        'y': 288
+        uid: LJLpMpB54CpRMP
+        exts: {}
+      - x: 0
+        'y': 320
+        uid: LJLpMpB54CpRMP
+        exts: {}
+      - x: 0
+        'y': 320
+        uid: LJLpMpB54CpRMP
         exts: {}
     tiles:
       - depth: -10
         tiles: []
         extends: {}
-    uid: MjKb1rn1d4Hdkj
-    thumbnail: MjKb1rn1d4Hdkj
+    uid: hqT4PjG9hq1G7C
+    thumbnail: hqT4PjG9hq1G7C
     extends:
       isUi: true
     gridX: 32
     gridY: 32
-    lastmod: 1661551236112
+    lastmod: 1661550398574
     backgroundColor: '#F5750D'
 actions:
   - name: TouchAction
@@ -1470,7 +1489,7 @@ templates:
     texture: afd706e3-381c-4530-b461-6fe3fa62ad11
     extends: {}
     uid: 2aa15139-db50-447a-b84c-659cf389994a
-    lastmod: 1661551444524
+    lastmod: 1661550372193
   - name: btn_siguiente
     depth: 1
     oncreate: this.pressed = false;
@@ -1484,7 +1503,7 @@ templates:
               this.pressed = true;
               ct.sound.spawn('wave')
               ct.u.wait(150).then(() => {
-                  ct.rooms.switch('Start_extra')
+                  ct.rooms.switch('Start-extra')
               })
           }
       }
@@ -1493,7 +1512,7 @@ templates:
     texture: 3aa33354-d6d4-4ca8-a1f8-f233ac082133
     extends: {}
     uid: 0d9d57d2-d382-48e8-8fd7-310a70a6990f
-    lastmod: 1661551248507
+    lastmod: 1661550377941
   - name: btn_back_exit
     depth: 1
     oncreate: |-
@@ -1531,7 +1550,7 @@ templates:
 
       function builder () {
           
-          var tool = ct.templates.copy('sillos', _this.x + _this.width, _this.y )
+          var tool = ct.types.copy('sillos', _this.x + _this.width, _this.y )
           tool.speed = 2 - (_this.builderspeed * .1);
           tool.direction = 180
           tool.depth = 1
@@ -1579,7 +1598,7 @@ templates:
     texture: d43fca81-39a8-43f2-8b82-69ccb4987ab1
     extends: {}
     uid: 4e4a82ac-4d98-4bd4-ac28-9ab7d434573c
-    lastmod: 1661551499094
+    lastmod: 1645480796473
   - name: sillos
     depth: 0
     oncreate: |-
@@ -1625,7 +1644,7 @@ templates:
     texture: 068a7de5-a30e-47ed-bd08-67f2295539ac
     extends: {}
     uid: 50832695-7760-474d-9e7f-3c0044f8f7f2
-    lastmod: 1661551462861
+    lastmod: 1641399454078
   - name: tools
     depth: 0
     oncreate: ''
@@ -1635,7 +1654,7 @@ templates:
 
       // DUPLICATE - DRAGGER
       if(ct.touch.hovers(this) && ct.actions.TouchAction.pressed){
-          var draggable = ct.templates.copy('tools_draggable', ct.touch.x, ct.touch.y)
+          var draggable = ct.types.copy('tools_draggable', ct.touch.x, ct.touch.y)
           draggable.gotoAndStop(this.currentFrame)
           draggable.scale.x = draggable.scale.y = 0.6
           ct.sound.spawn('grab')
@@ -1645,7 +1664,7 @@ templates:
     texture: 7cad867c-5ca9-4061-8ab8-cac02ddd2cb5
     extends: {}
     uid: e7752194-b5d4-480d-b83c-835daa939e83
-    lastmod: 1661551506760
+    lastmod: 1640970630469
   - name: tools_draggable
     depth: 0
     oncreate: |-
@@ -1722,8 +1741,8 @@ templates:
     texture: 7cad867c-5ca9-4061-8ab8-cac02ddd2cb5
     extends: {}
     uid: 2bc093e7-0731-4c4b-9439-806229cef171
-    lastmod: 1661551472012
-  - name: extra_btn_siguiente
+    lastmod: 1640968029715
+  - name: extra-btn_siguiente_
     depth: 1
     oncreate: this.pressed = false;
     onstep: |-
@@ -1744,5 +1763,18 @@ templates:
     ondestroy: ''
     texture: 3aa33354-d6d4-4ca8-a1f8-f233ac082133
     extends: {}
-    uid: zL5fkcm7D5MCfH
-    lastmod: 1661551242359
+    uid: M2fkRrgb96CFMg
+    lastmod: 1661550381591
+  - type: template
+    name: animation-tool-drop
+    depth: 0
+    oncreate: ''
+    onstep: this.move();
+    ondraw: ''
+    ondestroy: ''
+    texture: 1nrBhf78zR8GbK
+    visible: true
+    extends: {}
+    lastmod: 1661550432736
+    uid: LJLpMpB54CpRMP
+    playAnimationOnStart: true

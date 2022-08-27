@@ -892,7 +892,7 @@ rooms:
     gridX: 32
     gridY: 32
     backgroundColor: '#F5750D'
-    lastmod: 1661557542194
+    lastmod: 1661558165537
   - name: GameOver
     oncreate: ct.pixiApp.ticker.speed = 0;
     onstep: ''
@@ -935,17 +935,13 @@ rooms:
         extends:
           repeat: no-repeat
     copies:
-      - x: 160
-        'y': 832
-        uid: 0d9d57d2-d382-48e8-8fd7-310a70a6990f
-        exts: {}
-      - x: 160
-        'y': 832
-        uid: 0d9d57d2-d382-48e8-8fd7-310a70a6990f
-        exts: {}
       - x: 32
         'y': 832
         uid: d3d08892-2530-4088-8248-d026f19bc50d
+        exts: {}
+      - x: 160
+        'y': 832
+        uid: 0d9d57d2-d382-48e8-8fd7-310a70a6990f
         exts: {}
     tiles:
       - depth: -10
@@ -957,7 +953,7 @@ rooms:
       isUi: true
     gridX: 32
     gridY: 32
-    lastmod: 1661557573726
+    lastmod: 1661558185488
     backgroundColor: '#F5750D'
   - name: Paused
     oncreate: >+
@@ -1457,6 +1453,10 @@ templates:
               ct.u.wait(150).then(() => {
                   ct.rooms.switch('Start')
               })
+              var requestMsg = {
+                  state:'btn_back',
+              }
+              window.parent.postMessage(JSON.stringify(requestMsg), '*')
           }
       }
     ondraw: ''
@@ -1464,7 +1464,7 @@ templates:
     texture: 7fc3fa0b-8022-43df-8c2d-2bceff10a98a
     extends: {}
     uid: 1281308a-1847-4b2b-baa3-eb2156a24157
-    lastmod: 1633027127273
+    lastmod: 1661558239819
   - name: btn_comenzar
     depth: 1
     oncreate: this.pressed = false
@@ -1518,16 +1518,17 @@ templates:
     texture: 3aa33354-d6d4-4ca8-a1f8-f233ac082133
     extends: {}
     uid: 0d9d57d2-d382-48e8-8fd7-310a70a6990f
-    lastmod: 1661557165858
+    lastmod: 1661558233278
   - name: btn_back_exit
     depth: 1
-    oncreate: |-
+    oncreate: |+
       this.pressed = true
 
       ct.u.wait(1000)
       .then(() => {
           this.pressed = false
       })
+
     onstep: |-
       this.move();
 
@@ -1537,7 +1538,11 @@ templates:
               
               window.parent.postMessage("closegame", "*");
 
-              console.log('closegame')
+
+              var requestMsg = {
+                  state:'gameclose',
+              }
+              window.parent.postMessage(JSON.stringify(requestMsg), '*')
           }
       }
     ondraw: ''
@@ -1545,7 +1550,7 @@ templates:
     texture: 7fc3fa0b-8022-43df-8c2d-2bceff10a98a
     extends: {}
     uid: d3d08892-2530-4088-8248-d026f19bc50d
-    lastmod: 1632955188225
+    lastmod: 1661558113846
   - name: linea
     depth: 0
     oncreate: |-
