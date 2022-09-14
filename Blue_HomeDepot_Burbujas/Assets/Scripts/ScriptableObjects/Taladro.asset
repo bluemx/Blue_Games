@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   valor: 200
   tache: 0
+  numero: 3

@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4408989822191434460}
   - component: {fileID: 4408989822191434463}
   - component: {fileID: -2711144129862710501}
+  - component: {fileID: 4266788542471049519}
   m_Layer: 5
   m_Name: BurbujaTaladro
   m_TagString: Untagged
@@ -96,6 +97,8 @@ MonoBehaviour:
   texto: {fileID: 4408989823288853917}
   manager: {fileID: 0}
   sprite: {fileID: 21300000, guid: 082ab50991e23e74aaba04d8492df896, type: 3}
+  anim: {fileID: 4266788542471049519}
+  audio: {fileID: 8300000, guid: d84858b0805f01f4189a8dba0f2dc375, type: 3}
 --- !u!114 &4408989822191434463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -137,15 +140,35 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.01
+  m_Mass: 1
   m_LinearDrag: 0.05
   m_AngularDrag: 0.05
   m_GravityScale: -1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 4bf3a4bbe908d8f419f24f86404121de, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!95 &4266788542471049519
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4408989822191434457}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 71b9fddf0cb51014e954430be1bfe232, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4408989823288853919
 GameObject:
   m_ObjectHideFlags: 0
@@ -214,8 +237,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3971545314141274e86fc3d6ec669e37, type: 2}
+  m_sharedMaterial: {fileID: -9143183261219172461, guid: 3971545314141274e86fc3d6ec669e37, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
