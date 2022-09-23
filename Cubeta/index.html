@@ -4,9 +4,20 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | Cubeta_HomeDepot</title>
+    <style>
+      html, body{ height: 100%; overflow: hidden;}
+      #unity-canvas{
+        aspect-ratio: 0.5652 !important;
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+    </style>
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
-    <canvas id="unity-canvas" width=520 height=920 style="width: 520px; height: 920px; background: #231F20"></canvas>
+    <canvas id="unity-canvas" style=" background: #231F20"></canvas>
     <script src="Build/Cubeta.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
@@ -32,7 +43,7 @@
         companyName: "DefaultCompany",
         productName: "Cubeta_HomeDepot",
         productVersion: "1.0",
-         matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
+        //matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
         // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
       });
     </script>
