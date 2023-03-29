@@ -20,7 +20,7 @@ public class BolitasControl : MonoBehaviour
     ///MOVIMIENTO BOLITA
     
     public float force = 5;
-    int contadorRebote = 0;
+    //int contadorRebote = 0;
     [SerializeField] BotePintua cubeta;
     Transform pos;
 

@@ -20,8 +20,7 @@ public class MeElimino : MonoBehaviour
     void Update()
     {
         if(!bandera)
-        {
-            
+        {            
             if (transform.childCount > 0 && gameObject.tag != "techo")
             {
                 

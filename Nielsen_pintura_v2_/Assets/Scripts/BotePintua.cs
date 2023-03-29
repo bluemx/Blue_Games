@@ -10,7 +10,7 @@ public class BotePintua : MonoBehaviour
     [SerializeField] bool tira = false;
 
     [SerializeField] GameObject[] bolitas;
-    [SerializeField] float bolitaVelocidad = 500;
+    //[SerializeField] float bolitaVelocidad = 500;
     public Transform firePoint;
 
     int colorB = 0;

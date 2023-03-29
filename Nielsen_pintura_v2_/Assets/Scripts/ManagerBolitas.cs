@@ -13,6 +13,18 @@ public class ManagerBolitas : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        posiciones = new List<GameObject>();
+        int layerIndex = LayerMask.NameToLayer("Pos");
+        GameObject[] objectsInLayer = GameObject.FindObjectsOfType<GameObject>();
+
+        foreach (GameObject obj in objectsInLayer)
+        {
+            if (obj.layer == layerIndex)
+            {
+                posiciones.Add(obj);
+            }
+        }
+
         azul = new List<GameObject>();
         amar = new List<GameObject>();
         rojo = new List<GameObject>();
@@ -50,7 +62,7 @@ public class ManagerBolitas : MonoBehaviour
 
     IEnumerator Procesos()
     {
-        Debug.Log("procesos");
+        //Debug.Log("procesos");
         Buscar();
         Depuracion();
 

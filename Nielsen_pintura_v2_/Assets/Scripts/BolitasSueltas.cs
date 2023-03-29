@@ -14,6 +14,17 @@ public class BolitasSueltas : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        todos = new List<GameObject>();
+        int layerIndex = LayerMask.NameToLayer("Pos");
+        GameObject[] objectsInLayer = GameObject.FindObjectsOfType<GameObject>();
+
+        foreach (GameObject obj in objectsInLayer)
+        {
+            if (obj.layer == layerIndex)
+            {
+                todos.Add(obj);
+            }
+        }
         
     }
 
@@ -43,6 +54,7 @@ public class BolitasSueltas : MonoBehaviour
 
     void Buscando() 
     {
+        Debug.Log("BolitasSueltas:Buscando");
         if(todos.Count > 0) 
         {
             for (int i = todos.Count-1; i >= 0 ; i--)
@@ -69,10 +81,10 @@ public class BolitasSueltas : MonoBehaviour
 
     IEnumerator Limpiar()
     {
-        Debug.Log("entre a fin");
+        //Debug.Log("entre a fin");
         vecinoActivo.Clear();
         vecinoActivo = new List<GameObject>();
-        Debug.Log("lista vecinos activos: "+vecinoActivo.Count);
+        //Debug.Log("lista vecinos activos: "+vecinoActivo.Count);
         primero = null;
         Buscando();
         fin = false;
@@ -83,7 +95,7 @@ public class BolitasSueltas : MonoBehaviour
 
     void BuscandoDentroVecinos(GameObject yo)
     {
-        Debug.Log("Entre a Buscando Dentro de Vecinos");
+        //Debug.Log("Entre a Buscando Dentro de Vecinos");
         int contActivos=0;
         
         if (yo.tag != "techo")
@@ -109,7 +121,7 @@ public class BolitasSueltas : MonoBehaviour
             }
             if (contActivos < 1 && yo.tag != "techo")
             {
-                Debug.Log("Me destruyo " +yo.name);
+                //Debug.Log("Me destruyo " +yo.name);
 
                 //yo.GetComponent<MeElimino>().BYE();
                 
@@ -126,7 +138,7 @@ public class BolitasSueltas : MonoBehaviour
         }
         else
         {
-            Debug.Log("fin");
+            //Debug.Log("fin");
             fin = true;
         }
        
@@ -134,7 +146,7 @@ public class BolitasSueltas : MonoBehaviour
 
     void Lateral(GameObject yo)
     {
-        Debug.Log("Entre a Lateral");
+        //Debug.Log("Entre a Lateral");
         int contActivos = 0;
 
         if (yo.tag != "techo")
@@ -160,7 +172,7 @@ public class BolitasSueltas : MonoBehaviour
             }
             if (contActivos < 1 && yo.tag != "techo")
             {
-                Debug.Log("Me destruyo " + yo.name);
+                //Debug.Log("Me destruyo " + yo.name);
 
                 yo.GetComponent<MeElimino>().BYE();
                 
@@ -176,7 +188,7 @@ public class BolitasSueltas : MonoBehaviour
         }
         else
         {
-            Debug.Log("fin");
+            //Debug.Log("fin");
            
             fin = true;
         }

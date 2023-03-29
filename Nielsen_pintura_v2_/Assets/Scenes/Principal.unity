@@ -238,6 +238,7 @@ GameObject:
   - component: {fileID: 11756531}
   - component: {fileID: 11756534}
   - component: {fileID: 11756535}
+  - component: {fileID: 11756536}
   m_Layer: 8
   m_Name: F3
   m_TagString: Untagged
@@ -366,6 +367,21 @@ MonoBehaviour:
   vecinitosLaterales:
   - {fileID: 1979281386}
   - {fileID: 283415508}
+--- !u!114 &11756536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11756529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c12d5522ca4148e8a76d155e46908bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  detectionLayer:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!1 &20148213
 GameObject:
   m_ObjectHideFlags: 0
@@ -3807,6 +3823,7 @@ GameObject:
   - component: {fileID: 515715027}
   - component: {fileID: 515715030}
   - component: {fileID: 515715031}
+  - component: {fileID: 515715032}
   m_Layer: 8
   m_Name: H5
   m_TagString: Untagged
@@ -3935,6 +3952,21 @@ MonoBehaviour:
   vecinitosLaterales:
   - {fileID: 659725902}
   - {fileID: 543283924}
+--- !u!114 &515715032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515715025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c12d5522ca4148e8a76d155e46908bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  detectionLayer:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -9271,7 +9303,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -11175,6 +11206,7 @@ GameObject:
   - component: {fileID: 1597760494}
   - component: {fileID: 1597760497}
   - component: {fileID: 1597760498}
+  - component: {fileID: 1597760499}
   m_Layer: 8
   m_Name: I7
   m_TagString: Untagged
@@ -11295,6 +11327,21 @@ MonoBehaviour:
   - {fileID: 1044099431}
   vecinitosLaterales:
   - {fileID: 413864676}
+--- !u!114 &1597760499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597760492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c12d5522ca4148e8a76d155e46908bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  detectionLayer:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!224 &1657618047 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3930978702086619645, guid: 95288981e2f336043a26dac1033f842c, type: 3}
@@ -11686,7 +11733,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1735245610}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
