@@ -21,7 +21,7 @@ public class Botones : MonoBehaviour
     private IEnumerator WaitForSceneLoad()
     {
         yield return new WaitForSeconds(0.5f);
-        SceneManager.LoadScene("Principal");
+        SceneManager.LoadScene("Principal-EX");
 
     }
 

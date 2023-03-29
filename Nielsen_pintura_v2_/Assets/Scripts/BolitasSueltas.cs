@@ -1,6 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
+#if UNITY_EDITOR
+using UnityEditor;
 using UnityEditor.PackageManager;
+#endif
+
 using UnityEngine;
 
 public class BolitasSueltas : MonoBehaviour
