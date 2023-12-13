@@ -552,9 +552,8 @@ System.register("chunks:///_virtual/InputManager.ts", ['./rollupPluginModLoBabel
         };
 
         _proto.onKeyDown = function onKeyDown(event) {
-          this._keyStates.set(event.keyCode, true);
+          this._keyStates.set(event.keyCode, true); // console.log(this._keyStates)
 
-          console.log(this._keyStates);
         };
 
         _proto.onKeyUp = function onKeyUp(event) {
@@ -759,13 +758,13 @@ System.register("chunks:///_virtual/MovimientoCubeta.ts", ['./rollupPluginModLoB
       InputManager = module.InputManager;
     }],
     execute: function () {
-      var _dec, _dec2, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5;
+      var _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10;
 
       cclegacy._RF.push({}, "2d341SxT4xMl53V+QolgrSn", "MovimientoCubeta", undefined);
 
       var ccclass = _decorator.ccclass,
           property = _decorator.property;
-      var MovimientoCubeta = exports('MovimientoCubeta', (_dec = ccclass('MovimientoCubeta'), _dec2 = property(Node), _dec(_class = (_class2 = /*#__PURE__*/function (_Component) {
+      var MovimientoCubeta = exports('MovimientoCubeta', (_dec = ccclass('MovimientoCubeta'), _dec2 = property(Node), _dec3 = property(Vec3), _dec4 = property(Vec3), _dec5 = property(Vec3), _dec6 = property(Vec3), _dec(_class = (_class2 = /*#__PURE__*/function (_Component) {
         _inheritsLoose(MovimientoCubeta, _Component);
 
         function MovimientoCubeta() {
@@ -789,11 +788,17 @@ System.register("chunks:///_virtual/MovimientoCubeta.ts", ['./rollupPluginModLoB
 
           _initializerDefineProperty(_this, "speed", _descriptor4, _assertThisInitialized(_this));
 
-          _this.targetPosition = new Vec3();
-          _this.moveDirection = new Vec3();
-          _this.newPosition = new Vec3();
+          _initializerDefineProperty(_this, "targetPosition", _descriptor5, _assertThisInitialized(_this));
 
-          _initializerDefineProperty(_this, "flechas", _descriptor5, _assertThisInitialized(_this));
+          _initializerDefineProperty(_this, "moveDirection", _descriptor6, _assertThisInitialized(_this));
+
+          _initializerDefineProperty(_this, "newPosition", _descriptor7, _assertThisInitialized(_this));
+
+          _initializerDefineProperty(_this, "flechas", _descriptor8, _assertThisInitialized(_this));
+
+          _initializerDefineProperty(_this, "touch", _descriptor9, _assertThisInitialized(_this));
+
+          _initializerDefineProperty(_this, "transf", _descriptor10, _assertThisInitialized(_this));
 
           return _this;
         }
@@ -803,7 +808,6 @@ System.register("chunks:///_virtual/MovimientoCubeta.ts", ['./rollupPluginModLoB
         _proto.onLoad = function onLoad() {
           this.posY = this.nodeImage.getWorldPosition();
           input.on(Input.EventType.KEY_DOWN, this.Teclas, this);
-          input.on(Input.EventType.KEY_UP, this.NoTeclas, this);
           this.nodeImage.on(Input.EventType.TOUCH_START, this.Touch, this);
           /*this.nodeImage.on(Node.EventType.TOUCH_MOVE,(event:EventTouch)=>{
               let loc=event.getLocation();
@@ -832,9 +836,12 @@ System.register("chunks:///_virtual/MovimientoCubeta.ts", ['./rollupPluginModLoB
           var _this2 = this;
 
           this.nodeImage.on(Node.EventType.TOUCH_MOVE, function (event) {
+            _this2.touch = true;
             var loc = event.getUILocation();
 
             _this2.nodeImage.setWorldPosition(new Vec3(loc.x, _this2.posY.y, 0));
+
+            _this2.suelta();
           });
           this.nodeImage.on(Node.EventType.TOUCH_END, function (event) {});
           this.nodeImage.on(Node.EventType.TOUCH_CANCEL, function (event) {});
@@ -848,16 +855,35 @@ System.register("chunks:///_virtual/MovimientoCubeta.ts", ['./rollupPluginModLoB
           this.flechas = true;
         };
 
+        _proto.cambioMove = function cambioMove() {
+          if (this.touch) {
+            this.flechas = false;
+          }
+
+          if (InputManager.isKeyPressed(KeyCode.ARROW_LEFT) || InputManager.isKeyPressed(KeyCode.ARROW_RIGHT)) {
+            this.flechas = true;
+            this.touch = false;
+          }
+        };
+
+        _proto.suelta = function suelta() {
+          this.transf = this.nodeImage.getPosition();
+          this.targetPosition = this.transf;
+          this.nodeImage.getPosition(this.transf);
+        };
+
         _proto.update = function update(deltaTime) {
+          this.cambioMove();
+
           if (this.flechas) {
-            console.log("flechas");
+            //console.log("flechas");
             this.moveDirection.x = 0;
             this.moveDirection.y = 0;
             /*if(InputManager.isKeyPressed(KeyCode.ARROW_UP)){
-                this.moveDirection.y += 1
+            this.moveDirection.y += 1
             }
             if(InputManager.isKeyPressed(KeyCode.ARROW_DOWN)){
-                this.moveDirection.y -= 1
+            this.moveDirection.y -= 1
             }*/
 
             if (InputManager.isKeyPressed(KeyCode.ARROW_LEFT)) {
@@ -875,9 +901,27 @@ System.register("chunks:///_virtual/MovimientoCubeta.ts", ['./rollupPluginModLoB
             var lerpFactor = 1 - Math.pow(0.001, deltaTime);
             Vec3.lerp(this.newPosition, new Vec3(this.nodeImage.position.x, 0, 0), this.targetPosition, lerpFactor);
             this.nodeImage.setPosition(this.newPosition);
-          } else {
-            console.log("no flechas");
           }
+          /* if(!InputManager.isKeyPressed(KeyCode.ARROW_LEFT) && !InputManager.isKeyPressed(KeyCode.ARROW_RIGHT) && !this.mueve){
+           
+               console.log("no flechas");
+               this.flechas=false;
+               
+               Vec3.normalize(this.moveDirection, this.moveDirection);
+               Vec3.scaleAndAdd(this.targetPosition, this.targetPosition, this.moveDirection, this.speed * deltaTime)
+               const lerpFactor = 1 - Math.pow(0.001, deltaTime);
+               Vec3.lerp(this.newPosition, new Vec3(this.nodeImage.position.x,0,0), this.targetPosition, lerpFactor);
+               this.nodeImage.setPosition(this.newPosition);
+             /* console.log("Izq" + InputManager.isKeyPressed(KeyCode.ARROW_LEFT));
+               console.log("Der" + InputManager.isKeyPressed(KeyCode.ARROW_RIGHT));
+          }*/
+
+          /*else if(this.flechas && !InputManager.isKeyPressed(KeyCode.ARROW_LEFT) && !InputManager.isKeyPressed(KeyCode.ARROW_RIGHT))
+          {
+              this.flechas=false;
+              console.log("no flechas");
+          }*/
+
 
           this.Detener();
         };
@@ -911,12 +955,47 @@ System.register("chunks:///_virtual/MovimientoCubeta.ts", ['./rollupPluginModLoB
         initializer: function initializer() {
           return 500;
         }
-      }), _descriptor5 = _applyDecoratedDescriptor(_class2.prototype, "flechas", [property], {
+      }), _descriptor5 = _applyDecoratedDescriptor(_class2.prototype, "targetPosition", [_dec3], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return new Vec3();
+        }
+      }), _descriptor6 = _applyDecoratedDescriptor(_class2.prototype, "moveDirection", [_dec4], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return new Vec3();
+        }
+      }), _descriptor7 = _applyDecoratedDescriptor(_class2.prototype, "newPosition", [_dec5], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return new Vec3();
+        }
+      }), _descriptor8 = _applyDecoratedDescriptor(_class2.prototype, "flechas", [property], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function initializer() {
           return false;
+        }
+      }), _descriptor9 = _applyDecoratedDescriptor(_class2.prototype, "touch", [property], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return false;
+        }
+      }), _descriptor10 = _applyDecoratedDescriptor(_class2.prototype, "transf", [_dec6], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return null;
         }
       })), _class2)) || _class));
 
@@ -985,7 +1064,7 @@ System.register("chunks:///_virtual/ObjetoBueno.ts", ['./rollupPluginModLoBabelH
         _proto.meDestruyo = function meDestruyo() {
           this.node.getComponent(Sprite).enabled = false;
           setTimeout(function () {
-            console.log("me destryo");
+            // console.log("me destryo");
             this.node.destroy();
           }.bind(this), 2);
         };
