@@ -1,0 +1,504 @@
+[ {
+  "path" : "/<AnonymousRoot>",
+  "hexDigest" : null,
+  "children" : [ "/main/proxy.collectionc", "/builtins/render/default.renderc", "/input/game.input_bindingc", "/builtins/input/default.gamepadsc", "/builtins/render/default.display_profilesc", "/builtins/scripts/debugger.luac" ]
+}, {
+  "path" : "/main/proxy.collectionc",
+  "hexDigest" : "9b0ae146955d2b051a1bab8e9fa08c7a3eb3b131",
+  "children" : [ "/_generated_8d674bc5fb3c0cc7.goc" ]
+}, {
+  "path" : "/_generated_8d674bc5fb3c0cc7.goc",
+  "hexDigest" : "a7a3a5b59cdb9e4324de7984a42ae142352e5af6",
+  "children" : [ "/main/controller.scriptc", "/_generated_371116724d145fd1.collectionproxyc", "/_generated_a5a7fbbcd6e6ce19.collectionproxyc", "/_generated_d89acd4b7631f976.collectionproxyc" ]
+}, {
+  "path" : "/main/controller.scriptc",
+  "hexDigest" : "1259a1dc3ff7b45bdb224997cfe09ced504fd8cc",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_371116724d145fd1.collectionproxyc",
+  "hexDigest" : "d6563012218068b9a1d53f0bd7c6579c7debdfb1",
+  "nodeType" : "CollectionProxy",
+  "children" : [ "/main/main.collectionc" ]
+}, {
+  "path" : "/main/main.collectionc",
+  "hexDigest" : "75425ac12211dddd685394d695a097288764a8bd",
+  "children" : [ "/_generated_cde7fa908ca2602e.goc" ]
+}, {
+  "path" : "/_generated_cde7fa908ca2602e.goc",
+  "hexDigest" : "1c01cfe268e8654c2b47dc8d92f632458ed688c6",
+  "children" : [ "/main/menu.guic" ]
+}, {
+  "path" : "/main/menu.guic",
+  "hexDigest" : "a4715055d41f7077344f2190ced4ed9484c779dd",
+  "children" : [ "/main/menu.gui_scriptc", "/sprites/BotonJugar/BotonJugar.a.texturesetc", "/sprites/Fondos/Fondos.a.texturesetc", "/builtins/materials/gui.materialc" ]
+}, {
+  "path" : "/main/menu.gui_scriptc",
+  "hexDigest" : "35f7f2da35ecf796ca354b61b29ed267968814a8",
+  "children" : [ ]
+}, {
+  "path" : "/sprites/BotonJugar/BotonJugar.a.texturesetc",
+  "hexDigest" : "4885b3f26c0a6714ffa919bfc08625af876a0644",
+  "children" : [ "/sprites/BotonJugar/BotonJugar.texturec" ]
+}, {
+  "path" : "/sprites/BotonJugar/BotonJugar.texturec",
+  "hexDigest" : "3e7e7447ade878d5ce963b5034205e858ea5eb81",
+  "children" : [ ]
+}, {
+  "path" : "/sprites/Fondos/Fondos.a.texturesetc",
+  "hexDigest" : "d15ee3273616f1b264ea7c57256e56a74da83aca",
+  "children" : [ "/sprites/Fondos/Fondos.texturec" ]
+}, {
+  "path" : "/sprites/Fondos/Fondos.texturec",
+  "hexDigest" : "c533c8de28dd7cd0957f71f64e8ccbd0e2c9cbae",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/materials/gui.materialc",
+  "hexDigest" : "74e565f59394f8055ea41c94278100e0d10b03c1",
+  "children" : [ "/builtins/materials/gui.vpc", "/builtins/materials/gui.fpc" ]
+}, {
+  "path" : "/builtins/materials/gui.vpc",
+  "hexDigest" : "45264c55e8ba5f75c0168ef8f4a8d0f32f187a8b",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/materials/gui.fpc",
+  "hexDigest" : "c2fb1f22d0aa16b36546604ad4647b26be887fab",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_a5a7fbbcd6e6ce19.collectionproxyc",
+  "hexDigest" : "9e9b304baeb3223dad8d5e7d8875ccd2271a9f7b",
+  "nodeType" : "CollectionProxy",
+  "children" : [ "/main/instrucciones.collectionc" ]
+}, {
+  "path" : "/main/instrucciones.collectionc",
+  "hexDigest" : "88be90fd2b5689bfeb6740a4b47b1fc077227462",
+  "children" : [ "/Items/takis.goc", "/Items/takisInst.goc", "/background/background.goc", "/bolsa/bolsaIns.goc", "/_generated_4416f4e13d800a0a.goc" ]
+}, {
+  "path" : "/Items/takis.goc",
+  "hexDigest" : "ce9126ed459cd902c1a7c0a04f33c8a097753ee9",
+  "children" : [ "/Items/items.scriptc", "/_generated_885182f72943e8e9.spritec", "/_generated_1b308f812cac5e7b.collisionobjectc" ]
+}, {
+  "path" : "/Items/items.scriptc",
+  "hexDigest" : "fd48ab13b7905fe9194128eb33a87c0a05195c86",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_885182f72943e8e9.spritec",
+  "hexDigest" : "2635b25c4af3daa8fb1921606f101253c7283252",
+  "children" : [ "/Items/items.a.texturesetc", "/builtins/materials/sprite.materialc" ]
+}, {
+  "path" : "/Items/items.a.texturesetc",
+  "hexDigest" : "5bbd67264d3fce5a1b0e7a55e748207c5be09515",
+  "children" : [ "/Items/items.texturec" ]
+}, {
+  "path" : "/Items/items.texturec",
+  "hexDigest" : "5fb8e3b996d24e9c1f51571ba0a5c13ce7746053",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/materials/sprite.materialc",
+  "hexDigest" : "f5df0b3fa81237df4d3e54ee3d8c9b23d84516fb",
+  "children" : [ "/builtins/materials/sprite.vpc", "/builtins/materials/sprite.fpc" ]
+}, {
+  "path" : "/builtins/materials/sprite.vpc",
+  "hexDigest" : "dfbd58be33452c2c8b32b8d11ff59d0d803bcdb7",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/materials/sprite.fpc",
+  "hexDigest" : "df238d5349e93d26c455378b3bcf348230703ca2",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_1b308f812cac5e7b.collisionobjectc",
+  "hexDigest" : "267102dc22fcbd4988a328eccf433c3ecb1b579c",
+  "children" : [ ]
+}, {
+  "path" : "/Items/takisInst.goc",
+  "hexDigest" : "2456c3fb11df115a7f510cb8b15ce87ec98d7791",
+  "children" : [ "/Items/particle system/itemsins.scriptc", "/_generated_885182f72943e8e9.spritec", "/_generated_1b308f812cac5e7b.collisionobjectc" ]
+}, {
+  "path" : "/Items/particle system/itemsins.scriptc",
+  "hexDigest" : "940c9b93f83012afd14193df22346378edd8d04c",
+  "children" : [ ]
+}, {
+  "path" : "/background/background.goc",
+  "hexDigest" : "fb54b352e6ca56cbd1090403df9a734519ddad4a",
+  "children" : [ "/background/background.spritec" ]
+}, {
+  "path" : "/background/background.spritec",
+  "hexDigest" : "0be83604b8c110ddef37adf13fa04389f0d5dc8a",
+  "children" : [ "/background/background.a.texturesetc", "/builtins/materials/sprite.materialc" ]
+}, {
+  "path" : "/background/background.a.texturesetc",
+  "hexDigest" : "2b5752446d4aa6bf5ee2d4c8b652f02829175c5c",
+  "children" : [ "/background/background.texturec" ]
+}, {
+  "path" : "/background/background.texturec",
+  "hexDigest" : "023986bc881d062c3bdba8f18964827a730e1043",
+  "children" : [ ]
+}, {
+  "path" : "/bolsa/bolsaIns.goc",
+  "hexDigest" : "490dc8c3881707d2a8c3be2a19c50ff255102e57",
+  "children" : [ "/bolsa/bolsa.spritec", "/Items/particle system/bad.particlefxc", "/Items/particle system/good.particlefxc", "/bolsa/bolsaParticle.scriptc", "/bolsa/bolsains.scriptc", "/_generated_4fb944d0292aad47.collisionobjectc" ]
+}, {
+  "path" : "/bolsa/bolsa.spritec",
+  "hexDigest" : "484a656ef163fb6401b2bb27c3ec6bf49b39af7e",
+  "children" : [ "/bolsa/bolsa.a.texturesetc", "/builtins/materials/sprite.materialc" ]
+}, {
+  "path" : "/bolsa/bolsa.a.texturesetc",
+  "hexDigest" : "042b6a38c0c3b7669270b6ee7aaaab9e2b0e7554",
+  "children" : [ "/bolsa/bolsa.texturec" ]
+}, {
+  "path" : "/bolsa/bolsa.texturec",
+  "hexDigest" : "bcc84706911a2bff80922c7cf6946da86e18766e",
+  "children" : [ ]
+}, {
+  "path" : "/Items/particle system/bad.particlefxc",
+  "hexDigest" : "f633b899f9ef6f8ca18516a14a084c52a0836922",
+  "children" : [ "/Items/particle system/particle atlas.a.texturesetc", "/builtins/materials/particlefx.materialc" ]
+}, {
+  "path" : "/Items/particle system/particle atlas.a.texturesetc",
+  "hexDigest" : "bb7344db1b50713106056065b8470ba666c9fa3e",
+  "children" : [ "/Items/particle system/particle atlas.texturec" ]
+}, {
+  "path" : "/Items/particle system/particle atlas.texturec",
+  "hexDigest" : "caf8156acca557afd3b532753c1a171533558772",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/materials/particlefx.materialc",
+  "hexDigest" : "c1c548ad4954cdaa5378282f6f7fe6c7ca0e6b1e",
+  "children" : [ "/builtins/materials/particlefx.vpc", "/builtins/materials/particlefx.fpc" ]
+}, {
+  "path" : "/builtins/materials/particlefx.vpc",
+  "hexDigest" : "bc479aaa3131552983347e0a3de1001b37fdc6e7",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/materials/particlefx.fpc",
+  "hexDigest" : "ef825fe936c0df1530288b25e483bfd720026b86",
+  "children" : [ ]
+}, {
+  "path" : "/Items/particle system/good.particlefxc",
+  "hexDigest" : "fe5974dcf90a541f789e9afcb94629431eb1b617",
+  "children" : [ "/Items/particle system/particle atlas.a.texturesetc", "/builtins/materials/particlefx.materialc" ]
+}, {
+  "path" : "/bolsa/bolsaParticle.scriptc",
+  "hexDigest" : "f65c2d596ca8cf4ae298b772d366ea501d59e64c",
+  "children" : [ ]
+}, {
+  "path" : "/bolsa/bolsains.scriptc",
+  "hexDigest" : "47277074f491e19d92fe9a12b10242acf4e70996",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_4fb944d0292aad47.collisionobjectc",
+  "hexDigest" : "373a764e67f21097da486784f1e1ce1817ac295b",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_4416f4e13d800a0a.goc",
+  "hexDigest" : "2f10dfa072c89f05c220543741bf026dc8dc074d",
+  "children" : [ "/main/instrucciones.guic" ]
+}, {
+  "path" : "/main/instrucciones.guic",
+  "hexDigest" : "438904b85370aaf2b9099476b262217b61dd84a9",
+  "children" : [ "/main/siguiente.gui_scriptc", "/sprites/Fondos/Fondos.a.texturesetc", "/sprites/BotonSiguiente/BotonSiguiente.a.texturesetc", "/builtins/materials/gui.materialc" ]
+}, {
+  "path" : "/main/siguiente.gui_scriptc",
+  "hexDigest" : "73da79fd732a79cf98b86fc598c3e1d77f534a4e",
+  "children" : [ ]
+}, {
+  "path" : "/sprites/BotonSiguiente/BotonSiguiente.a.texturesetc",
+  "hexDigest" : "cca2f36f954ae7753b94dfde102bfd5c84e7b990",
+  "children" : [ "/sprites/BotonSiguiente/BotonSiguiente.texturec" ]
+}, {
+  "path" : "/sprites/BotonSiguiente/BotonSiguiente.texturec",
+  "hexDigest" : "0dded97570773d2aaab3d9599d15d8e1d734309e",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_d89acd4b7631f976.collectionproxyc",
+  "hexDigest" : "50e10a1b31961c5eaaa78aeb9e8f3c32d6f95dbb",
+  "nodeType" : "CollectionProxy",
+  "children" : [ "/main/juego.collectionc" ]
+}, {
+  "path" : "/main/juego.collectionc",
+  "hexDigest" : "4087b06900f18d515dbd176c1b0a370ffad77e40",
+  "children" : [ "/Items/factory.goc", "/bolsa/bolsa.goc", "/background/background.goc", "/main/main.goc", "/Items/takis.goc", "/_generated_f6ac87ed6a4ac0ad.goc", "/_generated_494991908aeb7ef2.goc" ]
+}, {
+  "path" : "/Items/factory.goc",
+  "hexDigest" : "0e56bc300bf1fb8b699a6f3ae76b30484a102a70",
+  "children" : [ "/Items/factory.scriptc", "/_generated_5a68e2a36181ef9f.factoryc", "/_generated_34753c7ba9cfaaf4.factoryc", "/_generated_bb4fa2f5668ec04b.factoryc", "/_generated_215e77e2d5a5df9d.factoryc", "/_generated_f5a6bc37098302ee.factoryc" ]
+}, {
+  "path" : "/Items/factory.scriptc",
+  "hexDigest" : "f373f388fb509be8b54237657d306a333cdbb28c",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_5a68e2a36181ef9f.factoryc",
+  "hexDigest" : "ff3d59ea08a519fc160b8ce649b366955cdd6907",
+  "children" : [ "/Items/takis.goc" ]
+}, {
+  "path" : "/_generated_34753c7ba9cfaaf4.factoryc",
+  "hexDigest" : "09aa76d89a0b065334879a031ed6e2d75db0083c",
+  "children" : [ "/Items/mala.goc" ]
+}, {
+  "path" : "/Items/mala.goc",
+  "hexDigest" : "04982a70cbfbdaf12849d28d278efd5facd37668",
+  "children" : [ "/Items/particle system/bad.particlefxc", "/Items/_items.scriptc", "/_generated_20748e2fd9ec748a.spritec", "/_generated_5aef656ccf99df06.collisionobjectc" ]
+}, {
+  "path" : "/Items/_items.scriptc",
+  "hexDigest" : "d6dcdf17637c76eb3bf7a7e15cceb28077f09bdc",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_20748e2fd9ec748a.spritec",
+  "hexDigest" : "5901488905e4de520cdd325ebff6e1d855173bef",
+  "children" : [ "/Items/items.a.texturesetc", "/builtins/materials/sprite.materialc" ]
+}, {
+  "path" : "/_generated_5aef656ccf99df06.collisionobjectc",
+  "hexDigest" : "e12e39ef5e18d6c941c3048d4cd714e6ef3e5ee5",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_bb4fa2f5668ec04b.factoryc",
+  "hexDigest" : "c9a6b8f2d4374e96f1b282a2480612b72cb635b7",
+  "children" : [ "/Items/popcorn.goc" ]
+}, {
+  "path" : "/Items/popcorn.goc",
+  "hexDigest" : "e64aa4acd99edc7b462f0113dca91c3288eba6ff",
+  "children" : [ "/Items/items.scriptc", "/_generated_a014915ad5d076f6.spritec", "/_generated_833570d2a6f46ea2.collisionobjectc" ]
+}, {
+  "path" : "/_generated_a014915ad5d076f6.spritec",
+  "hexDigest" : "18f47dd0f6331df370336639b7debc792806187c",
+  "children" : [ "/Items/items.a.texturesetc", "/builtins/materials/sprite.materialc" ]
+}, {
+  "path" : "/_generated_833570d2a6f46ea2.collisionobjectc",
+  "hexDigest" : "0ea5777f0dbf7fbb1686eb1a435c03a293148a21",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_215e77e2d5a5df9d.factoryc",
+  "hexDigest" : "816f027092dbdd02f42bb9076d298c27bd99f30c",
+  "children" : [ "/Items/papa01.goc" ]
+}, {
+  "path" : "/Items/papa01.goc",
+  "hexDigest" : "ee433313654149a18b6f5b9ce19a4f158d12cf01",
+  "children" : [ "/Items/items.scriptc", "/_generated_631babdd10ded58c.spritec", "/_generated_68e8ad6871a8ad8e.collisionobjectc" ]
+}, {
+  "path" : "/_generated_631babdd10ded58c.spritec",
+  "hexDigest" : "18e7403d3898a6661ec11ef123290efbb89e6226",
+  "children" : [ "/Items/items.a.texturesetc", "/builtins/materials/sprite.materialc" ]
+}, {
+  "path" : "/_generated_68e8ad6871a8ad8e.collisionobjectc",
+  "hexDigest" : "d21bec5fe3e8da95d6b0688e009c2f00f2b37221",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_f5a6bc37098302ee.factoryc",
+  "hexDigest" : "fe69ae237eb55afd1d6915415e65308a10fa2b0c",
+  "children" : [ "/Items/papa02.goc" ]
+}, {
+  "path" : "/Items/papa02.goc",
+  "hexDigest" : "f70be71137606db32e5288b46aea3b050c89aae5",
+  "children" : [ "/Items/items.scriptc", "/_generated_945bb6d9cf024938.spritec", "/_generated_68e8ad6871a8ad8e.collisionobjectc" ]
+}, {
+  "path" : "/_generated_945bb6d9cf024938.spritec",
+  "hexDigest" : "a1163ef7786c0021bc979e9ce6aff5f3217d31da",
+  "children" : [ "/Items/items.a.texturesetc", "/builtins/materials/sprite.materialc" ]
+}, {
+  "path" : "/bolsa/bolsa.goc",
+  "hexDigest" : "25410a7dde73ffd441efe1fae78584610b343ac3",
+  "children" : [ "/bolsa/bolsa.spritec", "/bolsa/bolsa.scriptc", "/bolsa/bolsaParticle.scriptc", "/Items/particle system/good.particlefxc", "/Items/particle system/bad.particlefxc", "/_generated_3c6a12c031ebe1a9.collisionobjectc" ]
+}, {
+  "path" : "/bolsa/bolsa.scriptc",
+  "hexDigest" : "751238e7283b671613201eaaade17c35cf3935d5",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_3c6a12c031ebe1a9.collisionobjectc",
+  "hexDigest" : "03bb678f2880a5041cba6f16ea7652a8e91f8fb2",
+  "children" : [ ]
+}, {
+  "path" : "/main/main.goc",
+  "hexDigest" : "bc1e99baf07551159ede270badf805aab823e772",
+  "children" : [ "/main/main.guic", "/main/main.scriptc" ]
+}, {
+  "path" : "/main/main.guic",
+  "hexDigest" : "20103fa13d0e79e362c3cef1be481cea10eee5fe",
+  "children" : [ "/main/main.gui_scriptc", "/fonts/score.fontc", "/builtins/materials/gui.materialc" ]
+}, {
+  "path" : "/main/main.gui_scriptc",
+  "hexDigest" : "95f0865eb9c0e991742772e25544d2904a40006b",
+  "children" : [ ]
+}, {
+  "path" : "/fonts/score.fontc",
+  "hexDigest" : "8f0db0d9a4147f9aad7bbee58b0aa5980ddc7b64",
+  "children" : [ "/_generated_dffcc80de7d9819a.glyph_bankc", "/builtins/fonts/font.materialc" ]
+}, {
+  "path" : "/_generated_dffcc80de7d9819a.glyph_bankc",
+  "hexDigest" : "5ffd3fcccf85096e9362368e7335f32cf577b6cf",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/fonts/font.materialc",
+  "hexDigest" : "56cbd377b78f9564763a95f5aea38157db56bf40",
+  "children" : [ "/builtins/fonts/font.vpc", "/builtins/fonts/font.fpc" ]
+}, {
+  "path" : "/builtins/fonts/font.vpc",
+  "hexDigest" : "ee9e4e451532afdd558919a4ab7de0c77e1a4a12",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/fonts/font.fpc",
+  "hexDigest" : "ccc19a1b6492d582e5756c1dd2c52d90c47be959",
+  "children" : [ ]
+}, {
+  "path" : "/main/main.scriptc",
+  "hexDigest" : "3331887a3776801e522301c24cb164cf8e2e1cf3",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_f6ac87ed6a4ac0ad.goc",
+  "hexDigest" : "597008620e37fec04496f6dd350578dbe845496c",
+  "children" : [ "/main/Juego.guic" ]
+}, {
+  "path" : "/main/Juego.guic",
+  "hexDigest" : "6a5de7ee9626991563c1d0072564ba8cc0987c95",
+  "children" : [ "/main/pausa.gui_scriptc", "/Font/LETRA.fontc", "/Font/LetraPe.fontc", "/sprites/Fondos/Fondos.a.texturesetc", "/sprites/BotonPausa/BotonPausa.a.texturesetc", "/sprites/BotonConfiguracion/BotonConfi.a.texturesetc", "/sprites/BotonPlay/BotonPlay.a.texturesetc", "/sprites/BotonReDo/BotonReDo.a.texturesetc", "/sprites/BotonCompartir/BotonCompartir.a.texturesetc", "/sprites/BotonSalir/BotonSalir.a.texturesetc", "/sprites/BotonAudio/BotonAudio.a.texturesetc", "/sprites/BotonMusica/BotonMusica.a.texturesetc", "/sprites/BotonCerrar/BotonCerrar.a.texturesetc", "/builtins/materials/gui.materialc" ]
+}, {
+  "path" : "/main/pausa.gui_scriptc",
+  "hexDigest" : "d9f65f85b4c8b649f1ab31254e23421fdf0d2448",
+  "children" : [ ]
+}, {
+  "path" : "/Font/LETRA.fontc",
+  "hexDigest" : "2afb1b31161d21786d38aeb71a40462ae510df6b",
+  "children" : [ "/_generated_3fa29bdf746f233e.glyph_bankc", "/builtins/fonts/font-df.materialc" ]
+}, {
+  "path" : "/_generated_3fa29bdf746f233e.glyph_bankc",
+  "hexDigest" : "b9536a4b7135e578baf322e5f7ec45c44ee56d9b",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/fonts/font-df.materialc",
+  "hexDigest" : "ba7ea0c2a36beb8ab41f1f47873c6f3fc40ed266",
+  "children" : [ "/builtins/fonts/font-df.vpc", "/builtins/fonts/font-df.fpc" ]
+}, {
+  "path" : "/builtins/fonts/font-df.vpc",
+  "hexDigest" : "2861806c70e34b1344ab0d88ac2579b9e3fd34fb",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/fonts/font-df.fpc",
+  "hexDigest" : "c026ec2af03b2d804be5805bcba25f7c4921c135",
+  "children" : [ ]
+}, {
+  "path" : "/Font/LetraPe.fontc",
+  "hexDigest" : "43d611dd00abe2d3af981ddecf1ecbde0230770b",
+  "children" : [ "/_generated_a687733bb0bc5c20.glyph_bankc", "/builtins/fonts/font.materialc" ]
+}, {
+  "path" : "/_generated_a687733bb0bc5c20.glyph_bankc",
+  "hexDigest" : "6b5b9c9cb138aadcdadcb28a4567a8b546ad1689",
+  "children" : [ ]
+}, {
+  "path" : "/sprites/BotonPausa/BotonPausa.a.texturesetc",
+  "hexDigest" : "53b602a00e5c9b5b141441d12f3b5ce8b777068e",
+  "children" : [ "/sprites/BotonPausa/BotonPausa.texturec" ]
+}, {
+  "path" : "/sprites/BotonPausa/BotonPausa.texturec",
+  "hexDigest" : "ae9a019fbdf4b207e12c768ee73ce16e54e02772",
+  "children" : [ ]
+}, {
+  "path" : "/sprites/BotonConfiguracion/BotonConfi.a.texturesetc",
+  "hexDigest" : "ca19b4cee22d8f503a83b4f548ebfc4e82926f26",
+  "children" : [ "/sprites/BotonConfiguracion/BotonConfi.texturec" ]
+}, {
+  "path" : "/sprites/BotonConfiguracion/BotonConfi.texturec",
+  "hexDigest" : "3a30552c59bf46c3b5f605d9c7d8130bd52299df",
+  "children" : [ ]
+}, {
+  "path" : "/sprites/BotonPlay/BotonPlay.a.texturesetc",
+  "hexDigest" : "26894d4ffc2af0610e84750f1a19eb2600a21a7d",
+  "children" : [ "/sprites/BotonPlay/BotonPlay.texturec" ]
+}, {
+  "path" : "/sprites/BotonPlay/BotonPlay.texturec",
+  "hexDigest" : "13aee229377a9ff6078fc667100891fe5ff9d41d",
+  "children" : [ ]
+}, {
+  "path" : "/sprites/BotonReDo/BotonReDo.a.texturesetc",
+  "hexDigest" : "e95c6bfb34bf18fd1fbe1cdc6ae09be2d07a5d55",
+  "children" : [ "/sprites/BotonReDo/BotonReDo.texturec" ]
+}, {
+  "path" : "/sprites/BotonReDo/BotonReDo.texturec",
+  "hexDigest" : "f7da76840c6e08e4423a0a78e688e5c222ad44d6",
+  "children" : [ ]
+}, {
+  "path" : "/sprites/BotonCompartir/BotonCompartir.a.texturesetc",
+  "hexDigest" : "39ce1bbf520cd40ad63dc070db39cdede40d56b2",
+  "children" : [ "/sprites/BotonCompartir/BotonCompartir.texturec" ]
+}, {
+  "path" : "/sprites/BotonCompartir/BotonCompartir.texturec",
+  "hexDigest" : "ce5ebb87fb75d2272dcd8c3d170b0e59effcd6e7",
+  "children" : [ ]
+}, {
+  "path" : "/sprites/BotonSalir/BotonSalir.a.texturesetc",
+  "hexDigest" : "dfeb6ebe4de7d5f76271e2b5b98f621bdfda32e0",
+  "children" : [ "/sprites/BotonSalir/BotonSalir.texturec" ]
+}, {
+  "path" : "/sprites/BotonSalir/BotonSalir.texturec",
+  "hexDigest" : "65fc1d6cfefdd6db9c8c195139d3fd69003ec2b7",
+  "children" : [ ]
+}, {
+  "path" : "/sprites/BotonAudio/BotonAudio.a.texturesetc",
+  "hexDigest" : "b71860ca414098be3bed7af7839623fd538dd3c9",
+  "children" : [ "/sprites/BotonAudio/BotonAudio.texturec" ]
+}, {
+  "path" : "/sprites/BotonAudio/BotonAudio.texturec",
+  "hexDigest" : "b3c24a8370b34e3f79891dc07a94277bb34d658f",
+  "children" : [ ]
+}, {
+  "path" : "/sprites/BotonMusica/BotonMusica.a.texturesetc",
+  "hexDigest" : "0498235c889f5ff7de0148b2f123b5eb1a319831",
+  "children" : [ "/sprites/BotonMusica/BotonMusica.texturec" ]
+}, {
+  "path" : "/sprites/BotonMusica/BotonMusica.texturec",
+  "hexDigest" : "72ee1654e80eb6b66a07c76d3394117333e1e76c",
+  "children" : [ ]
+}, {
+  "path" : "/sprites/BotonCerrar/BotonCerrar.a.texturesetc",
+  "hexDigest" : "b6f7cd3fbb96e5f1b44a6d6b0a071410d7edb048",
+  "children" : [ "/sprites/BotonCerrar/BotonCerrar.texturec" ]
+}, {
+  "path" : "/sprites/BotonCerrar/BotonCerrar.texturec",
+  "hexDigest" : "0455ac611479ea9c5328f71f26aa0f16b9549da6",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_494991908aeb7ef2.goc",
+  "hexDigest" : "8f8fc18825ca38306aac6b11134b9b1304835119",
+  "children" : [ "/main/timer.guic" ]
+}, {
+  "path" : "/main/timer.guic",
+  "hexDigest" : "3d8deba3c4b7bef64099789b415c4e96b7325bf2",
+  "children" : [ "/main/timer.gui_scriptc", "/fonts/score.fontc", "/builtins/materials/gui.materialc" ]
+}, {
+  "path" : "/main/timer.gui_scriptc",
+  "hexDigest" : "8e51b85f5207ba37a4703eeb14c663492afdc79b",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/render/default.renderc",
+  "hexDigest" : "62fcf66fed9988305fe48996f4d7693b2fac6e49",
+  "children" : [ "/builtins/render/default.render_scriptc" ]
+}, {
+  "path" : "/builtins/render/default.render_scriptc",
+  "hexDigest" : "9108bdc77a1cd93eac053020b41537c08a9fdbb5",
+  "children" : [ ]
+}, {
+  "path" : "/input/game.input_bindingc",
+  "hexDigest" : "579fdf3f45bcf0f7db67bc9d5d08cf489a921a06",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/input/default.gamepadsc",
+  "hexDigest" : "5a9e7bd012ff1e67e6eaa81150c55a3a86ca4dff",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/render/default.display_profilesc",
+  "hexDigest" : "4187e11a10b0dd0d7f1b34d3ae3c0e9632dc69fd",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/scripts/debugger.luac",
+  "hexDigest" : "0c6f0ce425b3e76bb5ca0b1e6e840de9850dc366",
+  "children" : [ "/builtins/scripts/edn.luac", "/builtins/scripts/mobdebug.luac" ]
+}, {
+  "path" : "/builtins/scripts/edn.luac",
+  "hexDigest" : "ce8925cfc78aaccac957e6614a3afe2ca9a2b3c6",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/scripts/mobdebug.luac",
+  "hexDigest" : "a62c691df782f7579ac60a77471e332fba1d8e5c",
+  "children" : [ "/builtins/scripts/socket.luac", "/builtins/scripts/edn.luac" ]
+}, {
+  "path" : "/builtins/scripts/socket.luac",
+  "hexDigest" : "3ea5e8c2200ab900c7f2b2f19f0c2016a4920392",
+  "children" : [ ]
+} ]
