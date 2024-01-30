@@ -1,0 +1,18 @@
+function on_message(self, message_id, message, sender)
+	if message_id == hash("takis") then 
+		--msg.post("main:/score/main#score", "add_score", {amount = score})
+		particlefx.play("#good")
+		--if message_id == hash("collision_response") then
+		
+		--particlefx.play("#good")
+		--if message.other_group == "takis" then
+			
+		--end
+
+	end
+	if message_id == hash("mala") then 
+		--msg.post("main:/score/main#score", "add_score", {amount = score})
+		particlefx.play("#bad")
+	end
+
+end

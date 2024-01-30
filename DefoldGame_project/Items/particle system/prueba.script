@@ -1,0 +1,3 @@
+function init(self)
+	particlefx.play("#good") -- <1>
+end

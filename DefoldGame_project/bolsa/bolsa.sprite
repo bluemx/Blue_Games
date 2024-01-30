@@ -1,0 +1,11 @@
+tile_set: "/bolsa/bolsa.atlas"
+default_animation: "bolsa"
+material: "/builtins/materials/sprite.material"
+blend_mode: BLEND_MODE_ALPHA
+size {
+  x: 131.0
+  y: 194.0
+  z: 0.0
+  w: 0.0
+}
+size_mode: SIZE_MODE_MANUAL

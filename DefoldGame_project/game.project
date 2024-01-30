@@ -1,0 +1,19 @@
+[bootstrap]
+main_collection = /main/proxy.collectionc
+
+[script]
+shared_state = 1
+
+[display]
+width = 640
+height = 960
+
+[android]
+input_method = HiddenInputField
+
+[project]
+title = MenuCambio
+
+[html5]
+splash_image = /sprites/Fondos/fondo.png
+

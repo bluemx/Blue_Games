@@ -1,0 +1,23 @@
+local score = 1
+local speed = -240
+
+function update(self, dt)
+	local p = go.get_position()
+	p.y = p.y + speed * dt
+	if p.y < -32 then
+		--go.delete()
+	end
+	go.set_position(p)
+end
+
+function on_message(self, message_id, message, sender)
+	
+	if message_id == hash("trigger_response") then
+		msg.post("juego:/bolsa#bolsaParticle","mala")
+		msg.post("juego:/main#main", "rest", {amount = score})
+		--particlefx.play("#good")
+		go.delete()
+	end
+
+
+end

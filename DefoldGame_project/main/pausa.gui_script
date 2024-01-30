@@ -1,0 +1,271 @@
+function init(self)
+	msg.post(".", "acquire_input_focus")
+	gui.set_enabled(gui.get_node("PausaMenu"), false)
+	gui.set_enabled(gui.get_node("Confi"), false)
+	gui.set_enabled(gui.get_node("GameOver"), false)
+	msg.post("proxy:/controller#juego", "set_time_step", {factor = 1, mode = 1})
+	
+end
+
+function on_message(self, message_id, message, sender)
+	local finalScore= gui.get_node("FinalScore")
+	--f = gui.get_node("main")
+	if message_id == hash("fin") then -- <4>
+		gui.set_enabled(gui.get_node("GameOver"), true)
+		--gui.set_text(finalScore, tostring(f.ss))
+		msg.post("proxy:/controller#juego", "set_time_step", {factor = 0, mode = 0})
+	end
+	if message_id == hash("finalmente") then -- <4>
+		--gui.set_enabled(gui.get_node("GameOver"), true)
+		local a=message.score
+		gui.set_text(finalScore, tostring(a))
+		print("Final Score =", a)
+		msg.post("proxy:/controller#juego", "set_time_step", {factor = 0, mode = 0})
+	end
+end
+
+function on_input(self, action_id, action)
+	local buttonPausa = gui.get_node("pausa")
+	local buttonPlay = gui.get_node("play")
+	local buttonReDo1=gui.get_node("redo")
+	local buttonReDo2=gui.get_node("ReDo_Game")
+	local confi=gui.get_node("confi")
+	local salirConfi=gui.get_node("Salir")
+	local salirGameOver=gui.get_node("salir")
+	local cerrar=gui.get_node("Cerrar")
+	local sonido=gui.get_node("Sonido")
+	local musica=gui.get_node("Music")
+
+	if action_id == hash("touch") and action.released then
+
+		if gui.pick_node(musica, action.x, action.y) then
+			gui.set_texture(musica, "BotonMusica")
+			gui.play_flipbook(musica, "MusicaNO")
+		end
+		
+		if gui.pick_node(sonido, action.x, action.y) then
+			gui.set_texture(sonido, "BotonAudio")
+			gui.play_flipbook(sonido, "SonidoNO")
+		end
+		
+		if gui.pick_node(cerrar, action.x, action.y) then
+			gui.set_texture(cerrar, "BotonCerrar")
+			gui.play_flipbook(cerrar, "CerrarPresionado")
+			gui.set_enabled(gui.get_node("Confi"), false)
+		end
+
+		if gui.pick_node(salirConfi, action.x, action.y) then
+			if gui.is_enabled(gui.get_node("Confi"), true) then
+				gui.set_texture(salirConfi, "BotonSalir")
+				gui.play_flipbook(salirConfi, "BotonSalirP")
+				--gui.set_enabled(gui.get_node("Confi"), false)
+				msg.post("proxy:/controller#controller", "show_menu")
+			end
+		end
+		
+		if gui.pick_node(salirGameOver, action.x, action.y) then
+			
+			if gui.is_enabled(gui.get_node("GameOver"), true) then
+				gui.set_texture(salirGameOver, "BotonSalir")
+				gui.play_flipbook(salirGameOver, "BotonSalirP")
+				--gui.set_enabled(gui.get_node("GameOver"), false)
+				msg.post("proxy:/controller#controller", "show_menu")
+			end
+		end
+
+
+		if gui.pick_node(confi, action.x, action.y) then
+			gui.set_texture(confi, "BotonConfi")
+			gui.play_flipbook(confi, "BotonesConfiPresionado")
+			gui.set_enabled(gui.get_node("Confi"), true)
+		end
+		
+		if gui.pick_node(buttonReDo1, action.x, action.y) then
+			if gui.is_enabled(gui.get_node("PausaMenu"), true) then
+				gui.set_texture(buttonReDo1, "BotonReDo")
+				gui.play_flipbook(buttonReDo1, "BotonesRedoPresionado")
+				--gui.set_enabled(gui.get_node("PausaMenu"), false)
+				msg.post("proxy:/controller#controller", "show_juego")
+			end
+		end
+
+		if gui.pick_node(buttonReDo2, action.x, action.y) then
+			if gui.is_enabled(gui.get_node("GameOver"), true) then
+				gui.set_texture(buttonReDo2, "BotonReDo")
+				gui.play_flipbook(buttonReDo2, "BotonesRedoPresionado")
+				--gui.set_enabled(gui.get_node("PausaMenu"), false)
+				msg.post("proxy:/controller#controller", "show_juego")
+			end
+		end
+		
+		if gui.pick_node(buttonPausa, action.x, action.y) then
+			gui.set_texture(buttonPausa, "BotonPausa")
+			gui.play_flipbook(buttonPausa, "BotonesPausaPresionado")
+			gui.set_enabled(gui.get_node("PausaMenu"), true)
+			msg.post("proxy:/controller#juego", "set_time_step", {factor = 0, mode = 0})
+			
+		end
+		
+		if gui.pick_node(buttonPlay, action.x, action.y) then
+			gui.set_texture(buttonPlay, "BotonPlay")
+			gui.play_flipbook(buttonPlay, "BotonesPlayPresionado")
+			gui.set_enabled(gui.get_node("PausaMenu"), false)
+			msg.post("proxy:/controller#juego", "set_time_step", {factor = 1, mode = 1})
+		end
+	end
+	if gui.pick_node(buttonPausa, action.x, action.y) then
+		if not is_over then
+			
+			if not gui.is_enabled(gui.get_node("PausaMenu")) then
+				gui.set_texture(buttonPausa, "BotonPausa")
+				gui.play_flipbook(buttonPausa, "BotonesPausaHoover")
+				self.is_over = true
+			else
+				gui.set_texture(buttonPausa, "BotonPausa")
+				gui.play_flipbook(buttonPausa, "BotonesPausaPresionado")
+			end
+		end
+	else
+		if self.is_over then
+
+			if not gui.is_enabled(gui.get_node("PausaMenu")) then
+				gui.set_texture(buttonPausa, "BotonPausa")
+				gui.play_flipbook(buttonPausa, "BotonesPausa")
+				self.is_over = true
+			else
+				gui.set_texture(buttonPausa, "BotonPausa")
+				gui.play_flipbook(buttonPausa, "BotonesPausaPresionado")
+			end
+
+			self.is_over = false
+		end
+	end
+
+	if gui.pick_node(buttonPlay, action.x, action.y) then
+		if not is_over then
+			gui.set_texture(buttonPlay, "BotonPlay")
+			gui.play_flipbook(buttonPlay, "BotonesPlayHoover")
+			self.is_over = true
+		end
+	else
+		if self.is_over then
+			gui.set_texture(buttonPlay, "BotonPlay")
+			gui.play_flipbook(buttonPlay, "Botonesplay")
+			self.is_over = false
+		end
+	end
+
+
+	if gui.pick_node(buttonReDo1, action.x, action.y) then
+		if not is_over then
+			gui.set_texture(buttonReDo1, "BotonReDo")
+			gui.play_flipbook(buttonReDo1, "BotonesRedoHoover")
+			self.is_over = true
+		end
+	else
+		if self.is_over then
+			gui.set_texture(buttonReDo1, "BotonReDo")
+			gui.play_flipbook(buttonReDo1, "Botonesreturn")
+			self.is_over = false
+		end
+	end
+
+	if gui.pick_node(buttonReDo2, action.x, action.y) then
+		if not is_over then
+			gui.set_texture(buttonReDo2, "BotonReDo")
+			gui.play_flipbook(buttonReDo2, "BotonesRedoHoover")
+			self.is_over = true
+		end
+	else
+		if self.is_over then
+			gui.set_texture(buttonReDo2, "BotonReDo")
+			gui.play_flipbook(buttonReDo2, "Botonesreturn")
+			self.is_over = false
+		end
+	end
+
+	if gui.pick_node(confi, action.x, action.y) then
+		if not is_over then
+			gui.set_texture(confi, "BotonConfi")
+			gui.play_flipbook(confi, "BotonesConfiHoover")
+			self.is_over = true
+		end
+	else
+		if self.is_over then
+			gui.set_texture(confi, "BotonConfi")
+			gui.play_flipbook(confi, "Botonesconfig")
+			self.is_over = false
+		end
+	end
+
+	if gui.pick_node(salirGameOver, action.x, action.y) then
+		if not is_over then
+			gui.set_texture(salirGameOver, "BotonSalir")
+			gui.play_flipbook(salirGameOver, "BotonSalirH")
+			self.is_over = true
+		end
+	else
+		if self.is_over then
+			gui.set_texture(salirGameOver, "BotonSalir")
+			gui.play_flipbook(salirGameOver, "BotonSalir")
+			self.is_over = false
+		end
+	end
+
+	if gui.pick_node(salirConfi, action.x, action.y) then
+		if not is_over then
+			gui.set_texture(salirConfi, "BotonSalir")
+			gui.play_flipbook(salirConfi, "BotonSalirH")
+			self.is_over = true
+		end
+	else
+		if self.is_over then
+			gui.set_texture(salirConfi, "BotonSalir")
+			gui.play_flipbook(salirConfi, "BotonSalir")
+			self.is_over = false
+		end
+	end
+
+	if gui.pick_node(cerrar, action.x, action.y) then
+		if not is_over then
+			gui.set_texture(cerrar, "BotonCerrar")
+			gui.play_flipbook(cerrar, "CerrarHoover")
+			self.is_over = true
+		end
+	else
+		if self.is_over then
+			gui.set_texture(cerrar, "BotonCerrar")
+			gui.play_flipbook(cerrar, "Cerrar")
+			self.is_over = false
+		end
+	end
+
+	if gui.pick_node(sonido, action.x, action.y) then
+		if not is_over then
+			gui.set_texture(sonido, "BotonAudio")
+			gui.play_flipbook(sonido, "SonidoHoover")
+			self.is_over = true
+		end
+	else
+		if self.is_over then
+			gui.set_texture(sonido, "BotonAudio")
+			gui.play_flipbook(sonido, "Sound")
+			self.is_over = false
+		end
+	end
+
+	if gui.pick_node(musica, action.x, action.y) then
+		if not is_over then
+			gui.set_texture(musica, "BotonMusica")
+			gui.play_flipbook(musica, "MusicaHoover")
+			self.is_over = true
+		end
+	else
+		if self.is_over then
+			gui.set_texture(musica, "BotonMusica")
+			gui.play_flipbook(musica, "Music")
+			self.is_over = false
+		end
+	end
+
+end

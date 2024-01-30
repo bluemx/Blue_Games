@@ -1,0 +1,21 @@
+function init(self)
+	self.timer = 60 -- in seconds
+end
+
+function update(self, dt)
+	if self.timer > 0 then
+		self.timer = self.timer - dt
+		local seconds = self.timer % 60
+		local minutes = (self.timer - seconds)/60 -- or = math.floor(self.tick/60)
+		gui.set_text(gui.get_node("time"), string.format("%02d:%02d", minutes, seconds))
+	end
+	if self.timer <= 0 then
+		self.timer = 0
+		msg.post("juego:/factory#factory", "fin")
+		gui.set_enabled(gui.get_node("time"), false)
+		--gui.set_enabled(gui.get_node("GameOver"), true)
+		msg.post("juego:/go#Juego", "fin")
+		msg.post("juego:/main#main", "fin")
+	end
+		
+end

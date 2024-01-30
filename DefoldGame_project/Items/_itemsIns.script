@@ -1,0 +1,26 @@
+local score = 1
+local speed = -240
+
+function mover_objeto(destino_x, destino_y, duracion)
+	-- Obtener la posición actual del objeto
+	local posicion_actual = go.get_position()
+
+	-- Definir la nueva posición a la que se moverá el objeto
+	local destino = vmath.vector3(destino_x, destino_y, posicion_actual.z)
+
+	-- Animar la posición del objeto hacia el nuevo destino
+	go.animate(".", "position", go.PLAYBACK_ONCE_FORWARD, destino, go.EASING_LINEAR, duracion)
+end
+
+function on_message(self, message_id, message, sender)
+	if message_id == hash("mueve") then 
+		mover_objeto(435, -500, 10)
+	elseif message_id == hash("trigger_response") then
+		msg.post("instrucciones:/bolsains#bolsaParticle","mala")
+		msg.post("instrucciones:/main#main", "rest", {amount = score})
+		--particlefx.play("#good")
+		go.delete()
+	end
+
+
+end

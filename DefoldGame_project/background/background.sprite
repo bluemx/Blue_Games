@@ -1,0 +1,11 @@
+tile_set: "/background/background.atlas"
+default_animation: "fondo-game"
+material: "/builtins/materials/sprite.material"
+blend_mode: BLEND_MODE_ALPHA
+size {
+  x: 640.0
+  y: 960.0
+  z: 0.0
+  w: 0.0
+}
+size_mode: SIZE_MODE_MANUAL

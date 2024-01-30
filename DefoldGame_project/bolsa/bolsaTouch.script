@@ -1,0 +1,26 @@
+local dragging = false
+
+function on_input(self, action_id, action)
+	if action_id == hash("touch") then
+		print("hola hola")
+		if action.pressed then
+			-- Verifica si el clic está sobre el objeto
+			print ("hice click sobre la bolsa")
+			local mouse_pos = vmath.vector3(action.x, action.y, 0)
+			local object_pos = go.get_position("bolsa")
+
+			if vmath.length(object_pos - mouse_pos) < 50 then
+				dragging = true
+			end
+		elseif action.released then
+			dragging = false
+		end
+	end
+
+	if dragging  then
+		print("estoy moviendo")
+		-- Actualiza la posición del objeto mientras se arrastra
+		local new_position = vmath.vector3(action.x, 100, 0)
+		go.set_position(new_position, "bolsa")
+	end
+end

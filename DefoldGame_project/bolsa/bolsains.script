@@ -1,0 +1,47 @@
+function init(self)
+	go.set_position(vmath.vector3(320, 100, -5))
+	local flag bandera1 = false
+	local flag bandera2 = false 
+	local flag bandera3 = false
+	-- Add initialization code here
+	-- Learn more: https://defold.com/manuals/script/
+	-- Remove this function if not needed
+end
+function setear_posicion(x, y, z)
+	-- Establecer la nueva posición del objeto
+	go.set_position(vmath.vector3(x, y, z))
+end
+function mover_objeto(destino_x, destino_y, duracion)
+	-- Obtener la posición actual del objeto
+	local posicion_actual = go.get_position()
+
+	-- Definir la nueva posición a la que se moverá el objeto
+	local destino = vmath.vector3(destino_x, destino_y, posicion_actual.z)
+
+	-- Animar la posición del objeto hacia el nuevo destino
+	go.animate(".", "position", go.PLAYBACK_ONCE_FORWARD, destino, go.EASING_LINEAR, duracion)
+end
+function on_message(self, message_id, message, sender)
+	if message_id == hash("mueve") then
+		if not bandera1 and not bandera2 and not bandera3 then 
+			setear_posicion(500, 100, 0)
+			mover_objeto(100, 100, 3)
+			bandera1 = true
+		elseif bandera1 and not bandera2 and not bandera3 then
+			mover_objeto(500, 100, 3)
+			msg.post("instrucciones:/malains#_itemsIns","mueve")
+			bandera2 = true
+		elseif bandera1 and bandera2 and not bandera3 then 
+							
+				mover_objeto(320, 100, 1)
+				bandera3 = true
+
+		elseif bandera1 and bandera2 and bandera3 then
+				
+			msg.post("instrucciones:/go#instrucciones","listo")
+		end
+			
+	end
+
+
+end

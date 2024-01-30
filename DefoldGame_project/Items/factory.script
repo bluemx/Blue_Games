@@ -1,0 +1,55 @@
+local frequency = 0.5
+
+local bonus_prob = 0.2
+local min_x = 200
+local max_x = 600
+flag=false
+
+function init(self)
+	self.timer = 1/frequency
+	
+	flag = false
+	-- make the game deterministic
+	math.randomseed(0)
+end
+
+function on_message(self, message_id, message, sender)
+	if message_id == hash("fin") then -- <4>
+		flag = true
+	end
+end
+
+function update(self, dt)
+	if not flag then
+		self.timer = self.timer - dt
+		--print(self.timer)
+		--print("freucncia es igual a ",frequency)
+		if self.timer <= 0 then
+			frequency = frequency + 0.05
+			if frequency >2 then 
+				frequency=2
+			end
+			self.timer = 1/frequency
+			local p = go.get_position()
+			p.x = vmath.lerp(math.random(), min_x, max_x)
+			local component = "#Items_factory"
+			local r=math.random(0,10)
+			if r >= 0 and r < 2 then
+				component = "#Papa_factory"
+
+			elseif r >= 2 and r < 3 then
+				component = "#Papa2_factory"
+
+			elseif r>= 3 and r < 4 then
+				component = "#Items_factory"
+
+			elseif r >= 4 and r < 5 then 
+				component = "#Popcorn_factory"
+
+			elseif r >= 5 and r < 10 then
+				component = "#bad_factory"
+			end
+			factory.create(component, p)
+		end
+	end
+end
