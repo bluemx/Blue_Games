@@ -70,15 +70,15 @@
   "children" : [ "/main/instrucciones.collectionc" ]
 }, {
   "path" : "/main/instrucciones.collectionc",
-  "hexDigest" : "88be90fd2b5689bfeb6740a4b47b1fc077227462",
-  "children" : [ "/Items/takis.goc", "/Items/takisInst.goc", "/background/background.goc", "/bolsa/bolsaIns.goc", "/_generated_4416f4e13d800a0a.goc" ]
+  "hexDigest" : "8ec1bed69c91f146f7cd2d09c97a483a188c29d3",
+  "children" : [ "/Items/takisInst.goc", "/background/background.goc", "/bolsa/bolsaIns.goc", "/Items/malains.goc", "/main/main.goc", "/_generated_4416f4e13d800a0a.goc" ]
 }, {
-  "path" : "/Items/takis.goc",
-  "hexDigest" : "ce9126ed459cd902c1a7c0a04f33c8a097753ee9",
-  "children" : [ "/Items/items.scriptc", "/_generated_885182f72943e8e9.spritec", "/_generated_1b308f812cac5e7b.collisionobjectc" ]
+  "path" : "/Items/takisInst.goc",
+  "hexDigest" : "2456c3fb11df115a7f510cb8b15ce87ec98d7791",
+  "children" : [ "/Items/particle system/itemsins.scriptc", "/_generated_885182f72943e8e9.spritec", "/_generated_1b308f812cac5e7b.collisionobjectc" ]
 }, {
-  "path" : "/Items/items.scriptc",
-  "hexDigest" : "fd48ab13b7905fe9194128eb33a87c0a05195c86",
+  "path" : "/Items/particle system/itemsins.scriptc",
+  "hexDigest" : "940c9b93f83012afd14193df22346378edd8d04c",
   "children" : [ ]
 }, {
   "path" : "/_generated_885182f72943e8e9.spritec",
@@ -107,14 +107,6 @@
 }, {
   "path" : "/_generated_1b308f812cac5e7b.collisionobjectc",
   "hexDigest" : "267102dc22fcbd4988a328eccf433c3ecb1b579c",
-  "children" : [ ]
-}, {
-  "path" : "/Items/takisInst.goc",
-  "hexDigest" : "2456c3fb11df115a7f510cb8b15ce87ec98d7791",
-  "children" : [ "/Items/particle system/itemsins.scriptc", "/_generated_885182f72943e8e9.spritec", "/_generated_1b308f812cac5e7b.collisionobjectc" ]
-}, {
-  "path" : "/Items/particle system/itemsins.scriptc",
-  "hexDigest" : "940c9b93f83012afd14193df22346378edd8d04c",
   "children" : [ ]
 }, {
   "path" : "/background/background.goc",
@@ -182,11 +174,63 @@
   "children" : [ ]
 }, {
   "path" : "/bolsa/bolsains.scriptc",
-  "hexDigest" : "47277074f491e19d92fe9a12b10242acf4e70996",
+  "hexDigest" : "e59f54419880b3f508eab8a359574c6e32e17f8a",
   "children" : [ ]
 }, {
   "path" : "/_generated_4fb944d0292aad47.collisionobjectc",
   "hexDigest" : "373a764e67f21097da486784f1e1ce1817ac295b",
+  "children" : [ ]
+}, {
+  "path" : "/Items/malains.goc",
+  "hexDigest" : "e83a3220009edea50e27abc63a6e8f10976b7400",
+  "children" : [ "/Items/_itemsIns.scriptc", "/_generated_689e52e6de08849b.spritec", "/_generated_5aef656ccf99df06.collisionobjectc" ]
+}, {
+  "path" : "/Items/_itemsIns.scriptc",
+  "hexDigest" : "7ff7b105ec0176f52beb7ad72101533906d37e3e",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_689e52e6de08849b.spritec",
+  "hexDigest" : "dfafc228144b9fda5f6b0901301135f6860fc3e8",
+  "children" : [ "/Items/items.a.texturesetc", "/builtins/materials/sprite.materialc" ]
+}, {
+  "path" : "/_generated_5aef656ccf99df06.collisionobjectc",
+  "hexDigest" : "e12e39ef5e18d6c941c3048d4cd714e6ef3e5ee5",
+  "children" : [ ]
+}, {
+  "path" : "/main/main.goc",
+  "hexDigest" : "bc1e99baf07551159ede270badf805aab823e772",
+  "children" : [ "/main/main.guic", "/main/main.scriptc" ]
+}, {
+  "path" : "/main/main.guic",
+  "hexDigest" : "20103fa13d0e79e362c3cef1be481cea10eee5fe",
+  "children" : [ "/main/main.gui_scriptc", "/fonts/score.fontc", "/builtins/materials/gui.materialc" ]
+}, {
+  "path" : "/main/main.gui_scriptc",
+  "hexDigest" : "95f0865eb9c0e991742772e25544d2904a40006b",
+  "children" : [ ]
+}, {
+  "path" : "/fonts/score.fontc",
+  "hexDigest" : "8f0db0d9a4147f9aad7bbee58b0aa5980ddc7b64",
+  "children" : [ "/_generated_dffcc80de7d9819a.glyph_bankc", "/builtins/fonts/font.materialc" ]
+}, {
+  "path" : "/_generated_dffcc80de7d9819a.glyph_bankc",
+  "hexDigest" : "5ffd3fcccf85096e9362368e7335f32cf577b6cf",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/fonts/font.materialc",
+  "hexDigest" : "56cbd377b78f9564763a95f5aea38157db56bf40",
+  "children" : [ "/builtins/fonts/font.vpc", "/builtins/fonts/font.fpc" ]
+}, {
+  "path" : "/builtins/fonts/font.vpc",
+  "hexDigest" : "ee9e4e451532afdd558919a4ab7de0c77e1a4a12",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/fonts/font.fpc",
+  "hexDigest" : "ccc19a1b6492d582e5756c1dd2c52d90c47be959",
+  "children" : [ ]
+}, {
+  "path" : "/main/main.scriptc",
+  "hexDigest" : "3331887a3776801e522301c24cb164cf8e2e1cf3",
   "children" : [ ]
 }, {
   "path" : "/_generated_4416f4e13d800a0a.goc",
@@ -230,6 +274,14 @@
   "hexDigest" : "ff3d59ea08a519fc160b8ce649b366955cdd6907",
   "children" : [ "/Items/takis.goc" ]
 }, {
+  "path" : "/Items/takis.goc",
+  "hexDigest" : "ce9126ed459cd902c1a7c0a04f33c8a097753ee9",
+  "children" : [ "/Items/items.scriptc", "/_generated_885182f72943e8e9.spritec", "/_generated_1b308f812cac5e7b.collisionobjectc" ]
+}, {
+  "path" : "/Items/items.scriptc",
+  "hexDigest" : "fd48ab13b7905fe9194128eb33a87c0a05195c86",
+  "children" : [ ]
+}, {
   "path" : "/_generated_34753c7ba9cfaaf4.factoryc",
   "hexDigest" : "09aa76d89a0b065334879a031ed6e2d75db0083c",
   "children" : [ "/Items/mala.goc" ]
@@ -239,16 +291,12 @@
   "children" : [ "/Items/particle system/bad.particlefxc", "/Items/_items.scriptc", "/_generated_20748e2fd9ec748a.spritec", "/_generated_5aef656ccf99df06.collisionobjectc" ]
 }, {
   "path" : "/Items/_items.scriptc",
-  "hexDigest" : "d6dcdf17637c76eb3bf7a7e15cceb28077f09bdc",
+  "hexDigest" : "33d444837ab14b884752a40d7b4a63e5e8cf9f56",
   "children" : [ ]
 }, {
   "path" : "/_generated_20748e2fd9ec748a.spritec",
   "hexDigest" : "5901488905e4de520cdd325ebff6e1d855173bef",
   "children" : [ "/Items/items.a.texturesetc", "/builtins/materials/sprite.materialc" ]
-}, {
-  "path" : "/_generated_5aef656ccf99df06.collisionobjectc",
-  "hexDigest" : "e12e39ef5e18d6c941c3048d4cd714e6ef3e5ee5",
-  "children" : [ ]
 }, {
   "path" : "/_generated_bb4fa2f5668ec04b.factoryc",
   "hexDigest" : "c9a6b8f2d4374e96f1b282a2480612b72cb635b7",
@@ -295,8 +343,12 @@
   "children" : [ "/Items/items.a.texturesetc", "/builtins/materials/sprite.materialc" ]
 }, {
   "path" : "/bolsa/bolsa.goc",
-  "hexDigest" : "25410a7dde73ffd441efe1fae78584610b343ac3",
-  "children" : [ "/bolsa/bolsa.spritec", "/bolsa/bolsa.scriptc", "/bolsa/bolsaParticle.scriptc", "/Items/particle system/good.particlefxc", "/Items/particle system/bad.particlefxc", "/_generated_3c6a12c031ebe1a9.collisionobjectc" ]
+  "hexDigest" : "cfeaf82014cf6547468c9ce051479d80bf8c4b9b",
+  "children" : [ "/bolsa/bolsa.spritec", "/bolsa/bolsaParticle.scriptc", "/Items/particle system/good.particlefxc", "/Items/particle system/bad.particlefxc", "/bolsa/bolsaTouch.scriptc", "/bolsa/bolsa.scriptc", "/_generated_3c6a12c031ebe1a9.collisionobjectc" ]
+}, {
+  "path" : "/bolsa/bolsaTouch.scriptc",
+  "hexDigest" : "ab2f6201299f1eddfb87daee9f656a66116cafa1",
+  "children" : [ ]
 }, {
   "path" : "/bolsa/bolsa.scriptc",
   "hexDigest" : "751238e7283b671613201eaaade17c35cf3935d5",
@@ -304,42 +356,6 @@
 }, {
   "path" : "/_generated_3c6a12c031ebe1a9.collisionobjectc",
   "hexDigest" : "03bb678f2880a5041cba6f16ea7652a8e91f8fb2",
-  "children" : [ ]
-}, {
-  "path" : "/main/main.goc",
-  "hexDigest" : "bc1e99baf07551159ede270badf805aab823e772",
-  "children" : [ "/main/main.guic", "/main/main.scriptc" ]
-}, {
-  "path" : "/main/main.guic",
-  "hexDigest" : "20103fa13d0e79e362c3cef1be481cea10eee5fe",
-  "children" : [ "/main/main.gui_scriptc", "/fonts/score.fontc", "/builtins/materials/gui.materialc" ]
-}, {
-  "path" : "/main/main.gui_scriptc",
-  "hexDigest" : "95f0865eb9c0e991742772e25544d2904a40006b",
-  "children" : [ ]
-}, {
-  "path" : "/fonts/score.fontc",
-  "hexDigest" : "8f0db0d9a4147f9aad7bbee58b0aa5980ddc7b64",
-  "children" : [ "/_generated_dffcc80de7d9819a.glyph_bankc", "/builtins/fonts/font.materialc" ]
-}, {
-  "path" : "/_generated_dffcc80de7d9819a.glyph_bankc",
-  "hexDigest" : "5ffd3fcccf85096e9362368e7335f32cf577b6cf",
-  "children" : [ ]
-}, {
-  "path" : "/builtins/fonts/font.materialc",
-  "hexDigest" : "56cbd377b78f9564763a95f5aea38157db56bf40",
-  "children" : [ "/builtins/fonts/font.vpc", "/builtins/fonts/font.fpc" ]
-}, {
-  "path" : "/builtins/fonts/font.vpc",
-  "hexDigest" : "ee9e4e451532afdd558919a4ab7de0c77e1a4a12",
-  "children" : [ ]
-}, {
-  "path" : "/builtins/fonts/font.fpc",
-  "hexDigest" : "ccc19a1b6492d582e5756c1dd2c52d90c47be959",
-  "children" : [ ]
-}, {
-  "path" : "/main/main.scriptc",
-  "hexDigest" : "3331887a3776801e522301c24cb164cf8e2e1cf3",
   "children" : [ ]
 }, {
   "path" : "/_generated_f6ac87ed6a4ac0ad.goc",

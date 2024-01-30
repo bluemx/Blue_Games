@@ -1,0 +1,4 @@
+tile_set: "/Items/items.atlas"
+default_animation: "mala"
+material: "/builtins/materials/sprite.material"
+blend_mode: BLEND_MODE_ALPHA
