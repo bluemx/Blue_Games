@@ -3,10 +3,29 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Nielsen</title>
+    <title>Nielsen</title>
+    <style>
+      html, body{ height: 100%; overflow: hidden;}
+      body {
+        background: #000000;
+      }
+      #unity-canvas{
+        width: 100%;
+        height: 100%;
+      }
+      div{
+        aspect-ratio: 9/16;
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0 auto;
+      }
+
+    </style>
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
-    <canvas id="unity-canvas"  style=" background: #231F20"></canvas>
+    <div>
+      <canvas id="unity-canvas"  style=" background: #231F20"></canvas>
+    </div>
     <script src="Build/Pintura.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
@@ -29,7 +48,7 @@
         frameworkUrl: "Build/Pintura.framework.js",
         codeUrl: "Build/Pintura.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
+        companyName: "Nielsen",
         productName: "Nielsen",
         productVersion: "1.0",
         // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
