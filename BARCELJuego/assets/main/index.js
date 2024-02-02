@@ -923,9 +923,96 @@ System.register("chunks:///_virtual/Items.ts", ['./rollupPluginModLoBabelHelpers
   };
 });
 
-System.register("chunks:///_virtual/main", ['./debug-view-runtime-control.ts', './CambioEscena.ts', './Collision.ts', './InputManager.ts', './Items.ts', './Manager_Pausa.ts', './MovimientoCubeta.ts', './ObjetoBueno.ts', './SecuenciaInstrucciones.ts', './SomeOtherScript.ts', './Timer.ts', './TimerInst.ts', './intrucciones.ts'], function () {
+System.register("chunks:///_virtual/Loader.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc'], function (exports) {
+  var _applyDecoratedDescriptor, _inheritsLoose, _initializerDefineProperty, _assertThisInitialized, cclegacy, _decorator, assetManager, ImageAsset, SpriteFrame, Component;
+
   return {
-    setters: [null, null, null, null, null, null, null, null, null, null, null, null, null],
+    setters: [function (module) {
+      _applyDecoratedDescriptor = module.applyDecoratedDescriptor;
+      _inheritsLoose = module.inheritsLoose;
+      _initializerDefineProperty = module.initializerDefineProperty;
+      _assertThisInitialized = module.assertThisInitialized;
+    }, function (module) {
+      cclegacy = module.cclegacy;
+      _decorator = module._decorator;
+      assetManager = module.assetManager;
+      ImageAsset = module.ImageAsset;
+      SpriteFrame = module.SpriteFrame;
+      Component = module.Component;
+    }],
+    execute: function () {
+      var _dec, _dec2, _class, _class2, _descriptor;
+
+      cclegacy._RF.push({}, "b3225yxFWhJKqvl/Pb2mEfL", "Loader", undefined);
+
+      var ccclass = _decorator.ccclass,
+          property = _decorator.property;
+      var Loader = exports('Loader', (_dec = ccclass('Loader'), _dec2 = property(cc.SpriteAtlas), _dec(_class = (_class2 = /*#__PURE__*/function (_Component) {
+        _inheritsLoose(Loader, _Component);
+
+        function Loader() {
+          var _this;
+
+          for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+            args[_key] = arguments[_key];
+          }
+
+          _this = _Component.call.apply(_Component, [this].concat(args)) || this; // Atlas inicial
+
+          _initializerDefineProperty(_this, "atlasInicial", _descriptor, _assertThisInitialized(_this));
+
+          return _this;
+        }
+
+        var _proto = Loader.prototype;
+
+        _proto.start = function start() {
+          var self = this; //let remoteurl = 'https://firebasestorage.googleapis.com/v0/b/bluegamesmx.appspot.com/o/atexture2%2Fatexture2.png?alt=media&token=b985bc68-8295-462d-a52a-03bb865776e1'
+          //let remoteurl = 'https://firebasestorage.googleapis.com/v0/b/bluegamesmx.appspot.com/o/texturaPrueba%2Ftexture.png?alt=media&token=fcf897b7-f5a1-4e13-803b-74e67f227205';
+
+          var remoteurl = 'https://firebasestorage.googleapis.com/v0/b/bluegamesmx.appspot.com/o/texturaPrueba%2Ftexture-2.png?alt=media&token=bbef5350-c457-4781-96f7-0501d081ce8f'; //let remoteurl = 'https://firebasestorage.googleapis.com/v0/b/bluegamesmx.appspot.com/o/texturaPrueba%2Ftexture-normal.png?alt=media&token=846ea635-c513-4538-ba0a-0afa00085295';
+          // Descarga de imagen
+
+          assetManager.loadRemote(remoteurl, ImageAsset, function (err, imageAsset) {
+            if (err) {
+              // Si ocurre error al descargar
+              console.error('ERROR:', err);
+              return;
+            } // Convertir imagen en textura
+
+
+            var texturaRemota = SpriteFrame.createWithImage(imageAsset); // Obtener cada frame del atlas incial
+
+            for (var contador in self.atlasInicial.spriteFrames) {
+              // Guardar cada frame en variable
+              var frame = self.atlasInicial.spriteFrames[contador]; // Asignar la textura a los frames.
+
+              frame._texture = texturaRemota;
+            }
+          });
+        };
+
+        _proto.update = function update(deltaTime) {// Nada...
+        };
+
+        return Loader;
+      }(Component), _descriptor = _applyDecoratedDescriptor(_class2.prototype, "atlasInicial", [_dec2], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return null;
+        }
+      }), _class2)) || _class));
+
+      cclegacy._RF.pop();
+    }
+  };
+});
+
+System.register("chunks:///_virtual/main", ['./debug-view-runtime-control.ts', './CambioEscena.ts', './Collision.ts', './InputManager.ts', './Items.ts', './Loader.ts', './Manager_Pausa.ts', './MovimientoCubeta.ts', './ObjetoBueno.ts', './SecuenciaInstrucciones.ts', './SomeOtherScript.ts', './Timer.ts', './TimerInst.ts', './intrucciones.ts'], function () {
+  return {
+    setters: [null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     execute: function () {}
   };
 });
@@ -1509,7 +1596,8 @@ System.register("chunks:///_virtual/SecuenciaInstrucciones.ts", ['./rollupPlugin
               this.Carga();
             }
 
-            this.anim.defaultClip = this.secuencia[this.index];
+            this.anim.defaultClip = this.secuencia[this.index]; // director.getScheduler().setTimeScale(0.5);
+
             this.anim.play();
           } //director.loadScene("Juego");
 
