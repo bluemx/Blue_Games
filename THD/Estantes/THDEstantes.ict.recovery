@@ -1,4 +1,4 @@
-ctjsVersion: 2.0.2
+ctjsVersion: 3.3.0
 notes: /* empty */
 libs:
   mouse: {}
@@ -202,9 +202,9 @@ textures:
     bottom: 960
     uid: 0c1d276f-f1d2-4380-8cab-ffdcff5ba8bf
     padding: 1
-    source: /Users/albinrdz/Desktop/screen_end.png
+    source: /Users/fldsmdfr/Desktop/screen_end.png
     tiled: true
-    lastmod: 1634567283368
+    lastmod: 1661556313316
   - name: btn_siguiente
     untill: 0
     grid:
@@ -438,9 +438,9 @@ textures:
     padding: 1
     source: /Users/albinrdz/Desktop/nut.png
     lastmod: 1633107732750
-  - lastmod: 1661550403269
+  - lastmod: 1661554947066
     type: texture
-    name: screen_intro-extra
+    name: screen_intro_extra
     untill: 0
     grid:
       - 1
@@ -456,45 +456,45 @@ textures:
     height: 960
     offx: 0
     offy: 0
-    origname: it1hMq7J3qJnQ4t.png
+    origname: iRN7DpHJG48tz2B.png
     shape: rect
     left: 0
     right: 544
     top: 0
     bottom: 960
-    uid: t1hMq7J3qJnQ4t
+    uid: RN7DpHJG48tz2B
     padding: 1
     group: !<tag:yaml.org,2002:js/undefined> ''
     source: /Users/fldsmdfr/Desktop/screen_intro-extra.png
     tiled: true
-  - lastmod: 1661550082051
+  - lastmod: 1661555824227
     type: texture
-    name: animation-tool-drop
+    name: anim
     untill: 0
     grid:
-      - 13
-      - 1
+      - 6
+      - 2
     axis:
       - 0
       - 0
     marginx: 0
     marginy: 0
-    imgWidth: 7072
-    imgHeight: 425
-    width: 544
-    height: 425
+    imgWidth: 1200
+    imgHeight: 716
+    width: 200
+    height: 358
     offx: 0
     offy: 0
-    origname: i1nrBhf78zR8GbK.png
+    origname: im6JbpgpJMzfJ3Q.png
     shape: rect
     left: 0
-    right: 7072
+    right: 2400
     top: 0
-    bottom: 425
-    uid: 1nrBhf78zR8GbK
+    bottom: 358
+    uid: m6JbpgpJMzfJ3Q
     padding: 1
     group: !<tag:yaml.org,2002:js/undefined> ''
-    source: /Users/fldsmdfr/Desktop/animation-tool-drop.png
+    source: /Users/fldsmdfr/Desktop/anim.png
 skeletons: []
 sounds:
   - name: wave
@@ -613,265 +613,110 @@ styles:
       color: '#808080'
 rooms:
   - name: Game
-    oncreate: >-
-      ct.room.dropsColors = ['blue', 'green', 'pink', 'orange']
-
-      //ct.room.dropsColors = ['blue', 'green']
-
-      ct.room.colLen = ct.room.dropsColors.length-1
-
-
-      ct.room.paused = false
-
-
-
-
-      //---------------------------------------
-
-      // SCORE
-
-      ct.room.score = 0
-
-
-      this.scoreLabel = new PIXI.Text(ct.room.score,
-      ct.styles.get('boldScore'));
-
-      this.scoreLabel.anchor.set(0.5, 0.5);
-
-      this.scoreLabel.x = ct.viewWidth - 86;
-
-      this.scoreLabel.y = 50;
-
-      this.addChild(this.scoreLabel);
-
-
-
-      this.scoreLabelTXT = new PIXI.Text('puntos',
-      ct.styles.get('boldScore_txt'));
-
-      this.scoreLabelTXT.x = ct.viewWidth - 130;
-
-      this.scoreLabelTXT.y = 70;
-
-      this.addChild(this.scoreLabelTXT);
-
-
-      //---------------------------------------
-
-
-      // HEADER BACKGROUND
-
-      var headerRectangle = new PIXI.Graphics();
-
-      headerRectangle.beginFill(0xffffff);
-
-      headerRectangle.drawRect(0, 6, ct.viewWidth, 110);
-
-      headerRectangle.endFill()
-
-      headerRectangle.depth = -1;
-
-      this.addChild(headerRectangle)
-
-
-
-
-
-
-
-      //---------------------------------------
-
-      // PLACE TOOLS
-
-      var toolsList = ['t1', 't2', 't3', 't4', 't5']
-
-      var tX = 66
-
-      var tY = ct.viewHeight-100
-
-      for(var i in toolsList){
-          var item = toolsList[i]
-          var tool = ct.types.copy('tools', tX+(100*i), tY)
-          tool.scale.x = tool.scale.y = 0.6
-          tool.gotoAndStop(i)
-
-      }
-
-
-
-
-
-
-
-
-
-
-
-
-      //---------------------------------------
-
-      // GAME OVER
-
-
-
-      ct.room.GameOverFN = function () {
-          console.warn('---------------')
-          console.log('GAME OVER')
-
-          ct.room.gameover = true
-          
-          ct.u.wait(1000)
-          .then(() => {
-              ct.rooms.merge('GameOver');
-              ct.sound.spawn('end');
-
-              this.scoreLabelEnd = new PIXI.Text(ct.room.score, ct.styles.get('boldScore_BIG'));
-              this.scoreLabelEnd.anchor.set(0.5, 0.5);
-
-              this.scoreLabelTXTEnd = new PIXI.Text('puntos', ct.styles.get('boldScore_txt_BIG'));
-              this.scoreLabelTXTEnd.anchor.set(0.5, 0.5);
-
-              this.scoreLabelEnd.depth = 11
-              this.scoreLabelTXTEnd.depth = 11
-
-              this.scoreLabelEnd.x = ct.viewWidth/2
-              this.scoreLabelEnd.y = (ct.viewHeight/2)-60
-
-              this.scoreLabelTXTEnd.x = ct.viewWidth/2
-              this.scoreLabelTXTEnd.y = (ct.viewHeight/2)
-
-              this.addChild(this.scoreLabelEnd);
-              this.addChild(this.scoreLabelTXTEnd);
-
-
-              //this.endpart = ct.emitters.fire('endparticles', ct.viewWidth/2, ct.viewHeight/2, {depth: 11})
-
-              var endresult = {
-                  score:ct.room.score,
-                  points: this.pointsList
-              }
-              window.parent.postMessage(JSON.stringify(endresult), '*')
-
-              //console.log(endresult)
-          })
-      }
-
-
-
-
-
-
-
-
-
-
-
-
-      function debug (item, color, posX, posY) {
-          var ov =  new PIXI.Graphics();
-          ov.beginFill(color);
-          ov.drawCircle(0, 0, 8);
-          ov.endFill();
-          item.addChild(ov);
-          ct.u.wait(100)
-              .then(() => {
-                  item.removeChild(ov);
-              })
-      }
-
-
-
-
-      this.pointsList = {
-          taladro: 0,
-          martillo: 0,
-          llaves: 0,
-          inglesa: 0,
-          pinzas: 0,
-          especiales: 0,
-          values: [['taladro', 19], ['martillo', 47], ['llaves', 79], ['inglesa', 97], ['pinzas', 149], ['especiales', 'valor*3']]
-      }
-
-
-
-
-      this.addPoints = function (toolPointsValue, pointx, pointy, toolname){
-          var pointxpos = pointx
-          var pointypos = pointy
-          
-          //var points = 10 * (toolPointsValue+1);
-          var points = toolPointsValue
-          this.pointsList[toolname] += points
-
-          var pointview = ct.types.copy('points', pointxpos, pointypos)
-          pointview.pointLabel.text = '+'+points;
-
-          ct.room.score += points;
-
-      }
-    onstep: |
-      //this.descendCallTime+= ct.deltaUi
-    ondraw: |
-
-      this.scoreLabel.text = ct.room.score;
     onleave: ''
     width: 544
     height: 960
     backgrounds:
       - depth: -1
         texture: b10e5bcc-e93f-454d-a744-c3759b1283d0
-        extends:
-          repeat: no-repeat
-          shiftY: 794
-          scaleX: 0.98
-          scaleY: 0.98
-          shiftX: 6
+        movementX: 0
+        movementY: 0
+        parallaxX: 1
+        parallaxY: 1
+        repeat: no-repeat
+        scaleX: 0.98
+        scaleY: 0.98
+        shiftX: 6
+        shiftY: 794
       - depth: 0
         texture: 58b830d3-71d9-4c04-be14-98202bc53a09
-        extends:
-          repeat: no-repeat
-          scaleX: 0.8
-          scaleY: 0.8
-          shiftX: 34
-          shiftY: 10
+        movementX: 0
+        movementY: 0
+        parallaxX: 1
+        parallaxY: 1
+        repeat: no-repeat
+        scaleX: 0.8
+        scaleY: 0.8
+        shiftX: 34
+        shiftY: 10
       - depth: 3
         texture: e2cad58c-b4eb-4d4e-b049-32a0e0da12e9
-        extends:
-          repeat: no-repeat
-          shiftX: 502
-          scaleY: 0.9
-          shiftY: 564
+        movementX: 0
+        movementY: 0
+        parallaxX: 1
+        parallaxY: 1
+        repeat: no-repeat
+        scaleX: 1
+        scaleY: 0.9
+        shiftX: 502
+        shiftY: 564
       - depth: 3
         texture: e2cad58c-b4eb-4d4e-b049-32a0e0da12e9
-        extends:
-          repeat: no-repeat
-          shiftX: 502
-          scaleY: 0.9
-          shiftY: 338
+        movementX: 0
+        movementY: 0
+        parallaxX: 1
+        parallaxY: 1
+        repeat: no-repeat
+        scaleX: 1
+        scaleY: 0.9
+        shiftX: 502
+        shiftY: 338
       - depth: 3
         texture: e2cad58c-b4eb-4d4e-b049-32a0e0da12e9
-        extends:
-          repeat: no-repeat
-          shiftX: 502
-          shiftY: 114
-          scaleY: 0.9
+        movementX: 0
+        movementY: 0
+        parallaxX: 1
+        parallaxY: 1
+        repeat: no-repeat
+        scaleX: 1
+        scaleY: 0.9
+        shiftX: 502
+        shiftY: 114
     copies:
       - x: 288
         'y': 64
         uid: 7f04eaea-c5fc-4698-b461-1d7617c77492
         exts: {}
+        customProperties: {}
+        opacity: 1
+        tint: 16777215
+        rotation: 0
+        scale:
+          x: 1
+          'y': 1
       - x: 0
         'y': 224
         uid: 4e4a82ac-4d98-4bd4-ac28-9ab7d434573c
         exts: {}
+        customProperties: {}
+        opacity: 1
+        tint: 16777215
+        rotation: 0
+        scale:
+          x: 1
+          'y': 1
       - x: 0
         'y': 448
         uid: 4e4a82ac-4d98-4bd4-ac28-9ab7d434573c
         exts: {}
+        customProperties: {}
+        opacity: 1
+        tint: 16777215
+        rotation: 0
+        scale:
+          x: 1
+          'y': 1
       - x: 0
         'y': 672
         uid: 4e4a82ac-4d98-4bd4-ac28-9ab7d434573c
         exts: {}
+        customProperties: {}
+        opacity: 1
+        tint: 16777215
+        rotation: 0
+        scale:
+          x: 1
+          'y': 1
     tiles:
       - depth: -10
         tiles: []
@@ -882,9 +727,233 @@ rooms:
     gridX: 32
     gridY: 32
     backgroundColor: '#F5750D'
-    lastmod: 1661550151962
+    lastmod: 1661558165537
+    events:
+      - lib: core
+        arguments: {}
+        code: >-
+          ct.room.dropsColors = ['blue', 'green', 'pink', 'orange']
+
+          //ct.room.dropsColors = ['blue', 'green']
+
+          ct.room.colLen = ct.room.dropsColors.length-1
+
+
+          ct.room.paused = false
+
+
+
+
+          var requestMsg = {
+                      state:'gamestart',
+          }
+
+          window.parent.postMessage(JSON.stringify(requestMsg), '*')
+
+
+
+          //---------------------------------------
+
+          // SCORE
+
+          ct.room.score = 0
+
+
+          this.scoreLabel = new PIXI.Text(ct.room.score,
+          ct.styles.get('boldScore'));
+
+          this.scoreLabel.anchor.set(0.5, 0.5);
+
+          this.scoreLabel.x = ct.camera.width - 86;
+
+          this.scoreLabel.y = 50;
+
+          this.addChild(this.scoreLabel);
+
+
+
+          this.scoreLabelTXT = new PIXI.Text('puntos',
+          ct.styles.get('boldScore_txt'));
+
+          this.scoreLabelTXT.x = ct.camera.width - 130;
+
+          this.scoreLabelTXT.y = 70;
+
+          this.addChild(this.scoreLabelTXT);
+
+
+          //---------------------------------------
+
+
+          // HEADER BACKGROUND
+
+          var headerRectangle = new PIXI.Graphics();
+
+          headerRectangle.beginFill(0xffffff);
+
+          headerRectangle.drawRect(0, 6, ct.camera.width, 110);
+
+          headerRectangle.endFill()
+
+          headerRectangle.depth = -1;
+
+          this.addChild(headerRectangle)
+
+
+
+
+
+
+
+          //---------------------------------------
+
+          // PLACE TOOLS
+
+          var toolsList = ['t1', 't2', 't3', 't4', 't5']
+
+          var tX = 66
+
+          var tY = ct.camera.height-100
+
+          for(var i in toolsList){
+              var item = toolsList[i]
+              
+              var tool = ct.templates.copy('tools', tX+(100*i), tY)
+              tool.scale.x = tool.scale.y = 0.6
+              tool.gotoAndStop(i)
+
+          }
+
+
+
+
+
+
+
+
+
+
+
+
+          //---------------------------------------
+
+          // GAME OVER
+
+
+
+          ct.room.GameOverFN = function () {
+              console.warn('---------------')
+              console.log('GAME OVER')
+
+              ct.room.gameover = true
+              
+              ct.u.wait(1000)
+              .then(() => {
+                  ct.rooms.merge('GameOver');
+                  ct.sound.spawn('end');
+
+                  this.scoreLabelEnd = new PIXI.Text(ct.room.score, ct.styles.get('boldScore_BIG'));
+                  this.scoreLabelEnd.anchor.set(0.5, 0.5);
+
+                  this.scoreLabelTXTEnd = new PIXI.Text('puntos', ct.styles.get('boldScore_txt_BIG'));
+                  this.scoreLabelTXTEnd.anchor.set(0.5, 0.5);
+
+                  this.scoreLabelEnd.depth = 11
+                  this.scoreLabelTXTEnd.depth = 11
+
+                  this.scoreLabelEnd.x = ct.camera.width/2
+                  this.scoreLabelEnd.y = (ct.camera.height/2)-60
+
+                  this.scoreLabelTXTEnd.x = ct.camera.width/2
+                  this.scoreLabelTXTEnd.y = (ct.camera.height/2)
+
+                  this.addChild(this.scoreLabelEnd);
+                  this.addChild(this.scoreLabelTXTEnd);
+
+
+                  //this.endpart = ct.emitters.fire('endparticles', ct.viewWidth/2, ct.viewHeight/2, {depth: 11})
+
+                  var requestMsg = {
+                      state:'gameover',
+                      score:ct.room.score,
+                      points: this.pointsList
+                  }
+                  window.parent.postMessage(JSON.stringify(requestMsg), '*')
+
+                  //console.log(endresult)
+              })
+          }
+
+
+
+
+
+
+
+
+
+
+
+
+          function debug (item, color, posX, posY) {
+              var ov =  new PIXI.Graphics();
+              ov.beginFill(color);
+              ov.drawCircle(0, 0, 8);
+              ov.endFill();
+              item.addChild(ov);
+              ct.u.wait(100)
+                  .then(() => {
+                      item.removeChild(ov);
+                  })
+          }
+
+
+
+
+          this.pointsList = {
+              taladro: 0,
+              martillo: 0,
+              llaves: 0,
+              inglesa: 0,
+              pinzas: 0,
+              especiales: 0,
+              values: [['taladro', 19], ['martillo', 47], ['llaves', 79], ['inglesa', 97], ['pinzas', 149], ['especiales', 'valor*3']]
+          }
+
+
+
+
+          this.addPoints = function (toolPointsValue, pointx, pointy, toolname){
+              var pointxpos = pointx
+              var pointypos = pointy
+              
+              //var points = 10 * (toolPointsValue+1);
+              var points = toolPointsValue
+              this.pointsList[toolname] += points
+
+              var pointview = ct.templates.copy('points', pointxpos, pointypos)
+              pointview.pointLabel.text = '+'+points;
+
+              ct.room.score += points;
+
+          }
+        eventKey: OnRoomStart
+      - lib: core
+        arguments: {}
+        code: |
+          //this.descendCallTime+= ct.deltaUi
+        eventKey: OnStep
+      - lib: core
+        arguments: {}
+        code: |
+
+          this.scoreLabel.text = ct.room.score;
+        eventKey: OnDraw
+    type: room
+    simulate: true
+    isUi: false
+    follow: -1
   - name: GameOver
-    oncreate: ct.pixiApp.ticker.speed = 0;
     onstep: ''
     ondraw: ''
     onleave: ''
@@ -893,8 +962,15 @@ rooms:
     backgrounds:
       - depth: 10
         texture: 0c1d276f-f1d2-4380-8cab-ffdcff5ba8bf
-        extends:
-          repeat: no-repeat
+        movementX: 0
+        movementY: 0
+        parallaxX: 1
+        parallaxY: 1
+        repeat: no-repeat
+        scaleX: 1
+        scaleY: 1
+        shiftX: 0
+        shiftY: 0
     copies: []
     tiles:
       - depth: -10
@@ -902,14 +978,21 @@ rooms:
         extends: {}
     uid: 3d0292ac-0e01-4418-9526-98eec0ea397a
     thumbnail: 98eec0ea397a
-    extends:
-      isUi: true
+    extends: {}
     gridX: 32
     gridY: 32
-    lastmod: 1633115164385
+    lastmod: 1661556364481
     backgroundColor: '#FFFFFF'
+    events:
+      - lib: core
+        arguments: {}
+        code: ct.pixiApp.ticker.speed = 0;
+        eventKey: OnRoomStart
+    type: room
+    simulate: true
+    isUi: true
+    follow: -1
   - name: Start
-    oncreate: ''
     onstep: ''
     ondraw: ''
     onleave: ''
@@ -918,46 +1001,63 @@ rooms:
     backgrounds:
       - depth: 0
         texture: e2c1dd1f-7c20-4340-b92f-3d8e5a96db3f
-        extends:
-          repeat: no-repeat
+        movementX: 0
+        movementY: 0
+        parallaxX: 1
+        parallaxY: 1
+        repeat: no-repeat
+        scaleX: 1
+        scaleY: 1
+        shiftX: 0
+        shiftY: 0
     copies:
-      - x: 160
-        'y': 832
-        uid: 0d9d57d2-d382-48e8-8fd7-310a70a6990f
-        exts: {}
-      - x: 160
-        'y': 832
-        uid: 0d9d57d2-d382-48e8-8fd7-310a70a6990f
-        exts: {}
       - x: 32
         'y': 832
         uid: d3d08892-2530-4088-8248-d026f19bc50d
         exts: {}
+        customProperties: {}
+        opacity: 1
+        tint: 16777215
+        rotation: 0
+        scale:
+          x: 1
+          'y': 1
+      - x: 160
+        'y': 832
+        uid: 0d9d57d2-d382-48e8-8fd7-310a70a6990f
+        exts: {}
+        customProperties: {}
+        opacity: 1
+        tint: 16777215
+        rotation: 0
+        scale:
+          x: 1
+          'y': 1
     tiles:
       - depth: -10
         tiles: []
         extends: {}
     uid: 5dac3056-eebb-4ff5-b4f2-107ca335fd4b
     thumbnail: 107ca335fd4b
-    extends:
-      isUi: true
+    extends: {}
     gridX: 32
     gridY: 32
-    lastmod: 1661550385607
+    lastmod: 1661558185488
     backgroundColor: '#F5750D'
+    events:
+      - lib: core
+        arguments: {}
+        code: |-
+          var requestMsg = {
+                      state:'gameopen',
+                  }
+                  window.parent.postMessage(JSON.stringify(requestMsg), '*')
+        eventKey: OnRoomStart
+    type: room
+    simulate: true
+    isUi: true
+    follow: -1
   - name: Paused
-    oncreate: >+
-      this.pausedLabel = new PIXI.Text('Juego Pausado',
-      ct.styles.get('boldScore'));
-
-      this.pausedLabel.anchor.set(0.5, 0.5);
-
-      this.pausedLabel.x = ct.viewWidth/2;
-
-      this.pausedLabel.y = 140;
-
-      this.addChild(this.pausedLabel);
-
     onstep: ''
     ondraw: ''
     onleave: ''
@@ -966,8 +1066,15 @@ rooms:
     backgrounds:
       - depth: 0
         texture: 39685529-7f56-4862-9c6f-d2071436fe96
-        extends:
-          repeat: no-repeat
+        movementX: 0
+        movementY: 0
+        parallaxX: 1
+        parallaxY: 1
+        repeat: no-repeat
+        scaleX: 1
+        scaleY: 1
+        shiftX: 0
+        shiftY: 0
     copies: []
     tiles:
       - depth: -10
@@ -975,20 +1082,32 @@ rooms:
         extends: {}
     uid: a0324ff9-3dff-4d95-af5e-be3cfbbc6a4e
     thumbnail: be3cfbbc6a4e
-    extends:
-      isUi: true
+    extends: {}
     gridX: 32
     gridY: 32
     lastmod: 1633040036230
     backgroundColor: '#FFFFFF'
+    events:
+      - lib: core
+        arguments: {}
+        code: >+
+          this.pausedLabel = new PIXI.Text('Juego Pausado',
+          ct.styles.get('boldScore'));
+
+          this.pausedLabel.anchor.set(0.5, 0.5);
+
+          this.pausedLabel.x = ct.viewWidth/2;
+
+          this.pausedLabel.y = 140;
+
+          this.addChild(this.pausedLabel);
+
+        eventKey: OnRoomStart
+    type: room
+    simulate: true
+    isUi: true
+    follow: -1
   - name: Start2
-    oncreate: |-
-      ct.emitters.append(this, 'goldtool', {
-              position: {
-                  x: ct.viewWidth/2,
-                  y: (ct.viewHeight/2) + 140
-              }
-          });
     onstep: ''
     ondraw: ''
     onleave: ''
@@ -997,30 +1116,65 @@ rooms:
     backgrounds:
       - depth: 0
         texture: 805b1081-c4d0-4ea3-a629-a4c8aa2cbaa4
-        extends:
-          repeat: no-repeat
+        movementX: 0
+        movementY: 0
+        parallaxX: 1
+        parallaxY: 1
+        repeat: no-repeat
+        scaleX: 1
+        scaleY: 1
+        shiftX: 0
+        shiftY: 0
     copies:
       - x: 160
         'y': 832
         uid: 2aa15139-db50-447a-b84c-659cf389994a
         exts: {}
+        customProperties: {}
+        opacity: 1
+        tint: 16777215
+        rotation: 0
+        scale:
+          x: 1
+          'y': 1
       - x: 32
         'y': 832
         uid: 1281308a-1847-4b2b-baa3-eb2156a24157
         exts: {}
+        customProperties: {}
+        opacity: 1
+        tint: 16777215
+        rotation: 0
+        scale:
+          x: 1
+          'y': 1
     tiles:
       - depth: -10
         tiles: []
         extends: {}
     uid: 8612a157-40fe-494b-90ef-326ae45b92d2
     thumbnail: 326ae45b92d2
-    extends:
-      isUi: true
+    extends: {}
     gridX: 32
     gridY: 32
     lastmod: 1634567680137
     backgroundColor: '#F5750D'
-  - name: Start-extra
+    events:
+      - lib: core
+        arguments: {}
+        code: |-
+          ct.emitters.append(this, 'goldtool', {
+                  position: {
+                      x: ct.viewWidth/2,
+                      y: (ct.viewHeight/2) + 140
+                  }
+              });
+        eventKey: OnRoomStart
+    type: room
+    simulate: true
+    isUi: true
+    follow: -1
+  - name: Start_extra
     oncreate: ''
     onstep: ''
     ondraw: ''
@@ -1029,50 +1183,66 @@ rooms:
     height: 960
     backgrounds:
       - depth: 0
-        texture: e2c1dd1f-7c20-4340-b92f-3d8e5a96db3f
-        extends:
-          repeat: no-repeat
-      - depth: 0
-        texture: t1hMq7J3qJnQ4t
-        extends:
-          repeat: no-repeat
+        texture: RN7DpHJG48tz2B
+        movementX: 0
+        movementY: 0
+        parallaxX: 1
+        parallaxY: 1
+        repeat: no-repeat
+        scaleX: 1
+        scaleY: 1
+        shiftX: 0
+        shiftY: 0
     copies:
-      - x: 160
-        'y': 832
-        uid: 0d9d57d2-d382-48e8-8fd7-310a70a6990f
-        exts: {}
-      - x: 160
-        'y': 832
-        uid: 0d9d57d2-d382-48e8-8fd7-310a70a6990f
-        exts: {}
       - x: 32
         'y': 832
         uid: d3d08892-2530-4088-8248-d026f19bc50d
         exts: {}
-      - x: 0
+        customProperties: {}
+        opacity: 1
+        tint: 16777215
+        rotation: 0
+        scale:
+          x: 1
+          'y': 1
+      - x: 160
+        'y': 832
+        uid: zL5fkcm7D5MCfH
+        exts: {}
+        customProperties: {}
+        opacity: 1
+        tint: 16777215
+        rotation: 0
+        scale:
+          x: 1
+          'y': 1
+      - x: 160
         'y': 288
-        uid: LJLpMpB54CpRMP
+        uid: 3rJCb53R7ftHrr
         exts: {}
-      - x: 0
-        'y': 320
-        uid: LJLpMpB54CpRMP
-        exts: {}
-      - x: 0
-        'y': 320
-        uid: LJLpMpB54CpRMP
-        exts: {}
+        customProperties: {}
+        opacity: 1
+        tint: 16777215
+        rotation: 0
+        scale:
+          x: 1
+          'y': 1
     tiles:
       - depth: -10
         tiles: []
         extends: {}
-    uid: hqT4PjG9hq1G7C
-    thumbnail: hqT4PjG9hq1G7C
-    extends:
-      isUi: true
+    uid: MjKb1rn1d4Hdkj
+    thumbnail: MjKb1rn1d4Hdkj
+    extends: {}
     gridX: 32
     gridY: 32
-    lastmod: 1661550398574
+    lastmod: 1661555814850
     backgroundColor: '#F5750D'
+    events: []
+    type: room
+    simulate: true
+    isUi: true
+    follow: -1
 actions:
   - name: TouchAction
     methods:
@@ -1277,6 +1447,7 @@ settings:
     highDensity: true
     desktopMode: maximized
     mobileScreenOrientation: unspecified
+    transparent: false
   export:
     windows: true
     linux: true
@@ -1329,452 +1500,610 @@ groups:
 templates:
   - name: timer
     depth: 0
-    oncreate: |+
-      var _this = this
-      this.times = 0
-
-      this.gotoAndStop(10)
-
-      //60 segundos
-      this.fullTime = 60
-
-
-      var timerinterval = setInterval(function () {
-          //Check for outside GameOver
-          if(ct.room.gameover){
-              clearInterval(timerinterval)
-              return false
-          }
-
-
-          //_this.times += 1
-          //_this.gotoAndStop(10 - _this.times)
-          if(!ct.room.paused){
-              _this.fullTime -=1
-          }
-
-          var timeSecTo10 =  Math.round(_this.fullTime/6)
-
-          _this.gotoAndStop(  timeSecTo10 )
-
-          
-
-
-          // Time end: GameOver FN
-          if(_this.currentFrame==0){
-              ct.room.GameOverFN()
-          }
-
-
-
-      }, 1000)
-
-    onstep: |+
-      this.move();
-
-    ondraw: ''
-    ondestroy: ''
     texture: 9b466b9c-bea0-46d0-a3bc-be1e653eeb48
     extends: {}
     uid: 7f04eaea-c5fc-4698-b461-1d7617c77492
     lastmod: 1645104544430
+    events:
+      - lib: core
+        arguments: {}
+        code: |+
+          var _this = this
+          this.times = 0
+
+          this.gotoAndStop(10)
+
+          //60 segundos
+          this.fullTime = 60
+
+
+          var timerinterval = setInterval(function () {
+              //Check for outside GameOver
+              if(ct.room.gameover){
+                  clearInterval(timerinterval)
+                  return false
+              }
+
+
+              //_this.times += 1
+              //_this.gotoAndStop(10 - _this.times)
+              if(!ct.room.paused){
+                  _this.fullTime -=1
+              }
+
+              var timeSecTo10 =  Math.round(_this.fullTime/6)
+
+              _this.gotoAndStop(  timeSecTo10 )
+
+              
+
+
+              // Time end: GameOver FN
+              if(_this.currentFrame==0){
+                  ct.room.GameOverFN()
+              }
+
+
+
+          }, 1000)
+
+        eventKey: OnCreate
+      - lib: core
+        arguments: {}
+        code: |+
+          this.move();
+
+        eventKey: OnStep
+    type: template
+    loopAnimation: true
+    visible: true
+    blendMode: normal
+    animationFPS: 30
+    playAnimationOnStart: false
   - name: playpause
     depth: 6
-    oncreate: |+
-
-
-      this.pauseRoom
-
-    onstep: |-
-      this.move();
-
-      if (ct.touch.collideUi(this)) {
-          if(!ct.room.gameover){
-              if(!this.pressed){
-                  if(this.currentFrame==0){
-                      //PAUSE
-                      ct.room.paused = true;
-                      ct.pixiApp.ticker.speed = 0;
-                      this.gotoAndStop(1);
-                      this.x = 480;
-                      this.pauseRoom = ct.rooms.append('Paused', { isUi: true });
-                  } else if(this.currentFrame==1){
-                      //PLAY
-                      setTimeout(function () {
-                          ct.room.paused = false;
-                          ct.pixiApp.ticker.speed = 1;
-                      },200)
-                      this.gotoAndStop(0);
-                      this.x = 64;
-                      ct.rooms.remove(this.pauseRoom)
-                  }
-                  
-              }
-          }
-      }
-    ondraw: ''
-    ondestroy: ''
     texture: 04aea4a6-be6e-4e65-8453-10a7317df61f
     extends: {}
     uid: 4895cabc-130a-4a79-8454-d250a366c12a
     lastmod: 1632957195353
+    events:
+      - lib: core
+        arguments: {}
+        code: |+
+
+
+          this.pauseRoom
+
+        eventKey: OnCreate
+      - lib: core
+        arguments: {}
+        code: |-
+          this.move();
+
+          if (ct.touch.collideUi(this)) {
+              if(!ct.room.gameover){
+                  if(!this.pressed){
+                      if(this.currentFrame==0){
+                          //PAUSE
+                          ct.room.paused = true;
+                          ct.pixiApp.ticker.speed = 0;
+                          this.gotoAndStop(1);
+                          this.x = 480;
+                          this.pauseRoom = ct.rooms.append('Paused', { isUi: true });
+                      } else if(this.currentFrame==1){
+                          //PLAY
+                          setTimeout(function () {
+                              ct.room.paused = false;
+                              ct.pixiApp.ticker.speed = 1;
+                          },200)
+                          this.gotoAndStop(0);
+                          this.x = 64;
+                          ct.rooms.remove(this.pauseRoom)
+                      }
+                      
+                  }
+              }
+          }
+        eventKey: OnStep
+    type: template
+    loopAnimation: true
+    visible: true
+    blendMode: normal
+    animationFPS: 30
+    playAnimationOnStart: false
   - name: points
     depth: 0
-    oncreate: |-
-      this.pointLabel = new PIXI.Text('+9', ct.styles.get('points'));
-      this.pointLabel.x = 0;
-      this.pointLabel.y = 0;
-      this.addChild(this.pointLabel);
-
-
-
-      var timer = ct.timer.add(500, 'killtimer');
-      timer.then(() => {
-          this.kill = true
-      })
-    onstep: |-
-      this.move();
-      this.y-=1
-    ondraw: ''
-    ondestroy: ''
     texture: -1
     extends: {}
     uid: 333b98b5-c42e-413e-a739-deb1f6472b51
     lastmod: 1632938348170
+    events:
+      - lib: core
+        arguments: {}
+        code: |-
+          this.pointLabel = new PIXI.Text('+9', ct.styles.get('points'));
+          this.pointLabel.x = 0;
+          this.pointLabel.y = 0;
+          this.addChild(this.pointLabel);
+
+
+
+          var timer = ct.timer.add(500, 'killtimer');
+          timer.then(() => {
+              this.kill = true
+          })
+        eventKey: OnCreate
+      - lib: core
+        arguments: {}
+        code: |-
+          this.move();
+          this.y-=1
+        eventKey: OnStep
+    type: template
+    loopAnimation: true
+    visible: true
+    blendMode: normal
+    animationFPS: 30
+    playAnimationOnStart: false
   - name: btn_back
     depth: 1
-    oncreate: |+
-      this.pressed = false
-
-    onstep: |-
-      this.move();
-
-      this.move();
-
-      if (ct.touch.collideUi(this)) {
-             this.tint = 0xF5A568
-
-          if(!this.pressed){
-              this.pressed = true;
-              ct.u.wait(150).then(() => {
-                  ct.rooms.switch('Start')
-              })
-          }
-      }
-    ondraw: ''
-    ondestroy: ''
     texture: 7fc3fa0b-8022-43df-8c2d-2bceff10a98a
     extends: {}
     uid: 1281308a-1847-4b2b-baa3-eb2156a24157
-    lastmod: 1633027127273
+    lastmod: 1661558239819
+    events:
+      - lib: core
+        arguments: {}
+        code: |+
+          this.pressed = false
+
+        eventKey: OnCreate
+      - lib: core
+        arguments: {}
+        code: |-
+          this.move();
+
+          this.move();
+
+          if (ct.touch.collideUi(this)) {
+                 this.tint = 0xF5A568
+
+              if(!this.pressed){
+                  this.pressed = true;
+                  ct.u.wait(150).then(() => {
+                      ct.rooms.switch('Start')
+                  })
+                  var requestMsg = {
+                      state:'btn_back',
+                  }
+                  window.parent.postMessage(JSON.stringify(requestMsg), '*')
+              }
+          }
+        eventKey: OnStep
+    type: template
+    loopAnimation: true
+    visible: true
+    blendMode: normal
+    animationFPS: 30
+    playAnimationOnStart: false
   - name: btn_comenzar
     depth: 1
-    oncreate: this.pressed = false
-    onstep: |-
-      this.move();
-
-      if (ct.touch.collideUi(this)) {
-              this.tint = 0xF5A568
-
-          if(!this.pressed){
-              this.pressed = true;
-              ct.sound.spawn('wave')
-              ct.u.wait(150).then(() => {
-                  ct.rooms.switch('Game')
-              })
-          }
-      }
-    ondraw: ''
-    ondestroy: ''
     texture: afd706e3-381c-4530-b461-6fe3fa62ad11
     extends: {}
     uid: 2aa15139-db50-447a-b84c-659cf389994a
-    lastmod: 1661550372193
+    lastmod: 1661557145616
+    events:
+      - lib: core
+        arguments: {}
+        code: this.pressed = false
+        eventKey: OnCreate
+      - lib: core
+        arguments: {}
+        code: |-
+          this.move();
+
+          if (ct.touch.collideUi(this)) {
+                  this.tint = 0xF5A568
+
+              if(!this.pressed){
+                  this.pressed = true;
+                  ct.sound.spawn('wave')
+                  ct.u.wait(150).then(() => {
+                      ct.rooms.switch('Game')
+                  })
+                  var requestMsg = {
+                      state:'btn_comenzar',
+                  }
+                  window.parent.postMessage(JSON.stringify(requestMsg), '*')
+              }
+          }
+        eventKey: OnStep
+    type: template
+    loopAnimation: true
+    visible: true
+    blendMode: normal
+    animationFPS: 30
+    playAnimationOnStart: false
   - name: btn_siguiente
     depth: 1
-    oncreate: this.pressed = false;
-    onstep: |-
-      this.move();
-
-      if (ct.touch.collideUi(this)) {
-              this.tint = 0xF5A568
-
-          if(!this.pressed){
-              this.pressed = true;
-              ct.sound.spawn('wave')
-              ct.u.wait(150).then(() => {
-                  ct.rooms.switch('Start-extra')
-              })
-          }
-      }
-    ondraw: ''
-    ondestroy: ''
     texture: 3aa33354-d6d4-4ca8-a1f8-f233ac082133
     extends: {}
     uid: 0d9d57d2-d382-48e8-8fd7-310a70a6990f
-    lastmod: 1661550377941
+    lastmod: 1661558233278
+    events:
+      - lib: core
+        arguments: {}
+        code: this.pressed = false;
+        eventKey: OnCreate
+      - lib: core
+        arguments: {}
+        code: |-
+          this.move();
+
+          if (ct.touch.collideUi(this)) {
+                  this.tint = 0xF5A568
+
+              if(!this.pressed){
+                  this.pressed = true;
+                  ct.sound.spawn('wave')
+                  ct.u.wait(150).then(() => {
+                      ct.rooms.switch('Start_extra')
+                  })
+                  var requestMsg = {
+                      state:'btn_siguiente1',
+                  }
+                  window.parent.postMessage(JSON.stringify(requestMsg), '*')
+              }
+          }
+        eventKey: OnStep
+    type: template
+    loopAnimation: true
+    visible: true
+    blendMode: normal
+    animationFPS: 30
+    playAnimationOnStart: false
   - name: btn_back_exit
     depth: 1
-    oncreate: |-
-      this.pressed = true
-
-      ct.u.wait(1000)
-      .then(() => {
-          this.pressed = false
-      })
-    onstep: |-
-      this.move();
-
-      if (ct.touch.collideUi(this)) {
-          if(!this.pressed){
-              this.pressed = true;
-              
-              window.parent.postMessage("closegame", "*");
-
-              console.log('closegame')
-          }
-      }
-    ondraw: ''
-    ondestroy: ''
     texture: 7fc3fa0b-8022-43df-8c2d-2bceff10a98a
     extends: {}
     uid: d3d08892-2530-4088-8248-d026f19bc50d
-    lastmod: 1632955188225
+    lastmod: 1661558113846
+    events:
+      - lib: core
+        arguments: {}
+        code: |+
+          this.pressed = true
+
+          ct.u.wait(1000)
+          .then(() => {
+              this.pressed = false
+          })
+
+        eventKey: OnCreate
+      - lib: core
+        arguments: {}
+        code: |-
+          this.move();
+
+          if (ct.touch.collideUi(this)) {
+              if(!this.pressed){
+                  this.pressed = true;
+                  
+                  window.parent.postMessage("closegame", "*");
+
+
+                  var requestMsg = {
+                      state:'gameclose',
+                  }
+                  window.parent.postMessage(JSON.stringify(requestMsg), '*')
+              }
+          }
+        eventKey: OnStep
+    type: template
+    loopAnimation: true
+    visible: true
+    blendMode: normal
+    animationFPS: 30
+    playAnimationOnStart: false
   - name: linea
     depth: 0
-    oncreate: |-
-      var _this = this
-      this.builderspeed = 5;
-
-
-
-      function builder () {
-          
-          var tool = ct.types.copy('sillos', _this.x + _this.width, _this.y )
-          tool.speed = 2 - (_this.builderspeed * .1);
-          tool.direction = 180
-          tool.depth = 1
-          tool.scale.x = tool.scale.y = 0.6
-          _this.builderspeed -=.2
-          _this.builderspeed = Math.round(_this.builderspeed * 10 ) / 10
-          endbuilder()
-      }
-
-
-
-
-      function endbuilder() {
-          if(ct.room.gameover){
-              return false
-          }
-          if(_this.builderInterval){
-              clearInterval(_this.builderInterval)
-          }
-          ct.u.wait(200)
-          .then(() => {
-              var speedTime = Math.round(_this.builderspeed * 1000)
-              _this.builderInterval = setInterval(builder,  speedTime)
-
-          })
-      }
-
-      var startTime = Math.round(Math.random()*3000)
-
-      var timer = ct.timer.add( startTime  , 'start');
-      timer.then(() => {
-          //START
-
-          builder()
-      })
-    onstep: |-
-      this.move();
-
-      if(ct.room.gameover){
-          clearInterval(this.builderInterval)
-          this.kill = true
-      }
-    ondraw: ''
-    ondestroy: ''
     texture: d43fca81-39a8-43f2-8b82-69ccb4987ab1
     extends: {}
     uid: 4e4a82ac-4d98-4bd4-ac28-9ab7d434573c
-    lastmod: 1645480796473
+    lastmod: 1661551499094
+    events:
+      - lib: core
+        arguments: {}
+        code: |-
+          var _this = this
+          this.builderspeed = 5;
+
+
+
+          function builder () {
+              
+              var tool = ct.templates.copy('sillos', _this.x + _this.width, _this.y )
+              tool.speed = 2 - (_this.builderspeed * .1);
+              tool.direction = 180
+              tool.depth = 1
+              tool.scale.x = tool.scale.y = 0.6
+              _this.builderspeed -=.2
+              _this.builderspeed = Math.round(_this.builderspeed * 10 ) / 10
+              endbuilder()
+          }
+
+
+
+
+          function endbuilder() {
+              if(ct.room.gameover){
+                  return false
+              }
+              if(_this.builderInterval){
+                  clearInterval(_this.builderInterval)
+              }
+              ct.u.wait(200)
+              .then(() => {
+                  var speedTime = Math.round(_this.builderspeed * 1000)
+                  _this.builderInterval = setInterval(builder,  speedTime)
+
+              })
+          }
+
+          var startTime = Math.round(Math.random()*3000)
+
+          var timer = ct.timer.add( startTime  , 'start');
+          timer.then(() => {
+              //START
+
+              builder()
+          })
+        eventKey: OnCreate
+      - lib: core
+        arguments: {}
+        code: |-
+          this.move();
+
+          if(ct.room.gameover){
+              clearInterval(this.builderInterval)
+              this.kill = true
+          }
+        eventKey: OnStep
+    type: template
+    loopAnimation: true
+    visible: true
+    blendMode: normal
+    animationFPS: 30
+    playAnimationOnStart: false
   - name: sillos
     depth: 0
-    oncreate: |-
-      this.gotoAndStop(Math.round(Math.random()*4))
-      this.readyToKill = false
-
-      this.isSpecial = 1 == Math.round( Math.random() -.3 )
-
-      if(this.isSpecial){
-          ct.emitters.append(this, 'goldtool', {
-              position: {
-                  x: 0,
-                  y: 0
-              }
-          });
-      }
-    onstep: |-
-      this.move();
-
-
-      if(this.x < 0 && !this.readyToKill){
-          if(this.tex=='sillos'){
-              this.readyToKill = true
-              this.endpart = ct.emitters.fire('killSillo', this.x, this.y, {depth: 3})
-              ct.sound.spawn('sillokill')
-          }
-          ct.u.wait(500)
-              .then(() => {
-                  if(this.tex=='sillos'){
-                      this.endpart.kill = true;
-                  }
-                  this.kill = true;
-              })
-      }
-
-
-
-      if(ct.room.gameover){
-          this.kill = true
-      }
-    ondraw: ''
-    ondestroy: ''
     texture: 068a7de5-a30e-47ed-bd08-67f2295539ac
     extends: {}
     uid: 50832695-7760-474d-9e7f-3c0044f8f7f2
-    lastmod: 1641399454078
+    lastmod: 1661551462861
+    events:
+      - lib: core
+        arguments: {}
+        code: |-
+          this.gotoAndStop(Math.round(Math.random()*4))
+          this.readyToKill = false
+
+          this.isSpecial = 1 == Math.round( Math.random() -.3 )
+
+          if(this.isSpecial){
+              ct.emitters.append(this, 'goldtool', {
+                  position: {
+                      x: 0,
+                      y: 0
+                  }
+              });
+          }
+        eventKey: OnCreate
+      - lib: core
+        arguments: {}
+        code: |-
+          this.move();
+
+
+          if(this.x < 0 && !this.readyToKill){
+              if(this.tex=='sillos'){
+                  this.readyToKill = true
+                  this.endpart = ct.emitters.fire('killSillo', this.x, this.y, {depth: 3})
+                  ct.sound.spawn('sillokill')
+              }
+              ct.u.wait(500)
+                  .then(() => {
+                      if(this.tex=='sillos'){
+                          this.endpart.kill = true;
+                      }
+                      this.kill = true;
+                  })
+          }
+
+
+
+          if(ct.room.gameover){
+              this.kill = true
+          }
+        eventKey: OnStep
+    type: template
+    loopAnimation: true
+    visible: true
+    blendMode: normal
+    animationFPS: 30
+    playAnimationOnStart: false
   - name: tools
     depth: 0
-    oncreate: ''
-    onstep: |
-      this.move();
-
-
-      // DUPLICATE - DRAGGER
-      if(ct.touch.hovers(this) && ct.actions.TouchAction.pressed){
-          var draggable = ct.types.copy('tools_draggable', ct.touch.x, ct.touch.y)
-          draggable.gotoAndStop(this.currentFrame)
-          draggable.scale.x = draggable.scale.y = 0.6
-          ct.sound.spawn('grab')
-      }
-    ondraw: ''
-    ondestroy: ''
     texture: 7cad867c-5ca9-4061-8ab8-cac02ddd2cb5
     extends: {}
     uid: e7752194-b5d4-480d-b83c-835daa939e83
-    lastmod: 1640970630469
+    lastmod: 1661551506760
+    events:
+      - lib: core
+        arguments: {}
+        code: |
+          this.move();
+
+
+          // DUPLICATE - DRAGGER
+          if(ct.touch.hovers(this) && ct.actions.TouchAction.pressed){
+              var draggable = ct.templates.copy('tools_draggable', ct.touch.x, ct.touch.y)
+              draggable.gotoAndStop(this.currentFrame)
+              draggable.scale.x = draggable.scale.y = 0.6
+              ct.sound.spawn('grab')
+          }
+        eventKey: OnStep
+    type: template
+    loopAnimation: true
+    visible: true
+    blendMode: normal
+    animationFPS: 30
+    playAnimationOnStart: false
   - name: tools_draggable
     depth: 0
-    oncreate: |-
-      this.dragging = true;
-      this.depth = 3
-    onstep: |
-      this.move();
-      //Start drag
-      /*
-      if(ct.touch.hovers(this) && ct.actions.TouchAction.pressed){
-          console.log('dragging')    
-      }
-      */
-
-
-
-
-      //End drag
-      if(this.dragging && ct.actions.TouchAction.released){
-          this.dragging = false;
-          this.kill = true;
-          ct.sound.spawn('release');
-      }
-      //WHILE DRAGGING
-      if(this.dragging){
-          this.x = ct.touch.x;
-          this.y = ct.touch.y;
-
-          //OK
-          var collided = ct.place.meet(this, 'sillos')
-          if(collided && collided.tex == 'sillos'){
-              if(collided.currentFrame == this.currentFrame){
-                  collided.tex = this.tex
-                  collided.gotoAndStop(this.currentFrame)
-                  var pointValue = 0
-                  var toolname = ''
-                  switch(this.currentFrame){
-                      case 0:
-                          pointValue = 19
-                          toolname = 'taladro'
-                          break;
-                      case 1:
-                          pointValue = 47
-                          toolname = 'martillo'
-                          break;
-                      case 2:
-                          pointValue = 79
-                          toolname = 'llaves'
-                          break;
-                      case 3:
-                          pointValue = 97
-                          toolname = 'inglesa'
-                          break;
-                      case 4:
-                          pointValue = 149
-                          toolname = 'pinzas'
-                          break;
-                  }
-                  if(collided.isSpecial){
-                      ct.room.addPoints(Math.round(pointValue*3), this.x, this.y, toolname)
-                      ct.sound.spawn('okgold');
-                  } else {
-                      ct.room.addPoints(pointValue, this.x, this.y, toolname)
-                      ct.sound.spawn('ok');
-                  }
-                  this.kill = true
-              }
-
-          }
-
-      }
-    ondraw: ''
-    ondestroy: ''
     texture: 7cad867c-5ca9-4061-8ab8-cac02ddd2cb5
     extends: {}
     uid: 2bc093e7-0731-4c4b-9439-806229cef171
-    lastmod: 1640968029715
-  - name: extra-btn_siguiente_
-    depth: 1
-    oncreate: this.pressed = false;
-    onstep: |-
-      this.move();
-
-      if (ct.touch.collideUi(this)) {
-              this.tint = 0xF5A568
-
-          if(!this.pressed){
-              this.pressed = true;
-              ct.sound.spawn('wave')
-              ct.u.wait(150).then(() => {
-                  ct.rooms.switch('Start2')
-              })
+    lastmod: 1661551472012
+    events:
+      - lib: core
+        arguments: {}
+        code: |-
+          this.dragging = true;
+          this.depth = 3
+        eventKey: OnCreate
+      - lib: core
+        arguments: {}
+        code: |
+          this.move();
+          //Start drag
+          /*
+          if(ct.touch.hovers(this) && ct.actions.TouchAction.pressed){
+              console.log('dragging')    
           }
-      }
-    ondraw: ''
-    ondestroy: ''
+          */
+
+
+
+
+          //End drag
+          if(this.dragging && ct.actions.TouchAction.released){
+              this.dragging = false;
+              this.kill = true;
+              ct.sound.spawn('release');
+          }
+          //WHILE DRAGGING
+          if(this.dragging){
+              this.x = ct.touch.x;
+              this.y = ct.touch.y;
+
+              //OK
+              var collided = ct.place.meet(this, 'sillos')
+              if(collided && collided.tex == 'sillos'){
+                  if(collided.currentFrame == this.currentFrame){
+                      collided.tex = this.tex
+                      collided.gotoAndStop(this.currentFrame)
+                      var pointValue = 0
+                      var toolname = ''
+                      switch(this.currentFrame){
+                          case 0:
+                              pointValue = 19
+                              toolname = 'taladro'
+                              break;
+                          case 1:
+                              pointValue = 47
+                              toolname = 'martillo'
+                              break;
+                          case 2:
+                              pointValue = 79
+                              toolname = 'llaves'
+                              break;
+                          case 3:
+                              pointValue = 97
+                              toolname = 'inglesa'
+                              break;
+                          case 4:
+                              pointValue = 149
+                              toolname = 'pinzas'
+                              break;
+                      }
+                      if(collided.isSpecial){
+                          ct.room.addPoints(Math.round(pointValue*3), this.x, this.y, toolname)
+                          ct.sound.spawn('okgold');
+                      } else {
+                          ct.room.addPoints(pointValue, this.x, this.y, toolname)
+                          ct.sound.spawn('ok');
+                      }
+                      this.kill = true
+                  }
+
+              }
+
+          }
+        eventKey: OnStep
+    type: template
+    loopAnimation: true
+    visible: true
+    blendMode: normal
+    animationFPS: 30
+    playAnimationOnStart: false
+  - name: extra_btn_siguiente
+    depth: 1
     texture: 3aa33354-d6d4-4ca8-a1f8-f233ac082133
     extends: {}
-    uid: M2fkRrgb96CFMg
-    lastmod: 1661550381591
+    uid: zL5fkcm7D5MCfH
+    lastmod: 1661557171965
+    events:
+      - lib: core
+        arguments: {}
+        code: this.pressed = false;
+        eventKey: OnCreate
+      - lib: core
+        arguments: {}
+        code: |-
+          this.move();
+
+          if (ct.touch.collideUi(this)) {
+                  this.tint = 0xF5A568
+
+              if(!this.pressed){
+                  this.pressed = true;
+                  ct.sound.spawn('wave')
+                  ct.u.wait(150).then(() => {
+                      ct.rooms.switch('Start2')
+                  })
+                  var requestMsg = {
+                      state:'btn_siguiente2',
+                  }
+                  window.parent.postMessage(JSON.stringify(requestMsg), '*')
+              }
+          }
+        eventKey: OnStep
+    type: template
+    loopAnimation: true
+    visible: true
+    blendMode: normal
+    animationFPS: 30
+    playAnimationOnStart: false
   - type: template
-    name: animation-tool-drop
+    name: anim
     depth: 0
-    oncreate: ''
-    onstep: this.move();
-    ondraw: ''
-    ondestroy: ''
-    texture: 1nrBhf78zR8GbK
+    texture: m6JbpgpJMzfJ3Q
     visible: true
     extends: {}
-    lastmod: 1661550432736
-    uid: LJLpMpB54CpRMP
+    lastmod: 1661557074382
+    uid: 3rJCb53R7ftHrr
     playAnimationOnStart: true
+    events:
+      - lib: core
+        arguments: {}
+        code: this.animationSpeed = 0.1
+        eventKey: OnCreate
+      - lib: core
+        arguments: {}
+        code: this.move();
+        eventKey: OnStep
+    loopAnimation: true
+    blendMode: normal
+    animationFPS: 30
+language: typescript
