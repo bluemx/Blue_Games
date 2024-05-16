@@ -1,0 +1,1795 @@
+ctjsVersion: 2.0.2
+notes: /* empty */
+libs:
+  mouse: {}
+  keyboard: {}
+  keyboard.polyfill: {}
+  sound.howler: {}
+  touch:
+    mousetouch: true
+    preventdefault: false
+  place:
+    undefined: ''
+    gridX: 512
+    gridY: 512
+    debugMode: false
+    debugText: 16
+  fittoscreen:
+    mode: scaleFit
+textures:
+  - name: thehomedepot
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 129
+    imgHeight: 129
+    width: 129
+    height: 129
+    offx: 0
+    offy: 0
+    origname: i58b830d3-71d9-4c04-be14-98202bc53a09.png
+    shape: rect
+    left: 0
+    right: 129
+    top: 0
+    bottom: 129
+    uid: 58b830d3-71d9-4c04-be14-98202bc53a09
+    padding: 1
+    source: >-
+      /Users/albinrdz/Library/Mobile
+      Documents/com~apple~CloudDocs/WORK/THEHOMEDEPOT/bubblesResources/thehomedepot.png
+    ignoreTiledUse: true
+  - name: timer
+    untill: 0
+    grid:
+      - 1
+      - 11
+    axis:
+      - 77
+      - 18
+    marginx: 0
+    marginy: 0
+    imgWidth: 154
+    imgHeight: 407
+    width: 154
+    height: 37
+    offx: 0
+    offy: 0
+    origname: i9b466b9c-bea0-46d0-a3bc-be1e653eeb48.png
+    shape: rect
+    left: 77
+    right: 77
+    top: 18
+    bottom: 19
+    uid: 9b466b9c-bea0-46d0-a3bc-be1e653eeb48
+    padding: 1
+    source: /Users/albinrdz/Desktop/timer.png
+    lastmod: 1632439443366
+  - name: playpause
+    untill: 0
+    grid:
+      - 3
+      - 1
+    axis:
+      - 32
+      - 32
+    marginx: 0
+    marginy: 0
+    imgWidth: 192
+    imgHeight: 64
+    width: 64
+    height: 64
+    offx: 0
+    offy: 0
+    origname: i04aea4a6-be6e-4e65-8453-10a7317df61f.png
+    shape: rect
+    left: 32
+    right: 32
+    top: 32
+    bottom: 32
+    uid: 04aea4a6-be6e-4e65-8453-10a7317df61f
+    padding: 1
+    source: /Users/albinrdz/Desktop/playpause.png
+    lastmod: 1632864025763
+  - name: pausedbg
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 544
+    imgHeight: 800
+    width: 544
+    height: 800
+    offx: 0
+    offy: 0
+    origname: i39685529-7f56-4862-9c6f-d2071436fe96.png
+    shape: rect
+    left: 0
+    right: 544
+    top: 0
+    bottom: 800
+    uid: 39685529-7f56-4862-9c6f-d2071436fe96
+    padding: 1
+    source: /Users/albinrdz/Desktop/pausedbg.png
+    tiled: true
+    lastmod: 1632866754793
+  - name: screen_intro2
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 544
+    imgHeight: 960
+    width: 544
+    height: 960
+    offx: 0
+    offy: 0
+    origname: i805b1081-c4d0-4ea3-a629-a4c8aa2cbaa4.png
+    shape: rect
+    left: 0
+    right: 544
+    top: 0
+    bottom: 960
+    uid: 805b1081-c4d0-4ea3-a629-a4c8aa2cbaa4
+    padding: 1
+    source: /Users/albinrdz/Desktop/screen_intro2.png
+    tiled: true
+    lastmod: 1634567355329
+  - name: screen_intro
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 544
+    imgHeight: 960
+    width: 544
+    height: 960
+    offx: 0
+    offy: 0
+    origname: ie2c1dd1f-7c20-4340-b92f-3d8e5a96db3f.png
+    shape: rect
+    left: 0
+    right: 544
+    top: 0
+    bottom: 960
+    uid: e2c1dd1f-7c20-4340-b92f-3d8e5a96db3f
+    padding: 1
+    source: /Users/albinrdz/Desktop/screen_intro.png
+    tiled: true
+    lastmod: 1633115183059
+  - name: screen_end
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 544
+    imgHeight: 960
+    width: 544
+    height: 960
+    offx: 0
+    offy: 0
+    origname: i0c1d276f-f1d2-4380-8cab-ffdcff5ba8bf.png
+    shape: rect
+    left: 0
+    right: 544
+    top: 0
+    bottom: 960
+    uid: 0c1d276f-f1d2-4380-8cab-ffdcff5ba8bf
+    padding: 1
+    source: /Users/fldsmdfr/Desktop/screen_end.png
+    tiled: true
+    lastmod: 1661556313316
+  - name: btn_siguiente
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 356
+    imgHeight: 78
+    width: 356
+    height: 78
+    offx: 0
+    offy: 0
+    origname: i3aa33354-d6d4-4ca8-a1f8-f233ac082133.png
+    shape: rect
+    left: 0
+    right: 356
+    top: 0
+    bottom: 78
+    uid: 3aa33354-d6d4-4ca8-a1f8-f233ac082133
+    padding: 1
+    source: /Users/albinrdz/Desktop/btn_siguiente.png
+  - name: btn_back
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 106
+    imgHeight: 78
+    width: 106
+    height: 78
+    offx: 0
+    offy: 0
+    origname: i7fc3fa0b-8022-43df-8c2d-2bceff10a98a.png
+    shape: rect
+    left: 0
+    right: 106
+    top: 0
+    bottom: 78
+    uid: 7fc3fa0b-8022-43df-8c2d-2bceff10a98a
+    padding: 1
+    source: /Users/albinrdz/Desktop/btn_back.png
+  - name: btn_comenzar
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 356
+    imgHeight: 78
+    width: 356
+    height: 78
+    offx: 0
+    offy: 0
+    origname: iafd706e3-381c-4530-b461-6fe3fa62ad11.png
+    shape: rect
+    left: 0
+    right: 356
+    top: 0
+    bottom: 78
+    uid: afd706e3-381c-4530-b461-6fe3fa62ad11
+    padding: 1
+    source: /Users/albinrdz/Desktop/btn_comenzar.png
+  - name: linea
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 96
+    marginx: 0
+    marginy: 0
+    imgWidth: 546
+    imgHeight: 192
+    width: 546
+    height: 192
+    offx: 0
+    offy: 0
+    origname: id43fca81-39a8-43f2-8b82-69ccb4987ab1.png
+    shape: rect
+    left: 0
+    right: 546
+    top: 96
+    bottom: 96
+    uid: d43fca81-39a8-43f2-8b82-69ccb4987ab1
+    padding: 1
+    source: /Users/albinrdz/Desktop/linea.png
+    lastmod: 1633115170981
+  - name: linea-cubierta
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 44
+      - 120
+    marginx: 0
+    marginy: 0
+    imgWidth: 44
+    imgHeight: 240
+    width: 44
+    height: 240
+    offx: 0
+    offy: 0
+    origname: ie2cad58c-b4eb-4d4e-b049-32a0e0da12e9.png
+    shape: rect
+    left: 44
+    right: 0
+    top: 120
+    bottom: 120
+    uid: e2cad58c-b4eb-4d4e-b049-32a0e0da12e9
+    padding: 1
+    source: /Users/albinrdz/Desktop/linea-cubierta.png
+    tiled: true
+    lastmod: 1633043242154
+  - name: bottom
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 272
+      - 156
+    marginx: 0
+    marginy: 0
+    imgWidth: 544
+    imgHeight: 156
+    width: 544
+    height: 156
+    offx: 0
+    offy: 0
+    origname: ib10e5bcc-e93f-454d-a744-c3759b1283d0.png
+    shape: rect
+    left: 272
+    right: 272
+    top: 156
+    bottom: 0
+    uid: b10e5bcc-e93f-454d-a744-c3759b1283d0
+    padding: 1
+    source: /Users/albinrdz/Desktop/bottom.png
+    tiled: true
+    lastmod: 1633043519293
+  - name: tools
+    untill: 0
+    grid:
+      - 1
+      - 5
+    axis:
+      - 64
+      - 64
+    marginx: 0
+    marginy: 0
+    imgWidth: 128
+    imgHeight: 640
+    width: 128
+    height: 128
+    offx: 0
+    offy: 0
+    origname: i7cad867c-5ca9-4061-8ab8-cac02ddd2cb5.png
+    shape: rect
+    left: 64
+    right: 64
+    top: 64
+    bottom: 64
+    uid: 7cad867c-5ca9-4061-8ab8-cac02ddd2cb5
+    padding: 1
+    source: /Users/albinrdz/Desktop/tools.png
+    lastmod: 1633044418020
+  - name: sillos
+    untill: 0
+    grid:
+      - 1
+      - 5
+    axis:
+      - 64
+      - 64
+    marginx: 0
+    marginy: 0
+    imgWidth: 128
+    imgHeight: 640
+    width: 128
+    height: 128
+    offx: 0
+    offy: 0
+    origname: i068a7de5-a30e-47ed-bd08-67f2295539ac.png
+    shape: rect
+    left: 64
+    right: 64
+    top: 64
+    bottom: 64
+    uid: 068a7de5-a30e-47ed-bd08-67f2295539ac
+    padding: 1
+    source: /Users/albinrdz/Desktop/sillos.png
+    lastmod: 1633044431281
+  - name: nut
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 14
+      - 16
+    marginx: 0
+    marginy: 0
+    imgWidth: 28
+    imgHeight: 32
+    width: 28
+    height: 32
+    offx: 0
+    offy: 0
+    origname: ibaa889ee-b908-4c5e-a9a7-3659876784a0.png
+    shape: rect
+    left: 14
+    right: 14
+    top: 16
+    bottom: 16
+    uid: baa889ee-b908-4c5e-a9a7-3659876784a0
+    padding: 1
+    source: /Users/albinrdz/Desktop/nut.png
+    lastmod: 1633107732750
+  - lastmod: 1661554947066
+    type: texture
+    name: screen_intro_extra
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 544
+    imgHeight: 960
+    width: 544
+    height: 960
+    offx: 0
+    offy: 0
+    origname: iRN7DpHJG48tz2B.png
+    shape: rect
+    left: 0
+    right: 544
+    top: 0
+    bottom: 960
+    uid: RN7DpHJG48tz2B
+    padding: 1
+    group: !<tag:yaml.org,2002:js/undefined> ''
+    source: /Users/fldsmdfr/Desktop/screen_intro-extra.png
+    tiled: true
+  - lastmod: 1661555824227
+    type: texture
+    name: anim
+    untill: 0
+    grid:
+      - 6
+      - 2
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 1200
+    imgHeight: 716
+    width: 200
+    height: 358
+    offx: 0
+    offy: 0
+    origname: im6JbpgpJMzfJ3Q.png
+    shape: rect
+    left: 0
+    right: 2400
+    top: 0
+    bottom: 358
+    uid: m6JbpgpJMzfJ3Q
+    padding: 1
+    group: !<tag:yaml.org,2002:js/undefined> ''
+    source: /Users/fldsmdfr/Desktop/anim.png
+skeletons: []
+sounds:
+  - name: wave
+    uid: efe1e943-a521-4ffa-9341-067dd7e77d99
+    origname: sefe1e943-a521-4ffa-9341-067dd7e77d99.mp3
+    lastmod: 1632956006848
+  - name: end
+    uid: 4db9c70a-ee26-4848-96d6-91f8a462ab0a
+    origname: s4db9c70a-ee26-4848-96d6-91f8a462ab0a.mp3
+    lastmod: 1632956825633
+  - name: sillokill
+    uid: 3e2b2be2-fd47-468e-973d-f75dff920188
+    poolSize: 2
+    origname: s3e2b2be2-fd47-468e-973d-f75dff920188.mp3
+    lastmod: 1633109236425
+  - name: grab
+    uid: fb8310ff-fc9f-4987-a5de-06bfc44720f3
+    poolSize: 2
+    origname: sfb8310ff-fc9f-4987-a5de-06bfc44720f3.mp3
+    lastmod: 1633110822846
+  - name: release
+    uid: eb7c55c9-0611-4676-a0e4-cc7f1f0e64cb
+    poolSize: 2
+    origname: seb7c55c9-0611-4676-a0e4-cc7f1f0e64cb.mp3
+    lastmod: 1633111991556
+  - name: ok
+    uid: b955c811-ce69-4017-8cb2-51fc902aff7c
+    poolSize: 2
+    origname: sb955c811-ce69-4017-8cb2-51fc902aff7c.mp3
+    lastmod: 1633111905631
+  - name: okgold
+    uid: 0d7328de-bd1f-4bf6-86cc-3c0c978f3073
+    poolSize: 2
+    origname: s0d7328de-bd1f-4bf6-86cc-3c0c978f3073.mp3
+    lastmod: 1633114689961
+styles:
+  - name: regular
+    uid: 78a39155-c836-43e2-8b50-59ff02ca6dcb
+    origname: s59ff02ca6dcb
+    font:
+      family: '"CTPROJFONTOpenSans-Regular", "OpenSans-Regular", sans-serif'
+      size: 12
+      weight: 400
+      italic: false
+    lastmod: 1632421527425
+  - name: boldScore
+    uid: 8d79cd6f-accd-4595-af6b-fd8f1cf00838
+    origname: sfd8f1cf00838
+    font:
+      family: '"CTPROJFONTOpenSans-ExtraBold", "OpenSans-ExtraBold", sans-serif'
+      size: 46
+      weight: 400
+      italic: false
+      halign: center
+    lastmod: 1632939555778
+    fill:
+      type: '0'
+      color: '#F4750D'
+  - name: boldScore_txt
+    uid: 0a809f7f-3919-4656-bb70-5175f5a0f3e9
+    origname: s5175f5a0f3e9
+    font:
+      family: '"CTPROJFONTOpenSans-ExtraBold", "OpenSans-ExtraBold", sans-serif'
+      size: 26
+      weight: 400
+      italic: false
+      halign: center
+    lastmod: 1632438876802
+    fill:
+      type: '0'
+      color: '#808080'
+  - name: points
+    uid: bfccd469-6870-4a29-b593-f963688fa287
+    origname: sf963688fa287
+    font:
+      family: '"CTPROJFONTOpenSans-ExtraBold", "OpenSans-ExtraBold", sans-serif'
+      size: 20
+      weight: 400
+      italic: false
+      halign: center
+    lastmod: 1632937930913
+    fill:
+      type: '1'
+      color: '#F4750D'
+      color1: '#D6D6D6'
+      color2: '#C4BEB9'
+      gradtype: '1'
+    stroke:
+      color: '#FFFFFF'
+      weight: 4
+  - name: boldScore_BIG
+    uid: 35613b61-a15a-4958-906a-dc84ce867069
+    origname: sdc84ce867069
+    font:
+      family: '"CTPROJFONTOpenSans-ExtraBold", "OpenSans-ExtraBold", sans-serif'
+      size: 94
+      weight: 400
+      italic: false
+      halign: center
+    lastmod: 1632957930042
+    fill:
+      type: '0'
+      color: '#F4750D'
+  - name: boldScore_txt_BIG
+    uid: 5ae920a9-6da2-4986-87ae-5149e06be0ec
+    origname: s5149e06be0ec
+    font:
+      family: '"CTPROJFONTOpenSans-ExtraBold", "OpenSans-ExtraBold", sans-serif'
+      size: 40
+      weight: 400
+      italic: false
+      halign: center
+    lastmod: 1632957449366
+    fill:
+      type: '0'
+      color: '#808080'
+rooms:
+  - name: Game
+    oncreate: >-
+      ct.room.dropsColors = ['blue', 'green', 'pink', 'orange']
+
+      //ct.room.dropsColors = ['blue', 'green']
+
+      ct.room.colLen = ct.room.dropsColors.length-1
+
+
+      ct.room.paused = false
+
+
+
+
+      var requestMsg = {
+                  state:'gamestart',
+      }
+
+      window.parent.postMessage(JSON.stringify(requestMsg), '*')
+
+
+
+      //---------------------------------------
+
+      // SCORE
+
+      ct.room.score = 0
+
+
+      this.scoreLabel = new PIXI.Text(ct.room.score,
+      ct.styles.get('boldScore'));
+
+      this.scoreLabel.anchor.set(0.5, 0.5);
+
+      this.scoreLabel.x = ct.camera.width - 86;
+
+      this.scoreLabel.y = 50;
+
+      this.addChild(this.scoreLabel);
+
+
+
+      this.scoreLabelTXT = new PIXI.Text('puntos',
+      ct.styles.get('boldScore_txt'));
+
+      this.scoreLabelTXT.x = ct.camera.width - 130;
+
+      this.scoreLabelTXT.y = 70;
+
+      this.addChild(this.scoreLabelTXT);
+
+
+      //---------------------------------------
+
+
+      // HEADER BACKGROUND
+
+      var headerRectangle = new PIXI.Graphics();
+
+      headerRectangle.beginFill(0xffffff);
+
+      headerRectangle.drawRect(0, 6, ct.camera.width, 110);
+
+      headerRectangle.endFill()
+
+      headerRectangle.depth = -1;
+
+      this.addChild(headerRectangle)
+
+
+
+
+
+
+
+      //---------------------------------------
+
+      // PLACE TOOLS
+
+      var toolsList = ['t1', 't2', 't3', 't4', 't5']
+
+      var tX = 66
+
+      var tY = ct.camera.height-100
+
+      for(var i in toolsList){
+          var item = toolsList[i]
+          
+          var tool = ct.templates.copy('tools', tX+(100*i), tY)
+          tool.scale.x = tool.scale.y = 0.6
+          tool.gotoAndStop(i)
+
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+      //---------------------------------------
+
+      // GAME OVER
+
+
+
+      ct.room.GameOverFN = function () {
+          console.warn('---------------')
+          console.log('GAME OVER')
+
+          ct.room.gameover = true
+          
+          ct.u.wait(1000)
+          .then(() => {
+              ct.rooms.merge('GameOver');
+              ct.sound.spawn('end');
+
+              this.scoreLabelEnd = new PIXI.Text(ct.room.score, ct.styles.get('boldScore_BIG'));
+              this.scoreLabelEnd.anchor.set(0.5, 0.5);
+
+              this.scoreLabelTXTEnd = new PIXI.Text('puntos', ct.styles.get('boldScore_txt_BIG'));
+              this.scoreLabelTXTEnd.anchor.set(0.5, 0.5);
+
+              this.scoreLabelEnd.depth = 11
+              this.scoreLabelTXTEnd.depth = 11
+
+              this.scoreLabelEnd.x = ct.camera.width/2
+              this.scoreLabelEnd.y = (ct.camera.height/2)-60
+
+              this.scoreLabelTXTEnd.x = ct.camera.width/2
+              this.scoreLabelTXTEnd.y = (ct.camera.height/2)
+
+              this.addChild(this.scoreLabelEnd);
+              this.addChild(this.scoreLabelTXTEnd);
+
+
+              //this.endpart = ct.emitters.fire('endparticles', ct.viewWidth/2, ct.viewHeight/2, {depth: 11})
+
+              var requestMsg = {
+                  state:'gameover',
+                  score:ct.room.score,
+                  points: this.pointsList
+              }
+              window.parent.postMessage(JSON.stringify(requestMsg), '*')
+
+              //console.log(endresult)
+          })
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+      function debug (item, color, posX, posY) {
+          var ov =  new PIXI.Graphics();
+          ov.beginFill(color);
+          ov.drawCircle(0, 0, 8);
+          ov.endFill();
+          item.addChild(ov);
+          ct.u.wait(100)
+              .then(() => {
+                  item.removeChild(ov);
+              })
+      }
+
+
+
+
+      this.pointsList = {
+          taladro: 0,
+          martillo: 0,
+          llaves: 0,
+          inglesa: 0,
+          pinzas: 0,
+          especiales: 0,
+          values: [['taladro', 19], ['martillo', 47], ['llaves', 79], ['inglesa', 97], ['pinzas', 149], ['especiales', 'valor*3']]
+      }
+
+
+
+
+      this.addPoints = function (toolPointsValue, pointx, pointy, toolname){
+          var pointxpos = pointx
+          var pointypos = pointy
+          
+          //var points = 10 * (toolPointsValue+1);
+          var points = toolPointsValue
+          this.pointsList[toolname] += points
+
+          var pointview = ct.templates.copy('points', pointxpos, pointypos)
+          pointview.pointLabel.text = '+'+points;
+
+          ct.room.score += points;
+
+      }
+    onstep: |
+      //this.descendCallTime+= ct.deltaUi
+    ondraw: |
+
+      this.scoreLabel.text = ct.room.score;
+    onleave: ''
+    width: 544
+    height: 960
+    backgrounds:
+      - depth: -1
+        texture: b10e5bcc-e93f-454d-a744-c3759b1283d0
+        extends:
+          repeat: no-repeat
+          shiftY: 794
+          scaleX: 0.98
+          scaleY: 0.98
+          shiftX: 6
+      - depth: 0
+        texture: 58b830d3-71d9-4c04-be14-98202bc53a09
+        extends:
+          repeat: no-repeat
+          scaleX: 0.8
+          scaleY: 0.8
+          shiftX: 34
+          shiftY: 10
+      - depth: 3
+        texture: e2cad58c-b4eb-4d4e-b049-32a0e0da12e9
+        extends:
+          repeat: no-repeat
+          shiftX: 502
+          scaleY: 0.9
+          shiftY: 564
+      - depth: 3
+        texture: e2cad58c-b4eb-4d4e-b049-32a0e0da12e9
+        extends:
+          repeat: no-repeat
+          shiftX: 502
+          scaleY: 0.9
+          shiftY: 338
+      - depth: 3
+        texture: e2cad58c-b4eb-4d4e-b049-32a0e0da12e9
+        extends:
+          repeat: no-repeat
+          shiftX: 502
+          shiftY: 114
+          scaleY: 0.9
+    copies:
+      - x: 288
+        'y': 64
+        uid: 7f04eaea-c5fc-4698-b461-1d7617c77492
+        exts: {}
+      - x: 0
+        'y': 224
+        uid: 4e4a82ac-4d98-4bd4-ac28-9ab7d434573c
+        exts: {}
+      - x: 0
+        'y': 448
+        uid: 4e4a82ac-4d98-4bd4-ac28-9ab7d434573c
+        exts: {}
+      - x: 0
+        'y': 672
+        uid: 4e4a82ac-4d98-4bd4-ac28-9ab7d434573c
+        exts: {}
+    tiles:
+      - depth: -10
+        tiles: []
+        extends: {}
+    uid: 1ea4cdbd-4ed9-4ec3-9b12-2bdb994363f4
+    thumbnail: 2bdb994363f4
+    extends: {}
+    gridX: 32
+    gridY: 32
+    backgroundColor: '#F5750D'
+    lastmod: 1661558165537
+  - name: GameOver
+    oncreate: ct.pixiApp.ticker.speed = 0;
+    onstep: ''
+    ondraw: ''
+    onleave: ''
+    width: 544
+    height: 960
+    backgrounds:
+      - depth: 10
+        texture: 0c1d276f-f1d2-4380-8cab-ffdcff5ba8bf
+        extends:
+          repeat: no-repeat
+    copies: []
+    tiles:
+      - depth: -10
+        tiles: []
+        extends: {}
+    uid: 3d0292ac-0e01-4418-9526-98eec0ea397a
+    thumbnail: 98eec0ea397a
+    extends:
+      isUi: true
+    gridX: 32
+    gridY: 32
+    lastmod: 1661556364481
+    backgroundColor: '#FFFFFF'
+  - name: Start
+    oncreate: |-
+      var requestMsg = {
+                  state:'gameopen',
+              }
+              window.parent.postMessage(JSON.stringify(requestMsg), '*')
+    onstep: ''
+    ondraw: ''
+    onleave: ''
+    width: 544
+    height: 960
+    backgrounds:
+      - depth: 0
+        texture: e2c1dd1f-7c20-4340-b92f-3d8e5a96db3f
+        extends:
+          repeat: no-repeat
+    copies:
+      - x: 32
+        'y': 832
+        uid: d3d08892-2530-4088-8248-d026f19bc50d
+        exts: {}
+      - x: 160
+        'y': 832
+        uid: 0d9d57d2-d382-48e8-8fd7-310a70a6990f
+        exts: {}
+    tiles:
+      - depth: -10
+        tiles: []
+        extends: {}
+    uid: 5dac3056-eebb-4ff5-b4f2-107ca335fd4b
+    thumbnail: 107ca335fd4b
+    extends:
+      isUi: true
+    gridX: 32
+    gridY: 32
+    lastmod: 1661558185488
+    backgroundColor: '#F5750D'
+  - name: Paused
+    oncreate: >+
+      this.pausedLabel = new PIXI.Text('Juego Pausado',
+      ct.styles.get('boldScore'));
+
+      this.pausedLabel.anchor.set(0.5, 0.5);
+
+      this.pausedLabel.x = ct.viewWidth/2;
+
+      this.pausedLabel.y = 140;
+
+      this.addChild(this.pausedLabel);
+
+    onstep: ''
+    ondraw: ''
+    onleave: ''
+    width: 544
+    height: 960
+    backgrounds:
+      - depth: 0
+        texture: 39685529-7f56-4862-9c6f-d2071436fe96
+        extends:
+          repeat: no-repeat
+    copies: []
+    tiles:
+      - depth: -10
+        tiles: []
+        extends: {}
+    uid: a0324ff9-3dff-4d95-af5e-be3cfbbc6a4e
+    thumbnail: be3cfbbc6a4e
+    extends:
+      isUi: true
+    gridX: 32
+    gridY: 32
+    lastmod: 1633040036230
+    backgroundColor: '#FFFFFF'
+  - name: Start2
+    oncreate: |-
+      ct.emitters.append(this, 'goldtool', {
+              position: {
+                  x: ct.viewWidth/2,
+                  y: (ct.viewHeight/2) + 140
+              }
+          });
+    onstep: ''
+    ondraw: ''
+    onleave: ''
+    width: 544
+    height: 960
+    backgrounds:
+      - depth: 0
+        texture: 805b1081-c4d0-4ea3-a629-a4c8aa2cbaa4
+        extends:
+          repeat: no-repeat
+    copies:
+      - x: 160
+        'y': 832
+        uid: 2aa15139-db50-447a-b84c-659cf389994a
+        exts: {}
+      - x: 32
+        'y': 832
+        uid: 1281308a-1847-4b2b-baa3-eb2156a24157
+        exts: {}
+    tiles:
+      - depth: -10
+        tiles: []
+        extends: {}
+    uid: 8612a157-40fe-494b-90ef-326ae45b92d2
+    thumbnail: 326ae45b92d2
+    extends:
+      isUi: true
+    gridX: 32
+    gridY: 32
+    lastmod: 1634567680137
+    backgroundColor: '#F5750D'
+  - name: Start_extra
+    oncreate: ''
+    onstep: ''
+    ondraw: ''
+    onleave: ''
+    width: 544
+    height: 960
+    backgrounds:
+      - depth: 0
+        texture: RN7DpHJG48tz2B
+        extends:
+          repeat: no-repeat
+    copies:
+      - x: 32
+        'y': 832
+        uid: d3d08892-2530-4088-8248-d026f19bc50d
+        exts: {}
+      - x: 160
+        'y': 832
+        uid: zL5fkcm7D5MCfH
+        exts: {}
+      - x: 160
+        'y': 288
+        uid: 3rJCb53R7ftHrr
+        exts: {}
+    tiles:
+      - depth: -10
+        tiles: []
+        extends: {}
+    uid: MjKb1rn1d4Hdkj
+    thumbnail: MjKb1rn1d4Hdkj
+    extends:
+      isUi: true
+    gridX: 32
+    gridY: 32
+    lastmod: 1661555814850
+    backgroundColor: '#F5750D'
+actions:
+  - name: TouchAction
+    methods:
+      - code: touch.Any
+emitterTandems:
+  - name: killSillo
+    origname: pta5f7d2b186b6
+    emitters:
+      - texture: baa889ee-b908-4c5e-a9a7-3659876784a0
+        openedTabs:
+          - shape
+          - velocity
+          - direction
+          - spawning
+        settings:
+          alpha:
+            list:
+              - value: 0
+                time: 0
+              - value: 0.9899997016817748
+                time: 0.46431484137267437
+              - time: 0.9040240185589155
+                value: 1
+              - value: 0
+                time: 1
+            isStepped: false
+          scale:
+            list:
+              - value: 1
+                time: 0
+              - value: 0.3
+                time: 1
+            isStepped: false
+          color:
+            list:
+              - value: ffffff
+                time: 0
+              - value: ffffff
+                time: 0.46431484137267437
+              - time: 0.9040240185589155
+                value: FFFFFF
+              - value: ffffff
+                time: 1
+            isStepped: false
+          blendMode: normal
+          speed:
+            list:
+              - value: 162.48993175989654
+                time: 0
+              - value: 100
+                time: 1
+            isStepped: false
+          startRotation:
+            min: -90
+            max: 90
+          rotationSpeed:
+            min: 0
+            max: 0
+          rotationAcceleration: 0
+          lifetime:
+            min: 0.5
+            max: 0.5
+          frequency: 10
+          spawnChance: 1
+          particlesPerWave: 10
+          angleStart: 270
+          emitterLifetime: 0
+          maxParticles: 10
+          maxSpeed: 0
+          pos:
+            x: 0
+            'y': 0
+          acceleration:
+            x: 0
+            'y': 0
+          addAtBack: false
+          spawnType: circle
+          spawnCircle:
+            x: 0
+            'y': 0
+            r: 20
+            minR: 100
+          delay: 0
+          particleSpacing: 36
+          spawnRect:
+            x: -100
+            'y': -100
+            w: 200
+            h: 200
+          noRotation: false
+        uid: aed1ef2d-ba3f-45ec-81cf-46583741354a
+        showShapeVisualizer: true
+    uid: pta5f7d2b186b6
+  - name: goldtool
+    origname: pteb873fa18b95
+    emitters:
+      - texture: baa889ee-b908-4c5e-a9a7-3659876784a0
+        openedTabs:
+          - shape
+          - direction
+          - spawning
+          - colors
+        settings:
+          alpha:
+            list:
+              - value: 0
+                time: 0
+              - value: 1
+                time: 0.2343438191076871
+              - time: 0.5511374499109174
+                value: 0.7799934369990438
+              - time: 0.848513771805298
+                value: 0.9450266994811629
+              - value: 0
+                time: 1
+            isStepped: false
+          scale:
+            list:
+              - value: 1
+                time: 0
+              - value: 0.3
+                time: 1
+            isStepped: false
+          color:
+            list:
+              - value: FF7E33
+                time: 0
+              - value: FFE600
+                time: 0.2343438191076871
+              - time: 0.5511374499109174
+                value: FF0000
+              - time: 0.848513771805298
+                value: FFD900
+              - value: ffffff
+                time: 1
+            isStepped: true
+          blendMode: add
+          speed:
+            list:
+              - value: 162.48993175989654
+                time: 0
+              - value: 100
+                time: 1
+            isStepped: false
+          startRotation:
+            min: -90
+            max: 90
+          rotationSpeed:
+            min: 0
+            max: 0
+          rotationAcceleration: 0
+          lifetime:
+            min: 0.5
+            max: 0.5
+          frequency: 0.1
+          spawnChance: 1
+          particlesPerWave: 1
+          angleStart: 270
+          emitterLifetime: 0
+          maxParticles: 100
+          maxSpeed: 0
+          pos:
+            x: 0
+            'y': 0
+          acceleration:
+            x: 0
+            'y': 0
+          addAtBack: false
+          spawnType: ring
+          spawnCircle:
+            x: 0
+            'y': 0
+            r: 80
+            minR: 60
+          delay: 0
+          particleSpacing: 360
+          spawnRect:
+            x: -100
+            'y': -100
+            w: 200
+            h: 200
+          noRotation: false
+        uid: aed1ef2d-ba3f-45ec-81cf-46583741354a
+        showShapeVisualizer: true
+    uid: 4ee5ce59-c8a2-406b-b237-eb873fa18b95
+scripts: []
+starting: 0
+settings:
+  authoring:
+    author: ''
+    site: ''
+    title: Blue Pure Loyalty
+    version:
+      - 1
+      - 2
+      - 0
+    versionPostfix: ''
+  rendering:
+    usePixiLegacy: true
+    maxFPS: 60
+    pixelatedrender: false
+    highDensity: true
+    desktopMode: maximized
+    mobileScreenOrientation: unspecified
+  export:
+    windows: true
+    linux: true
+    mac: true
+    functionWrap: false
+    codeModifier: minify
+  branding:
+    icon: 58b830d3-71d9-4c04-be14-98202bc53a09
+    accent: '#F58428'
+    invertPreloaderScheme: true
+    hideLoadingLogo: true
+  fps: 30
+fonts:
+  - typefaceName: OpenSans-ExtraBold
+    weight: 400
+    italic: false
+    origname: f9fbd8c1b-0668-412e-9c99-4ca90123a2a4.ttf
+    lastmod: 1632421510467
+    bitmapFont: false
+    bitmapFontSize: 16
+    bitmapFontLineHeight: 18
+    charsets:
+      - allInFont
+    customCharset: ''
+    uid: 9fbd8c1b-0668-412e-9c99-4ca90123a2a4
+  - typefaceName: OpenSans-Regular
+    weight: 400
+    italic: false
+    origname: f446f037a-6d46-40de-beb7-5007d21290c2.ttf
+    lastmod: 1632421510472
+    bitmapFont: false
+    bitmapFontSize: 16
+    bitmapFontLineHeight: 18
+    charsets:
+      - allInFont
+    customCharset: ''
+    uid: 446f037a-6d46-40de-beb7-5007d21290c2
+palette: []
+styletick: .nan
+startroom: 5dac3056-eebb-4ff5-b4f2-107ca335fd4b
+contentTypes: []
+groups:
+  fonts: []
+  textures: []
+  styles: []
+  rooms: []
+  sounds: []
+  emitterTandems: []
+  templates: []
+templates:
+  - name: timer
+    depth: 0
+    oncreate: |+
+      var _this = this
+      this.times = 0
+
+      this.gotoAndStop(10)
+
+      //60 segundos
+      this.fullTime = 60
+
+
+      var timerinterval = setInterval(function () {
+          //Check for outside GameOver
+          if(ct.room.gameover){
+              clearInterval(timerinterval)
+              return false
+          }
+
+
+          //_this.times += 1
+          //_this.gotoAndStop(10 - _this.times)
+          if(!ct.room.paused){
+              _this.fullTime -=1
+          }
+
+          var timeSecTo10 =  Math.round(_this.fullTime/6)
+
+          _this.gotoAndStop(  timeSecTo10 )
+
+          
+
+
+          // Time end: GameOver FN
+          if(_this.currentFrame==0){
+              ct.room.GameOverFN()
+          }
+
+
+
+      }, 1000)
+
+    onstep: |+
+      this.move();
+
+    ondraw: ''
+    ondestroy: ''
+    texture: 9b466b9c-bea0-46d0-a3bc-be1e653eeb48
+    extends: {}
+    uid: 7f04eaea-c5fc-4698-b461-1d7617c77492
+    lastmod: 1645104544430
+  - name: playpause
+    depth: 6
+    oncreate: |+
+
+
+      this.pauseRoom
+
+    onstep: |-
+      this.move();
+
+      if (ct.touch.collideUi(this)) {
+          if(!ct.room.gameover){
+              if(!this.pressed){
+                  if(this.currentFrame==0){
+                      //PAUSE
+                      ct.room.paused = true;
+                      ct.pixiApp.ticker.speed = 0;
+                      this.gotoAndStop(1);
+                      this.x = 480;
+                      this.pauseRoom = ct.rooms.append('Paused', { isUi: true });
+                  } else if(this.currentFrame==1){
+                      //PLAY
+                      setTimeout(function () {
+                          ct.room.paused = false;
+                          ct.pixiApp.ticker.speed = 1;
+                      },200)
+                      this.gotoAndStop(0);
+                      this.x = 64;
+                      ct.rooms.remove(this.pauseRoom)
+                  }
+                  
+              }
+          }
+      }
+    ondraw: ''
+    ondestroy: ''
+    texture: 04aea4a6-be6e-4e65-8453-10a7317df61f
+    extends: {}
+    uid: 4895cabc-130a-4a79-8454-d250a366c12a
+    lastmod: 1632957195353
+  - name: points
+    depth: 0
+    oncreate: |-
+      this.pointLabel = new PIXI.Text('+9', ct.styles.get('points'));
+      this.pointLabel.x = 0;
+      this.pointLabel.y = 0;
+      this.addChild(this.pointLabel);
+
+
+
+      var timer = ct.timer.add(500, 'killtimer');
+      timer.then(() => {
+          this.kill = true
+      })
+    onstep: |-
+      this.move();
+      this.y-=1
+    ondraw: ''
+    ondestroy: ''
+    texture: -1
+    extends: {}
+    uid: 333b98b5-c42e-413e-a739-deb1f6472b51
+    lastmod: 1632938348170
+  - name: btn_back
+    depth: 1
+    oncreate: |+
+      this.pressed = false
+
+    onstep: |-
+      this.move();
+
+      this.move();
+
+      if (ct.touch.collideUi(this)) {
+             this.tint = 0xF5A568
+
+          if(!this.pressed){
+              this.pressed = true;
+              ct.u.wait(150).then(() => {
+                  ct.rooms.switch('Start')
+              })
+              var requestMsg = {
+                  state:'btn_back',
+              }
+              window.parent.postMessage(JSON.stringify(requestMsg), '*')
+          }
+      }
+    ondraw: ''
+    ondestroy: ''
+    texture: 7fc3fa0b-8022-43df-8c2d-2bceff10a98a
+    extends: {}
+    uid: 1281308a-1847-4b2b-baa3-eb2156a24157
+    lastmod: 1661558239819
+  - name: btn_comenzar
+    depth: 1
+    oncreate: this.pressed = false
+    onstep: |-
+      this.move();
+
+      if (ct.touch.collideUi(this)) {
+              this.tint = 0xF5A568
+
+          if(!this.pressed){
+              this.pressed = true;
+              ct.sound.spawn('wave')
+              ct.u.wait(150).then(() => {
+                  ct.rooms.switch('Game')
+              })
+              var requestMsg = {
+                  state:'btn_comenzar',
+              }
+              window.parent.postMessage(JSON.stringify(requestMsg), '*')
+          }
+      }
+    ondraw: ''
+    ondestroy: ''
+    texture: afd706e3-381c-4530-b461-6fe3fa62ad11
+    extends: {}
+    uid: 2aa15139-db50-447a-b84c-659cf389994a
+    lastmod: 1661557145616
+  - name: btn_siguiente
+    depth: 1
+    oncreate: this.pressed = false;
+    onstep: |-
+      this.move();
+
+      if (ct.touch.collideUi(this)) {
+              this.tint = 0xF5A568
+
+          if(!this.pressed){
+              this.pressed = true;
+              ct.sound.spawn('wave')
+              ct.u.wait(150).then(() => {
+                  ct.rooms.switch('Start_extra')
+              })
+              var requestMsg = {
+                  state:'btn_siguiente1',
+              }
+              window.parent.postMessage(JSON.stringify(requestMsg), '*')
+          }
+      }
+    ondraw: ''
+    ondestroy: ''
+    texture: 3aa33354-d6d4-4ca8-a1f8-f233ac082133
+    extends: {}
+    uid: 0d9d57d2-d382-48e8-8fd7-310a70a6990f
+    lastmod: 1661558233278
+  - name: btn_back_exit
+    depth: 1
+    oncreate: |+
+      this.pressed = true
+
+      ct.u.wait(1000)
+      .then(() => {
+          this.pressed = false
+      })
+
+    onstep: |-
+      this.move();
+
+      if (ct.touch.collideUi(this)) {
+          if(!this.pressed){
+              this.pressed = true;
+              
+              window.parent.postMessage("closegame", "*");
+
+
+              var requestMsg = {
+                  state:'gameclose',
+              }
+              window.parent.postMessage(JSON.stringify(requestMsg), '*')
+          }
+      }
+    ondraw: ''
+    ondestroy: ''
+    texture: 7fc3fa0b-8022-43df-8c2d-2bceff10a98a
+    extends: {}
+    uid: d3d08892-2530-4088-8248-d026f19bc50d
+    lastmod: 1661558113846
+  - name: linea
+    depth: 0
+    oncreate: |-
+      var _this = this
+      this.builderspeed = 5;
+
+
+
+      function builder () {
+          
+          var tool = ct.templates.copy('sillos', _this.x + _this.width, _this.y )
+          tool.speed = 2 - (_this.builderspeed * .1);
+          tool.direction = 180
+          tool.depth = 1
+          tool.scale.x = tool.scale.y = 0.6
+          _this.builderspeed -=.2
+          _this.builderspeed = Math.round(_this.builderspeed * 10 ) / 10
+          endbuilder()
+      }
+
+
+
+
+      function endbuilder() {
+          if(ct.room.gameover){
+              return false
+          }
+          if(_this.builderInterval){
+              clearInterval(_this.builderInterval)
+          }
+          ct.u.wait(200)
+          .then(() => {
+              var speedTime = Math.round(_this.builderspeed * 1000)
+              _this.builderInterval = setInterval(builder,  speedTime)
+
+          })
+      }
+
+      var startTime = Math.round(Math.random()*3000)
+
+      var timer = ct.timer.add( startTime  , 'start');
+      timer.then(() => {
+          //START
+
+          builder()
+      })
+    onstep: |-
+      this.move();
+
+      if(ct.room.gameover){
+          clearInterval(this.builderInterval)
+          this.kill = true
+      }
+    ondraw: ''
+    ondestroy: ''
+    texture: d43fca81-39a8-43f2-8b82-69ccb4987ab1
+    extends: {}
+    uid: 4e4a82ac-4d98-4bd4-ac28-9ab7d434573c
+    lastmod: 1661551499094
+  - name: sillos
+    depth: 0
+    oncreate: |-
+      this.gotoAndStop(Math.round(Math.random()*4))
+      this.readyToKill = false
+
+      this.isSpecial = 1 == Math.round( Math.random() -.3 )
+
+      if(this.isSpecial){
+          ct.emitters.append(this, 'goldtool', {
+              position: {
+                  x: 0,
+                  y: 0
+              }
+          });
+      }
+    onstep: |-
+      this.move();
+
+
+      if(this.x < 0 && !this.readyToKill){
+          if(this.tex=='sillos'){
+              this.readyToKill = true
+              this.endpart = ct.emitters.fire('killSillo', this.x, this.y, {depth: 3})
+              ct.sound.spawn('sillokill')
+          }
+          ct.u.wait(500)
+              .then(() => {
+                  if(this.tex=='sillos'){
+                      this.endpart.kill = true;
+                  }
+                  this.kill = true;
+              })
+      }
+
+
+
+      if(ct.room.gameover){
+          this.kill = true
+      }
+    ondraw: ''
+    ondestroy: ''
+    texture: 068a7de5-a30e-47ed-bd08-67f2295539ac
+    extends: {}
+    uid: 50832695-7760-474d-9e7f-3c0044f8f7f2
+    lastmod: 1661551462861
+  - name: tools
+    depth: 0
+    oncreate: ''
+    onstep: |
+      this.move();
+
+
+      // DUPLICATE - DRAGGER
+      if(ct.touch.hovers(this) && ct.actions.TouchAction.pressed){
+          var draggable = ct.templates.copy('tools_draggable', ct.touch.x, ct.touch.y)
+          draggable.gotoAndStop(this.currentFrame)
+          draggable.scale.x = draggable.scale.y = 0.6
+          ct.sound.spawn('grab')
+      }
+    ondraw: ''
+    ondestroy: ''
+    texture: 7cad867c-5ca9-4061-8ab8-cac02ddd2cb5
+    extends: {}
+    uid: e7752194-b5d4-480d-b83c-835daa939e83
+    lastmod: 1661551506760
+  - name: tools_draggable
+    depth: 0
+    oncreate: |-
+      this.dragging = true;
+      this.depth = 3
+    onstep: |
+      this.move();
+      //Start drag
+      /*
+      if(ct.touch.hovers(this) && ct.actions.TouchAction.pressed){
+          console.log('dragging')    
+      }
+      */
+
+
+
+
+      //End drag
+      if(this.dragging && ct.actions.TouchAction.released){
+          this.dragging = false;
+          this.kill = true;
+          ct.sound.spawn('release');
+      }
+      //WHILE DRAGGING
+      if(this.dragging){
+          this.x = ct.touch.x;
+          this.y = ct.touch.y;
+
+          //OK
+          var collided = ct.place.meet(this, 'sillos')
+          if(collided && collided.tex == 'sillos'){
+              if(collided.currentFrame == this.currentFrame){
+                  collided.tex = this.tex
+                  collided.gotoAndStop(this.currentFrame)
+                  var pointValue = 0
+                  var toolname = ''
+                  switch(this.currentFrame){
+                      case 0:
+                          pointValue = 19
+                          toolname = 'taladro'
+                          break;
+                      case 1:
+                          pointValue = 47
+                          toolname = 'martillo'
+                          break;
+                      case 2:
+                          pointValue = 79
+                          toolname = 'llaves'
+                          break;
+                      case 3:
+                          pointValue = 97
+                          toolname = 'inglesa'
+                          break;
+                      case 4:
+                          pointValue = 149
+                          toolname = 'pinzas'
+                          break;
+                  }
+                  if(collided.isSpecial){
+                      ct.room.addPoints(Math.round(pointValue*3), this.x, this.y, toolname)
+                      ct.sound.spawn('okgold');
+                  } else {
+                      ct.room.addPoints(pointValue, this.x, this.y, toolname)
+                      ct.sound.spawn('ok');
+                  }
+                  this.kill = true
+              }
+
+          }
+
+      }
+    ondraw: ''
+    ondestroy: ''
+    texture: 7cad867c-5ca9-4061-8ab8-cac02ddd2cb5
+    extends: {}
+    uid: 2bc093e7-0731-4c4b-9439-806229cef171
+    lastmod: 1661551472012
+  - name: extra_btn_siguiente
+    depth: 1
+    oncreate: this.pressed = false;
+    onstep: |-
+      this.move();
+
+      if (ct.touch.collideUi(this)) {
+              this.tint = 0xF5A568
+
+          if(!this.pressed){
+              this.pressed = true;
+              ct.sound.spawn('wave')
+              ct.u.wait(150).then(() => {
+                  ct.rooms.switch('Start2')
+              })
+              var requestMsg = {
+                  state:'btn_siguiente2',
+              }
+              window.parent.postMessage(JSON.stringify(requestMsg), '*')
+          }
+      }
+    ondraw: ''
+    ondestroy: ''
+    texture: 3aa33354-d6d4-4ca8-a1f8-f233ac082133
+    extends: {}
+    uid: zL5fkcm7D5MCfH
+    lastmod: 1661557171965
+  - type: template
+    name: anim
+    depth: 0
+    oncreate: this.animationSpeed = 0.1
+    onstep: this.move();
+    ondraw: ''
+    ondestroy: ''
+    texture: m6JbpgpJMzfJ3Q
+    visible: true
+    extends: {}
+    lastmod: 1661557074382
+    uid: 3rJCb53R7ftHrr
+    playAnimationOnStart: true

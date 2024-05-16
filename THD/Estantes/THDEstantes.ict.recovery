@@ -364,14 +364,14 @@ textures:
     untill: 0
     grid:
       - 1
-      - 5
+      - 10
     axis:
       - 64
       - 64
     marginx: 0
     marginy: 0
     imgWidth: 128
-    imgHeight: 640
+    imgHeight: 1280
     width: 128
     height: 128
     offx: 0
@@ -384,20 +384,20 @@ textures:
     bottom: 64
     uid: 7cad867c-5ca9-4061-8ab8-cac02ddd2cb5
     padding: 1
-    source: /Users/albinrdz/Desktop/tools.png
-    lastmod: 1633044418020
+    source: /Users/fldsmdfr/Desktop/tools-color-v2.png
+    lastmod: 1715026419842
   - name: sillos
     untill: 0
     grid:
       - 1
-      - 5
+      - 10
     axis:
       - 64
       - 64
     marginx: 0
     marginy: 0
     imgWidth: 128
-    imgHeight: 640
+    imgHeight: 1280
     width: 128
     height: 128
     offx: 0
@@ -410,8 +410,8 @@ textures:
     bottom: 64
     uid: 068a7de5-a30e-47ed-bd08-67f2295539ac
     padding: 1
-    source: /Users/albinrdz/Desktop/sillos.png
-    lastmod: 1633044431281
+    source: /Users/fldsmdfr/Desktop/tools-sill-v2.png
+    lastmod: 1715026627374
   - name: nut
     untill: 0
     grid:
@@ -619,115 +619,116 @@ rooms:
     backgrounds:
       - depth: -1
         texture: b10e5bcc-e93f-454d-a744-c3759b1283d0
-        movementX: 0
-        movementY: 0
-        parallaxX: 1
-        parallaxY: 1
-        repeat: no-repeat
-        scaleX: 0.98
-        scaleY: 0.98
         shiftX: 6
         shiftY: 794
+        parallaxX: 1
+        parallaxY: 1
+        movementX: 0
+        movementY: 0
+        scaleX: 0.98
+        scaleY: 0.98
+        repeat: no-repeat
       - depth: 0
         texture: 58b830d3-71d9-4c04-be14-98202bc53a09
-        movementX: 0
-        movementY: 0
-        parallaxX: 1
-        parallaxY: 1
-        repeat: no-repeat
-        scaleX: 0.8
-        scaleY: 0.8
         shiftX: 34
         shiftY: 10
-      - depth: 3
-        texture: e2cad58c-b4eb-4d4e-b049-32a0e0da12e9
-        movementX: 0
-        movementY: 0
         parallaxX: 1
         parallaxY: 1
+        movementX: 0
+        movementY: 0
+        scaleX: 0.8
+        scaleY: 0.8
         repeat: no-repeat
-        scaleX: 1
-        scaleY: 0.9
+      - depth: 3
+        texture: e2cad58c-b4eb-4d4e-b049-32a0e0da12e9
         shiftX: 502
         shiftY: 564
-      - depth: 3
-        texture: e2cad58c-b4eb-4d4e-b049-32a0e0da12e9
-        movementX: 0
-        movementY: 0
         parallaxX: 1
         parallaxY: 1
-        repeat: no-repeat
+        movementX: 0
+        movementY: 0
         scaleX: 1
         scaleY: 0.9
+        repeat: no-repeat
+      - depth: 3
+        texture: e2cad58c-b4eb-4d4e-b049-32a0e0da12e9
         shiftX: 502
         shiftY: 338
-      - depth: 3
-        texture: e2cad58c-b4eb-4d4e-b049-32a0e0da12e9
-        movementX: 0
-        movementY: 0
         parallaxX: 1
         parallaxY: 1
-        repeat: no-repeat
+        movementX: 0
+        movementY: 0
         scaleX: 1
         scaleY: 0.9
+        repeat: no-repeat
+      - depth: 3
+        texture: e2cad58c-b4eb-4d4e-b049-32a0e0da12e9
         shiftX: 502
         shiftY: 114
+        parallaxX: 1
+        parallaxY: 1
+        movementX: 0
+        movementY: 0
+        scaleX: 1
+        scaleY: 0.9
+        repeat: no-repeat
     copies:
       - x: 288
         'y': 64
+        opacity: 1
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
         uid: 7f04eaea-c5fc-4698-b461-1d7617c77492
         exts: {}
         customProperties: {}
-        opacity: 1
-        tint: 16777215
-        rotation: 0
-        scale:
-          x: 1
-          'y': 1
       - x: 0
         'y': 224
-        uid: 4e4a82ac-4d98-4bd4-ac28-9ab7d434573c
-        exts: {}
-        customProperties: {}
         opacity: 1
         tint: 16777215
-        rotation: 0
         scale:
           x: 1
           'y': 1
+        rotation: 0
+        uid: 4e4a82ac-4d98-4bd4-ac28-9ab7d434573c
+        exts: {}
+        customProperties: {}
       - x: 0
         'y': 448
-        uid: 4e4a82ac-4d98-4bd4-ac28-9ab7d434573c
-        exts: {}
-        customProperties: {}
         opacity: 1
         tint: 16777215
-        rotation: 0
         scale:
           x: 1
           'y': 1
+        rotation: 0
+        uid: 4e4a82ac-4d98-4bd4-ac28-9ab7d434573c
+        exts: {}
+        customProperties: {}
       - x: 0
         'y': 672
-        uid: 4e4a82ac-4d98-4bd4-ac28-9ab7d434573c
-        exts: {}
-        customProperties: {}
         opacity: 1
         tint: 16777215
-        rotation: 0
         scale:
           x: 1
           'y': 1
+        rotation: 0
+        uid: 4e4a82ac-4d98-4bd4-ac28-9ab7d434573c
+        exts: {}
+        customProperties: {}
     tiles:
       - depth: -10
         tiles: []
         extends: {}
+        hidden: false
     uid: 1ea4cdbd-4ed9-4ec3-9b12-2bdb994363f4
     thumbnail: 2bdb994363f4
     extends: {}
     gridX: 32
     gridY: 32
     backgroundColor: '#F5750D'
-    lastmod: 1661558165537
+    lastmod: 1715032789476
     events:
       - lib: core
         arguments: {}
@@ -740,6 +741,18 @@ rooms:
 
 
           ct.room.paused = false
+
+
+
+          function getRandomNumbers() {
+              const numbers = new Set();
+              while (numbers.size < 5) numbers.add(Math.floor(Math.random() * 10));
+              return [...numbers];
+          }
+
+
+          ct.room.selectedtools = getRandomNumbers()
+
 
 
 
@@ -809,20 +822,40 @@ rooms:
 
           // PLACE TOOLS
 
-          var toolsList = ['t1', 't2', 't3', 't4', 't5']
+          //var toolsList = ['t1', 't2', 't3', 't4', 't5', 't6', 't7', 't8',
+          't9', 't10']
 
           var tX = 66
 
           var tY = ct.camera.height-100
 
-          for(var i in toolsList){
-              var item = toolsList[i]
-              
-              var tool = ct.templates.copy('tools', tX+(100*i), tY)
-              tool.scale.x = tool.scale.y = 0.6
-              tool.gotoAndStop(i)
+          /*
 
-          }
+          for(var i in ct.room.selectedtools){
+              //var item = toolsList[i]
+              var tool = ct.templates.copy('tools', tX+(i * 100), tY)
+              tool.scale.x = tool.scale.y = 0.6
+              tool.gotoAndStop(ct.room.selectedtools[i])
+          }*/
+
+
+          var delay = 200;
+
+          ct.room.selectedtools.forEach((toolName, index) => {
+              setTimeout(() => {
+                  var tool = ct.templates.copy('tools', tX + (index * 100), tY);
+                  tool.scale.x = tool.scale.y = 1;
+                  tool.gotoAndStop(toolName);
+                  ct.sound.spawn('release')
+                  setTimeout(()=>{tool.scale.x = tool.scale.y = 0.9;}, 50)
+                  setTimeout(()=>{tool.scale.x = tool.scale.y = 0.8;}, 100)
+                  setTimeout(()=>{tool.scale.x = tool.scale.y = 0.7;}, 150)
+                  setTimeout(()=>{tool.scale.x = tool.scale.y = 0.6;}, 200)
+                  setTimeout(()=>{tool.scale.x = tool.scale.y = 0.5;}, 250)
+                  setTimeout(()=>{tool.scale.x = tool.scale.y = 0.6;}, 300)
+              }, delay);
+              delay += 200; // Increase delay for next item
+          });
 
 
 
@@ -962,26 +995,27 @@ rooms:
     backgrounds:
       - depth: 10
         texture: 0c1d276f-f1d2-4380-8cab-ffdcff5ba8bf
-        movementX: 0
-        movementY: 0
-        parallaxX: 1
-        parallaxY: 1
-        repeat: no-repeat
-        scaleX: 1
-        scaleY: 1
         shiftX: 0
         shiftY: 0
+        parallaxX: 1
+        parallaxY: 1
+        movementX: 0
+        movementY: 0
+        scaleX: 1
+        scaleY: 1
+        repeat: no-repeat
     copies: []
     tiles:
       - depth: -10
         tiles: []
         extends: {}
+        hidden: false
     uid: 3d0292ac-0e01-4418-9526-98eec0ea397a
     thumbnail: 98eec0ea397a
     extends: {}
     gridX: 32
     gridY: 32
-    lastmod: 1661556364481
+    lastmod: 1715032803993
     backgroundColor: '#FFFFFF'
     events:
       - lib: core
@@ -1001,48 +1035,49 @@ rooms:
     backgrounds:
       - depth: 0
         texture: e2c1dd1f-7c20-4340-b92f-3d8e5a96db3f
-        movementX: 0
-        movementY: 0
-        parallaxX: 1
-        parallaxY: 1
-        repeat: no-repeat
-        scaleX: 1
-        scaleY: 1
         shiftX: 0
         shiftY: 0
+        parallaxX: 1
+        parallaxY: 1
+        movementX: 0
+        movementY: 0
+        scaleX: 1
+        scaleY: 1
+        repeat: no-repeat
     copies:
       - x: 32
         'y': 832
+        opacity: 1
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
         uid: d3d08892-2530-4088-8248-d026f19bc50d
         exts: {}
         customProperties: {}
+      - x: 160
+        'y': 832
         opacity: 1
         tint: 16777215
-        rotation: 0
         scale:
           x: 1
           'y': 1
-      - x: 160
-        'y': 832
+        rotation: 0
         uid: 0d9d57d2-d382-48e8-8fd7-310a70a6990f
         exts: {}
         customProperties: {}
-        opacity: 1
-        tint: 16777215
-        rotation: 0
-        scale:
-          x: 1
-          'y': 1
     tiles:
       - depth: -10
         tiles: []
         extends: {}
+        hidden: false
     uid: 5dac3056-eebb-4ff5-b4f2-107ca335fd4b
     thumbnail: 107ca335fd4b
     extends: {}
     gridX: 32
     gridY: 32
-    lastmod: 1661558185488
+    lastmod: 1715032809026
     backgroundColor: '#F5750D'
     events:
       - lib: core
@@ -1066,26 +1101,27 @@ rooms:
     backgrounds:
       - depth: 0
         texture: 39685529-7f56-4862-9c6f-d2071436fe96
-        movementX: 0
-        movementY: 0
-        parallaxX: 1
-        parallaxY: 1
-        repeat: no-repeat
-        scaleX: 1
-        scaleY: 1
         shiftX: 0
         shiftY: 0
+        parallaxX: 1
+        parallaxY: 1
+        movementX: 0
+        movementY: 0
+        scaleX: 1
+        scaleY: 1
+        repeat: no-repeat
     copies: []
     tiles:
       - depth: -10
         tiles: []
         extends: {}
+        hidden: false
     uid: a0324ff9-3dff-4d95-af5e-be3cfbbc6a4e
     thumbnail: be3cfbbc6a4e
     extends: {}
     gridX: 32
     gridY: 32
-    lastmod: 1633040036230
+    lastmod: 1715032802492
     backgroundColor: '#FFFFFF'
     events:
       - lib: core
@@ -1116,48 +1152,49 @@ rooms:
     backgrounds:
       - depth: 0
         texture: 805b1081-c4d0-4ea3-a629-a4c8aa2cbaa4
-        movementX: 0
-        movementY: 0
-        parallaxX: 1
-        parallaxY: 1
-        repeat: no-repeat
-        scaleX: 1
-        scaleY: 1
         shiftX: 0
         shiftY: 0
+        parallaxX: 1
+        parallaxY: 1
+        movementX: 0
+        movementY: 0
+        scaleX: 1
+        scaleY: 1
+        repeat: no-repeat
     copies:
       - x: 160
         'y': 832
+        opacity: 1
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
         uid: 2aa15139-db50-447a-b84c-659cf389994a
         exts: {}
         customProperties: {}
+      - x: 32
+        'y': 832
         opacity: 1
         tint: 16777215
-        rotation: 0
         scale:
           x: 1
           'y': 1
-      - x: 32
-        'y': 832
+        rotation: 0
         uid: 1281308a-1847-4b2b-baa3-eb2156a24157
         exts: {}
         customProperties: {}
-        opacity: 1
-        tint: 16777215
-        rotation: 0
-        scale:
-          x: 1
-          'y': 1
     tiles:
       - depth: -10
         tiles: []
         extends: {}
+        hidden: false
     uid: 8612a157-40fe-494b-90ef-326ae45b92d2
     thumbnail: 326ae45b92d2
     extends: {}
     gridX: 32
     gridY: 32
-    lastmod: 1634567680137
+    lastmod: 1715032800976
     backgroundColor: '#F5750D'
     events:
       - lib: core
@@ -1184,59 +1221,60 @@ rooms:
     backgrounds:
       - depth: 0
         texture: RN7DpHJG48tz2B
-        movementX: 0
-        movementY: 0
-        parallaxX: 1
-        parallaxY: 1
-        repeat: no-repeat
-        scaleX: 1
-        scaleY: 1
         shiftX: 0
         shiftY: 0
+        parallaxX: 1
+        parallaxY: 1
+        movementX: 0
+        movementY: 0
+        scaleX: 1
+        scaleY: 1
+        repeat: no-repeat
     copies:
       - x: 32
         'y': 832
+        opacity: 1
+        tint: 16777215
+        scale:
+          x: 1
+          'y': 1
+        rotation: 0
         uid: d3d08892-2530-4088-8248-d026f19bc50d
         exts: {}
         customProperties: {}
+      - x: 160
+        'y': 832
         opacity: 1
         tint: 16777215
-        rotation: 0
         scale:
           x: 1
           'y': 1
-      - x: 160
-        'y': 832
+        rotation: 0
         uid: zL5fkcm7D5MCfH
         exts: {}
         customProperties: {}
+      - x: 160
+        'y': 288
         opacity: 1
         tint: 16777215
-        rotation: 0
         scale:
           x: 1
           'y': 1
-      - x: 160
-        'y': 288
+        rotation: 0
         uid: 3rJCb53R7ftHrr
         exts: {}
         customProperties: {}
-        opacity: 1
-        tint: 16777215
-        rotation: 0
-        scale:
-          x: 1
-          'y': 1
     tiles:
       - depth: -10
         tiles: []
         extends: {}
+        hidden: false
     uid: MjKb1rn1d4Hdkj
     thumbnail: MjKb1rn1d4Hdkj
     extends: {}
     gridX: 32
     gridY: 32
-    lastmod: 1661555814850
+    lastmod: 1715032799393
     backgroundColor: '#F5750D'
     events: []
     type: room
@@ -1503,7 +1541,7 @@ templates:
     texture: 9b466b9c-bea0-46d0-a3bc-be1e653eeb48
     extends: {}
     uid: 7f04eaea-c5fc-4698-b461-1d7617c77492
-    lastmod: 1645104544430
+    lastmod: 1715026999773
     events:
       - lib: core
         arguments: {}
@@ -1616,7 +1654,7 @@ templates:
     texture: -1
     extends: {}
     uid: 333b98b5-c42e-413e-a739-deb1f6472b51
-    lastmod: 1632938348170
+    lastmod: 1715026773488
     events:
       - lib: core
         arguments: {}
@@ -1650,7 +1688,7 @@ templates:
     texture: 7fc3fa0b-8022-43df-8c2d-2bceff10a98a
     extends: {}
     uid: 1281308a-1847-4b2b-baa3-eb2156a24157
-    lastmod: 1661558239819
+    lastmod: 1715027005009
     events:
       - lib: core
         arguments: {}
@@ -1810,7 +1848,7 @@ templates:
     texture: d43fca81-39a8-43f2-8b82-69ccb4987ab1
     extends: {}
     uid: 4e4a82ac-4d98-4bd4-ac28-9ab7d434573c
-    lastmod: 1661551499094
+    lastmod: 1715031924278
     events:
       - lib: core
         arguments: {}
@@ -1821,7 +1859,6 @@ templates:
 
 
           function builder () {
-              
               var tool = ct.templates.copy('sillos', _this.x + _this.width, _this.y )
               tool.speed = 2 - (_this.builderspeed * .1);
               tool.direction = 180
@@ -1880,12 +1917,20 @@ templates:
     texture: 068a7de5-a30e-47ed-bd08-67f2295539ac
     extends: {}
     uid: 50832695-7760-474d-9e7f-3c0044f8f7f2
-    lastmod: 1661551462861
+    lastmod: 1715031897012
     events:
       - lib: core
         arguments: {}
         code: |-
-          this.gotoAndStop(Math.round(Math.random()*4))
+
+
+          this.gotoAndStop(ct.room.selectedtools[Math.round(Math.random()*4)])
+
+
+
+
+
+
           this.readyToKill = false
 
           this.isSpecial = 1 == Math.round( Math.random() -.3 )
@@ -1937,7 +1982,7 @@ templates:
     texture: 7cad867c-5ca9-4061-8ab8-cac02ddd2cb5
     extends: {}
     uid: e7752194-b5d4-480d-b83c-835daa939e83
-    lastmod: 1661551506760
+    lastmod: 1715026993422
     events:
       - lib: core
         arguments: {}
@@ -1964,7 +2009,7 @@ templates:
     texture: 7cad867c-5ca9-4061-8ab8-cac02ddd2cb5
     extends: {}
     uid: 2bc093e7-0731-4c4b-9439-806229cef171
-    lastmod: 1661551472012
+    lastmod: 1715027248583
     events:
       - lib: core
         arguments: {}
@@ -2025,6 +2070,26 @@ templates:
                           case 4:
                               pointValue = 149
                               toolname = 'pinzas'
+                              break;
+                          case 5:
+                              pointValue = 149
+                              toolname = 'cutter'
+                              break;
+                          case 6:
+                              pointValue = 97
+                              toolname = 'pala'
+                              break;
+                          case 7:
+                              pointValue = 79
+                              toolname = 'hacha'
+                              break;
+                          case 8:
+                              pointValue = 47
+                              toolname = 'triangulolapiz'
+                              break;
+                          case 9:
+                              pointValue = 19
+                              toolname = 'allen'
                               break;
                       }
                       if(collided.isSpecial){
@@ -2091,7 +2156,7 @@ templates:
     texture: m6JbpgpJMzfJ3Q
     visible: true
     extends: {}
-    lastmod: 1661557074382
+    lastmod: 1715027003241
     uid: 3rJCb53R7ftHrr
     playAnimationOnStart: true
     events:
