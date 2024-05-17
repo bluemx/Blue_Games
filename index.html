@@ -14,19 +14,49 @@
     <script>
       document.addEventListener('DOMContentLoaded', function () {
       function detectarDispositivo() {
+        //RUNNER PASE
       var enlace = document.getElementById('enlace');
       var enlace1 = document.getElementById('enlace1');
-      
+      //COCHE PASE
+      var enlaceCoche= document.getElementById('enlaceCoche');
+      var enlaceCoche1= document.getElementById('enlaceCoche1');
+      //ROTONDA PASE
+      var enlaceRotonda=document.getElementById('enlaceRotonda');
+      var enlaceRotonda1=document.getElementById('enlaceRotonda1');
+      //BARCEL
+      var enlaceBarcel=document.getElementById('enlaceBarcel');
+      var enlaceBarcel1=document.getElementById('enlaceBarcel1');
+      //ROBOT BLUE
+      var enlaceRobot=document.getElementById('enlaceRobot');
+      var enlaceRobot1=document.getElementById('enlaceRobot1');
+      //RUNNER BLUE
+      var enlaceRB=document.getElementById('enlaceRB');
+      var enlaceRB1=document.getElementById('enlaceRB1');
+      //BRICK BLUE
+      var enlaceBrick=document.getElementById('enlaceBrick');
+      var enlaceBrick1=document.getElementById('enlaceBrick1');
+
+
 
   if (window.innerWidth <= 1000) {
       enlace.href = 'https://bluemx.github.io/Blue_Games/PASE/Runner_M/';
       enlace1.href = 'https://bluemx.github.io/Blue_Games/PASE/Runner_M/';
       enlace1.textContent='https://bluemx.github.io/Blue_Games/PASE/Runner_M/'
+
+      //BRICK
+      enlaceBrick.href = 'https://bluemx.github.io/Blue_Games/Blue/Brick_M/';
+      enlaceBrick1.href = 'https://bluemx.github.io/Blue_Games/Blue/Brick_M/';
+      enlaceBrick1.textContent='https://bluemx.github.io/Blue_Games/Blue/Brick_M/'
      
   } else {
       enlace.href = 'https://bluemx.github.io/Blue_Games/PASE/Runner/';
       enlace1.href = 'https://bluemx.github.io/Blue_Games/PASE/Runner/';
       enlace1.textContent='https://bluemx.github.io/Blue_Games/PASE/Runner/'
+
+       //BRICK
+       enlaceBrick.href = 'https://bluemx.github.io/Blue_Games/Blue/Brick/';
+       enlaceBrick1.href = 'https://bluemx.github.io/Blue_Games/Blue/Brick/';
+       enlaceBrick1.textContent='https://bluemx.github.io/Blue_Games/Blue/Brick/'
   }
 }
 
@@ -174,11 +204,11 @@
 
               <div class="col-md-4">
                 <div class="card mb-4">
-                    <a href="https://bluemx.github.io/Blue_Games/BrickBreaker/"target="_blank"><img src="imagenes/brick.png" class="card-img-top" alt="Imagen de ejemplo"></a>
+                    <a id="enlaceBrick"target="_blank"><img src="imagenes/brick.png" class="card-img-top" alt="Imagen de ejemplo"></a>
                   <div class="card-body">
                     <h5 class="card-title">Blue Games</h5>
                     <p class="card-text">Destruye los ladrillos para obtener más puntos.</p>
-                    <a href="https://bluemx.github.io/Blue_Games/BrickBreaker/" class="">https://bluemx.github.io/Blue_Games/BrickBreaker/</a>
+                    <a id="enlaceBrick1" class=""></a>
                   </div>
                 </div>
               </div>
