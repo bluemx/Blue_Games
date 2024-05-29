@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Loader with PostMessage Listener</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <main class="container mx-auto p-4 flex space-x-4">
+        <div class="w-1/2">
+            <div class="bg-white p-6 rounded shadow-md">
+                <input id="urlInput" type="text" placeholder="Enter URL" class="border p-2 w-full mb-4">
+                <button id="loadButton" class="bg-blue-600 text-white p-2 rounded">Load URL</button>
+            </div>
+            <iframe id="urlFrame" class="w-full h-96 mt-4 bg-white rounded shadow-md"></iframe>
+        </div>
+        <div class="w-1/2 bg-white p-6 rounded shadow-md">
+            <h2 class="text-xl mb-4">Messages from iframe:</h2>
+            <div id="messageLog" class="border p-4 h-48 overflow-auto bg-gray-50 mb-4"></div>
+            <input id="postMessageInput" type="text" placeholder="Enter message to send to iframe" class="border p-2 w-full mb-4">
+            <button id="sendMessageButton" class="bg-blue-600 text-white p-2 rounded">Send Message</button>
+        </div>
+    </main>
+    <script>
+        document.getElementById('loadButton').addEventListener('click', function() {
+            const url = document.getElementById('urlInput').value;
+            document.getElementById('urlFrame').src = url;
+        });
+
+        window.addEventListener('message', function(event) {
+            const messageLog = document.getElementById('messageLog');
+            messageLog.innerHTML = ''; // Clear existing messages
+            setTimeout(() => {
+                const message = document.createElement('div');
+                message.textContent = `${JSON.stringify(event.data)}`;
+                messageLog.appendChild(message);
+            }, 250); // Wait 1 second before displaying the message
+        }, false);
+
+        document.getElementById('sendMessageButton').addEventListener('click', function() {
+            const iframe = document.getElementById('urlFrame');
+            const message = document.getElementById('postMessageInput').value;
+            iframe.contentWindow.postMessage(message, '*');
+        });
+    </script>
+</body>
+</html>
