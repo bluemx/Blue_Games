@@ -13,13 +13,17 @@
                 <input id="urlInput" type="text" placeholder="Enter URL" class="border p-2 w-full mb-4">
                 <button id="loadButton" class="bg-blue-600 text-white p-2 rounded">Load URL</button>
             </div>
+
             <iframe id="urlFrame" class="w-full h-96 mt-4 bg-white rounded shadow-md"></iframe>
+            
+            <div class="bg-white p-6 rounded shadow-md">
+                <button id="sendMessageButton" class="bg-blue-600 text-white p-2 rounded">Send bg1, bg2 & bg3</button>
+            </div>
+
         </div>
         <div class="w-1/2 bg-white p-6 rounded shadow-md">
             <h2 class="text-xl mb-4">Messages from iframe:</h2>
             <div id="messageLog" class="border p-4 h-48 overflow-auto bg-gray-50 mb-4"></div>
-            <input id="postMessageInput" type="text" placeholder="Enter message to send to iframe" class="border p-2 w-full mb-4">
-            <button id="sendMessageButton" class="bg-blue-600 text-white p-2 rounded">Send Message</button>
         </div>
     </main>
     <script>
@@ -27,7 +31,7 @@
             const url = document.getElementById('urlInput').value;
             document.getElementById('urlFrame').src = url;
         });
-
+    
         window.addEventListener('message', function(event) {
             const messageLog = document.getElementById('messageLog');
             messageLog.innerHTML = ''; // Clear existing messages
@@ -35,14 +39,24 @@
                 const message = document.createElement('div');
                 message.textContent = `${JSON.stringify(event.data)}`;
                 messageLog.appendChild(message);
-            }, 250); // Wait 1 second before displaying the message
+            }, 250); // Wait 250 milliseconds before displaying the message
         }, false);
-
+    
         document.getElementById('sendMessageButton').addEventListener('click', function() {
             const iframe = document.getElementById('urlFrame');
-            const message = document.getElementById('postMessageInput').value;
+            const message = {
+                state: 'data',
+                img: {
+                    bg1: 'https://bluegamesrepo.netlify.app/postmessageimg/bg1.png',
+                    bg2: 'https://bluegamesrepo.netlify.app/postmessageimg/bg2.png',
+                    bg3: 'https://bluegamesrepo.netlify.app/postmessageimg/bg3.png',
+                },
+                info: {}
+            };
             iframe.contentWindow.postMessage(message, '*');
+            console.log(message)
         });
     </script>
+    
 </body>
 </html>
