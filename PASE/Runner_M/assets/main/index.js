@@ -50,3 +50,4 @@ System.register("chunks:///_virtual/SpawnTarjetas.ts",["./rollupPluginModLoBabel
     };
     });
 });
+//# sourceMappingURL=index.js.map
