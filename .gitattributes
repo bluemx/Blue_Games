@@ -45,3 +45,4 @@ AUTHORS text
 *.zip binary
 *.exe binary
 *.dll binary
+*.bin binary
