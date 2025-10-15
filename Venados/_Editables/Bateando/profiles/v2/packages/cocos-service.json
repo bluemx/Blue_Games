@@ -1,0 +1,41 @@
+{
+  "__version__": "3.0.8",
+  "builder": {
+    "options": {
+      "web-desktop": {
+        "configID": "0b9ead",
+        "services": []
+      },
+      "web-mobile": {
+        "configID": "0b9ead",
+        "services": []
+      }
+    },
+    "taskOptionsMap": {
+      "1760469682986": {
+        "configID": "0b9ead",
+        "services": []
+      },
+      "1760469863209": {
+        "configID": "0b9ead",
+        "services": []
+      },
+      "1760543163924": {
+        "configID": "0b9ead",
+        "services": [],
+        "__version__": "3.0.8"
+      },
+      "1760543535249": {
+        "configID": "0b9ead",
+        "services": [],
+        "__version__": "3.0.8"
+      }
+    },
+    "__version__": "1.3.9"
+  },
+  "builder-options": {
+    "configID": "0b9ead",
+    "services": [],
+    "__version__": "3.0.8"
+  }
+}

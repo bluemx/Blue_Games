@@ -1,0 +1,430 @@
+09:38:46.073 debug: 10/15/2025, 9:38:46 AM
+09:38:46.074 debug: Project: /Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando
+09:38:46.074 debug: Targets: editor,preview
+09:38:46.076 debug: Incremental file seems great.
+09:38:46.077 debug: Engine path: /Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine
+09:38:46.082 debug: Initializing target [Editor]
+09:38:46.082 debug: Loading cache
+09:38:46.083 debug: Loading cache costs 0.9737919999997757ms.
+09:38:46.083 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,gfx-empty,gfx-webgpu,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,physics-2d-box2d-wasm,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,light-probe,terrain,webview,tween,tiled-map,vendor-google,spine,dragon-bones,marionette,procedural-animation,custom-pipeline,custom-pipeline-builtin-scripts,custom-pipeline-post-process,legacy-pipeline,websocket,websocket-server,meshopt
+09:38:46.083 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc"
+  }
+}
+09:38:46.083 debug: Initializing target [Preview]
+09:38:46.084 debug: Loading cache
+09:38:46.085 debug: Loading cache costs 0.9605000000001382ms.
+09:38:46.085 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc"
+  }
+}
+09:38:46.109 debug: Sync engine features: 2d,3d,animation,audio,base,custom-pipeline,dragon-bones,gfx-webgl,intersection-2d,light-probe,marionette,particle,particle-2d,physics-2d-box2d,physics-ammo,primitive,profiler,skeletal-animation,spine,terrain,tiled-map,tween,ui,video,websocket,webview
+09:38:46.111 debug: Reset databases. Enumerated domains: [
+  {
+    "root": "db://internal/",
+    "physical": "/Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets"
+  },
+  {
+    "root": "db://assets/",
+    "physical": "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets"
+  }
+]
+09:38:46.111 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc",
+    "db://internal/": "file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/",
+    "db://assets/": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/"
+  }
+}
+09:38:46.111 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc",
+    "db://internal/": "file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/",
+    "db://assets/": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/"
+  }
+}
+09:38:46.111 debug: Pulling asset-db.
+09:38:46.115 debug: Fetch asset-db cost: 3.7246670000004087ms.
+09:38:46.116 debug: Build iteration starts.
+Number of accumulated asset changes: 18
+Feature changed: false
+09:38:46.116 debug: Target(editor) build started.
+09:38:46.117 debug: Detected change: cce:/internal/x/cc. Last mtime: Wed Dec 31 1969 18:00:06 GMT-0600 (Central Standard Time), Current mtime: Wed Dec 31 1969 18:00:04 GMT-0600 (Central Standard Time)
+09:38:46.117 debug: Inspect cce:/internal/x/cc
+09:38:46.143 debug: transform url: 'cce:/internal/x/cc' costs: 25.00 ms
+09:38:46.144 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+09:38:46.144 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+09:38:46.144 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+09:38:46.144 debug: Resolve cce:/internal/x/cc-fu/gfx-empty from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-empty.
+09:38:46.144 debug: Resolve cce:/internal/x/cc-fu/gfx-webgpu from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgpu.
+09:38:46.144 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+09:38:46.144 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+09:38:46.144 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
+09:38:46.144 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+09:38:46.144 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+09:38:46.144 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+09:38:46.144 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+09:38:46.144 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+09:38:46.144 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+09:38:46.144 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+09:38:46.144 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d-wasm from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d-wasm.
+09:38:46.144 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+09:38:46.144 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+09:38:46.144 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+09:38:46.144 debug: Resolve cce:/internal/x/cc-fu/geometry-renderer from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/geometry-renderer.
+09:38:46.144 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+09:38:46.144 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+09:38:46.144 debug: Resolve cce:/internal/x/cc-fu/xr from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/xr.
+09:38:46.144 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
+09:38:46.144 debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+09:38:46.144 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+09:38:46.144 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+09:38:46.144 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+09:38:46.144 debug: Resolve cce:/internal/x/cc-fu/vendor-google from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/vendor-google.
+09:38:46.144 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+09:38:46.144 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+09:38:46.144 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
+09:38:46.145 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline-post-process from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline-post-process.
+09:38:46.145 debug: Resolve cce:/internal/x/cc-fu/legacy-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/legacy-pipeline.
+09:38:46.145 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 03:59:10 GMT-0600 (Central Standard Time), Current mtime: Wed Dec 31 1969 18:00:04 GMT-0600 (Central Standard Time)
+09:38:46.145 debug: Inspect cce:/internal/x/prerequisite-imports
+09:38:46.154 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 9.00 ms
+09:38:46.155 debug: Resolve file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
+09:38:46.155 debug: Resolve file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+09:38:46.155 debug: Resolve file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+09:38:46.155 debug: Resolve file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+09:38:46.155 debug: Resolve file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+09:38:46.155 debug: Resolve file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+09:38:46.155 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallCtrl.ts.
+09:38:46.155 debug: Inspect file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallCtrl.ts
+09:38:46.188 debug: transform url: 'file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallCtrl.ts' costs: 32.60 ms
+09:38:46.189 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallSpawner.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallSpawner.ts.
+09:38:46.189 debug: Inspect file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallSpawner.ts
+09:38:46.208 debug: transform url: 'file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallSpawner.ts' costs: 19.60 ms
+09:38:46.210 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BateosCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BateosCtrl.ts.
+09:38:46.210 debug: Inspect file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BateosCtrl.ts
+09:38:46.224 debug: transform url: 'file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BateosCtrl.ts' costs: 14.70 ms
+09:38:46.225 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BatterAi.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BatterAi.ts.
+09:38:46.225 debug: Inspect file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BatterAi.ts
+09:38:46.238 debug: transform url: 'file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BatterAi.ts' costs: 12.40 ms
+09:38:46.239 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/FinalScoreCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/FinalScoreCtrl.ts.
+09:38:46.239 debug: Inspect file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/FinalScoreCtrl.ts
+09:38:46.253 debug: transform url: 'file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/FinalScoreCtrl.ts' costs: 14.20 ms
+09:38:46.254 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/GameManager.ts.
+09:38:46.254 debug: Inspect file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/GameManager.ts
+09:38:46.273 debug: transform url: 'file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/GameManager.ts' costs: 18.80 ms
+09:38:46.274 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/InstructionsCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/InstructionsCtrl.ts.
+09:38:46.274 debug: Inspect file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/InstructionsCtrl.ts
+09:38:46.287 debug: transform url: 'file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/InstructionsCtrl.ts' costs: 12.90 ms
+09:38:46.287 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/MiniLabelCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/MiniLabelCtrl.ts.
+09:38:46.287 debug: Inspect file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/MiniLabelCtrl.ts
+09:38:46.298 debug: transform url: 'file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/MiniLabelCtrl.ts' costs: 11.10 ms
+09:38:46.300 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/PlayerAnimationCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/PlayerAnimationCtrl.ts.
+09:38:46.300 debug: Inspect file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/PlayerAnimationCtrl.ts
+09:38:46.308 debug: transform url: 'file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/PlayerAnimationCtrl.ts' costs: 8.00 ms
+09:38:46.308 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SceneRouter.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SceneRouter.ts.
+09:38:46.308 debug: Inspect file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SceneRouter.ts
+09:38:46.318 debug: transform url: 'file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SceneRouter.ts' costs: 9.20 ms
+09:38:46.318 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/ScoreCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/ScoreCtrl.ts.
+09:38:46.318 debug: Inspect file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/ScoreCtrl.ts
+09:38:46.331 debug: transform url: 'file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/ScoreCtrl.ts' costs: 13.10 ms
+09:38:46.332 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SplashCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SplashCtrl.ts.
+09:38:46.332 debug: Inspect file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SplashCtrl.ts
+09:38:46.341 debug: transform url: 'file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SplashCtrl.ts' costs: 8.90 ms
+09:38:46.342 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/code-quality/cr.mjs.
+09:38:46.342 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Tue Oct 14 2025 03:20:28 GMT-0600 (Central Standard Time), Current mtime: Wed Oct 15 2025 09:38:41 GMT-0600 (Central Standard Time)
+09:38:46.342 debug: Inspect cce:/internal/code-quality/cr.mjs
+09:38:46.345 debug: transform url: 'cce:/internal/code-quality/cr.mjs' costs: 3.00 ms
+09:38:46.346 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/x/cc.
+09:38:46.346 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/x/cc.
+09:38:46.346 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/x/cc.
+09:38:46.346 debug: Resolve cc/env from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as external dependency cc/env.
+09:38:46.346 debug: Resolve ./builtin-pipeline-settings from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+09:38:46.346 debug: Resolve ./builtin-pipeline-pass from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+09:38:46.346 debug: Resolve ./builtin-pipeline from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+09:38:46.346 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/code-quality/cr.mjs.
+09:38:46.346 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+09:38:46.346 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+09:38:46.346 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+09:38:46.346 debug: Resolve cc/env from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as external dependency cc/env.
+09:38:46.346 debug: Resolve ./builtin-pipeline-types from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+09:38:46.346 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+09:38:46.346 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+09:38:46.346 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+09:38:46.346 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/code-quality/cr.mjs.
+09:38:46.346 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/x/cc.
+09:38:46.346 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/x/cc.
+09:38:46.346 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/x/cc.
+09:38:46.347 debug: Resolve ./builtin-pipeline-settings from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+09:38:46.347 debug: Resolve cc/env from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as external dependency cc/env.
+09:38:46.347 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/code-quality/cr.mjs.
+09:38:46.347 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+09:38:46.347 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+09:38:46.347 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+09:38:46.347 debug: Resolve cc/env from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as external dependency cc/env.
+09:38:46.347 debug: Resolve ./builtin-pipeline-types from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+09:38:46.347 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+09:38:46.347 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+09:38:46.347 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+09:38:46.347 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallCtrl.ts as cce:/internal/x/cc.
+09:38:46.347 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallCtrl.ts as cce:/internal/x/cc.
+09:38:46.347 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallCtrl.ts as cce:/internal/x/cc.
+09:38:46.347 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallSpawner.ts as cce:/internal/x/cc.
+09:38:46.347 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallSpawner.ts as cce:/internal/x/cc.
+09:38:46.347 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallSpawner.ts as cce:/internal/x/cc.
+09:38:46.347 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BateosCtrl.ts as cce:/internal/code-quality/cr.mjs.
+09:38:46.347 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BateosCtrl.ts as cce:/internal/x/cc.
+09:38:46.347 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BateosCtrl.ts as cce:/internal/x/cc.
+09:38:46.347 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BateosCtrl.ts as cce:/internal/x/cc.
+09:38:46.347 debug: Resolve ./SceneRouter from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BateosCtrl.ts as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SceneRouter.ts.
+09:38:46.347 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SceneRouter.ts as cce:/internal/x/cc.
+09:38:46.347 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SceneRouter.ts as cce:/internal/x/cc.
+09:38:46.347 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SceneRouter.ts as cce:/internal/x/cc.
+09:38:46.347 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BatterAi.ts as cce:/internal/code-quality/cr.mjs.
+09:38:46.347 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BatterAi.ts as cce:/internal/x/cc.
+09:38:46.347 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BatterAi.ts as cce:/internal/x/cc.
+09:38:46.347 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BatterAi.ts as cce:/internal/x/cc.
+09:38:46.347 debug: Resolve ./BallCtrl from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BatterAi.ts as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallCtrl.ts.
+09:38:46.347 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/FinalScoreCtrl.ts as cce:/internal/code-quality/cr.mjs.
+09:38:46.347 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/FinalScoreCtrl.ts as cce:/internal/x/cc.
+09:38:46.347 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/FinalScoreCtrl.ts as cce:/internal/x/cc.
+09:38:46.347 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/FinalScoreCtrl.ts as cce:/internal/x/cc.
+09:38:46.347 debug: Resolve ./SceneRouter from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/FinalScoreCtrl.ts as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SceneRouter.ts.
+09:38:46.347 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+09:38:46.347 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+09:38:46.347 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+09:38:46.347 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+09:38:46.348 debug: Resolve ./BallCtrl from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/GameManager.ts as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallCtrl.ts.
+09:38:46.348 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/InstructionsCtrl.ts as cce:/internal/code-quality/cr.mjs.
+09:38:46.348 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/InstructionsCtrl.ts as cce:/internal/x/cc.
+09:38:46.348 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/InstructionsCtrl.ts as cce:/internal/x/cc.
+09:38:46.348 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/InstructionsCtrl.ts as cce:/internal/x/cc.
+09:38:46.348 debug: Resolve ./SceneRouter from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/InstructionsCtrl.ts as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SceneRouter.ts.
+09:38:46.348 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/MiniLabelCtrl.ts as cce:/internal/x/cc.
+09:38:46.348 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/MiniLabelCtrl.ts as cce:/internal/x/cc.
+09:38:46.348 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/MiniLabelCtrl.ts as cce:/internal/x/cc.
+09:38:46.348 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/PlayerAnimationCtrl.ts as cce:/internal/x/cc.
+09:38:46.348 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/PlayerAnimationCtrl.ts as cce:/internal/x/cc.
+09:38:46.348 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/PlayerAnimationCtrl.ts as cce:/internal/x/cc.
+09:38:46.348 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/ScoreCtrl.ts as cce:/internal/x/cc.
+09:38:46.348 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/ScoreCtrl.ts as cce:/internal/x/cc.
+09:38:46.348 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/ScoreCtrl.ts as cce:/internal/x/cc.
+09:38:46.348 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SplashCtrl.ts as cce:/internal/code-quality/cr.mjs.
+09:38:46.348 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SplashCtrl.ts as cce:/internal/x/cc.
+09:38:46.348 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SplashCtrl.ts as cce:/internal/x/cc.
+09:38:46.348 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SplashCtrl.ts as cce:/internal/x/cc.
+09:38:46.348 debug: Resolve ./SceneRouter from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SplashCtrl.ts as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SceneRouter.ts.
+09:38:46.354 debug: Target(editor) ends with cost 237.76541699999962ms.
+09:38:46.354 debug: Target(preview) build started.
+09:38:46.355 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 00:24:34 GMT-0600 (Central Standard Time), Current mtime: Wed Dec 31 1969 18:00:04 GMT-0600 (Central Standard Time)
+09:38:46.355 debug: Inspect cce:/internal/x/cc
+09:38:46.365 debug: transform url: 'cce:/internal/x/cc' costs: 10.00 ms
+09:38:46.366 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+09:38:46.366 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+09:38:46.366 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+09:38:46.366 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+09:38:46.366 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+09:38:46.366 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+09:38:46.366 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
+09:38:46.366 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+09:38:46.366 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+09:38:46.366 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+09:38:46.366 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
+09:38:46.366 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+09:38:46.366 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+09:38:46.366 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d.
+09:38:46.366 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+09:38:46.366 debug: Resolve cce:/internal/x/cc-fu/physics-ammo from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-ammo.
+09:38:46.366 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+09:38:46.366 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+09:38:46.366 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+09:38:46.366 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
+09:38:46.366 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+09:38:46.366 debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+09:38:46.366 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+09:38:46.366 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+09:38:46.366 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+09:38:46.366 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+09:38:46.366 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+09:38:46.366 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 03:59:10 GMT-0600 (Central Standard Time), Current mtime: Wed Dec 31 1969 18:00:05 GMT-0600 (Central Standard Time)
+09:38:46.366 debug: Inspect cce:/internal/x/prerequisite-imports
+09:38:46.371 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 4.30 ms
+09:38:46.371 debug: Resolve file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
+09:38:46.371 debug: Resolve file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+09:38:46.371 debug: Resolve file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+09:38:46.371 debug: Resolve file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+09:38:46.371 debug: Resolve file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+09:38:46.371 debug: Resolve file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+09:38:46.371 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallCtrl.ts.
+09:38:46.371 debug: Inspect file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallCtrl.ts
+09:38:46.390 debug: transform url: 'file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallCtrl.ts' costs: 18.60 ms
+09:38:46.391 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallSpawner.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallSpawner.ts.
+09:38:46.391 debug: Inspect file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallSpawner.ts
+09:38:46.407 debug: transform url: 'file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallSpawner.ts' costs: 16.30 ms
+09:38:46.408 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BateosCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BateosCtrl.ts.
+09:38:46.408 debug: Inspect file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BateosCtrl.ts
+09:38:46.424 debug: transform url: 'file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BateosCtrl.ts' costs: 15.20 ms
+09:38:46.424 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BatterAi.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BatterAi.ts.
+09:38:46.424 debug: Inspect file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BatterAi.ts
+09:38:46.438 debug: transform url: 'file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BatterAi.ts' costs: 14.00 ms
+09:38:46.440 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/FinalScoreCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/FinalScoreCtrl.ts.
+09:38:46.440 debug: Inspect file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/FinalScoreCtrl.ts
+09:38:46.453 debug: transform url: 'file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/FinalScoreCtrl.ts' costs: 13.20 ms
+09:38:46.454 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/GameManager.ts.
+09:38:46.454 debug: Inspect file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/GameManager.ts
+09:38:46.471 debug: transform url: 'file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/GameManager.ts' costs: 17.40 ms
+09:38:46.472 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/InstructionsCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/InstructionsCtrl.ts.
+09:38:46.472 debug: Inspect file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/InstructionsCtrl.ts
+09:38:46.486 debug: transform url: 'file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/InstructionsCtrl.ts' costs: 13.70 ms
+09:38:46.487 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/MiniLabelCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/MiniLabelCtrl.ts.
+09:38:46.487 debug: Inspect file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/MiniLabelCtrl.ts
+09:38:46.499 debug: transform url: 'file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/MiniLabelCtrl.ts' costs: 12.50 ms
+09:38:46.500 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/PlayerAnimationCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/PlayerAnimationCtrl.ts.
+09:38:46.501 debug: Inspect file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/PlayerAnimationCtrl.ts
+09:38:46.508 debug: transform url: 'file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/PlayerAnimationCtrl.ts' costs: 7.70 ms
+09:38:46.509 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SceneRouter.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SceneRouter.ts.
+09:38:46.509 debug: Inspect file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SceneRouter.ts
+09:38:46.521 debug: transform url: 'file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SceneRouter.ts' costs: 11.50 ms
+09:38:46.522 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/ScoreCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/ScoreCtrl.ts.
+09:38:46.522 debug: Inspect file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/ScoreCtrl.ts
+09:38:46.534 debug: transform url: 'file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/ScoreCtrl.ts' costs: 12.70 ms
+09:38:46.535 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SplashCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SplashCtrl.ts.
+09:38:46.535 debug: Inspect file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SplashCtrl.ts
+09:38:46.546 debug: transform url: 'file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SplashCtrl.ts' costs: 10.90 ms
+09:38:46.547 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/code-quality/cr.mjs.
+09:38:46.547 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Tue Oct 14 2025 03:20:28 GMT-0600 (Central Standard Time), Current mtime: Wed Oct 15 2025 09:38:41 GMT-0600 (Central Standard Time)
+09:38:46.547 debug: Inspect cce:/internal/code-quality/cr.mjs
+09:38:46.551 debug: transform url: 'cce:/internal/code-quality/cr.mjs' costs: 3.30 ms
+09:38:46.551 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/x/cc.
+09:38:46.551 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/x/cc.
+09:38:46.551 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/x/cc.
+09:38:46.551 debug: Resolve cc/env from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as external dependency cc/env.
+09:38:46.551 debug: Resolve ./builtin-pipeline-settings from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+09:38:46.551 debug: Resolve ./builtin-pipeline-pass from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+09:38:46.551 debug: Resolve ./builtin-pipeline from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+09:38:46.551 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/code-quality/cr.mjs.
+09:38:46.551 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+09:38:46.551 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+09:38:46.551 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+09:38:46.551 debug: Resolve cc/env from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as external dependency cc/env.
+09:38:46.551 debug: Resolve ./builtin-pipeline-types from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+09:38:46.551 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+09:38:46.551 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+09:38:46.552 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+09:38:46.552 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/code-quality/cr.mjs.
+09:38:46.552 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/x/cc.
+09:38:46.552 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/x/cc.
+09:38:46.552 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/x/cc.
+09:38:46.552 debug: Resolve ./builtin-pipeline-settings from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+09:38:46.552 debug: Resolve cc/env from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as external dependency cc/env.
+09:38:46.552 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/code-quality/cr.mjs.
+09:38:46.552 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+09:38:46.552 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+09:38:46.552 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+09:38:46.552 debug: Resolve cc/env from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as external dependency cc/env.
+09:38:46.552 debug: Resolve ./builtin-pipeline-types from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+09:38:46.552 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+09:38:46.552 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+09:38:46.552 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+09:38:46.552 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallCtrl.ts as cce:/internal/x/cc.
+09:38:46.552 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallCtrl.ts as cce:/internal/x/cc.
+09:38:46.552 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallCtrl.ts as cce:/internal/x/cc.
+09:38:46.552 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallSpawner.ts as cce:/internal/x/cc.
+09:38:46.552 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallSpawner.ts as cce:/internal/x/cc.
+09:38:46.552 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallSpawner.ts as cce:/internal/x/cc.
+09:38:46.552 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BateosCtrl.ts as cce:/internal/code-quality/cr.mjs.
+09:38:46.552 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BateosCtrl.ts as cce:/internal/x/cc.
+09:38:46.552 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BateosCtrl.ts as cce:/internal/x/cc.
+09:38:46.552 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BateosCtrl.ts as cce:/internal/x/cc.
+09:38:46.552 debug: Resolve ./SceneRouter from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BateosCtrl.ts as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SceneRouter.ts.
+09:38:46.552 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SceneRouter.ts as cce:/internal/x/cc.
+09:38:46.552 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SceneRouter.ts as cce:/internal/x/cc.
+09:38:46.552 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SceneRouter.ts as cce:/internal/x/cc.
+09:38:46.552 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BatterAi.ts as cce:/internal/code-quality/cr.mjs.
+09:38:46.552 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BatterAi.ts as cce:/internal/x/cc.
+09:38:46.552 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BatterAi.ts as cce:/internal/x/cc.
+09:38:46.552 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BatterAi.ts as cce:/internal/x/cc.
+09:38:46.552 debug: Resolve ./BallCtrl from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BatterAi.ts as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallCtrl.ts.
+09:38:46.552 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/FinalScoreCtrl.ts as cce:/internal/code-quality/cr.mjs.
+09:38:46.552 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/FinalScoreCtrl.ts as cce:/internal/x/cc.
+09:38:46.552 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/FinalScoreCtrl.ts as cce:/internal/x/cc.
+09:38:46.552 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/FinalScoreCtrl.ts as cce:/internal/x/cc.
+09:38:46.552 debug: Resolve ./SceneRouter from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/FinalScoreCtrl.ts as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SceneRouter.ts.
+09:38:46.552 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+09:38:46.552 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+09:38:46.552 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+09:38:46.552 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+09:38:46.552 debug: Resolve ./BallCtrl from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/GameManager.ts as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallCtrl.ts.
+09:38:46.552 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/InstructionsCtrl.ts as cce:/internal/code-quality/cr.mjs.
+09:38:46.553 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/InstructionsCtrl.ts as cce:/internal/x/cc.
+09:38:46.553 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/InstructionsCtrl.ts as cce:/internal/x/cc.
+09:38:46.553 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/InstructionsCtrl.ts as cce:/internal/x/cc.
+09:38:46.553 debug: Resolve ./SceneRouter from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/InstructionsCtrl.ts as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SceneRouter.ts.
+09:38:46.553 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/MiniLabelCtrl.ts as cce:/internal/x/cc.
+09:38:46.553 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/MiniLabelCtrl.ts as cce:/internal/x/cc.
+09:38:46.553 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/MiniLabelCtrl.ts as cce:/internal/x/cc.
+09:38:46.553 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/PlayerAnimationCtrl.ts as cce:/internal/x/cc.
+09:38:46.553 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/PlayerAnimationCtrl.ts as cce:/internal/x/cc.
+09:38:46.553 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/PlayerAnimationCtrl.ts as cce:/internal/x/cc.
+09:38:46.553 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/ScoreCtrl.ts as cce:/internal/x/cc.
+09:38:46.553 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/ScoreCtrl.ts as cce:/internal/x/cc.
+09:38:46.553 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/ScoreCtrl.ts as cce:/internal/x/cc.
+09:38:46.553 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SplashCtrl.ts as cce:/internal/code-quality/cr.mjs.
+09:38:46.553 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SplashCtrl.ts as cce:/internal/x/cc.
+09:38:46.553 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SplashCtrl.ts as cce:/internal/x/cc.
+09:38:46.553 debug: Resolve cc from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SplashCtrl.ts as cce:/internal/x/cc.
+09:38:46.553 debug: Resolve ./SceneRouter from file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SplashCtrl.ts as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SceneRouter.ts.
+09:38:46.558 debug: Target(preview) ends with cost 203.73466699999972ms.
+09:38:47.121 debug: Pulling asset-db.
+09:38:47.447 debug: Fetch asset-db cost: 325.9051670000008ms.
+09:38:47.447 debug: Build iteration starts.
+Number of accumulated asset changes: 18
+Feature changed: false
+09:38:47.448 debug: Target(editor) build started.
+09:38:47.449 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Wed Dec 31 1969 18:00:04 GMT-0600 (Central Standard Time), Current mtime: Wed Dec 31 1969 18:00:06 GMT-0600 (Central Standard Time)
+09:38:47.449 debug: Inspect cce:/internal/x/prerequisite-imports
+09:38:47.452 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 3.50 ms
+09:38:47.453 debug: Resolve file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
+09:38:47.453 debug: Resolve file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+09:38:47.453 debug: Resolve file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+09:38:47.453 debug: Resolve file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+09:38:47.453 debug: Resolve file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+09:38:47.453 debug: Resolve file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+09:38:47.453 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallCtrl.ts.
+09:38:47.453 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallSpawner.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallSpawner.ts.
+09:38:47.453 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BateosCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BateosCtrl.ts.
+09:38:47.453 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BatterAi.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BatterAi.ts.
+09:38:47.453 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/FinalScoreCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/FinalScoreCtrl.ts.
+09:38:47.453 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/GameManager.ts.
+09:38:47.453 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/InstructionsCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/InstructionsCtrl.ts.
+09:38:47.453 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/MiniLabelCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/MiniLabelCtrl.ts.
+09:38:47.454 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/PlayerAnimationCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/PlayerAnimationCtrl.ts.
+09:38:47.454 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SceneRouter.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SceneRouter.ts.
+09:38:47.454 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/ScoreCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/ScoreCtrl.ts.
+09:38:47.454 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SplashCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SplashCtrl.ts.
+09:38:47.457 debug: Target(editor) ends with cost 9.108916999999565ms.
+09:38:47.457 debug: Target(preview) build started.
+09:38:47.458 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Wed Dec 31 1969 18:00:05 GMT-0600 (Central Standard Time), Current mtime: Wed Dec 31 1969 18:00:06 GMT-0600 (Central Standard Time)
+09:38:47.458 debug: Inspect cce:/internal/x/prerequisite-imports
+09:38:47.461 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 3.30 ms
+09:38:47.462 debug: Resolve file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
+09:38:47.462 debug: Resolve file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+09:38:47.462 debug: Resolve file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+09:38:47.462 debug: Resolve file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+09:38:47.462 debug: Resolve file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+09:38:47.462 debug: Resolve file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+09:38:47.462 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallCtrl.ts.
+09:38:47.462 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallSpawner.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallSpawner.ts.
+09:38:47.462 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BateosCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BateosCtrl.ts.
+09:38:47.463 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BatterAi.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BatterAi.ts.
+09:38:47.463 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/FinalScoreCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/FinalScoreCtrl.ts.
+09:38:47.463 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/GameManager.ts.
+09:38:47.463 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/InstructionsCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/InstructionsCtrl.ts.
+09:38:47.463 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/MiniLabelCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/MiniLabelCtrl.ts.
+09:38:47.464 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/PlayerAnimationCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/PlayerAnimationCtrl.ts.
+09:38:47.464 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SceneRouter.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SceneRouter.ts.
+09:38:47.464 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/ScoreCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/ScoreCtrl.ts.
+09:38:47.464 debug: Resolve file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SplashCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SplashCtrl.ts.
+09:38:47.467 debug: Target(preview) ends with cost 9.659458999999515ms.

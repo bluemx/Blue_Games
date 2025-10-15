@@ -1,0 +1,14 @@
+{
+    "systemInfo": {
+        "arch": "arm64",
+        "cpu": "Apple M1 Pro",
+        "version": "Darwin Kernel Version 25.0.0: Wed Sep 17 21:41:45 PDT 2025; root:xnu-12377.1.9~141/RELEASE_ARM64_T6000"
+    },
+    "sceneListMap": {
+        "0403c61a-f2c9-450f-83a8-379fe5a69703": "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/Test/NewProject/assets/scenes/0-splash.scene",
+        "3d7a6860-e583-4c13-bef8-1e64be010179": "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/Test/NewProject/assets/scenes/10-instructions.scene",
+        "8223d7a3-8853-48b8-9e5b-5104828b0744": "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/Test/NewProject/assets/scenes/20-game.scene",
+        "b6d3fabe-bab9-4a0a-8dd2-1875e94c786a": "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/Test/NewProject/assets/scenes/30-gameover.scene"
+    },
+    "deviceMd5": "865bac2156b231b346f37460c26a17b1"
+}

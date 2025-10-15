@@ -1,0 +1,665 @@
+10-15-2025 09:38:41 - log: Load engine in /Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine
+10-15-2025 09:38:41 - log: Profile changed: engine (modules.includeModules: 2d,3d,animation,audio,base,custom-pipeline,dragon-bones,gfx-webgl,intersection-2d,light-probe,marionette,particle,particle-2d,physics-2d-box2d,physics-ammo,primitive,profiler,skeletal-animation,spine,terrain,tiled-map,tween,ui,video,websocket,webview)
+10-15-2025 09:38:41 - log: Register native engine in /Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/native
+10-15-2025 09:38:41 - log: Request namespace: device-list
+10-15-2025 09:38:45 - info: [PreviewInEditor] preview process is ready
+10-15-2025 09:38:47 - log: [Scene] meshopt wasm decoder initialized
+10-15-2025 09:38:47 - log: [Scene] [box2d]:box2d wasm lib loaded.
+10-15-2025 09:38:47 - log: [Scene] [bullet]:bullet wasm lib loaded.
+10-15-2025 09:38:47 - log: [Scene] [PHYSICS]: using builtin.
+10-15-2025 09:38:47 - log: [Scene] Cocos Creator v3.8.5
+10-15-2025 09:38:47 - log: [Scene] Using custom pipeline: Builtin
+10-15-2025 09:38:47 - log: [Scene] [PHYSICS]: switch from builtin to bullet.
+10-15-2025 09:38:47 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-15-2025 09:42:44 - info: [Window] Download the Vue Devtools extension for a better development experience:
+https://github.com/vuejs/vue-devtools
+10-15-2025 09:42:44 - info: [Window] You are running Vue in development mode.
+Make sure to turn on production mode when deploying for production.
+See more tips at https://vuejs.org/guide/deployment.html
+10-15-2025 09:58:36 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-15-2025 09:58:36 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-15-2025 09:58:36 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-15-2025 09:58:36 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-15-2025 09:58:36 - log: [PreviewInEditor] Cocos Creator v3.8.5
+10-15-2025 09:58:36 - log: [PreviewInEditor] Using custom pipeline: Builtin
+10-15-2025 09:58:36 - log: [PreviewInEditor] [PHYSICS]: switch from builtin to bullet.
+10-15-2025 09:58:36 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-15-2025 09:58:37 - log: [PreviewInEditor] 🎯 ScoreCtrl started - listening for add-score and subtract-score events
+10-15-2025 09:58:38 - log: [PreviewInEditor] Ball spawned at: -12.25489644228793, 680 with downward force: 18.01945559348608
+10-15-2025 09:58:39 - log: [PreviewInEditor] 🎉 Score will animate UP from 2 to 4!
+10-15-2025 09:58:40 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 4
+10-15-2025 09:58:40 - log: [PreviewInEditor] Ball spawned at: -229.9019176317599, 680 with downward force: 21.372128673935453
+10-15-2025 09:58:42 - log: [PreviewInEditor] 🎉 Score will animate UP from 6 to 8!
+10-15-2025 09:58:42 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 8
+10-15-2025 09:58:42 - log: [PreviewInEditor] Ball spawned at: 34.16787182297185, 680 with downward force: 13.324756387877423
+10-15-2025 09:58:43 - log: [PreviewInEditor] 🎉 Score will animate UP from 10 to 12!
+10-15-2025 09:58:43 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 12
+10-15-2025 09:58:44 - log: [PreviewInEditor] Ball spawned at: 143.52566174352017, 680 with downward force: 44.83680910032645
+10-15-2025 09:58:44 - log: [PreviewInEditor] 💔 Score will animate DOWN from 10 to 0!
+10-15-2025 09:58:44 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-15-2025 09:58:45 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 0
+10-15-2025 09:58:45 - log: [PreviewInEditor] Ball spawned at: -234.90052587026727, 680 with downward force: 45.67789505649713
+10-15-2025 09:58:47 - log: [PreviewInEditor] 🎉 Score will animate UP from 2 to 4!
+10-15-2025 09:58:47 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 4
+10-15-2025 09:58:47 - log: [PreviewInEditor] Ball spawned at: -250.8574493997855, 680 with downward force: 34.66982826292613
+10-15-2025 09:58:48 - log: [PreviewInEditor] Ball spawned at: -76.62992976377222, 680 with downward force: 9.736803319525178
+10-15-2025 09:58:50 - log: [PreviewInEditor] Ball spawned at: -73.29028032706137, 680 with downward force: 39.31743435919729
+10-15-2025 09:58:50 - log: [PreviewInEditor] 🎉 Score will animate UP from 6 to 8!
+10-15-2025 09:58:50 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 8
+10-15-2025 09:58:50 - log: [PreviewInEditor] 🎉 Score will animate UP from 10 to 12!
+10-15-2025 09:58:50 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 12
+10-15-2025 09:58:51 - log: [PreviewInEditor] Ball spawned at: 33.53307576125883, 680 with downward force: 10.119911098448453
+10-15-2025 09:58:52 - log: [PreviewInEditor] ⏰ Ball auto-destroyed after 5 seconds
+10-15-2025 09:58:52 - log: [PreviewInEditor] Ball spawned at: -187.01144003281263, 680 with downward force: 24.527231645485827
+10-15-2025 09:58:52 - log: [PreviewInEditor] 🎉 Score will animate UP from 14 to 16!
+10-15-2025 09:58:52 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 16
+10-15-2025 09:58:53 - log: [PreviewInEditor] 🎉 Score will animate UP from 18 to 20!
+10-15-2025 09:58:53 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 20
+10-15-2025 09:58:53 - log: [PreviewInEditor] Ball spawned at: 121.59314871134188, 680 with downward force: 5.9653837790511925
+10-15-2025 09:58:54 - log: [PreviewInEditor] Ball spawned at: -157.25753277577826, 680 with downward force: 36.37886585835884
+10-15-2025 09:58:55 - log: [PreviewInEditor] 🎉 Score will animate UP from 22 to 24!
+10-15-2025 09:58:55 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 24
+10-15-2025 09:58:55 - log: [PreviewInEditor] 🎉 Score will animate UP from 26 to 28!
+10-15-2025 09:58:55 - log: [PreviewInEditor] Ball spawned at: -206.05061347897856, 680 with downward force: 49.33869847262128
+10-15-2025 09:58:55 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 28
+10-15-2025 09:58:56 - log: [PreviewInEditor] 🎉 Score will animate UP from 30 to 32!
+10-15-2025 09:58:56 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 32
+10-15-2025 09:58:56 - log: [PreviewInEditor] Ball spawned at: -3.730468483044376, 680 with downward force: 17.399621946286725
+10-15-2025 09:58:57 - log: [PreviewInEditor] Ball spawned at: -131.16193703124793, 680 with downward force: 0.1276383448001739
+10-15-2025 09:58:57 - log: [PreviewInEditor] 🎉 Score will animate UP from 34 to 36!
+10-15-2025 09:58:58 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 36
+10-15-2025 09:58:58 - log: [PreviewInEditor] Ball spawned at: 82.48002443139382, 680 with downward force: 42.96100640281705
+10-15-2025 09:58:59 - log: [PreviewInEditor] 💔 Score will animate DOWN from 34 to 0!
+10-15-2025 09:58:59 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-15-2025 09:58:59 - log: [PreviewInEditor] Ball spawned at: -165.21907403609788, 680 with downward force: 35.6644766438432
+10-15-2025 09:59:00 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 0
+10-15-2025 09:59:00 - log: [PreviewInEditor] 🎉 Score will animate UP from 2 to 4!
+10-15-2025 09:59:00 - log: [PreviewInEditor] Ball spawned at: -219.46667105333609, 680 with downward force: 34.052026786884646
+10-15-2025 09:59:00 - log: [PreviewInEditor] 🎉 Score will animate UP from 4 to 8!
+10-15-2025 09:59:00 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 8
+10-15-2025 09:59:01 - log: [PreviewInEditor] 🎉 Score will animate UP from 10 to 12!
+10-15-2025 09:59:01 - log: [PreviewInEditor] Ball spawned at: -147.2307286169102, 680 with downward force: 41.86740567913212
+10-15-2025 09:59:01 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 12
+10-15-2025 09:59:02 - log: [PreviewInEditor] Ball spawned at: -76.76512052651802, 680 with downward force: 34.069881101363706
+10-15-2025 09:59:02 - log: [PreviewInEditor] 🎉 Score will animate UP from 14 to 16!
+10-15-2025 09:59:02 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 16
+10-15-2025 09:59:02 - log: [PreviewInEditor] 🎉 Score will animate UP from 18 to 20!
+10-15-2025 09:59:02 - log: [PreviewInEditor] Ball spawned at: 194.66875431226936, 680 with downward force: 47.83262560468285
+10-15-2025 09:59:02 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 20
+10-15-2025 09:59:03 - log: [PreviewInEditor] 💔 Score will animate DOWN from 18 to 0!
+10-15-2025 09:59:03 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-15-2025 09:59:03 - log: [PreviewInEditor] Ball spawned at: 14.840314257156422, 680 with downward force: 24.229034094823486
+10-15-2025 09:59:03 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 0
+10-15-2025 09:59:04 - log: [PreviewInEditor] Ball spawned at: 179.6338272146582, 680 with downward force: 41.35207785733272
+10-15-2025 09:59:04 - log: [PreviewInEditor] Ball spawned at: -205.5543581810669, 680 with downward force: 45.023018797833245
+10-15-2025 09:59:04 - log: [PreviewInEditor] 💔 Score will animate DOWN from 0 to 0!
+10-15-2025 09:59:04 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-15-2025 09:59:05 - log: [PreviewInEditor] Ball spawned at: -85.99121755045508, 680 with downward force: 43.773898714790036
+10-15-2025 09:59:05 - log: [PreviewInEditor] 🎉 Score will animate UP from 2 to 4!
+10-15-2025 09:59:05 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 4
+10-15-2025 09:59:05 - log: [PreviewInEditor] ✨ GOLDEN BALL spawned!
+10-15-2025 09:59:05 - log: [PreviewInEditor] Ball spawned at: 189.5762585105636, 680 with downward force: 10.722266990974838
+10-15-2025 09:59:05 - log: [PreviewInEditor] 💔 Score will animate DOWN from 2 to 0!
+10-15-2025 09:59:05 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-15-2025 09:59:05 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 4
+10-15-2025 09:59:05 - log: [PreviewInEditor] 🎉 Score will animate UP from 4 to 4!
+10-15-2025 09:59:06 - log: [PreviewInEditor] 🎉 Score will animate UP from 6 to 8!
+10-15-2025 09:59:06 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 8
+10-15-2025 09:59:06 - log: [PreviewInEditor] Ball spawned at: -213.79726259234275, 680 with downward force: 39.26290130483531
+10-15-2025 09:59:06 - log: [PreviewInEditor] Ball spawned at: -26.54957734512243, 680 with downward force: 43.984573073080234
+10-15-2025 09:59:07 - log: [PreviewInEditor] 🎉 Score will animate UP from 10 to 12!
+10-15-2025 09:59:07 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 12
+10-15-2025 09:59:07 - log: [PreviewInEditor] Ball spawned at: 123.1053764587403, 680 with downward force: 40.55772815753665
+10-15-2025 09:59:07 - log: [PreviewInEditor] 💔 Score will animate DOWN from 10 to 0!
+10-15-2025 09:59:07 - log: [PreviewInEditor] 📉 Score decreased by 200. Current score: 0
+10-15-2025 09:59:07 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 4
+10-15-2025 09:59:07 - log: [PreviewInEditor] 🎉 Score will animate UP from 4 to 4!
+10-15-2025 09:59:07 - log: [PreviewInEditor] Ball spawned at: 133.98491313341435, 680 with downward force: 43.79070744981542
+10-15-2025 09:59:08 - log: [PreviewInEditor] 🎉 Score will animate UP from 6 to 8!
+10-15-2025 09:59:08 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 8
+10-15-2025 09:59:08 - log: [PreviewInEditor] Ball spawned at: 45.392017268859604, 680 with downward force: 23.694272960632322
+10-15-2025 09:59:08 - log: [PreviewInEditor] 💔 Score will animate DOWN from 6 to 0!
+10-15-2025 09:59:08 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-15-2025 09:59:08 - log: [PreviewInEditor] Ball spawned at: -75.72536113205811, 680 with downward force: 4.158093591099188
+10-15-2025 09:59:08 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 0
+10-15-2025 09:59:09 - log: [PreviewInEditor] Ball spawned at: 221.02054809139116, 680 with downward force: 14.097641018954466
+10-15-2025 09:59:09 - log: [PreviewInEditor] 🎉 Score will animate UP from 2 to 4!
+10-15-2025 09:59:09 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 4
+10-15-2025 09:59:09 - log: [PreviewInEditor] Ball spawned at: -185.37452934597871, 680 with downward force: 20.47824651298279
+10-15-2025 09:59:09 - log: [PreviewInEditor] Ball spawned at: -47.95196762301842, 680 with downward force: 29.66207200290588
+10-15-2025 09:59:10 - log: [PreviewInEditor] Ball spawned at: 166.8364902496013, 680 with downward force: 30.03243001265662
+10-15-2025 09:59:10 - log: [PreviewInEditor] 🎉 Score will animate UP from 6 to 8!
+10-15-2025 09:59:10 - log: [PreviewInEditor] 💔 Score will animate DOWN from 4 to 0!
+10-15-2025 09:59:10 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-15-2025 09:59:10 - log: [PreviewInEditor] Ball spawned at: -182.30254825929444, 680 with downward force: 18.01535423182844
+10-15-2025 09:59:10 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 0
+10-15-2025 09:59:10 - log: [PreviewInEditor] Ball spawned at: 154.43680210506278, 680 with downward force: 19.319696241181273
+10-15-2025 09:59:10 - log: [PreviewInEditor] 🎉 Score will animate UP from 2 to 4!
+10-15-2025 09:59:11 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 4
+10-15-2025 09:59:11 - log: [PreviewInEditor] 🎉 Score will animate UP from 6 to 8!
+10-15-2025 09:59:11 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 8
+10-15-2025 09:59:11 - log: [PreviewInEditor] Ball spawned at: 12.589741942021817, 680 with downward force: 47.167330947749356
+10-15-2025 09:59:11 - log: [PreviewInEditor] 💔 Score will animate DOWN from 6 to 0!
+10-15-2025 09:59:11 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-15-2025 09:59:11 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 4
+10-15-2025 09:59:11 - log: [PreviewInEditor] 🎉 Score will animate UP from 4 to 4!
+10-15-2025 09:59:11 - log: [PreviewInEditor] Ball spawned at: 7.726127247802765, 680 with downward force: 46.0541261655605
+10-15-2025 09:59:11 - log: [PreviewInEditor] Ball spawned at: -55.498117283462136, 680 with downward force: 13.973006894511386
+10-15-2025 09:59:11 - log: [PreviewInEditor] 💔 Score will animate DOWN from 2 to 0!
+10-15-2025 09:59:11 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-15-2025 09:59:11 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 0
+10-15-2025 09:59:12 - log: [PreviewInEditor] 🎉 Score will animate UP from 2 to 4!
+10-15-2025 09:59:12 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 4
+10-15-2025 09:59:12 - log: [PreviewInEditor] ✨ GOLDEN BALL spawned!
+10-15-2025 09:59:12 - log: [PreviewInEditor] Ball spawned at: 149.0614618489717, 680 with downward force: 46.054787495446845
+10-15-2025 09:59:12 - log: [PreviewInEditor] 🎉 Score will animate UP from 6 to 8!
+10-15-2025 09:59:12 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 8
+10-15-2025 09:59:12 - log: [PreviewInEditor] Ball spawned at: 263.2065083215481, 680 with downward force: 13.477113461316648
+10-15-2025 09:59:12 - log: [PreviewInEditor] Ball spawned at: 96.65095145761967, 680 with downward force: 45.82357953919342
+10-15-2025 09:59:12 - log: [PreviewInEditor] 💔 Score will animate DOWN from 6 to 0!
+10-15-2025 09:59:12 - log: [PreviewInEditor] 📉 Score decreased by 200. Current score: 0
+10-15-2025 09:59:12 - log: [PreviewInEditor] 🎉 Score will animate UP from 4 to 4!
+10-15-2025 09:59:13 - log: [PreviewInEditor] Ball spawned at: -163.9498935183305, 680 with downward force: 5.186550460748807
+10-15-2025 09:59:13 - log: [PreviewInEditor] Ball spawned at: 258.60141630200826, 680 with downward force: 8.220795181266126
+10-15-2025 09:59:13 - log: [PreviewInEditor] 💔 Score will animate DOWN from 2 to 0!
+10-15-2025 09:59:13 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-15-2025 09:59:13 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 0
+10-15-2025 09:59:13 - log: [PreviewInEditor] Ball spawned at: 8.830778301043836, 680 with downward force: 34.261027262848586
+10-15-2025 09:59:14 - log: [PreviewInEditor] Ball spawned at: 96.31489075573751, 680 with downward force: 26.12260699541754
+10-15-2025 09:59:14 - log: [PreviewInEditor] Ball spawned at: -70.7864791956944, 680 with downward force: 41.125798614807806
+10-15-2025 09:59:14 - log: [PreviewInEditor] Ball spawned at: -45.173958798421324, 680 with downward force: 26.41363887553855
+10-15-2025 09:59:14 - log: [PreviewInEditor] 🎉 Score will animate UP from 2 to 4!
+10-15-2025 09:59:14 - log: [PreviewInEditor] 🎉 Score will animate UP from 4 to 8!
+10-15-2025 09:59:14 - log: [PreviewInEditor] 🎉 Score will animate UP from 6 to 12!
+10-15-2025 09:59:14 - log: [PreviewInEditor] Ball spawned at: 79.14140135004607, 680 with downward force: 5.8361298208178365
+10-15-2025 09:59:15 - log: [PreviewInEditor] 🎉 Score will animate UP from 12 to 16!
+10-15-2025 09:59:15 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 16
+10-15-2025 09:59:15 - log: [PreviewInEditor] Ball spawned at: -193.37249890812464, 680 with downward force: 14.86076152923892
+10-15-2025 09:59:15 - log: [PreviewInEditor] Ball spawned at: -21.762122398240223, 680 with downward force: 28.301474772279313
+10-15-2025 09:59:15 - log: [PreviewInEditor] 🎉 Score will animate UP from 18 to 20!
+10-15-2025 09:59:15 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 20
+10-15-2025 09:59:15 - log: [PreviewInEditor] Ball spawned at: 218.50815269516556, 680 with downward force: 9.017560861720364
+10-15-2025 09:59:16 - log: [PreviewInEditor] Ball spawned at: 266.0838278192716, 680 with downward force: 10.984444427105721
+10-15-2025 09:59:16 - log: [PreviewInEditor] Ball spawned at: -27.261517779436417, 680 with downward force: 16.785456333313252
+10-15-2025 09:59:16 - log: [PreviewInEditor] 🎉 Score will animate UP from 22 to 24!
+10-15-2025 09:59:16 - log: [PreviewInEditor] 🎉 Score will animate UP from 24 to 28!
+10-15-2025 09:59:16 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 28
+10-15-2025 09:59:16 - log: [PreviewInEditor] Ball spawned at: -1.2942655758111528, 680 with downward force: 12.77223482387887
+10-15-2025 09:59:16 - log: [PreviewInEditor] 💔 Score will animate DOWN from 26 to 0!
+10-15-2025 09:59:16 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-15-2025 09:59:17 - log: [PreviewInEditor] Ball spawned at: 118.69652439868946, 680 with downward force: 14.72819648836633
+10-15-2025 09:59:17 - log: [PreviewInEditor] Ball spawned at: -100.27943985752978, 680 with downward force: 10.193269748342448
+10-15-2025 09:59:17 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 0
+10-15-2025 09:59:17 - log: [PreviewInEditor] ⏰ Ball auto-destroyed after 5 seconds
+10-15-2025 09:59:17 - log: [PreviewInEditor] Ball spawned at: 159.08905727620845, 680 with downward force: 32.385300680615
+10-15-2025 09:59:17 - log: [PreviewInEditor] 💔 Score will animate DOWN from 0 to 0!
+10-15-2025 09:59:17 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-15-2025 09:59:18 - log: [PreviewInEditor] Ball spawned at: 86.07300502855207, 680 with downward force: 15.59329729255573
+10-15-2025 09:59:18 - log: [PreviewInEditor] 🎉 Score will animate UP from 2 to 4!
+10-15-2025 09:59:18 - log: [PreviewInEditor] 🎉 Score will animate UP from 4 to 8!
+10-15-2025 09:59:18 - log: [PreviewInEditor] 🎉 Score will animate UP from 6 to 12!
+10-15-2025 09:59:18 - log: [PreviewInEditor] 🎉 Score will animate UP from 8 to 16!
+10-15-2025 09:59:18 - log: [PreviewInEditor] Ball spawned at: -174.10185086504288, 680 with downward force: 18.32354965305113
+10-15-2025 09:59:18 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 16
+10-15-2025 09:59:18 - log: [PreviewInEditor] Ball spawned at: -79.07918586057889, 680 with downward force: 9.178513999148308
+10-15-2025 09:59:18 - log: [PreviewInEditor] 💔 Score will animate DOWN from 14 to 0!
+10-15-2025 09:59:18 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-15-2025 09:59:18 - log: [PreviewInEditor] Ball spawned at: 198.32200783065736, 680 with downward force: 49.19610848280901
+10-15-2025 09:59:19 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 0
+10-15-2025 09:59:19 - log: [PreviewInEditor] 🎉 Score will animate UP from 2 to 4!
+10-15-2025 09:59:19 - log: [PreviewInEditor] 🎉 Score will animate UP from 4 to 8!
+10-15-2025 09:59:19 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 8
+10-15-2025 09:59:19 - log: [PreviewInEditor] 🎉 Score will animate UP from 10 to 12!
+10-15-2025 09:59:19 - log: [PreviewInEditor] Ball spawned at: -152.8088239668104, 680 with downward force: 9.55484683672896
+10-15-2025 09:59:19 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 12
+10-15-2025 09:59:19 - log: [PreviewInEditor] Ball spawned at: -9.561529249915907, 680 with downward force: 23.3310005091379
+10-15-2025 09:59:19 - log: [PreviewInEditor] 💔 Score will animate DOWN from 10 to 0!
+10-15-2025 09:59:19 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-15-2025 09:59:19 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 4
+10-15-2025 09:59:19 - log: [PreviewInEditor] 🎉 Score will animate UP from 4 to 4!
+10-15-2025 09:59:19 - log: [PreviewInEditor] Ball spawned at: -129.096604584567, 680 with downward force: 43.24190402601551
+10-15-2025 09:59:20 - log: [PreviewInEditor] Ball spawned at: 32.79603733881845, 680 with downward force: 33.77370521150045
+10-15-2025 09:59:20 - log: [PreviewInEditor] 🎉 Score will animate UP from 6 to 8!
+10-15-2025 09:59:20 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 8
+10-15-2025 09:59:20 - log: [PreviewInEditor] Ball spawned at: -99.82639244965887, 680 with downward force: 28.37272494479157
+10-15-2025 09:59:20 - log: [PreviewInEditor] 🎉 Score will animate UP from 10 to 12!
+10-15-2025 09:59:20 - log: [PreviewInEditor] Ball spawned at: -39.34970789379608, 680 with downward force: 25.687444932279867
+10-15-2025 09:59:20 - log: [PreviewInEditor] 🎉 Score will animate UP from 12 to 16!
+10-15-2025 09:59:20 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 16
+10-15-2025 09:59:20 - log: [PreviewInEditor] 🎉 Score will animate UP from 18 to 20!
+10-15-2025 09:59:21 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 20
+10-15-2025 09:59:21 - log: [PreviewInEditor] Ball spawned at: 50.13777425166228, 680 with downward force: 34.87084291895719
+10-15-2025 09:59:21 - log: [PreviewInEditor] Ball spawned at: -1.149236675483678, 680 with downward force: 37.96164042752039
+10-15-2025 09:59:21 - log: [PreviewInEditor] 🎉 Score will animate UP from 22 to 24!
+10-15-2025 09:59:21 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 24
+10-15-2025 09:59:21 - log: [PreviewInEditor] Ball spawned at: -134.38773523918186, 680 with downward force: 27.336506332796382
+10-15-2025 09:59:21 - log: [PreviewInEditor] 🎉 Score will animate UP from 26 to 28!
+10-15-2025 09:59:21 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 28
+10-15-2025 09:59:21 - log: [PreviewInEditor] 🎉 Score will animate UP from 30 to 32!
+10-15-2025 09:59:21 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 32
+10-15-2025 09:59:21 - log: [PreviewInEditor] Ball spawned at: -85.6912127879279, 680 with downward force: 2.119836045794865
+10-15-2025 09:59:22 - log: [PreviewInEditor] 🎉 Score will animate UP from 34 to 36!
+10-15-2025 09:59:22 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 36
+10-15-2025 09:59:22 - log: [PreviewInEditor] ✨ GOLDEN BALL spawned!
+10-15-2025 09:59:22 - log: [PreviewInEditor] Ball spawned at: -182.97375759618836, 680 with downward force: 46.596013018861
+10-15-2025 09:59:22 - log: [PreviewInEditor] Ball spawned at: -262.17681878915425, 680 with downward force: 7.386905515754827
+10-15-2025 09:59:22 - log: [PreviewInEditor] Ball spawned at: -34.804822752749686, 680 with downward force: 49.5452187849149
+10-15-2025 09:59:23 - log: [PreviewInEditor] 🎉 Score will animate UP from 38 to 40!
+10-15-2025 09:59:23 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 40
+10-15-2025 09:59:23 - log: [PreviewInEditor] Ball spawned at: 154.17814259718227, 680 with downward force: 1.3809905255017685
+10-15-2025 09:59:23 - log: [PreviewInEditor] 🎉 Score will animate UP from 42 to 140!
+10-15-2025 09:59:23 - log: [PreviewInEditor] Ball spawned at: -214.06860488160186, 680 with downward force: 16.904399834316596
+10-15-2025 09:59:23 - log: [PreviewInEditor] Ball spawned at: 245.11541413043335, 680 with downward force: 3.9204434235315166
+10-15-2025 09:59:24 - log: [PreviewInEditor] 🎉 Score will animate UP from 74 to 144!
+10-15-2025 09:59:24 - log: [PreviewInEditor] ✨ GOLDEN BALL spawned!
+10-15-2025 09:59:24 - log: [PreviewInEditor] Ball spawned at: -42.873513527217, 680 with downward force: 25.984727749487856
+10-15-2025 09:59:24 - log: [PreviewInEditor] 💔 Score will animate DOWN from 78 to 94!
+10-15-2025 09:59:24 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 94
+10-15-2025 09:59:24 - log: [PreviewInEditor] Ball spawned at: -149.8108156351047, 680 with downward force: 34.45265152359034
+10-15-2025 09:59:24 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 94
+10-15-2025 09:59:24 - log: [PreviewInEditor] Ball spawned at: 71.93474759198466, 680 with downward force: 28.513299538969015
+10-15-2025 09:59:24 - log: [PreviewInEditor] 🎉 Score will animate UP from 96 to 98!
+10-15-2025 09:59:25 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 98
+10-15-2025 09:59:25 - log: [PreviewInEditor] Ball spawned at: 118.02183566605311, 680 with downward force: 15.03648495234745
+10-15-2025 09:59:25 - log: [PreviewInEditor] 🎉 Score will animate UP from 100 to 102!
+10-15-2025 09:59:25 - log: [PreviewInEditor] 🎉 Score will animate UP from 102 to 202!
+10-15-2025 09:59:25 - log: [PreviewInEditor] ⏰ Ball auto-destroyed after 5 seconds
+10-15-2025 09:59:25 - log: [PreviewInEditor] Ball spawned at: -85.34331164983428, 680 with downward force: 35.170330053398445
+10-15-2025 09:59:25 - log: [PreviewInEditor] Ball spawned at: -81.94420171222643, 680 with downward force: 20.726862129643507
+10-15-2025 09:59:25 - log: [PreviewInEditor] 🎉 Score will animate UP from 128 to 206!
+10-15-2025 09:59:25 - log: [PreviewInEditor] 💔 Score will animate DOWN from 134 to 156!
+10-15-2025 09:59:25 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 156
+10-15-2025 09:59:25 - log: [PreviewInEditor] 🎉 Score will animate UP from 138 to 160!
+10-15-2025 09:59:26 - log: [PreviewInEditor] Ball spawned at: -212.12650502794045, 680 with downward force: 29.939786056767847
+10-15-2025 09:59:26 - log: [PreviewInEditor] 🎉 Score will animate UP from 154 to 164!
+10-15-2025 09:59:26 - log: [PreviewInEditor] Ball spawned at: 87.94486726393768, 680 with downward force: 17.237434351408943
+10-15-2025 09:59:26 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 164
+10-15-2025 09:59:26 - log: [PreviewInEditor] Ball spawned at: -151.93002626890421, 680 with downward force: 23.71785857289519
+10-15-2025 09:59:26 - log: [PreviewInEditor] Ball spawned at: -99.4612291503486, 680 with downward force: 27.195903624736715
+10-15-2025 09:59:27 - log: [PreviewInEditor] 🎉 Score will animate UP from 166 to 168!
+10-15-2025 09:59:27 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 168
+10-15-2025 09:59:27 - log: [PreviewInEditor] 🎉 Score will animate UP from 170 to 172!
+10-15-2025 09:59:27 - log: [PreviewInEditor] Ball spawned at: -241.29412676918764, 680 with downward force: 10.006825521775987
+10-15-2025 09:59:27 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 172
+10-15-2025 09:59:27 - log: [PreviewInEditor] Ball spawned at: -77.60581702040167, 680 with downward force: 38.365148728573985
+10-15-2025 09:59:27 - log: [PreviewInEditor] ⏰ Ball auto-destroyed after 5 seconds
+10-15-2025 09:59:27 - log: [PreviewInEditor] 🎉 Score will animate UP from 174 to 176!
+10-15-2025 09:59:27 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 176
+10-15-2025 09:59:27 - log: [PreviewInEditor] 🎉 Score will animate UP from 178 to 180!
+10-15-2025 09:59:27 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 180
+10-15-2025 09:59:27 - log: [PreviewInEditor] 🎉 Score will animate UP from 182 to 184!
+10-15-2025 09:59:27 - log: [PreviewInEditor] Ball spawned at: -47.05776019511063, 680 with downward force: 18.609385477227715
+10-15-2025 09:59:27 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 184
+10-15-2025 09:59:28 - log: [PreviewInEditor] Ball spawned at: 40.865214264929705, 680 with downward force: 14.258460930179739
+10-15-2025 09:59:28 - log: [PreviewInEditor] 🎉 Score will animate UP from 186 to 188!
+10-15-2025 09:59:28 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 188
+10-15-2025 09:59:28 - log: [PreviewInEditor] Ball spawned at: -192.57949542531867, 680 with downward force: 7.499187238980931
+10-15-2025 09:59:28 - log: [PreviewInEditor] ✨ GOLDEN BALL spawned!
+10-15-2025 09:59:28 - log: [PreviewInEditor] Ball spawned at: 84.88869667036232, 680 with downward force: 9.027120641060915
+10-15-2025 09:59:28 - log: [PreviewInEditor] ⏰ Ball auto-destroyed after 5 seconds
+10-15-2025 09:59:29 - log: [PreviewInEditor] Ball spawned at: -117.95520522947331, 680 with downward force: 4.907160079743999
+10-15-2025 09:59:29 - log: [PreviewInEditor] Ball spawned at: 60.14264822233372, 680 with downward force: 8.373172169169052
+10-15-2025 09:59:29 - log: [PreviewInEditor] Ball spawned at: -184.40038481001733, 680 with downward force: 34.59711283946589
+10-15-2025 09:59:29 - log: [PreviewInEditor] 🎉 Score will animate UP from 190 to 192!
+10-15-2025 09:59:29 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 192
+10-15-2025 09:59:30 - log: [PreviewInEditor] Ball spawned at: -182.1482234075729, 680 with downward force: 49.21557768518512
+10-15-2025 09:59:30 - log: [PreviewInEditor] 🎉 Score will animate UP from 194 to 292!
+10-15-2025 09:59:30 - log: [PreviewInEditor] Ball spawned at: -60.39804070755446, 680 with downward force: 23.865474275439258
+10-15-2025 09:59:30 - log: [PreviewInEditor] Ball spawned at: -88.17037176582036, 680 with downward force: 39.33853515389284
+10-15-2025 09:59:30 - log: [PreviewInEditor] 🎉 Score will animate UP from 216 to 296!
+10-15-2025 09:59:30 - log: [PreviewInEditor] 🎉 Score will animate UP from 220 to 300!
+10-15-2025 09:59:30 - log: [PreviewInEditor] 🎉 Score will animate UP from 222 to 304!
+10-15-2025 09:59:30 - log: [PreviewInEditor] Ball spawned at: -211.61647529000228, 680 with downward force: 17.685509190474736
+10-15-2025 09:59:31 - log: [PreviewInEditor] Ball spawned at: 126.48317318105757, 680 with downward force: 29.039353585483475
+10-15-2025 09:59:31 - log: [PreviewInEditor] 🎉 Score will animate UP from 246 to 308!
+10-15-2025 09:59:31 - log: [PreviewInEditor] 🎉 Score will animate UP from 248 to 312!
+10-15-2025 09:59:31 - log: [PreviewInEditor] 🎉 Score will animate UP from 250 to 316!
+10-15-2025 09:59:31 - log: [PreviewInEditor] Ball spawned at: -195.8624594373137, 680 with downward force: 48.2329211945451
+10-15-2025 09:59:31 - log: [PreviewInEditor] Ball spawned at: 250.38520908001897, 680 with downward force: 29.364574839478617
+10-15-2025 09:59:32 - log: [PreviewInEditor] 🎉 Score will animate UP from 276 to 320!
+10-15-2025 09:59:32 - log: [PreviewInEditor] Ball spawned at: 102.01119647338709, 680 with downward force: 43.0159328158773
+10-15-2025 09:59:32 - log: [PreviewInEditor] 🎉 Score will animate UP from 278 to 324!
+10-15-2025 09:59:32 - log: [PreviewInEditor] 💔 Score will animate DOWN from 276 to 274!
+10-15-2025 09:59:32 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 274
+10-15-2025 09:59:32 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 274
+10-15-2025 09:59:32 - log: [PreviewInEditor] ✨ GOLDEN BALL spawned!
+10-15-2025 09:59:32 - log: [PreviewInEditor] Ball spawned at: -176.79194404039004, 680 with downward force: 38.94559072149476
+10-15-2025 09:59:32 - log: [PreviewInEditor] 🎉 Score will animate UP from 276 to 278!
+10-15-2025 09:59:32 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 278
+10-15-2025 09:59:32 - log: [PreviewInEditor] Ball spawned at: -8.22044551234876, 680 with downward force: 24.44713353618706
+10-15-2025 09:59:32 - log: [PreviewInEditor] ⏰ Ball auto-destroyed after 5 seconds
+10-15-2025 09:59:33 - log: [PreviewInEditor] Ball spawned at: -129.78310517470234, 680 with downward force: 12.471146994763549
+10-15-2025 09:59:33 - log: [PreviewInEditor] ⏰ Ball auto-destroyed after 5 seconds
+10-15-2025 09:59:33 - log: [PreviewInEditor] 🎉 Score will animate UP from 280 to 282!
+10-15-2025 09:59:33 - log: [PreviewInEditor] 🎉 Score will animate UP from 282 to 382!
+10-15-2025 09:59:33 - log: [PreviewInEditor] Ball spawned at: -148.42607753062998, 680 with downward force: 32.6836694605288
+10-15-2025 09:59:33 - log: [PreviewInEditor] Ball spawned at: -261.19569861107027, 680 with downward force: 9.222361676116686
+10-15-2025 09:59:33 - log: [PreviewInEditor] 💔 Score will animate DOWN from 306 to 332!
+10-15-2025 09:59:33 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 332
+10-15-2025 09:59:34 - log: [PreviewInEditor] Ball spawned at: -156.937959622764, 680 with downward force: 35.58075528666982
+10-15-2025 09:59:34 - log: [PreviewInEditor] ⏰ Ball auto-destroyed after 5 seconds
+10-15-2025 09:59:34 - log: [PreviewInEditor] Ball spawned at: 208.44009478582552, 680 with downward force: 45.10584240521468
+10-15-2025 09:59:34 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 332
+10-15-2025 09:59:34 - log: [PreviewInEditor] Ball spawned at: -148.79113707647207, 680 with downward force: 6.249845999543535
+10-15-2025 09:59:34 - log: [PreviewInEditor] Ball spawned at: 13.185290371011376, 680 with downward force: 38.96971643134317
+10-15-2025 09:59:35 - log: [PreviewInEditor] 🎉 Score will animate UP from 334 to 336!
+10-15-2025 09:59:35 - log: [PreviewInEditor] 🎉 Score will animate UP from 336 to 340!
+10-15-2025 09:59:35 - log: [PreviewInEditor] 💔 Score will animate DOWN from 334 to 290!
+10-15-2025 09:59:35 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 290
+10-15-2025 09:59:35 - log: [PreviewInEditor] Ball spawned at: 16.70718298154452, 680 with downward force: 47.34146701339319
+10-15-2025 09:59:35 - log: [PreviewInEditor] Ball spawned at: -108.20436315736961, 680 with downward force: 39.910911874482565
+10-15-2025 09:59:35 - log: [PreviewInEditor] Ball spawned at: 134.700841073471, 680 with downward force: 31.574080044170493
+10-15-2025 09:59:35 - log: [PreviewInEditor] 🎉 Score will animate UP from 302 to 294!
+10-15-2025 09:59:35 - log: [PreviewInEditor] 🎉 Score will animate UP from 300 to 298!
+10-15-2025 09:59:35 - log: [PreviewInEditor] 💔 Score will animate DOWN from 298 to 248!
+10-15-2025 09:59:35 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 248
+10-15-2025 09:59:36 - log: [PreviewInEditor] ✨ GOLDEN BALL spawned!
+10-15-2025 09:59:36 - log: [PreviewInEditor] Ball spawned at: -18.167114515592772, 680 with downward force: 11.611683932453742
+10-15-2025 09:59:36 - log: [PreviewInEditor] 🎉 Score will animate UP from 276 to 252!
+10-15-2025 09:59:36 - log: [PreviewInEditor] Ball spawned at: -6.381201114478358, 680 with downward force: 42.62929762698591
+10-15-2025 09:59:36 - log: [PreviewInEditor] 🎉 Score will animate UP from 274 to 256!
+10-15-2025 09:59:36 - log: [PreviewInEditor] Ball spawned at: -73.23160828619135, 680 with downward force: 36.51886004144389
+10-15-2025 09:59:36 - log: [PreviewInEditor] 💔 Score will animate DOWN from 260 to 206!
+10-15-2025 09:59:36 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 206
+10-15-2025 09:59:36 - log: [PreviewInEditor] ⏰ Ball auto-destroyed after 5 seconds
+10-15-2025 09:59:37 - log: [PreviewInEditor] Ball spawned at: -136.41923359150178, 680 with downward force: 42.59920841473175
+10-15-2025 09:59:37 - log: [PreviewInEditor] 🎉 Score will animate UP from 240 to 210!
+10-15-2025 09:59:37 - log: [PreviewInEditor] Ball spawned at: 153.8800970359461, 680 with downward force: 13.412157212840825
+10-15-2025 09:59:37 - log: [PreviewInEditor] Ball spawned at: -244.4889447513734, 680 with downward force: 35.61319436723473
+10-15-2025 09:59:38 - log: [PreviewInEditor] Ball spawned at: -78.66195975889065, 680 with downward force: 12.051967743553716
+10-15-2025 09:59:38 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 210
+10-15-2025 09:59:38 - log: [PreviewInEditor] 🎉 Score will animate UP from 212 to 214!
+10-15-2025 09:59:38 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 214
+10-15-2025 09:59:38 - log: [PreviewInEditor] Ball spawned at: -14.348520333586805, 680 with downward force: 11.992551077585489
+10-15-2025 09:59:38 - log: [PreviewInEditor] Ball spawned at: -124.77011837839709, 680 with downward force: 13.970355857451366
+10-15-2025 09:59:38 - log: [PreviewInEditor] ⏰ Ball auto-destroyed after 5 seconds
+10-15-2025 09:59:38 - log: [PreviewInEditor] 💔 Score will animate DOWN from 212 to 164!
+10-15-2025 09:59:38 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 164
+10-15-2025 09:59:38 - log: [PreviewInEditor] Ball spawned at: -51.37805778685515, 680 with downward force: 38.66071409518867
+10-15-2025 09:59:39 - log: [PreviewInEditor] ✨ GOLDEN BALL spawned!
+10-15-2025 09:59:39 - log: [PreviewInEditor] Ball spawned at: -236.86636076855174, 680 with downward force: 23.160090761569172
+10-15-2025 09:59:39 - log: [PreviewInEditor] 🎉 Score will animate UP from 186 to 168!
+10-15-2025 09:59:39 - log: [PreviewInEditor] Ball spawned at: 233.17695418249684, 680 with downward force: 3.6624862975885297
+10-15-2025 09:59:39 - log: [PreviewInEditor] 🎉 Score will animate UP from 182 to 172!
+10-15-2025 09:59:39 - log: [PreviewInEditor] 🎉 Score will animate UP from 176 to 176!
+10-15-2025 09:59:39 - log: [PreviewInEditor] Ball spawned at: 175.97516075451722, 680 with downward force: 14.065271417912307
+10-15-2025 09:59:39 - log: [PreviewInEditor] ⏰ Ball auto-destroyed after 5 seconds
+10-15-2025 09:59:40 - log: [PreviewInEditor] 🎉 Score will animate UP from 178 to 180!
+10-15-2025 09:59:40 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 180
+10-15-2025 09:59:40 - log: [PreviewInEditor] Ball spawned at: -57.54497556980951, 680 with downward force: 22.524742408530575
+10-15-2025 09:59:40 - log: [PreviewInEditor] Ball spawned at: 64.40113150060245, 680 with downward force: 28.000817306622196
+10-15-2025 09:59:40 - log: [PreviewInEditor] Ball spawned at: -190.10091252721801, 680 with downward force: 45.65321618152686
+10-15-2025 09:59:41 - log: [PreviewInEditor] 🎉 Score will animate UP from 182 to 184!
+10-15-2025 09:59:41 - log: [PreviewInEditor] 🎉 Score will animate UP from 184 to 284!
+10-15-2025 09:59:41 - log: [PreviewInEditor] Ball spawned at: 68.99023625490833, 680 with downward force: 37.20852577033094
+10-15-2025 09:59:41 - log: [PreviewInEditor] ⏰ Ball auto-destroyed after 5 seconds
+10-15-2025 09:59:41 - log: [PreviewInEditor] Ball spawned at: -14.332904622841994, 680 with downward force: 28.024884525540227
+10-15-2025 09:59:41 - log: [PreviewInEditor] 💔 Score will animate DOWN from 206 to 234!
+10-15-2025 09:59:41 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 234
+10-15-2025 09:59:41 - log: [PreviewInEditor] 💔 Score will animate DOWN from 204 to 184!
+10-15-2025 09:59:41 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 184
+10-15-2025 09:59:41 - log: [PreviewInEditor] Ball spawned at: -163.01410760672098, 680 with downward force: 15.909828414267334
+10-15-2025 09:59:41 - log: [PreviewInEditor] 🎉 Score will animate UP from 196 to 188!
+10-15-2025 09:59:41 - log: [PreviewInEditor] 🎉 Score will animate UP from 194 to 192!
+10-15-2025 09:59:41 - log: [PreviewInEditor] ⏰ Ball auto-destroyed after 5 seconds
+10-15-2025 09:59:41 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 192
+10-15-2025 09:59:42 - log: [PreviewInEditor] Ball spawned at: 79.42676960233354, 680 with downward force: 7.100305831203846
+10-15-2025 09:59:42 - log: [PreviewInEditor] Ball spawned at: 126.5737061557096, 680 with downward force: 18.350456244888047
+10-15-2025 09:59:42 - log: [PreviewInEditor] 🎉 Score will animate UP from 194 to 196!
+10-15-2025 09:59:42 - log: [PreviewInEditor] 💔 Score will animate DOWN from 192 to 146!
+10-15-2025 09:59:42 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 146
+10-15-2025 09:59:42 - log: [PreviewInEditor] Ball spawned at: -168.9109201907682, 680 with downward force: 14.425488073324955
+10-15-2025 09:59:42 - log: [PreviewInEditor] Ball spawned at: 41.6932607129562, 680 with downward force: 17.936195995628534
+10-15-2025 09:59:43 - log: [PreviewInEditor] 🎉 Score will animate UP from 166 to 150!
+10-15-2025 09:59:43 - log: [PreviewInEditor] Ball spawned at: 216.15285044733236, 680 with downward force: 1.8572566316933825
+10-15-2025 09:59:43 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 154
+10-15-2025 09:59:43 - log: [PreviewInEditor] 🎉 Score will animate UP from 154 to 154!
+10-15-2025 09:59:43 - log: [PreviewInEditor] Ball spawned at: 48.93271639825957, 680 with downward force: 21.12521708891818
+10-15-2025 09:59:43 - log: [PreviewInEditor] 💔 Score will animate DOWN from 152 to 104!
+10-15-2025 09:59:43 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 104
+10-15-2025 09:59:43 - log: [PreviewInEditor] Ball spawned at: 27.369430964612775, 680 with downward force: 0.32609640986892563
+10-15-2025 09:59:43 - log: [PreviewInEditor] 🎉 Score will animate UP from 138 to 108!
+10-15-2025 09:59:44 - log: [PreviewInEditor] 🎉 Score will animate UP from 132 to 112!
+10-15-2025 09:59:44 - log: [PreviewInEditor] Ball spawned at: -177.74163842625453, 680 with downward force: 6.757741165826792
+10-15-2025 09:59:44 - log: [PreviewInEditor] Ball spawned at: 173.78270506816625, 680 with downward force: 14.575249582366123
+10-15-2025 09:59:44 - log: [PreviewInEditor] ⏰ Ball auto-destroyed after 5 seconds
+10-15-2025 09:59:44 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 112
+10-15-2025 09:59:44 - log: [PreviewInEditor] 💔 Score will animate DOWN from 110 to 62!
+10-15-2025 09:59:44 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 62
+10-15-2025 09:59:44 - log: [PreviewInEditor] ✨ GOLDEN BALL spawned!
+10-15-2025 09:59:44 - log: [PreviewInEditor] Ball spawned at: 200.6973976020218, 680 with downward force: 16.26219453537515
+10-15-2025 09:59:45 - log: [PreviewInEditor] Ball spawned at: -188.97657522019136, 680 with downward force: 42.247922508526074
+10-15-2025 09:59:45 - log: [PreviewInEditor] 🎉 Score will animate UP from 94 to 66!
+10-15-2025 09:59:45 - log: [PreviewInEditor] Ball spawned at: 265.766013995252, 680 with downward force: 26.101271544083748
+10-15-2025 09:59:45 - log: [PreviewInEditor] Ball spawned at: -59.859344745660366, 680 with downward force: 32.066093783671015
+10-15-2025 09:59:45 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 66
+10-15-2025 09:59:45 - log: [PreviewInEditor] 🎉 Score will animate UP from 68 to 70!
+10-15-2025 09:59:45 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 70
+10-15-2025 09:59:45 - log: [PreviewInEditor] 🎉 Score will animate UP from 72 to 74!
+10-15-2025 09:59:45 - log: [PreviewInEditor] 🎉 Score will animate UP from 74 to 78!
+10-15-2025 09:59:45 - log: [PreviewInEditor] 💔 Score will animate DOWN from 72 to 28!
+10-15-2025 09:59:45 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 28
+10-15-2025 09:59:46 - log: [PreviewInEditor] Ball spawned at: 231.3995255981996, 680 with downward force: 26.43021178054833
+10-15-2025 09:59:46 - log: [PreviewInEditor] 💔 Score will animate DOWN from 66 to 0!
+10-15-2025 09:59:46 - log: [PreviewInEditor] 📉 Score decreased by 200. Current score: 0
+10-15-2025 09:59:46 - log: [PreviewInEditor] Ball spawned at: -150.8331475908983, 680 with downward force: 35.35211253688383
+10-15-2025 09:59:46 - log: [PreviewInEditor] Ball spawned at: 234.0424450488731, 680 with downward force: 1.3566685523735411
+10-15-2025 09:59:46 - log: [PreviewInEditor] Ball spawned at: -88.99544590067842, 680 with downward force: 33.07314045895654
+10-15-2025 09:59:47 - log: [PreviewInEditor] 🎉 Score will animate UP from 28 to 4!
+10-15-2025 09:59:47 - log: [PreviewInEditor] Ball spawned at: 118.77200464265474, 680 with downward force: 7.215734690992237
+10-15-2025 09:59:47 - log: [PreviewInEditor] Ball spawned at: 87.41347426184905, 680 with downward force: 24.656338865205107
+10-15-2025 09:59:47 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 4
+10-15-2025 09:59:47 - log: [PreviewInEditor] Ball spawned at: -1.3515063219313106, 680 with downward force: 42.64732728985848
+10-15-2025 09:59:47 - log: [PreviewInEditor] 🎉 Score will animate UP from 6 to 8!
+10-15-2025 09:59:47 - log: [PreviewInEditor] 🎉 Score will animate UP from 8 to 12!
+10-15-2025 09:59:48 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 12
+10-15-2025 09:59:48 - log: [PreviewInEditor] Ball spawned at: -76.11547049717018, 680 with downward force: 13.026757267095446
+10-15-2025 09:59:48 - log: [PreviewInEditor] Ball spawned at: -125.6297052903164, 680 with downward force: 15.594463819057081
+10-15-2025 09:59:48 - log: [PreviewInEditor] 🎉 Score will animate UP from 14 to 16!
+10-15-2025 09:59:48 - log: [PreviewInEditor] 🎉 Score will animate UP from 16 to 20!
+10-15-2025 09:59:48 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 20
+10-15-2025 09:59:48 - log: [PreviewInEditor] 🎉 Score will animate UP from 22 to 24!
+10-15-2025 09:59:48 - log: [PreviewInEditor] 🎉 Score will animate UP from 24 to 28!
+10-15-2025 09:59:48 - log: [PreviewInEditor] Ball spawned at: -34.81178452192859, 680 with downward force: 1.712817308351855
+10-15-2025 09:59:48 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 28
+10-15-2025 09:59:49 - log: [PreviewInEditor] Ball spawned at: 176.8546930065939, 680 with downward force: 48.53898262882702
+10-15-2025 09:59:49 - log: [PreviewInEditor] Ball spawned at: 137.80746614867087, 680 with downward force: 37.15221290420043
+10-15-2025 09:59:49 - log: [PreviewInEditor] ✨ GOLDEN BALL spawned!
+10-15-2025 09:59:49 - log: [PreviewInEditor] Ball spawned at: 240.9079020488465, 680 with downward force: 42.07183202745105
+10-15-2025 09:59:49 - log: [PreviewInEditor] 💔 Score will animate DOWN from 26 to 0!
+10-15-2025 09:59:49 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-15-2025 09:59:49 - log: [PreviewInEditor] Ball spawned at: -62.63526743698017, 680 with downward force: 29.389860397329404
+10-15-2025 09:59:50 - log: [PreviewInEditor] 🎉 Score will animate UP from 8 to 4!
+10-15-2025 09:59:50 - log: [PreviewInEditor] 🎉 Score will animate UP from 8 to 8!
+10-15-2025 09:59:50 - log: [PreviewInEditor] 💔 Score will animate DOWN from 6 to 0!
+10-15-2025 09:59:50 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-15-2025 09:59:50 - log: [PreviewInEditor] Ball spawned at: -131.61428354087155, 680 with downward force: 39.31289724265985
+10-15-2025 09:59:50 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 0
+10-15-2025 09:59:50 - log: [PreviewInEditor] ⏰ Ball auto-destroyed after 5 seconds
+10-15-2025 09:59:50 - log: [PreviewInEditor] Ball spawned at: -257.8184549960683, 680 with downward force: 49.415310173091264
+10-15-2025 09:59:50 - log: [PreviewInEditor] ⏰ Ball auto-destroyed after 5 seconds
+10-15-2025 09:59:50 - log: [PreviewInEditor] Ball spawned at: 45.39433524592607, 680 with downward force: 40.5860985465742
+10-15-2025 09:59:51 - log: [PreviewInEditor] 🎉 Score will animate UP from 2 to 4!
+10-15-2025 09:59:51 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 4
+10-15-2025 09:59:51 - log: [PreviewInEditor] 🎉 Score will animate UP from 6 to 104!
+10-15-2025 09:59:51 - log: [PreviewInEditor] Ball spawned at: -221.42721033481777, 680 with downward force: 28.014061804776034
+10-15-2025 09:59:51 - log: [PreviewInEditor] 🎉 Score will animate UP from 8 to 108!
+10-15-2025 09:59:51 - log: [PreviewInEditor] Ball spawned at: 89.00258405484277, 680 with downward force: 36.17424523350834
+10-15-2025 09:59:51 - log: [PreviewInEditor] 🎉 Score will animate UP from 24 to 112!
+10-15-2025 09:59:51 - log: [PreviewInEditor] 💔 Score will animate DOWN from 28 to 62!
+10-15-2025 09:59:51 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 62
+10-15-2025 09:59:51 - log: [PreviewInEditor] Ball spawned at: -216.38842268270832, 680 with downward force: 17.41449032173036
+10-15-2025 09:59:52 - log: [PreviewInEditor] Ball spawned at: 245.73646568534923, 680 with downward force: 28.98556309808412
+10-15-2025 09:59:52 - log: [PreviewInEditor] 🎉 Score will animate UP from 48 to 66!
+10-15-2025 09:59:52 - log: [PreviewInEditor] 🎉 Score will animate UP from 56 to 70!
+10-15-2025 09:59:52 - log: [PreviewInEditor] Ball spawned at: 178.85682700777107, 680 with downward force: 3.30491857407188
+10-15-2025 09:59:52 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 70
+10-15-2025 09:59:52 - log: [PreviewInEditor] Ball spawned at: 211.23571471011587, 680 with downward force: 16.666606201957222
+10-15-2025 09:59:53 - log: [PreviewInEditor] 🎉 Score will animate UP from 72 to 74!
+10-15-2025 09:59:53 - log: [PreviewInEditor] Ball spawned at: -261.63648926558545, 680 with downward force: 21.082697568803965
+10-15-2025 09:59:53 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 74
+10-15-2025 09:59:53 - log: [PreviewInEditor] Ball spawned at: 177.2864886658532, 680 with downward force: 33.03859373532242
+10-15-2025 09:59:53 - log: [PreviewInEditor] ✨ GOLDEN BALL spawned!
+10-15-2025 09:59:53 - log: [PreviewInEditor] Ball spawned at: 220.94439139359707, 680 with downward force: 18.287770432987273
+10-15-2025 09:59:53 - log: [PreviewInEditor] Ball spawned at: 259.23635428275793, 680 with downward force: 30.430902237065837
+10-15-2025 09:59:54 - log: [PreviewInEditor] 🎉 Score will animate UP from 76 to 78!
+10-15-2025 09:59:54 - log: [PreviewInEditor] 🎉 Score will animate UP from 78 to 82!
+10-15-2025 09:59:54 - log: [PreviewInEditor] 🎉 Score will animate UP from 80 to 86!
+10-15-2025 09:59:54 - log: [PreviewInEditor] Ball spawned at: -243.98817281943334, 680 with downward force: 37.40562355022606
+10-15-2025 09:59:54 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 86
+10-15-2025 09:59:54 - log: [PreviewInEditor] Ball spawned at: -133.02539589902426, 680 with downward force: 13.62118936262905
+10-15-2025 09:59:54 - log: [PreviewInEditor] 🎉 Score will animate UP from 88 to 186!
+10-15-2025 09:59:54 - log: [PreviewInEditor] Ball spawned at: -71.71669603771676, 680 with downward force: 3.0792334481621997
+10-15-2025 09:59:55 - log: [PreviewInEditor] Ball spawned at: -181.5306923632458, 680 with downward force: 35.962016272634834
+10-15-2025 09:59:55 - log: [PreviewInEditor] 🎉 Score will animate UP from 116 to 190!
+10-15-2025 09:59:55 - log: [PreviewInEditor] Ball spawned at: -0.5991760456408883, 680 with downward force: 1.711602757816233
+10-15-2025 09:59:55 - log: [PreviewInEditor] ⏰ Ball auto-destroyed after 5 seconds
+10-15-2025 09:59:55 - log: [PreviewInEditor] Ball spawned at: 250.1424434742413, 680 with downward force: 20.865350216035427
+10-15-2025 09:59:56 - log: [PreviewInEditor] 🎉 Score will animate UP from 140 to 194!
+10-15-2025 09:59:56 - log: [PreviewInEditor] Ball spawned at: 151.75161053476745, 680 with downward force: 22.212333767753044
+10-15-2025 09:59:56 - log: [PreviewInEditor] 🎉 Score will animate UP from 142 to 198!
+10-15-2025 09:59:56 - log: [PreviewInEditor] 🎉 Score will animate UP from 144 to 202!
+10-15-2025 09:59:56 - log: [PreviewInEditor] Ball spawned at: 65.45972728331645, 680 with downward force: 38.18970698281339
+10-15-2025 09:59:56 - log: [PreviewInEditor] Ball spawned at: 103.60917617609931, 680 with downward force: 17.82822968585084
+10-15-2025 09:59:56 - log: [PreviewInEditor] 🎉 Score will animate UP from 176 to 206!
+10-15-2025 09:59:57 - log: [PreviewInEditor] Ball spawned at: -32.43110673701494, 680 with downward force: 27.45125155373134
+10-15-2025 09:59:57 - log: [PreviewInEditor] 🎉 Score will animate UP from 182 to 210!
+10-15-2025 09:59:57 - log: [PreviewInEditor] ⏰ Ball auto-destroyed after 5 seconds
+10-15-2025 09:59:57 - log: [PreviewInEditor] 💔 Score will animate DOWN from 180 to 160!
+10-15-2025 09:59:57 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 160
+10-15-2025 09:59:57 - log: [PreviewInEditor] Ball spawned at: -14.759566647437111, 680 with downward force: 21.684289747884865
+10-15-2025 09:59:57 - log: [PreviewInEditor] Ball spawned at: 256.37443960728115, 680 with downward force: 24.060351139417925
+10-15-2025 09:59:57 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 160
+10-15-2025 09:59:57 - log: [PreviewInEditor] 🎉 Score will animate UP from 162 to 164!
+10-15-2025 09:59:57 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 164
+10-15-2025 09:59:57 - log: [PreviewInEditor] 🎉 Score will animate UP from 166 to 168!
+10-15-2025 09:59:57 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 168
+10-15-2025 09:59:57 - log: [PreviewInEditor] Ball spawned at: 31.392103175294665, 680 with downward force: 22.743488057215842
+10-15-2025 09:59:58 - log: [PreviewInEditor] ⏰ Ball auto-destroyed after 5 seconds
+10-15-2025 09:59:58 - log: [PreviewInEditor] Ball spawned at: 153.4388846094995, 680 with downward force: 40.38568680206074
+10-15-2025 09:59:58 - log: [PreviewInEditor] 🎉 Score will animate UP from 170 to 172!
+10-15-2025 09:59:58 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 172
+10-15-2025 09:59:58 - log: [PreviewInEditor] Ball spawned at: 92.89989935867021, 680 with downward force: 23.637843007704895
+10-15-2025 09:59:58 - log: [PreviewInEditor] Ball spawned at: -182.4796092640207, 680 with downward force: 3.190033755459265
+10-15-2025 09:59:59 - log: [PreviewInEditor] 🎉 Score will animate UP from 174 to 176!
+10-15-2025 09:59:59 - log: [PreviewInEditor] 💔 Score will animate DOWN from 172 to 126!
+10-15-2025 09:59:59 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 126
+10-15-2025 09:59:59 - log: [PreviewInEditor] 🎉 Score will animate UP from 170 to 130!
+10-15-2025 09:59:59 - log: [PreviewInEditor] 💔 Score will animate DOWN from 168 to 80!
+10-15-2025 09:59:59 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 80
+10-15-2025 09:59:59 - log: [PreviewInEditor] Ball spawned at: -214.19929555836177, 680 with downward force: 29.412563021501647
+10-15-2025 09:59:59 - log: [PreviewInEditor] Ball spawned at: 6.947359776520614, 680 with downward force: 7.137101060956963
+10-15-2025 09:59:59 - log: [PreviewInEditor] 💔 Score will animate DOWN from 144 to 30!
+10-15-2025 09:59:59 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 30
+10-15-2025 09:59:59 - log: [PreviewInEditor] Ball spawned at: -15.026078047652248, 680 with downward force: 14.362549874484632
+10-15-2025 10:00:00 - log: [PreviewInEditor] Ball spawned at: -140.31198904079722, 680 with downward force: 37.29853477601098
+10-15-2025 10:00:00 - log: [PreviewInEditor] ✨ GOLDEN BALL spawned!
+10-15-2025 10:00:00 - log: [PreviewInEditor] Ball spawned at: -257.5097066516788, 680 with downward force: 48.6468251987457
+10-15-2025 10:00:00 - log: [PreviewInEditor] 🎉 Score will animate UP from 114 to 34!
+10-15-2025 10:00:00 - log: [PreviewInEditor] Ball spawned at: -180.34099063978428, 680 with downward force: 2.793098656003834
+10-15-2025 10:00:00 - log: [PreviewInEditor] ⏰ Ball auto-destroyed after 5 seconds
+10-15-2025 10:00:01 - log: [PreviewInEditor] 🎉 Score will animate UP from 92 to 38!
+10-15-2025 10:00:01 - log: [PreviewInEditor] Ball spawned at: -107.19432237213263, 680 with downward force: 47.36054534556155
+10-15-2025 10:00:01 - log: [PreviewInEditor] 🎉 Score will animate UP from 84 to 42!
+10-15-2025 10:00:01 - log: [PreviewInEditor] Ball spawned at: -251.3409478585563, 680 with downward force: 13.702335547689316
+10-15-2025 10:00:01 - log: [PreviewInEditor] 🎉 Score will animate UP from 72 to 46!
+10-15-2025 10:00:01 - log: [PreviewInEditor] Ball spawned at: -11.967442977570556, 680 with downward force: 15.576629804279152
+10-15-2025 10:00:01 - log: [PreviewInEditor] Ball spawned at: 59.092946374248754, 680 with downward force: 5.657620505369576
+10-15-2025 10:00:02 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 46
+10-15-2025 10:00:02 - log: [PreviewInEditor] ✨ GOLDEN BALL spawned!
+10-15-2025 10:00:02 - log: [PreviewInEditor] Ball spawned at: -169.50762737710892, 680 with downward force: 34.808019336091625
+10-15-2025 10:00:02 - log: [PreviewInEditor] 🎉 Score will animate UP from 48 to 50!
+10-15-2025 10:00:02 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 50
+10-15-2025 10:00:02 - log: [PreviewInEditor] Ball spawned at: 47.91514557263338, 680 with downward force: 28.58799853509064
+10-15-2025 10:00:02 - log: [PreviewInEditor] ⏰ Ball auto-destroyed after 5 seconds
+10-15-2025 10:00:02 - log: [PreviewInEditor] 🎉 Score will animate UP from 52 to 54!
+10-15-2025 10:00:02 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 54
+10-15-2025 10:00:02 - log: [PreviewInEditor] Ball spawned at: -127.61182364635343, 680 with downward force: 11.967263002001049
+10-15-2025 10:00:02 - log: [PreviewInEditor] 🎉 Score will animate UP from 56 to 58!
+10-15-2025 10:00:03 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 58
+10-15-2025 10:00:03 - log: [PreviewInEditor] Ball spawned at: -141.7566309564135, 680 with downward force: 5.50203373687379
+10-15-2025 10:00:03 - log: [PreviewInEditor] Ball spawned at: 210.25980782229863, 680 with downward force: 39.07330748228324
+10-15-2025 10:00:03 - log: [PreviewInEditor] 💔 Score will animate DOWN from 56 to 8!
+10-15-2025 10:00:03 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 8
+10-15-2025 10:00:03 - log: [PreviewInEditor] 🎉 Score will animate UP from 54 to 12!
+10-15-2025 10:00:03 - log: [PreviewInEditor] Ball spawned at: 49.062562586766035, 680 with downward force: 0.1352377035942376
+10-15-2025 10:00:03 - log: [PreviewInEditor] 🎉 Score will animate UP from 38 to 16!
+10-15-2025 10:00:04 - log: [PreviewInEditor] Ball spawned at: -238.6676602104413, 680 with downward force: 17.283302011471857
+10-15-2025 10:00:04 - log: [PreviewInEditor] 💔 Score will animate DOWN from 24 to 0!
+10-15-2025 10:00:04 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-15-2025 10:00:04 - log: [PreviewInEditor] 🎉 Score will animate UP from 22 to 4!
+10-15-2025 10:00:04 - log: [PreviewInEditor] Ball spawned at: -230.10603782176227, 680 with downward force: 49.385822503693646
+10-15-2025 10:00:04 - log: [PreviewInEditor] Ball spawned at: -187.0862088264941, 680 with downward force: 34.6593267261904
+10-15-2025 10:00:04 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 4
+10-15-2025 10:00:04 - log: [PreviewInEditor] 🎉 Score will animate UP from 6 to 8!
+10-15-2025 10:00:05 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 8
+10-15-2025 10:00:05 - log: [PreviewInEditor] Ball spawned at: 90.17558628143672, 680 with downward force: 49.76439921529676
+10-15-2025 10:00:05 - log: [PreviewInEditor] 🎉 Score will animate UP from 10 to 12!
+10-15-2025 10:00:05 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 12
+10-15-2025 10:00:05 - log: [PreviewInEditor] Ball spawned at: -20.520213123812965, 680 with downward force: 23.781986902651887
+10-15-2025 10:00:05 - log: [PreviewInEditor] ⏰ Ball auto-destroyed after 5 seconds
+10-15-2025 10:00:05 - log: [PreviewInEditor] Ball spawned at: 23.863658094193852, 680 with downward force: 12.733349091305069
+10-15-2025 10:00:05 - log: [PreviewInEditor] 🎉 Score will animate UP from 14 to 16!
+10-15-2025 10:00:05 - log: [PreviewInEditor] 🎉 Score will animate UP from 16 to 20!
+10-15-2025 10:00:05 - log: [PreviewInEditor] 🎉 Score will animate UP from 18 to 24!
+10-15-2025 10:00:05 - log: [PreviewInEditor] 🎉 Score will animate UP from 20 to 28!
+10-15-2025 10:00:05 - log: [PreviewInEditor] 💔 Score will animate DOWN from 18 to 0!
+10-15-2025 10:00:05 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-15-2025 10:00:05 - log: [PreviewInEditor] 🎉 Score will animate UP from 16 to 4!
+10-15-2025 10:00:05 - log: [PreviewInEditor] Ball spawned at: 133.03991762630938, 680 with downward force: 19.37568677293724
+10-15-2025 10:00:06 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 4
+10-15-2025 10:00:06 - log: [PreviewInEditor] Ball spawned at: 81.16228678868612, 680 with downward force: 22.726346078240912
+10-15-2025 10:00:06 - log: [PreviewInEditor] Ball spawned at: -15.333810506747739, 680 with downward force: 31.875779408546723
+10-15-2025 10:00:06 - log: [PreviewInEditor] Ball spawned at: 177.773223180417, 680 with downward force: 13.055646770696649
+10-15-2025 10:00:06 - log: [PreviewInEditor] 🎉 Score will animate UP from 6 to 8!
+10-15-2025 10:00:06 - log: [PreviewInEditor] 🎉 Score will animate UP from 8 to 12!
+10-15-2025 10:00:07 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 12
+10-15-2025 10:00:07 - log: [PreviewInEditor] Ball spawned at: -125.86348382547345, 680 with downward force: 36.09888238634551
+10-15-2025 10:00:07 - log: [PreviewInEditor] ⏰ Ball auto-destroyed after 5 seconds
+10-15-2025 10:00:07 - log: [PreviewInEditor] 💔 Score will animate DOWN from 10 to 0!
+10-15-2025 10:00:07 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-15-2025 10:00:07 - log: [PreviewInEditor] Ball spawned at: 78.3845848317124, 680 with downward force: 35.362895157666564
+10-15-2025 10:00:07 - log: [PreviewInEditor] ⏰ Ball auto-destroyed after 5 seconds
+10-15-2025 10:00:07 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 0
+10-15-2025 10:00:07 - log: [PreviewInEditor] Ball spawned at: -99.72528441436535, 680 with downward force: 27.792444419987717
+10-15-2025 10:00:08 - log: [PreviewInEditor] Ball spawned at: 16.337098291030486, 680 with downward force: 4.909470878840805
+10-15-2025 10:00:08 - log: [PreviewInEditor] 🎉 Score will animate UP from 2 to 4!
+10-15-2025 10:00:08 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 4
+10-15-2025 10:00:08 - log: [PreviewInEditor] 💔 Score will animate DOWN from 2 to 0!
+10-15-2025 10:00:08 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-15-2025 10:00:08 - log: [PreviewInEditor] Ball spawned at: 14.384336001613065, 680 with downward force: 24.773063707539944
+10-15-2025 10:00:08 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 0
+10-15-2025 10:00:08 - log: [PreviewInEditor] 💔 Score will animate DOWN from 0 to 0!
+10-15-2025 10:00:08 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-15-2025 10:00:08 - log: [PreviewInEditor] Ball spawned at: -21.01364681891755, 680 with downward force: 6.492328920025314
+10-15-2025 10:00:08 - log: [PreviewInEditor] Ball spawned at: 110.72850132047779, 680 with downward force: 44.60192773389885
+10-15-2025 10:00:09 - log: [PreviewInEditor] Ball spawned at: -158.84068354061262, 680 with downward force: 16.543907961226246
+10-15-2025 10:00:09 - log: [PreviewInEditor] 🎉 Score will animate UP from 2 to 4!
+10-15-2025 10:00:09 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 4
+10-15-2025 10:00:09 - log: [PreviewInEditor] 🎉 Score will animate UP from 6 to 8!
+10-15-2025 10:00:09 - log: [PreviewInEditor] Ball spawned at: 221.6423079689245, 680 with downward force: 5.064636478153783
+10-15-2025 10:00:09 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 8
+10-15-2025 10:00:09 - log: [PreviewInEditor] 🎉 Score will animate UP from 10 to 12!
+10-15-2025 10:00:09 - log: [PreviewInEditor] 🎉 Score will animate UP from 12 to 16!
+10-15-2025 10:00:09 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 16
+10-15-2025 10:00:09 - log: [PreviewInEditor] Ball spawned at: -65.68646329359538, 680 with downward force: 26.745357873716646
+10-15-2025 10:00:10 - log: [PreviewInEditor] Ball spawned at: -11.595665216080533, 680 with downward force: 24.454184134443235
+10-15-2025 10:00:10 - log: [PreviewInEditor] Ball spawned at: -120.65972594686167, 680 with downward force: 22.230638017434224
+10-15-2025 10:00:10 - log: [PreviewInEditor] Ball spawned at: 93.56149440270622, 680 with downward force: 34.034184025101275
+10-15-2025 10:00:10 - log: [PreviewInEditor] 🎉 Score will animate UP from 18 to 20!
+10-15-2025 10:00:10 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 20
+10-15-2025 10:00:11 - log: [PreviewInEditor] 🎉 Score will animate UP from 22 to 24!
+10-15-2025 10:00:11 - log: [PreviewInEditor] Ball spawned at: -243.11333833152415, 680 with downward force: 46.222259072380155
+10-15-2025 10:00:11 - log: [PreviewInEditor] ✨ Score animation completed! Final score: 24
+10-15-2025 10:00:11 - log: [PreviewInEditor] 🎉 Score will animate UP from 26 to 28!
+10-15-2025 10:00:11 - log: [PreviewInEditor] 🎉 Score will animate UP from 28 to 32!
+10-15-2025 10:00:11 - log: [PreviewInEditor] 🔄 Found stored final score: 24
+10-15-2025 10:00:11 - log: [PreviewInEditor] 📱 Score label updated to: 24
+10-15-2025 10:00:11 - log: [PreviewInEditor] 🔄 Volver sprite event listener added
+10-15-2025 10:00:11 - log: [PreviewInEditor] 🚪 Salir sprite event listener added
+10-15-2025 10:00:11 - log: [PreviewInEditor] 🏆 FinalScoreCtrl initialized, waiting for score...
+10-15-2025 10:00:16 - log: [PreviewInEditor] 🚪 Salir button clicked - exiting game
+10-15-2025 10:00:16 - log: [PreviewInEditor] 📨 PostMessage sent to parent: {state:"exit"}
+10-15-2025 10:00:17 - log: [PreviewInEditor] 🔄 Volver button clicked - returning to splash screen
+10-15-2025 10:00:17 - log: [PreviewInEditor] 📨 PostMessage sent to parent: {status:"reset"}
+10-15-2025 10:00:20 - info: [PreviewInEditor] preview process is ready
