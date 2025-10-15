@@ -143,7 +143,7 @@
 10-15-2025 09:52:18 - debug: Build script start, progress: 17%
 10-15-2025 09:52:18 - debug: // ---- build task Build script ----
 10-15-2025 09:52:18 - log: Run build task(build-script) in child, see: chrome://inspect/#devices
-10-15-2025 09:52:18 - log: [build-script]enter sub process 18321, /Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Frameworks/CocosCreator Helper (Renderer).app/Contents/MacOS/CocosCreator Helper (Renderer),/Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/static/sub-process-index
+10-15-2025 09:52:18 - log: [build-script]enter sub process 18321, /Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Frameworks/CocosCreator Helper (Renderer).app/Contents/MacOS/CocosCreator Helper (Renderer),/Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/static/sub-process-index
 10-15-2025 09:52:20 - debug: excute-script over with build-script 1697ms
 10-15-2025 09:52:20 - debug: Generate systemJs..., progress: 17%
 10-15-2025 09:52:20 - log: Run build task(build-script) in child, see: chrome://inspect/#devices
@@ -409,7 +409,7 @@
 10-15-2025 10:00:37 - debug: Build script start, progress: 17%
 10-15-2025 10:00:37 - debug: // ---- build task Build script ----
 10-15-2025 10:00:37 - log: Run build task(build-script) in child, see: chrome://inspect/#devices
-10-15-2025 10:00:37 - log: [build-script]enter sub process 19289, /Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Frameworks/CocosCreator Helper (Renderer).app/Contents/MacOS/CocosCreator Helper (Renderer),/Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/static/sub-process-index
+10-15-2025 10:00:37 - log: [build-script]enter sub process 19289, /Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Frameworks/CocosCreator Helper (Renderer).app/Contents/MacOS/CocosCreator Helper (Renderer),/Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/static/sub-process-index
 10-15-2025 10:00:39 - debug: excute-script over with build-script 1693ms
 10-15-2025 10:00:39 - debug: Generate systemJs..., progress: 17%
 10-15-2025 10:00:39 - log: Run build task(build-script) in child, see: chrome://inspect/#devices
