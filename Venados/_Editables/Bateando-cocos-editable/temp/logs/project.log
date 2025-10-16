@@ -1,0 +1,396 @@
+10-16-2025 10:17:05 - log: Load engine in /Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine
+10-16-2025 10:17:05 - log: Profile changed: engine (modules.includeModules: 2d,3d,animation,audio,base,custom-pipeline,dragon-bones,gfx-webgl,intersection-2d,light-probe,marionette,particle,particle-2d,physics-2d-box2d,physics-ammo,primitive,profiler,skeletal-animation,spine,terrain,tiled-map,tween,ui,video,websocket,webview)
+10-16-2025 10:17:05 - log: Register native engine in /Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/native
+10-16-2025 10:17:05 - log: Request namespace: device-list
+10-16-2025 10:17:11 - log: [Scene] meshopt wasm decoder initialized
+10-16-2025 10:17:11 - log: [Scene] [bullet]:bullet wasm lib loaded.
+10-16-2025 10:17:11 - log: [Scene] [box2d]:box2d wasm lib loaded.
+10-16-2025 10:17:11 - log: [Scene] [PHYSICS]: using builtin.
+10-16-2025 10:17:11 - log: [Scene] Cocos Creator v3.8.5
+10-16-2025 10:17:11 - log: [Scene] Using custom pipeline: Builtin
+10-16-2025 10:17:11 - log: [Scene] [PHYSICS]: switch from builtin to bullet.
+10-16-2025 10:17:11 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-16-2025 10:20:13 - info: [PreviewInEditor] preview process is ready
+10-16-2025 10:20:13 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-16-2025 10:20:13 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-16-2025 10:20:13 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-16-2025 10:20:13 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-16-2025 10:20:13 - log: [PreviewInEditor] Cocos Creator v3.8.5
+10-16-2025 10:20:13 - log: [PreviewInEditor] Using custom pipeline: Builtin
+10-16-2025 10:20:13 - log: [PreviewInEditor] [PHYSICS]: switch from builtin to bullet.
+10-16-2025 10:20:13 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-16-2025 10:20:15 - log: [PreviewInEditor] Current Page:  0
+10-16-2025 10:20:18 - log: [PreviewInEditor] Ball spawned at: 83.21322632052932, 680 (within 640px game area) with force: 12.572859969556582
+10-16-2025 10:20:20 - info: [PreviewInEditor] preview process is ready
+10-16-2025 10:20:58 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-16-2025 10:20:58 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-16-2025 10:20:58 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-16-2025 10:20:58 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-16-2025 10:20:58 - log: [PreviewInEditor] Cocos Creator v3.8.5
+10-16-2025 10:20:58 - log: [PreviewInEditor] Using custom pipeline: Builtin
+10-16-2025 10:20:58 - log: [PreviewInEditor] [PHYSICS]: switch from builtin to bullet.
+10-16-2025 10:20:58 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-16-2025 10:21:00 - log: [PreviewInEditor] Current Page:  0
+10-16-2025 10:21:04 - log: [PreviewInEditor] Ball spawned at: -173.8330662039275, 680 (within 640px game area) with force: 11.929658638754647
+10-16-2025 10:21:04 - info: [PreviewInEditor] preview process is ready
+10-16-2025 10:21:24 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-16-2025 10:21:24 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-16-2025 10:21:24 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-16-2025 10:21:24 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-16-2025 10:21:24 - log: [PreviewInEditor] Cocos Creator v3.8.5
+10-16-2025 10:21:24 - log: [PreviewInEditor] Using custom pipeline: Builtin
+10-16-2025 10:21:24 - log: [PreviewInEditor] [PHYSICS]: switch from builtin to bullet.
+10-16-2025 10:21:24 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-16-2025 10:21:26 - log: [PreviewInEditor] Current Page:  0
+10-16-2025 10:21:30 - log: [PreviewInEditor] Ball spawned at: -189.21781724636395, 680 (within 640px game area) with force: 20.56778264376816
+10-16-2025 10:21:31 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-16-2025 10:21:32 - log: [PreviewInEditor] Ball spawned at: 173.28330255186432, 680 (within 640px game area) with force: 17.458908737445743
+10-16-2025 10:21:33 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 4
+10-16-2025 10:21:34 - log: [PreviewInEditor] Ball spawned at: -21.63244502013754, 680 (within 640px game area) with force: 1.8832507636262763
+10-16-2025 10:21:35 - log: [PreviewInEditor] Ball spawned at: -243.64152253546743, 680 (within 640px game area) with force: 5.6009211744309395
+10-16-2025 10:21:36 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 8
+10-16-2025 10:21:37 - log: [PreviewInEditor] Ball spawned at: 59.83222528076698, 680 (within 640px game area) with force: 35.20279893408035
+10-16-2025 10:21:38 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-16-2025 10:21:38 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 4
+10-16-2025 10:21:38 - log: [PreviewInEditor] Ball spawned at: -142.11453273390495, 680 (within 640px game area) with force: 7.2766861978515
+10-16-2025 10:21:40 - log: [PreviewInEditor] Ball spawned at: 156.8096286788516, 680 (within 640px game area) with force: 41.855753903261196
+10-16-2025 10:21:40 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 8
+10-16-2025 10:21:41 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-16-2025 10:21:41 - log: [PreviewInEditor] Ball spawned at: 55.9623485093216, 680 (within 640px game area) with force: 10.967947230339659
+10-16-2025 10:21:42 - log: [PreviewInEditor] Ball spawned at: -211.77505859926262, 680 (within 640px game area) with force: 33.519231593261914
+10-16-2025 10:21:42 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 4
+10-16-2025 10:21:43 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 8
+10-16-2025 10:21:44 - log: [PreviewInEditor] Ball spawned at: 235.54272671609363, 680 (within 640px game area) with force: 24.715783718554228
+10-16-2025 10:21:45 - log: [PreviewInEditor] Ball spawned at: -110.59953678693779, 680 (within 640px game area) with force: 7.43985657041073
+10-16-2025 10:21:46 - log: [PreviewInEditor] Ball spawned at: 149.16209054893443, 680 (within 640px game area) with force: 49.497984707493316
+10-16-2025 10:21:47 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-16-2025 10:21:47 - log: [PreviewInEditor] Ball spawned at: 146.55702720115437, 680 (within 640px game area) with force: 1.359588017108948
+10-16-2025 10:21:48 - log: [PreviewInEditor] Ball spawned at: 146.6257034041401, 680 (within 640px game area) with force: 28.220501975213487
+10-16-2025 10:21:49 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 4
+10-16-2025 10:21:49 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 8
+10-16-2025 10:21:49 - log: [PreviewInEditor] Ball spawned at: -244.3693195845216, 680 (within 640px game area) with force: 0.859373765815008
+10-16-2025 10:21:50 - log: [PreviewInEditor] Ball spawned at: 221.14907425590064, 680 (within 640px game area) with force: 29.60956011042256
+10-16-2025 10:21:51 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 12
+10-16-2025 10:21:51 - log: [PreviewInEditor] Ball spawned at: 98.84038869823291, 680 (within 640px game area) with force: 1.8220659254022498
+10-16-2025 10:21:52 - log: [PreviewInEditor] Ball spawned at: -182.94963215748177, 680 (within 640px game area) with force: 40.00356572343217
+10-16-2025 10:21:52 - log: [PreviewInEditor] Ball spawned at: -176.1086329754718, 680 (within 640px game area) with force: 26.83784169615988
+10-16-2025 10:21:53 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 16
+10-16-2025 10:21:53 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 20
+10-16-2025 10:21:53 - log: [PreviewInEditor] Ball spawned at: 143.8409193181227, 680 (within 640px game area) with force: 27.51766672055035
+10-16-2025 10:21:54 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 24
+10-16-2025 10:21:54 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 28
+10-16-2025 10:21:54 - log: [PreviewInEditor] Ball spawned at: 127.39214467198457, 680 (within 640px game area) with force: 32.01105006164573
+10-16-2025 10:21:54 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 32
+10-16-2025 10:21:54 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-16-2025 10:21:55 - log: [PreviewInEditor] Ball spawned at: 12.736157965017014, 680 (within 640px game area) with force: 42.96643730391859
+10-16-2025 10:21:55 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-16-2025 10:21:55 - log: [PreviewInEditor] Ball spawned at: -120.38453029124068, 680 (within 640px game area) with force: 49.390741928804424
+10-16-2025 10:21:55 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-16-2025 10:21:56 - log: [PreviewInEditor] Ball spawned at: 67.09459488754788, 680 (within 640px game area) with force: 29.185096286513456
+10-16-2025 10:21:56 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 4
+10-16-2025 10:21:56 - log: [PreviewInEditor] Ball spawned at: -204.08974796388873, 680 (within 640px game area) with force: 49.003580118641196
+10-16-2025 10:21:57 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-16-2025 10:21:57 - log: [PreviewInEditor] Ball spawned at: 118.44481353629362, 680 (within 640px game area) with force: 8.845479782554088
+10-16-2025 10:21:57 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 4
+10-16-2025 10:21:58 - log: [PreviewInEditor] Ball spawned at: 87.77075627999943, 680 (within 640px game area) with force: 12.65361755070712
+10-16-2025 10:21:58 - log: [PreviewInEditor] ✨ GOLDEN BALL spawned!
+10-16-2025 10:21:58 - log: [PreviewInEditor] Ball spawned at: -240.69661058263924, 680 (within 640px game area) with force: 14.753903550257574
+10-16-2025 10:21:59 - log: [PreviewInEditor] Ball spawned at: -253.8804607963113, 680 (within 640px game area) with force: 38.64728782965008
+10-16-2025 10:21:59 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 8
+10-16-2025 10:21:59 - log: [PreviewInEditor] Ball spawned at: 67.2251816020023, 680 (within 640px game area) with force: 48.529659088557366
+10-16-2025 10:21:59 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-16-2025 10:21:59 - log: [PreviewInEditor] ✨ GOLDEN BALL spawned!
+10-16-2025 10:21:59 - log: [PreviewInEditor] Ball spawned at: 185.89537622457055, 680 (within 640px game area) with force: 31.962856650309956
+10-16-2025 10:22:00 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-16-2025 10:22:00 - log: [PreviewInEditor] Ball spawned at: -7.5440384179075295, 680 (within 640px game area) with force: 36.8000761352888
+10-16-2025 10:22:00 - log: [PreviewInEditor] Ball spawned at: -120.95587127284591, 680 (within 640px game area) with force: 35.293265643803714
+10-16-2025 10:22:00 - log: [PreviewInEditor] 📈 Score increased by 100. Current score: 100
+10-16-2025 10:22:00 - log: [PreviewInEditor] 📉 Score decreased by 200. Current score: 0
+10-16-2025 10:22:01 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 4
+10-16-2025 10:22:01 - log: [PreviewInEditor] Ball spawned at: 15.466959187026987, 680 (within 640px game area) with force: 2.449179186782202
+10-16-2025 10:22:01 - log: [PreviewInEditor] ✨ GOLDEN BALL spawned!
+10-16-2025 10:22:01 - log: [PreviewInEditor] Ball spawned at: 39.746027512939406, 680 (within 640px game area) with force: 7.376347286753237
+10-16-2025 10:22:01 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 8
+10-16-2025 10:22:01 - log: [PreviewInEditor] Ball spawned at: -163.92608539682715, 680 (within 640px game area) with force: 3.0975092171741214
+10-16-2025 10:22:02 - log: [PreviewInEditor] Ball spawned at: 57.538775569273355, 680 (within 640px game area) with force: 17.49258244879357
+10-16-2025 10:22:02 - log: [PreviewInEditor] Ball spawned at: -233.58101495875604, 680 (within 640px game area) with force: 44.049957328550384
+10-16-2025 10:22:02 - log: [PreviewInEditor] Ball spawned at: 233.32181355863014, 680 (within 640px game area) with force: 43.770343065186935
+10-16-2025 10:22:03 - log: [PreviewInEditor] 📈 Score increased by 100. Current score: 108
+10-16-2025 10:22:03 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 112
+10-16-2025 10:22:03 - log: [PreviewInEditor] Ball spawned at: 64.99148564649687, 680 (within 640px game area) with force: 19.290644630495922
+10-16-2025 10:22:03 - log: [PreviewInEditor] Ball spawned at: -223.89748632858797, 680 (within 640px game area) with force: 43.44397127563284
+10-16-2025 10:22:03 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 62
+10-16-2025 10:22:03 - log: [PreviewInEditor] Ball spawned at: 162.5871355705695, 680 (within 640px game area) with force: 44.529783198478235
+10-16-2025 10:22:03 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 66
+10-16-2025 10:22:04 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 70
+10-16-2025 10:22:04 - log: [PreviewInEditor] Ball spawned at: -175.97567957696268, 680 (within 640px game area) with force: 11.474852523198653
+10-16-2025 10:22:04 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 74
+10-16-2025 10:22:04 - log: [PreviewInEditor] Ball spawned at: -235.94300020437018, 680 (within 640px game area) with force: 3.1071358730049847
+10-16-2025 10:22:04 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 78
+10-16-2025 10:22:04 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 28
+10-16-2025 10:22:04 - log: [PreviewInEditor] Ball spawned at: 150.11230641537458, 680 (within 640px game area) with force: 26.0594031456718
+10-16-2025 10:22:04 - log: [PreviewInEditor] Ball spawned at: 202.50673041387125, 680 (within 640px game area) with force: 28.3459639622873
+10-16-2025 10:22:05 - log: [PreviewInEditor] Ball spawned at: -105.46024765487817, 680 (within 640px game area) with force: 13.53637981618463
+10-16-2025 10:22:05 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 32
+10-16-2025 10:22:05 - log: [PreviewInEditor] Ball spawned at: 130.34165743046515, 680 (within 640px game area) with force: 39.525199250508194
+10-16-2025 10:22:05 - log: [PreviewInEditor] Ball spawned at: 69.37337283751208, 680 (within 640px game area) with force: 16.686997602862753
+10-16-2025 10:22:06 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-16-2025 10:22:06 - log: [PreviewInEditor] 🎮 GAME OVER! Bateos reached 0
+10-16-2025 10:22:06 - log: [PreviewInEditor] Final Score: 0
+10-16-2025 10:22:06 - log: [PreviewInEditor] 💾 Stored final score globally: 0
+10-16-2025 10:22:06 - log: [PreviewInEditor] Ball spawned at: 251.45696402315048, 680 (within 640px game area) with force: 36.82455339554049
+10-16-2025 10:22:06 - log: [PreviewInEditor] 🔄 Found stored final score: 0
+10-16-2025 10:22:06 - log: [PreviewInEditor] 🚀 Attempting to send score: 0
+10-16-2025 10:22:06 - log: [PreviewInEditor] 📨 PostMessage sent successfully: {score: 0}
+10-16-2025 10:22:08 - log: [PreviewInEditor] Current Page:  0
+10-16-2025 10:22:11 - log: [PreviewInEditor] Ball spawned at: 257.98882742910496, 680 (within 640px game area) with force: 35.60996064097306
+10-16-2025 10:22:13 - log: [PreviewInEditor] Ball spawned at: 144.00337490359817, 680 (within 640px game area) with force: 47.270016647472055
+10-16-2025 10:22:14 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-16-2025 10:22:15 - log: [PreviewInEditor] Ball spawned at: 7.076895495785777, 680 (within 640px game area) with force: 29.321181480864844
+10-16-2025 10:22:16 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 4
+10-16-2025 10:22:17 - log: [PreviewInEditor] Ball spawned at: -42.693715973211, 680 (within 640px game area) with force: 30.432164222677017
+10-16-2025 10:22:18 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 8
+10-16-2025 10:22:18 - log: [PreviewInEditor] Ball spawned at: -221.83844704934413, 680 (within 640px game area) with force: 41.87075823912887
+10-16-2025 10:22:19 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 12
+10-16-2025 10:22:20 - log: [PreviewInEditor] Ball spawned at: -95.85251015235386, 680 (within 640px game area) with force: 29.493235527577177
+10-16-2025 10:22:21 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 16
+10-16-2025 10:22:21 - log: [PreviewInEditor] Ball spawned at: -201.0140925905888, 680 (within 640px game area) with force: 11.6348369452845
+10-16-2025 10:22:23 - log: [PreviewInEditor] Ball spawned at: -236.55075759887183, 680 (within 640px game area) with force: 28.688945726858705
+10-16-2025 10:22:23 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 20
+10-16-2025 10:22:24 - log: [PreviewInEditor] Ball spawned at: 117.86019379315854, 680 (within 640px game area) with force: 47.092179772767395
+10-16-2025 10:22:24 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 24
+10-16-2025 10:22:24 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 28
+10-16-2025 10:22:25 - log: [PreviewInEditor] Ball spawned at: -139.75602220530422, 680 (within 640px game area) with force: 34.68150684561447
+10-16-2025 10:22:26 - log: [PreviewInEditor] Ball spawned at: 16.982013474961548, 680 (within 640px game area) with force: 9.06392273090213
+10-16-2025 10:22:26 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 32
+10-16-2025 10:22:27 - log: [PreviewInEditor] Ball spawned at: 1.6312148246499305, 680 (within 640px game area) with force: 8.92999867578138
+10-16-2025 10:22:28 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 36
+10-16-2025 10:22:28 - log: [PreviewInEditor] Ball spawned at: 226.87936718474765, 680 (within 640px game area) with force: 24.898012219616195
+10-16-2025 10:22:29 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 40
+10-16-2025 10:22:29 - log: [PreviewInEditor] Ball spawned at: 23.502875774234724, 680 (within 640px game area) with force: 19.626456879620278
+10-16-2025 10:22:30 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 44
+10-16-2025 10:22:30 - log: [PreviewInEditor] Ball spawned at: 7.567987369849391, 680 (within 640px game area) with force: 43.436628267451304
+10-16-2025 10:22:30 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 48
+10-16-2025 10:22:31 - log: [PreviewInEditor] Ball spawned at: -126.00391673202301, 680 (within 640px game area) with force: 1.8505886668580773
+10-16-2025 10:22:32 - log: [PreviewInEditor] Ball spawned at: -165.60282269490895, 680 (within 640px game area) with force: 24.098031228612783
+10-16-2025 10:22:33 - log: [PreviewInEditor] Ball spawned at: 98.70183970180852, 680 (within 640px game area) with force: 10.237301030988288
+10-16-2025 10:22:33 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 52
+10-16-2025 10:22:34 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 56
+10-16-2025 10:22:34 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 60
+10-16-2025 10:22:34 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 10
+10-16-2025 10:22:34 - log: [PreviewInEditor] Ball spawned at: 64.28445971333844, 680 (within 640px game area) with force: 44.88230570231695
+10-16-2025 10:22:34 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 14
+10-16-2025 10:22:35 - log: [PreviewInEditor] Ball spawned at: 52.817255399276746, 680 (within 640px game area) with force: 1.8822007614412661
+10-16-2025 10:22:35 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-16-2025 10:22:35 - log: [PreviewInEditor] Ball spawned at: 81.57452451653381, 680 (within 640px game area) with force: 45.001130889180274
+10-16-2025 10:22:36 - log: [PreviewInEditor] Ball spawned at: 210.04900469910126, 680 (within 640px game area) with force: 25.514483902624484
+10-16-2025 10:22:36 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-16-2025 10:22:36 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 4
+10-16-2025 10:22:37 - log: [PreviewInEditor] Ball spawned at: -260.34824237482434, 680 (within 640px game area) with force: 34.48744868953819
+10-16-2025 10:22:37 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-16-2025 10:22:37 - log: [PreviewInEditor] Ball spawned at: -91.58627449566742, 680 (within 640px game area) with force: 48.584072791145815
+10-16-2025 10:22:38 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 4
+10-16-2025 10:22:38 - log: [PreviewInEditor] Ball spawned at: -40.589742156609674, 680 (within 640px game area) with force: 8.00666516667128
+10-16-2025 10:22:38 - log: [PreviewInEditor] Ball spawned at: 134.1441227091338, 680 (within 640px game area) with force: 36.32560941755638
+10-16-2025 10:22:39 - log: [PreviewInEditor] Ball spawned at: 207.54803797569832, 680 (within 640px game area) with force: 44.247918232526104
+10-16-2025 10:22:39 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 8
+10-16-2025 10:22:39 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-16-2025 10:22:39 - log: [PreviewInEditor] Ball spawned at: 41.001919497016274, 680 (within 640px game area) with force: 40.356270076641984
+10-16-2025 10:22:40 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-16-2025 10:22:40 - log: [PreviewInEditor] Ball spawned at: -238.82470335528095, 680 (within 640px game area) with force: 48.678323568803506
+10-16-2025 10:22:40 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-16-2025 10:22:40 - log: [PreviewInEditor] Ball spawned at: 256.16700441974444, 680 (within 640px game area) with force: 28.24837265615223
+10-16-2025 10:22:41 - log: [PreviewInEditor] Ball spawned at: 264.6631164624225, 680 (within 640px game area) with force: 10.635363190217396
+10-16-2025 10:22:41 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-16-2025 10:22:41 - log: [PreviewInEditor] Ball spawned at: -160.43674649291546, 680 (within 640px game area) with force: 7.800934039816276
+10-16-2025 10:22:42 - log: [PreviewInEditor] Ball spawned at: -120.15699141959905, 680 (within 640px game area) with force: 26.319000411777647
+10-16-2025 10:22:42 - log: [PreviewInEditor] Ball spawned at: 38.75188480701314, 680 (within 640px game area) with force: 9.632871907202167
+10-16-2025 10:22:42 - log: [PreviewInEditor] Ball spawned at: -216.30199718291394, 680 (within 640px game area) with force: 0.03204025258078946
+10-16-2025 10:22:43 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 4
+10-16-2025 10:22:43 - log: [PreviewInEditor] Ball spawned at: -196.28118358172685, 680 (within 640px game area) with force: 49.62590361250213
+10-16-2025 10:22:43 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 8
+10-16-2025 10:22:43 - log: [PreviewInEditor] Ball spawned at: -81.18557711973668, 680 (within 640px game area) with force: 19.476018024117593
+10-16-2025 10:22:43 - log: [PreviewInEditor] Ball spawned at: -145.88571267929285, 680 (within 640px game area) with force: 4.0870010723175305
+10-16-2025 10:22:44 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 12
+10-16-2025 10:22:44 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 16
+10-16-2025 10:22:44 - log: [PreviewInEditor] Ball spawned at: -119.9698654083368, 680 (within 640px game area) with force: 2.410561607686512
+10-16-2025 10:22:44 - log: [PreviewInEditor] Ball spawned at: 221.6605727443923, 680 (within 640px game area) with force: 2.853595966728073
+10-16-2025 10:22:44 - log: [PreviewInEditor] Ball spawned at: 1.7747762204255082, 680 (within 640px game area) with force: 23.88410449950897
+10-16-2025 10:22:44 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 20
+10-16-2025 10:22:45 - log: [PreviewInEditor] Ball spawned at: -46.45776010566772, 680 (within 640px game area) with force: 44.98495309240634
+10-16-2025 10:22:45 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 24
+10-16-2025 10:22:45 - log: [PreviewInEditor] Ball spawned at: -143.47739108206787, 680 (within 640px game area) with force: 39.7182123364331
+10-16-2025 10:22:45 - log: [PreviewInEditor] Ball spawned at: -71.11629053085275, 680 (within 640px game area) with force: 47.084349845742594
+10-16-2025 10:22:45 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-16-2025 10:22:45 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-16-2025 10:22:46 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 4
+10-16-2025 10:22:46 - log: [PreviewInEditor] ✨ GOLDEN BALL spawned!
+10-16-2025 10:22:46 - log: [PreviewInEditor] Ball spawned at: -145.29052368500305, 680 (within 640px game area) with force: 19.206651299522047
+10-16-2025 10:22:46 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 8
+10-16-2025 10:22:46 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-16-2025 10:22:46 - log: [PreviewInEditor] Ball spawned at: -50.971011249195044, 680 (within 640px game area) with force: 18.256024713521967
+10-16-2025 10:22:46 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-16-2025 10:22:46 - log: [PreviewInEditor] 🎮 GAME OVER! Bateos reached 0
+10-16-2025 10:22:46 - log: [PreviewInEditor] Final Score: 0
+10-16-2025 10:22:46 - log: [PreviewInEditor] 💾 Stored final score globally: 0
+10-16-2025 10:22:46 - log: [PreviewInEditor] 🎮 GAME OVER! Bateos reached 0
+10-16-2025 10:22:46 - log: [PreviewInEditor] Final Score: 0
+10-16-2025 10:22:46 - log: [PreviewInEditor] 💾 Stored final score globally: 0
+10-16-2025 10:22:46 - log: [PreviewInEditor] 🔄 Found stored final score: 0
+10-16-2025 10:22:46 - log: [PreviewInEditor] 🚀 Attempting to send score: 0
+10-16-2025 10:22:46 - log: [PreviewInEditor] 📨 PostMessage sent successfully: {score: 0}
+10-16-2025 10:22:57 - info: [PreviewInEditor] preview process is ready
+10-16-2025 10:23:06 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-16-2025 10:23:06 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-16-2025 10:23:06 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-16-2025 10:23:06 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-16-2025 10:23:06 - log: [PreviewInEditor] Cocos Creator v3.8.5
+10-16-2025 10:23:06 - log: [PreviewInEditor] Using custom pipeline: Builtin
+10-16-2025 10:23:06 - log: [PreviewInEditor] [PHYSICS]: switch from builtin to bullet.
+10-16-2025 10:23:06 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-16-2025 10:23:09 - log: [PreviewInEditor] Current Page:  0
+10-16-2025 10:23:12 - log: [PreviewInEditor] Ball spawned at: -115.1074388800958, 680 (within 640px game area) with force: 49.96842419713035
+10-16-2025 10:23:14 - log: [PreviewInEditor] Ball spawned at: 60.07077908058545, 680 (within 640px game area) with force: 25.897351536914805
+10-16-2025 10:23:14 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 4
+10-16-2025 10:23:15 - log: [PreviewInEditor] Ball spawned at: -3.139873617638159, 680 (within 640px game area) with force: 48.5950433305961
+10-16-2025 10:23:16 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 8
+10-16-2025 10:23:17 - log: [PreviewInEditor] Ball spawned at: 210.7315058825484, 680 (within 640px game area) with force: 12.593605949172037
+10-16-2025 10:23:18 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 12
+10-16-2025 10:23:18 - log: [PreviewInEditor] Ball spawned at: -29.079622798602117, 680 (within 640px game area) with force: 34.939950876092006
+10-16-2025 10:23:19 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 16
+10-16-2025 10:23:20 - log: [PreviewInEditor] Ball spawned at: -237.37242486657823, 680 (within 640px game area) with force: 10.556826693484345
+10-16-2025 10:23:21 - log: [PreviewInEditor] Ball spawned at: 177.86964643077954, 680 (within 640px game area) with force: 29.91416103975233
+10-16-2025 10:23:22 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 20
+10-16-2025 10:23:22 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-16-2025 10:23:23 - log: [PreviewInEditor] Ball spawned at: -70.90961519560008, 680 (within 640px game area) with force: 7.373984843024017
+10-16-2025 10:23:24 - log: [PreviewInEditor] Ball spawned at: 44.78317452896073, 680 (within 640px game area) with force: 7.0928180565746235
+10-16-2025 10:23:24 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 4
+10-16-2025 10:23:25 - log: [PreviewInEditor] Ball spawned at: -200.29341055983008, 680 (within 640px game area) with force: 48.704242852617064
+10-16-2025 10:23:26 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 8
+10-16-2025 10:23:26 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 12
+10-16-2025 10:23:26 - log: [PreviewInEditor] Ball spawned at: -8.78813270786111, 680 (within 640px game area) with force: 29.96896002789272
+10-16-2025 10:23:27 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 16
+10-16-2025 10:23:28 - log: [PreviewInEditor] Ball spawned at: 103.51711842327694, 680 (within 640px game area) with force: 7.182230691934999
+10-16-2025 10:23:29 - log: [PreviewInEditor] Ball spawned at: 205.22791353028026, 680 (within 640px game area) with force: 36.52603157319597
+10-16-2025 10:23:29 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 0
+10-16-2025 10:23:30 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 4
+10-16-2025 10:23:30 - log: [PreviewInEditor] ✨ GOLDEN BALL spawned!
+10-16-2025 10:23:30 - log: [PreviewInEditor] Ball spawned at: -68.30910863333972, 680 (within 640px game area) with force: 44.88903122309562
+10-16-2025 10:23:30 - log: [PreviewInEditor] 📈 Score increased by 100. Current score: 104
+10-16-2025 10:23:31 - log: [PreviewInEditor] Ball spawned at: 111.61344824605015, 680 (within 640px game area) with force: 25.844076046496788
+10-16-2025 10:23:31 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 108
+10-16-2025 10:23:32 - log: [PreviewInEditor] Ball spawned at: -24.497935582678537, 680 (within 640px game area) with force: 28.595341785642738
+10-16-2025 10:23:32 - log: [PreviewInEditor] Ball spawned at: 52.422002969343055, 680 (within 640px game area) with force: 37.515704643242884
+10-16-2025 10:23:32 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 112
+10-16-2025 10:23:33 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 116
+10-16-2025 10:23:33 - log: [PreviewInEditor] Ball spawned at: 264.2364010864951, 680 (within 640px game area) with force: 1.8681067722185585
+10-16-2025 10:23:34 - log: [PreviewInEditor] Ball spawned at: 171.4943652507826, 680 (within 640px game area) with force: 45.64063462492327
+10-16-2025 10:23:35 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 66
+10-16-2025 10:23:35 - log: [PreviewInEditor] Ball spawned at: 177.16944680009618, 680 (within 640px game area) with force: 26.73218932878294
+10-16-2025 10:23:36 - log: [PreviewInEditor] ✨ GOLDEN BALL spawned!
+10-16-2025 10:23:36 - log: [PreviewInEditor] Ball spawned at: 257.44960031836285, 680 (within 640px game area) with force: 27.770998777773215
+10-16-2025 10:23:36 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 70
+10-16-2025 10:23:36 - log: [PreviewInEditor] Ball spawned at: -74.8968948331972, 680 (within 640px game area) with force: 18.245624887089086
+10-16-2025 10:23:37 - log: [PreviewInEditor] Ball spawned at: 238.33273036856662, 680 (within 640px game area) with force: 12.732368971427466
+10-16-2025 10:23:38 - log: [PreviewInEditor] Ball spawned at: -222.7272999181306, 680 (within 640px game area) with force: 30.15074631350485
+10-16-2025 10:23:38 - log: [PreviewInEditor] 📈 Score increased by 100. Current score: 170
+10-16-2025 10:23:38 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 174
+10-16-2025 10:23:38 - log: [PreviewInEditor] Ball spawned at: -88.803572892148, 680 (within 640px game area) with force: 33.56556452456806
+10-16-2025 10:23:39 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 178
+10-16-2025 10:23:39 - log: [PreviewInEditor] Ball spawned at: 36.1347784189183, 680 (within 640px game area) with force: 20.062493680895233
+10-16-2025 10:23:39 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 182
+10-16-2025 10:23:39 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 186
+10-16-2025 10:23:39 - log: [PreviewInEditor] Ball spawned at: -253.29038517298608, 680 (within 640px game area) with force: 46.5212380030993
+10-16-2025 10:23:40 - log: [PreviewInEditor] Ball spawned at: -269.35025256049255, 680 (within 640px game area) with force: 46.877257919029724
+10-16-2025 10:23:40 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 190
+10-16-2025 10:23:40 - log: [PreviewInEditor] Ball spawned at: -180.57242259903927, 680 (within 640px game area) with force: 22.34633634238712
+10-16-2025 10:23:41 - log: [PreviewInEditor] ✨ GOLDEN BALL spawned!
+10-16-2025 10:23:41 - log: [PreviewInEditor] Ball spawned at: 262.7884391750416, 680 (within 640px game area) with force: 14.549086779737863
+10-16-2025 10:23:41 - log: [PreviewInEditor] Ball spawned at: 265.4623723440301, 680 (within 640px game area) with force: 47.18908494237126
+10-16-2025 10:23:42 - log: [PreviewInEditor] Ball spawned at: -261.9082798598331, 680 (within 640px game area) with force: 49.55987574380496
+10-16-2025 10:23:42 - log: [PreviewInEditor] Ball spawned at: -20.3149784638494, 680 (within 640px game area) with force: 4.612106234313574
+10-16-2025 10:23:42 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 194
+10-16-2025 10:23:42 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 198
+10-16-2025 10:23:42 - log: [PreviewInEditor] Ball spawned at: 110.92273916164248, 680 (within 640px game area) with force: 8.83573263367039
+10-16-2025 10:23:43 - log: [PreviewInEditor] Ball spawned at: 178.56912904256097, 680 (within 640px game area) with force: 40.19596254767161
+10-16-2025 10:23:43 - log: [PreviewInEditor] Ball spawned at: -127.74541844393241, 680 (within 640px game area) with force: 26.38297692939743
+10-16-2025 10:23:43 - log: [PreviewInEditor] Ball spawned at: -25.947765822976407, 680 (within 640px game area) with force: 13.516394906199281
+10-16-2025 10:23:44 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 148
+10-16-2025 10:23:44 - log: [PreviewInEditor] Ball spawned at: 122.1508661482236, 680 (within 640px game area) with force: 49.91844325290803
+10-16-2025 10:23:44 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 152
+10-16-2025 10:23:44 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 156
+10-16-2025 10:23:44 - log: [PreviewInEditor] ✨ GOLDEN BALL spawned!
+10-16-2025 10:23:44 - log: [PreviewInEditor] Ball spawned at: 116.44467003563494, 680 (within 640px game area) with force: 48.41040548675003
+10-16-2025 10:23:44 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 160
+10-16-2025 10:23:44 - log: [PreviewInEditor] Ball spawned at: -24.694226889572036, 680 (within 640px game area) with force: 14.471564081350074
+10-16-2025 10:23:44 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 110
+10-16-2025 10:23:45 - log: [PreviewInEditor] Ball spawned at: 104.40472763301347, 680 (within 640px game area) with force: 27.63395191782092
+10-16-2025 10:23:45 - log: [PreviewInEditor] 📈 Score increased by 100. Current score: 210
+10-16-2025 10:23:45 - log: [PreviewInEditor] Ball spawned at: -138.14560931250796, 680 (within 640px game area) with force: 46.42930675537389
+10-16-2025 10:23:45 - log: [PreviewInEditor] Ball spawned at: 106.12092947923912, 680 (within 640px game area) with force: 11.568376298548543
+10-16-2025 10:23:45 - log: [PreviewInEditor] 📈 Score increased by 100. Current score: 310
+10-16-2025 10:23:46 - log: [PreviewInEditor] Ball spawned at: 170.7548681410899, 680 (within 640px game area) with force: 47.48756029800214
+10-16-2025 10:23:46 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 260
+10-16-2025 10:23:46 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 264
+10-16-2025 10:23:46 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 268
+10-16-2025 10:23:46 - log: [PreviewInEditor] Ball spawned at: -147.78713320866854, 680 (within 640px game area) with force: 11.466399926958248
+10-16-2025 10:23:46 - log: [PreviewInEditor] Ball spawned at: -259.1376324796206, 680 (within 640px game area) with force: 37.755558730445
+10-16-2025 10:23:46 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 218
+10-16-2025 10:23:46 - log: [PreviewInEditor] Ball spawned at: -58.68658739328367, 680 (within 640px game area) with force: 26.412400409630553
+10-16-2025 10:23:47 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 222
+10-16-2025 10:23:47 - log: [PreviewInEditor] Ball spawned at: -18.97343809556523, 680 (within 640px game area) with force: 31.986673425579827
+10-16-2025 10:23:47 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 172
+10-16-2025 10:23:47 - log: [PreviewInEditor] Ball spawned at: -0.8218834608920247, 680 (within 640px game area) with force: 38.81075007291629
+10-16-2025 10:23:47 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 176
+10-16-2025 10:23:47 - log: [PreviewInEditor] Ball spawned at: 225.36907098415435, 680 (within 640px game area) with force: 22.302248144966587
+10-16-2025 10:23:47 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 180
+10-16-2025 10:23:47 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 184
+10-16-2025 10:23:48 - log: [PreviewInEditor] Ball spawned at: 168.32021044377717, 680 (within 640px game area) with force: 48.8949746360498
+10-16-2025 10:23:48 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 188
+10-16-2025 10:23:48 - log: [PreviewInEditor] Ball spawned at: 223.4920866285027, 680 (within 640px game area) with force: 16.658101078833464
+10-16-2025 10:23:48 - log: [PreviewInEditor] Ball spawned at: 262.481394164202, 680 (within 640px game area) with force: 20.05916957923266
+10-16-2025 10:23:48 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 138
+10-16-2025 10:23:49 - log: [PreviewInEditor] Ball spawned at: -114.14537057886153, 680 (within 640px game area) with force: 30.525485682850128
+10-16-2025 10:23:49 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 142
+10-16-2025 10:23:49 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 146
+10-16-2025 10:23:49 - log: [PreviewInEditor] Ball spawned at: 85.72099985789572, 680 (within 640px game area) with force: 41.01302506291874
+10-16-2025 10:23:49 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 150
+10-16-2025 10:23:49 - log: [PreviewInEditor] Ball spawned at: 134.3282662796368, 680 (within 640px game area) with force: 4.0650014196002004
+10-16-2025 10:23:49 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 154
+10-16-2025 10:23:50 - log: [PreviewInEditor] Ball spawned at: 168.23854111887317, 680 (within 640px game area) with force: 46.729342040711984
+10-16-2025 10:23:50 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 104
+10-16-2025 10:23:50 - log: [PreviewInEditor] Ball spawned at: -160.96192747874608, 680 (within 640px game area) with force: 21.863948771465182
+10-16-2025 10:23:50 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 108
+10-16-2025 10:23:50 - log: [PreviewInEditor] Ball spawned at: -135.09257665597997, 680 (within 640px game area) with force: 15.719962519529718
+10-16-2025 10:23:50 - log: [PreviewInEditor] Ball spawned at: -121.00414222230137, 680 (within 640px game area) with force: 42.765850323055275
+10-16-2025 10:23:51 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 112
+10-16-2025 10:23:51 - log: [PreviewInEditor] Ball spawned at: 246.2305991950576, 680 (within 640px game area) with force: 48.61218077342932
+10-16-2025 10:23:51 - log: [PreviewInEditor] Ball spawned at: -254.74509915648224, 680 (within 640px game area) with force: 8.02173997729504
+10-16-2025 10:23:51 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 116
+10-16-2025 10:23:51 - log: [PreviewInEditor] Ball spawned at: 31.067480646287777, 680 (within 640px game area) with force: 30.80002803758647
+10-16-2025 10:23:51 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 120
+10-16-2025 10:23:51 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 124
+10-16-2025 10:23:52 - log: [PreviewInEditor] ✨ GOLDEN BALL spawned!
+10-16-2025 10:23:52 - log: [PreviewInEditor] Ball spawned at: 147.13669099682926, 680 (within 640px game area) with force: 47.37926243605111
+10-16-2025 10:23:52 - log: [PreviewInEditor] Ball spawned at: 219.69760098368, 680 (within 640px game area) with force: 24.469877095250535
+10-16-2025 10:23:52 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 128
+10-16-2025 10:23:52 - log: [PreviewInEditor] 📈 Score increased by 100. Current score: 228
+10-16-2025 10:23:52 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 232
+10-16-2025 10:23:52 - log: [PreviewInEditor] Ball spawned at: -209.38922361916292, 680 (within 640px game area) with force: 27.902003278855346
+10-16-2025 10:23:53 - log: [PreviewInEditor] Ball spawned at: 150.19229952400286, 680 (within 640px game area) with force: 24.59910609458754
+10-16-2025 10:23:53 - log: [PreviewInEditor] Ball spawned at: -8.576197589112326, 680 (within 640px game area) with force: 14.752220101515533
+10-16-2025 10:23:53 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 182
+10-16-2025 10:23:53 - log: [PreviewInEditor] 📈 Score increased by 4. Current score: 186
+10-16-2025 10:23:53 - log: [PreviewInEditor] Ball spawned at: -182.58418269661294, 680 (within 640px game area) with force: 25.61601364383126
+10-16-2025 10:23:53 - log: [PreviewInEditor] Ball spawned at: 87.59275253236365, 680 (within 640px game area) with force: 47.51122455751444
+10-16-2025 10:23:54 - log: [PreviewInEditor] 📉 Score decreased by 50. Current score: 136
+10-16-2025 10:23:54 - log: [PreviewInEditor] 🎮 GAME OVER! Bateos reached 0
+10-16-2025 10:23:54 - log: [PreviewInEditor] Final Score: 136
+10-16-2025 10:23:54 - log: [PreviewInEditor] 💾 Stored final score globally: 136
+10-16-2025 10:23:54 - log: [PreviewInEditor] Ball spawned at: -36.16298077400714, 680 (within 640px game area) with force: 1.9151032388471934
+10-16-2025 10:23:54 - log: [PreviewInEditor] 🔄 Found stored final score: 136
+10-16-2025 10:23:54 - log: [PreviewInEditor] 🚀 Attempting to send score: 136
+10-16-2025 10:23:54 - log: [PreviewInEditor] 📨 PostMessage sent successfully: {score: 136}
+10-16-2025 10:23:56 - log: [PreviewInEditor] 🚪 Salir button clicked - exiting game
+10-16-2025 10:23:56 - log: [PreviewInEditor] 📨 PostMessage sent to parent: {state:"exit"}
+10-16-2025 10:24:59 - info: [PreviewInEditor] preview process is ready
