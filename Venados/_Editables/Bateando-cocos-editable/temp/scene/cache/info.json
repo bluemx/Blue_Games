@@ -1,9 +1,0 @@
-{
-    "systemInfo": {
-        "arch": "arm64",
-        "cpu": "Apple M1 Pro",
-        "version": "Darwin Kernel Version 25.0.0: Wed Sep 17 21:41:45 PDT 2025; root:xnu-12377.1.9~141/RELEASE_ARM64_T6000"
-    },
-    "sceneListMap": {},
-    "deviceMd5": "865bac2156b231b346f37460c26a17b1"
-}
