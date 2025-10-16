@@ -8,23 +8,23 @@
     "file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts": "./chunks/ad/ad4471749ee2670f87f75e8dfc6d6eadc58f7496.js",
     "file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts": "./chunks/97/977af1171136a24400239ed262f40b7207483423.js",
     "file:///Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "./chunks/3f/3f836b73eb0384e41dadfab72b683f449670040c.js",
-    "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallCtrl.ts": "./chunks/39/39d2283783d7cb5821b4058c12a49ee24a272319.js",
-    "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallSpawner.ts": "./chunks/46/4623d55d3fb294a8ebee248464017e76f5d9ee5b.js",
-    "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BateosCtrl.ts": "./chunks/e3/e320613626cb72a57eedc4736330232f323c4448.js",
-    "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BatterAi.ts": "./chunks/b6/b6fe87cd58e2e2ea1cbcde7da6d6e80cbd31ef94.js",
-    "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/FinalScoreCtrl.ts": "./chunks/52/5212d8ef04906a4532cff6438cc23d4a214e06e3.js",
-    "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/GameManager.ts": "./chunks/27/27c58e4372eed3e5fac33f285a27faef33fc3fb1.js",
-    "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/InstructionsCtrl.ts": "./chunks/6d/6d398b9b609b780ef27d35da99b427bbece89070.js",
-    "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/MiniLabelCtrl.ts": "./chunks/15/158b7efafd9f31a52d5028a66ff1e89b8250b869.js",
-    "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/PlayerAnimationCtrl.ts": "./chunks/93/939cd88820a259ae08c27d1e5600de6bcd9aecac.js",
-    "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SceneRouter.ts": "./chunks/40/405bad47d2df039dc0506612f4470000b53c716f.js",
-    "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/ScoreCtrl.ts": "./chunks/1d/1db2deece929b044c2a8464fef5efe1a7e021b2b.js",
-    "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SplashCtrl.ts": "./chunks/0a/0a6fc7c0d1de1c059f8189f17cec9e0a5e45f246.js"
+    "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/BallCtrl.ts": "./chunks/a5/a5b90f76f98593598478e5907ca23c06b4123016.js",
+    "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/BallSpawner.ts": "./chunks/39/39c39cd869cdbe365ffefc38e7cc5ccc826f9108.js",
+    "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/BateosCtrl.ts": "./chunks/b1/b1593525aabe7ac03a49e99878eb1b39bf1bffe6.js",
+    "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/BatterAi.ts": "./chunks/08/086bf7a62f19f298540f3e272f327267d07fc7f0.js",
+    "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/FinalScoreCtrl.ts": "./chunks/0d/0da17c7444a5d9f5fcc8e9519b727778034af2d5.js",
+    "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/GameManager.ts": "./chunks/d8/d82ccf000c18590ff2e6b17517fdf06837c634f4.js",
+    "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/InstructionsCtrl.ts": "./chunks/c2/c25dc7b90e3dc115fd403262c318fbaa980803da.js",
+    "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/MiniLabelCtrl.ts": "./chunks/7d/7dc62ed63d7f077e93d11bcde488b287b9801d10.js",
+    "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/PlayerAnimationCtrl.ts": "./chunks/2a/2aa7c067305ed8f30edbb29649d8369a605bfa38.js",
+    "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/SceneRouter.ts": "./chunks/c1/c1f7fe414b5e1052903c3467737800e52b801b03.js",
+    "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/ScoreCtrl.ts": "./chunks/12/12ae386be10ba52f6aa92e0147ddc822c2c0d826.js",
+    "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/SplashCtrl.ts": "./chunks/f7/f7108e4bb16a3883e4b8ba236b37e5e643902bee.js"
   },
   "scopes": {
-    "./chunks/0a/0a6fc7c0d1de1c059f8189f17cec9e0a5e45f246.js": {
+    "./chunks/f7/f7108e4bb16a3883e4b8ba236b37e5e643902bee.js": {
       "__unresolved_0": "./chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js",
-      "__unresolved_1": "./chunks/40/405bad47d2df039dc0506612f4470000b53c716f.js",
+      "__unresolved_1": "./chunks/c1/c1f7fe414b5e1052903c3467737800e52b801b03.js",
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
     "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js": {
@@ -63,47 +63,47 @@
       "__unresolved_8": "cce:/internal/x/cc-fu/2d",
       "__unresolved_9": "cce:/internal/x/cc-fu/sorting"
     },
-    "./chunks/40/405bad47d2df039dc0506612f4470000b53c716f.js": {
+    "./chunks/c1/c1f7fe414b5e1052903c3467737800e52b801b03.js": {
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
-    "./chunks/1d/1db2deece929b044c2a8464fef5efe1a7e021b2b.js": {
+    "./chunks/12/12ae386be10ba52f6aa92e0147ddc822c2c0d826.js": {
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
-    "./chunks/93/939cd88820a259ae08c27d1e5600de6bcd9aecac.js": {
+    "./chunks/2a/2aa7c067305ed8f30edbb29649d8369a605bfa38.js": {
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
-    "./chunks/15/158b7efafd9f31a52d5028a66ff1e89b8250b869.js": {
+    "./chunks/7d/7dc62ed63d7f077e93d11bcde488b287b9801d10.js": {
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
-    "./chunks/6d/6d398b9b609b780ef27d35da99b427bbece89070.js": {
+    "./chunks/c2/c25dc7b90e3dc115fd403262c318fbaa980803da.js": {
       "__unresolved_0": "./chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js",
-      "__unresolved_1": "./chunks/40/405bad47d2df039dc0506612f4470000b53c716f.js",
+      "__unresolved_1": "./chunks/c1/c1f7fe414b5e1052903c3467737800e52b801b03.js",
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
-    "./chunks/27/27c58e4372eed3e5fac33f285a27faef33fc3fb1.js": {
+    "./chunks/d8/d82ccf000c18590ff2e6b17517fdf06837c634f4.js": {
       "__unresolved_0": "./chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js",
-      "__unresolved_1": "./chunks/39/39d2283783d7cb5821b4058c12a49ee24a272319.js",
+      "__unresolved_1": "./chunks/a5/a5b90f76f98593598478e5907ca23c06b4123016.js",
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
-    "./chunks/39/39d2283783d7cb5821b4058c12a49ee24a272319.js": {
+    "./chunks/a5/a5b90f76f98593598478e5907ca23c06b4123016.js": {
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
-    "./chunks/52/5212d8ef04906a4532cff6438cc23d4a214e06e3.js": {
+    "./chunks/0d/0da17c7444a5d9f5fcc8e9519b727778034af2d5.js": {
       "__unresolved_0": "./chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js",
-      "__unresolved_1": "./chunks/40/405bad47d2df039dc0506612f4470000b53c716f.js",
+      "__unresolved_1": "./chunks/c1/c1f7fe414b5e1052903c3467737800e52b801b03.js",
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
-    "./chunks/b6/b6fe87cd58e2e2ea1cbcde7da6d6e80cbd31ef94.js": {
+    "./chunks/08/086bf7a62f19f298540f3e272f327267d07fc7f0.js": {
       "__unresolved_0": "./chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js",
-      "__unresolved_1": "./chunks/39/39d2283783d7cb5821b4058c12a49ee24a272319.js",
+      "__unresolved_1": "./chunks/a5/a5b90f76f98593598478e5907ca23c06b4123016.js",
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
-    "./chunks/e3/e320613626cb72a57eedc4736330232f323c4448.js": {
+    "./chunks/b1/b1593525aabe7ac03a49e99878eb1b39bf1bffe6.js": {
       "__unresolved_0": "./chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js",
-      "__unresolved_1": "./chunks/40/405bad47d2df039dc0506612f4470000b53c716f.js",
+      "__unresolved_1": "./chunks/c1/c1f7fe414b5e1052903c3467737800e52b801b03.js",
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
-    "./chunks/46/4623d55d3fb294a8ebee248464017e76f5d9ee5b.js": {
+    "./chunks/39/39c39cd869cdbe365ffefc38e7cc5ccc826f9108.js": {
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
     "./chunks/3f/3f836b73eb0384e41dadfab72b683f449670040c.js": {
@@ -137,22 +137,22 @@
     "./chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js": {
       "__unresolved_0": "./chunks/39/39926cf5e0e4969f7479897f8590f00a613b4b9b.js",
       "__unresolved_1": "./chunks/15/1595b67b17e43e1b429bd847b765b5253bd254ea.js",
-      "__unresolved_10": "./chunks/52/5212d8ef04906a4532cff6438cc23d4a214e06e3.js",
-      "__unresolved_11": "./chunks/27/27c58e4372eed3e5fac33f285a27faef33fc3fb1.js",
-      "__unresolved_12": "./chunks/6d/6d398b9b609b780ef27d35da99b427bbece89070.js",
-      "__unresolved_13": "./chunks/15/158b7efafd9f31a52d5028a66ff1e89b8250b869.js",
-      "__unresolved_14": "./chunks/93/939cd88820a259ae08c27d1e5600de6bcd9aecac.js",
-      "__unresolved_15": "./chunks/40/405bad47d2df039dc0506612f4470000b53c716f.js",
-      "__unresolved_16": "./chunks/1d/1db2deece929b044c2a8464fef5efe1a7e021b2b.js",
-      "__unresolved_17": "./chunks/0a/0a6fc7c0d1de1c059f8189f17cec9e0a5e45f246.js",
+      "__unresolved_10": "./chunks/0d/0da17c7444a5d9f5fcc8e9519b727778034af2d5.js",
+      "__unresolved_11": "./chunks/d8/d82ccf000c18590ff2e6b17517fdf06837c634f4.js",
+      "__unresolved_12": "./chunks/c2/c25dc7b90e3dc115fd403262c318fbaa980803da.js",
+      "__unresolved_13": "./chunks/7d/7dc62ed63d7f077e93d11bcde488b287b9801d10.js",
+      "__unresolved_14": "./chunks/2a/2aa7c067305ed8f30edbb29649d8369a605bfa38.js",
+      "__unresolved_15": "./chunks/c1/c1f7fe414b5e1052903c3467737800e52b801b03.js",
+      "__unresolved_16": "./chunks/12/12ae386be10ba52f6aa92e0147ddc822c2c0d826.js",
+      "__unresolved_17": "./chunks/f7/f7108e4bb16a3883e4b8ba236b37e5e643902bee.js",
       "__unresolved_2": "./chunks/a8/a84255202056a94c36103325568f86b699baf59c.js",
       "__unresolved_3": "./chunks/ad/ad4471749ee2670f87f75e8dfc6d6eadc58f7496.js",
       "__unresolved_4": "./chunks/97/977af1171136a24400239ed262f40b7207483423.js",
       "__unresolved_5": "./chunks/3f/3f836b73eb0384e41dadfab72b683f449670040c.js",
-      "__unresolved_6": "./chunks/39/39d2283783d7cb5821b4058c12a49ee24a272319.js",
-      "__unresolved_7": "./chunks/46/4623d55d3fb294a8ebee248464017e76f5d9ee5b.js",
-      "__unresolved_8": "./chunks/e3/e320613626cb72a57eedc4736330232f323c4448.js",
-      "__unresolved_9": "./chunks/b6/b6fe87cd58e2e2ea1cbcde7da6d6e80cbd31ef94.js"
+      "__unresolved_6": "./chunks/a5/a5b90f76f98593598478e5907ca23c06b4123016.js",
+      "__unresolved_7": "./chunks/39/39c39cd869cdbe365ffefc38e7cc5ccc826f9108.js",
+      "__unresolved_8": "./chunks/b1/b1593525aabe7ac03a49e99878eb1b39bf1bffe6.js",
+      "__unresolved_9": "./chunks/08/086bf7a62f19f298540f3e272f327267d07fc7f0.js"
     }
   }
 }

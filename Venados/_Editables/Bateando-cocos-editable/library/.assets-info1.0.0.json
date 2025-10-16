@@ -796,6 +796,398 @@
     },
     "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/imgs/cheers/cheer3.webp.meta": {
       "time": 1760571481926.6104
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs": {
+      "time": 1760569082719.3005,
+      "uuid": "834f40e4-a4a7-4653-8cf6-056ba2bd5f74"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/prefabs": {
+      "time": 1760569082720.0466,
+      "uuid": "164b9ada-435c-4640-baae-2874a00fc54f"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scenes": {
+      "time": 1760569082721.83,
+      "uuid": "977021ef-6920-47f1-9816-d8855344ef10"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts": {
+      "time": 1760569082725.4336,
+      "uuid": "2f920e93-b6eb-46c2-97f8-0e79faa2ec0f"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/batter": {
+      "time": 1760571500307.189,
+      "uuid": "24e4e31b-e9ed-4300-96ae-214f5e526fb1"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/cheers": {
+      "time": 1760571479662.9814,
+      "uuid": "c4509387-85e2-4f1c-8226-93c9374d921f"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/BallCtrl.ts": {
+      "time": 1760635334468.946,
+      "uuid": "f07d45ed-e1f7-41f5-82b0-aad339d25959"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/BallSpawner.ts": {
+      "time": 1760571555582.784,
+      "uuid": "174b6750-3b3b-4136-a3a7-1c87ae8e70d4"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/BateosCtrl.ts": {
+      "time": 1760571785506.0662,
+      "uuid": "75749919-b8a6-4f9a-bf13-f4001eb10538"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/BatterAi.ts": {
+      "time": 1760569082723.146,
+      "uuid": "727b765f-490d-464a-9a2f-6d98a0d454be"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/FinalScoreCtrl.ts": {
+      "time": 1760636950770.3677,
+      "uuid": "1d49d1bb-125f-477a-9267-2d0f92126985"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/GameManager.ts": {
+      "time": 1760569211661.384,
+      "uuid": "ebeee66d-36ba-420e-ac1b-f68f7fe97b03"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/InstructionsCtrl.ts": {
+      "time": 1760569082723.991,
+      "uuid": "2dbf3b61-a403-4af1-aa62-7044c51c01ca"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/MiniLabelCtrl.ts": {
+      "time": 1760569082724.2766,
+      "uuid": "78d31ab9-a6d9-4098-84fb-d18920453612"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/PlayerAnimationCtrl.ts": {
+      "time": 1760569082724.5762,
+      "uuid": "8b2764fc-d797-4b91-8367-3aebe2ca7ee9"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/SceneRouter.ts": {
+      "time": 1760569082724.8403,
+      "uuid": "cce31e0c-4610-424c-9e1f-0fa122f0fbf5"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/ScoreCtrl.ts": {
+      "time": 1760569228254.4492,
+      "uuid": "62cc9e1f-0cab-4021-9566-f63e164cf8c0"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/SplashCtrl.ts": {
+      "time": 1760636858045.7295,
+      "uuid": "4f3f88a4-1988-45bc-bba4-91d5f2b795f3"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs.meta": {
+      "time": 1760569082706.6455
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/prefabs.meta": {
+      "time": 1760569082719.5317
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scenes.meta": {
+      "time": 1760569082720.5308
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts.meta": {
+      "time": 1760569082722.0564
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/batter.meta": {
+      "time": 1760569082708.2146
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/cheers.meta": {
+      "time": 1760569082713.0361
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/BallCtrl.ts.meta": {
+      "time": 1760569082722.4375
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/BallSpawner.ts.meta": {
+      "time": 1760569082722.7195
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/BateosCtrl.ts.meta": {
+      "time": 1760569082723.0059
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/BatterAi.ts.meta": {
+      "time": 1760569082723.2783
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/FinalScoreCtrl.ts.meta": {
+      "time": 1760569082723.5388
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/GameManager.ts.meta": {
+      "time": 1760569082723.85
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/InstructionsCtrl.ts.meta": {
+      "time": 1760569082724.119
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/MiniLabelCtrl.ts.meta": {
+      "time": 1760569082724.428
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/PlayerAnimationCtrl.ts.meta": {
+      "time": 1760569082724.7095
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/SceneRouter.ts.meta": {
+      "time": 1760569082724.9607
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/ScoreCtrl.ts.meta": {
+      "time": 1760569082725.2651
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/SplashCtrl.ts.meta": {
+      "time": 1760569082725.5103
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/arrow-l.png": {
+      "time": 1760569082706.9924,
+      "uuid": "06724187-f09e-4515-ae19-be3daeee5de6"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/arrow-r.png": {
+      "time": 1760569082707.246,
+      "uuid": "6645783c-a8bb-4686-8dac-9d62891206cb"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/ball.png": {
+      "time": 1760569082707.606,
+      "uuid": "7dbe64a2-1ac1-4ce3-947b-7cf40c1cde4d"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/batter-animation.anim": {
+      "time": 1760569082707.902,
+      "uuid": "2088b5c2-ea69-441c-8af6-2e03034044bd"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/btn-salir.png": {
+      "time": 1760569082712.2903,
+      "uuid": "2dbdb038-ff18-4860-af39-11cce53b4c3c"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/btn-volver.png": {
+      "time": 1760569082712.5046,
+      "uuid": "82922411-635c-4727-8972-1e10208e224c"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/cheers-animation.anim": {
+      "time": 1760569082712.7373,
+      "uuid": "89b9af0f-2faf-4597-a6dd-2d94ff8e0aac"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/endbg.png": {
+      "time": 1760569082714.7078,
+      "uuid": "624b38fc-d58c-4c8b-98bc-37cbc22de775"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/instruction-01.png": {
+      "time": 1760569082715.06,
+      "uuid": "d929b936-bb31-409d-9e35-80442652e51b"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/instruction-02.png": {
+      "time": 1760569082715.4004,
+      "uuid": "dc10127f-c5b4-4a64-94dc-266e642f8a8c"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/instruction-03.png": {
+      "time": 1760569082715.6514,
+      "uuid": "c4daf887-a710-4a08-8fc8-34696bc1d426"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/instructions-bg.jpeg": {
+      "time": 1760569082716.0225,
+      "uuid": "a2610e36-97a6-4e62-ace4-3ad46330742e"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/instructions-jugar.png": {
+      "time": 1760569082716.2734,
+      "uuid": "d29de7ae-b6c7-4697-a33b-071bbee27e30"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/logo.png": {
+      "time": 1760569082716.5369,
+      "uuid": "e0b0ba30-4c9c-4bcb-a0d8-1bbe34babcea"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/red.png": {
+      "time": 1760569082716.7869,
+      "uuid": "7ed154ab-b69a-41a7-b1a1-c15d205e09f0"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/splash-inicio.png": {
+      "time": 1760569082717.0376,
+      "uuid": "d72e908c-d2fa-4a8e-927d-62263bc4ee6d"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/splash-salir.png": {
+      "time": 1760569082717.2742,
+      "uuid": "8dc9aabe-7704-497e-bcba-647c1179c7db"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/splash01.jpg": {
+      "time": 1760569082718.6206,
+      "uuid": "09869176-8eba-4029-92d3-668a0a37e400"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/stadium.webp": {
+      "time": 1760569082719.2498,
+      "uuid": "056647a1-3543-4ccc-aa9e-4248e0a8bb9a"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/prefabs/Minilabel.prefab": {
+      "time": 1760569082719.7097,
+      "uuid": "ab1b2bde-0ed6-44a8-9b86-4cf5453dfb06"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/prefabs/bally.prefab": {
+      "time": 1760569082720.001,
+      "uuid": "48808ddb-c6eb-4a2a-b9ba-ec5d89599d87"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scenes/0-splash.scene": {
+      "time": 1760631899765.5225,
+      "uuid": "0403c61a-f2c9-450f-83a8-379fe5a69703"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scenes/10-instructions.scene": {
+      "time": 1760631670472.505,
+      "uuid": "3d7a6860-e583-4c13-bef8-1e64be010179"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scenes/20-game.scene": {
+      "time": 1760636872041.0876,
+      "uuid": "8223d7a3-8853-48b8-9e5b-5104828b0744"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scenes/30-gameover.scene": {
+      "time": 1760631652871.631,
+      "uuid": "b6d3fabe-bab9-4a0a-8dd2-1875e94c786a"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/batter/bat1.webp": {
+      "time": 1760425928859.09,
+      "uuid": "7df16340-9cd0-47c5-bdb9-34e4c90653f3"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/batter/bat2.webp": {
+      "time": 1760425928869.4229,
+      "uuid": "687458f4-d947-48df-892d-76052016396e"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/batter/bat3.webp": {
+      "time": 1760425928867.5708,
+      "uuid": "7090c873-d995-43a2-bdd9-c6c3e1cc1aa9"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/batter/bat4.webp": {
+      "time": 1760425928896.0037,
+      "uuid": "067fa0e8-f679-46f0-a0e4-554d14479f7a"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/batter/bat5.webp": {
+      "time": 1760425928873.8027,
+      "uuid": "9dbc77c7-fcfe-4713-880c-91b879fb0d71"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/batter/bat6.webp": {
+      "time": 1760425928871.576,
+      "uuid": "7610ea66-1067-4cc9-a9c0-235e02d0c713"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/batter/bat7.webp": {
+      "time": 1760425928941.0098,
+      "uuid": "2858cf0a-14e1-44bc-97fb-177bf4b97108"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/batter/bat8.webp": {
+      "time": 1760425928920.6143,
+      "uuid": "89ea0e99-c262-4c13-9854-3e43bd9b9c97"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/batter/batter-atlas.pac": {
+      "time": 1760569082712.0718,
+      "uuid": "b05d734d-4896-4307-9b1f-bb08e22ebe7d"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/cheers/cheer-atlas.pac": {
+      "time": 1760569082713.1863,
+      "uuid": "f557bf09-982d-4f17-9c53-4eff39d2acd5"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/cheers/cheer1.webp": {
+      "time": 1760569082713.5225,
+      "uuid": "4c0f0684-6d0e-488f-ac55-5d264b646155"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/cheers/cheer2.webp": {
+      "time": 1760569082713.9075,
+      "uuid": "50fd5040-c35c-4b02-ab55-a3f995e6ed95"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/cheers/cheer3.webp": {
+      "time": 1760427131027.6567,
+      "uuid": "b85f0d98-233d-45cd-bf23-1706005d51ea"
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/batter-animation.anim.meta": {
+      "time": 1760569082708.0793
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/ball.png.meta": {
+      "time": 1760569082707.7388
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/arrow-l.png.meta": {
+      "time": 1760569082707.1167
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/arrow-r.png.meta": {
+      "time": 1760569082707.3765
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/btn-salir.png.meta": {
+      "time": 1760569082712.4036
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/cheers-animation.anim.meta": {
+      "time": 1760569082712.9175
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/btn-volver.png.meta": {
+      "time": 1760569082712.617
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/instruction-01.png.meta": {
+      "time": 1760569082715.2063
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/instruction-02.png.meta": {
+      "time": 1760569082715.5312
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/instruction-03.png.meta": {
+      "time": 1760569082715.7966
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/endbg.png.meta": {
+      "time": 1760569082714.919
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/instructions-bg.jpeg.meta": {
+      "time": 1760569082716.1633
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/instructions-jugar.png.meta": {
+      "time": 1760569082716.4043
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/red.png.meta": {
+      "time": 1760569082716.92
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/splash-inicio.png.meta": {
+      "time": 1760569082717.1646
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/logo.png.meta": {
+      "time": 1760569082716.6672
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/splash-salir.png.meta": {
+      "time": 1760569082717.412
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/prefabs/Minilabel.prefab.meta": {
+      "time": 1760569082719.827
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/prefabs/bally.prefab.meta": {
+      "time": 1760569082720.134
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scenes/0-splash.scene.meta": {
+      "time": 1760569082720.913
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scenes/10-instructions.scene.meta": {
+      "time": 1760569082721.2605
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scenes/20-game.scene.meta": {
+      "time": 1760569082721.6096
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scenes/30-gameover.scene.meta": {
+      "time": 1760569082721.918
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/splash01.jpg.meta": {
+      "time": 1760569082718.887
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/stadium.webp.meta": {
+      "time": 1760569082719.3945
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/batter/bat1.webp.meta": {
+      "time": 1760569082708.7358
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/batter/bat2.webp.meta": {
+      "time": 1760571502413.7952
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/batter/bat3.webp.meta": {
+      "time": 1760569082709.7178
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/batter/bat4.webp.meta": {
+      "time": 1760569082710.1272
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/batter/batter-atlas.pac.meta": {
+      "time": 1760569082712.1914
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/cheers/cheer-atlas.pac.meta": {
+      "time": 1760569082713.303
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/batter/bat5.webp.meta": {
+      "time": 1760571502413.5098
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/batter/bat7.webp.meta": {
+      "time": 1760571502476.2935
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/batter/bat8.webp.meta": {
+      "time": 1760569082711.953
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/batter/bat6.webp.meta": {
+      "time": 1760571502478.9714
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/cheers/cheer1.webp.meta": {
+      "time": 1760569082713.6882
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/cheers/cheer2.webp.meta": {
+      "time": 1760569082714.0696
+    },
+    "/Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/imgs/cheers/cheer3.webp.meta": {
+      "time": 1760571481926.6104
     }
   },
   "missing": {

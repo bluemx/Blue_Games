@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 5124.722917,
+      "mTimestamp": 4572.032333,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -577,7 +577,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 360568.949292,
+      "mTimestamp": 1760026.134875,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -665,7 +665,7 @@
           }
         },
         {
-          "value": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallCtrl.ts",
+          "value": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/BallCtrl.ts",
           "resolved": "__unresolved_6",
           "loc": {
             "start": {
@@ -674,12 +674,12 @@
             },
             "end": {
               "line": 10,
-              "column": 114
+              "column": 129
             }
           }
         },
         {
-          "value": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallSpawner.ts",
+          "value": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/BallSpawner.ts",
           "resolved": "__unresolved_7",
           "loc": {
             "start": {
@@ -688,12 +688,12 @@
             },
             "end": {
               "line": 11,
-              "column": 117
+              "column": 132
             }
           }
         },
         {
-          "value": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BateosCtrl.ts",
+          "value": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/BateosCtrl.ts",
           "resolved": "__unresolved_8",
           "loc": {
             "start": {
@@ -702,12 +702,12 @@
             },
             "end": {
               "line": 12,
-              "column": 116
+              "column": 131
             }
           }
         },
         {
-          "value": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BatterAi.ts",
+          "value": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/BatterAi.ts",
           "resolved": "__unresolved_9",
           "loc": {
             "start": {
@@ -716,12 +716,12 @@
             },
             "end": {
               "line": 13,
-              "column": 114
+              "column": 129
             }
           }
         },
         {
-          "value": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/FinalScoreCtrl.ts",
+          "value": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/FinalScoreCtrl.ts",
           "resolved": "__unresolved_10",
           "loc": {
             "start": {
@@ -730,12 +730,12 @@
             },
             "end": {
               "line": 14,
-              "column": 120
+              "column": 135
             }
           }
         },
         {
-          "value": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/GameManager.ts",
+          "value": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/GameManager.ts",
           "resolved": "__unresolved_11",
           "loc": {
             "start": {
@@ -744,12 +744,12 @@
             },
             "end": {
               "line": 15,
-              "column": 117
+              "column": 132
             }
           }
         },
         {
-          "value": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/InstructionsCtrl.ts",
+          "value": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/InstructionsCtrl.ts",
           "resolved": "__unresolved_12",
           "loc": {
             "start": {
@@ -758,12 +758,12 @@
             },
             "end": {
               "line": 16,
-              "column": 122
+              "column": 137
             }
           }
         },
         {
-          "value": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/MiniLabelCtrl.ts",
+          "value": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/MiniLabelCtrl.ts",
           "resolved": "__unresolved_13",
           "loc": {
             "start": {
@@ -772,12 +772,12 @@
             },
             "end": {
               "line": 17,
-              "column": 119
+              "column": 134
             }
           }
         },
         {
-          "value": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/PlayerAnimationCtrl.ts",
+          "value": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/PlayerAnimationCtrl.ts",
           "resolved": "__unresolved_14",
           "loc": {
             "start": {
@@ -786,12 +786,12 @@
             },
             "end": {
               "line": 18,
-              "column": 125
+              "column": 140
             }
           }
         },
         {
-          "value": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SceneRouter.ts",
+          "value": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/SceneRouter.ts",
           "resolved": "__unresolved_15",
           "loc": {
             "start": {
@@ -800,12 +800,12 @@
             },
             "end": {
               "line": 19,
-              "column": 117
+              "column": 132
             }
           }
         },
         {
-          "value": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/ScoreCtrl.ts",
+          "value": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/ScoreCtrl.ts",
           "resolved": "__unresolved_16",
           "loc": {
             "start": {
@@ -814,12 +814,12 @@
             },
             "end": {
               "line": 20,
-              "column": 115
+              "column": 130
             }
           }
         },
         {
-          "value": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SplashCtrl.ts",
+          "value": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/SplashCtrl.ts",
           "resolved": "__unresolved_17",
           "loc": {
             "start": {
@@ -828,7 +828,7 @@
             },
             "end": {
               "line": 21,
-              "column": 116
+              "column": 131
             }
           }
         }
@@ -880,84 +880,84 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallCtrl.ts"
+            "url": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/BallCtrl.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallSpawner.ts"
+            "url": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/BallSpawner.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BateosCtrl.ts"
+            "url": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/BateosCtrl.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BatterAi.ts"
+            "url": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/BatterAi.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/FinalScoreCtrl.ts"
+            "url": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/FinalScoreCtrl.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/GameManager.ts"
+            "url": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/GameManager.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/InstructionsCtrl.ts"
+            "url": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/InstructionsCtrl.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/MiniLabelCtrl.ts"
+            "url": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/MiniLabelCtrl.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/PlayerAnimationCtrl.ts"
+            "url": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/PlayerAnimationCtrl.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SceneRouter.ts"
+            "url": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/SceneRouter.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/ScoreCtrl.ts"
+            "url": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/ScoreCtrl.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SplashCtrl.ts"
+            "url": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/SplashCtrl.ts"
           },
           "messages": []
         }
@@ -1526,7 +1526,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1760631425368,
+      "mTimestamp": 1760635192338,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -3159,6 +3159,822 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SceneRouter.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/BallCtrl.ts": {
+      "mTimestamp": {
+        "mtime": 1760635334468.946,
+        "uuid": "f07d45ed-e1f7-41f5-82b0-aad339d25959"
+      },
+      "chunkId": "a5b90f76f98593598478e5907ca23c06b4123016",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 128
+            },
+            "end": {
+              "line": 1,
+              "column": 132
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/BallSpawner.ts": {
+      "mTimestamp": {
+        "mtime": 1760571555582.784,
+        "uuid": "174b6750-3b3b-4136-a3a7-1c87ae8e70d4"
+      },
+      "chunkId": "39c39cd869cdbe365ffefc38e7cc5ccc826f9108",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 124
+            },
+            "end": {
+              "line": 1,
+              "column": 128
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/BateosCtrl.ts": {
+      "mTimestamp": {
+        "mtime": 1760571785506.0662,
+        "uuid": "75749919-b8a6-4f9a-bf13-f4001eb10538"
+      },
+      "chunkId": "b1593525aabe7ac03a49e99878eb1b39bf1bffe6",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 61
+            },
+            "end": {
+              "line": 1,
+              "column": 65
+            }
+          }
+        },
+        {
+          "value": "./SceneRouter",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 28
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/SceneRouter.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/BatterAi.ts": {
+      "mTimestamp": {
+        "mtime": 1760569082723.146,
+        "uuid": "727b765f-490d-464a-9a2f-6d98a0d454be"
+      },
+      "chunkId": "086bf7a62f19f298540f3e272f327267d07fc7f0",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 69
+            },
+            "end": {
+              "line": 1,
+              "column": 73
+            }
+          }
+        },
+        {
+          "value": "./BallCtrl",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 31
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/BallCtrl.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/FinalScoreCtrl.ts": {
+      "mTimestamp": {
+        "mtime": 1760636950770.3677,
+        "uuid": "1d49d1bb-125f-477a-9267-2d0f92126985"
+      },
+      "chunkId": "0da17c7444a5d9f5fcc8e9519b727778034af2d5",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 68
+            },
+            "end": {
+              "line": 1,
+              "column": 72
+            }
+          }
+        },
+        {
+          "value": "./SceneRouter",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 28
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/SceneRouter.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/GameManager.ts": {
+      "mTimestamp": {
+        "mtime": 1760569211661.384,
+        "uuid": "ebeee66d-36ba-420e-ac1b-f68f7fe97b03"
+      },
+      "chunkId": "d82ccf000c18590ff2e6b17517fdf06837c634f4",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 112
+            },
+            "end": {
+              "line": 1,
+              "column": 116
+            }
+          }
+        },
+        {
+          "value": "./BallCtrl",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 31
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/BallCtrl.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/InstructionsCtrl.ts": {
+      "mTimestamp": {
+        "mtime": 1760569082723.991,
+        "uuid": "2dbf3b61-a403-4af1-aa62-7044c51c01ca"
+      },
+      "chunkId": "c25dc7b90e3dc115fd403262c318fbaa980803da",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 92
+            },
+            "end": {
+              "line": 1,
+              "column": 96
+            }
+          }
+        },
+        {
+          "value": "./SceneRouter",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 28
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/SceneRouter.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/MiniLabelCtrl.ts": {
+      "mTimestamp": {
+        "mtime": 1760569082724.2766,
+        "uuid": "78d31ab9-a6d9-4098-84fb-d18920453612"
+      },
+      "chunkId": "7dc62ed63d7f077e93d11bcde488b287b9801d10",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 71
+            },
+            "end": {
+              "line": 1,
+              "column": 75
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/PlayerAnimationCtrl.ts": {
+      "mTimestamp": {
+        "mtime": 1760569082724.5762,
+        "uuid": "8b2764fc-d797-4b91-8367-3aebe2ca7ee9"
+      },
+      "chunkId": "2aa7c067305ed8f30edbb29649d8369a605bfa38",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 78
+            },
+            "end": {
+              "line": 1,
+              "column": 82
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/SceneRouter.ts": {
+      "mTimestamp": {
+        "mtime": 1760569082724.8403,
+        "uuid": "cce31e0c-4610-424c-9e1f-0fa122f0fbf5"
+      },
+      "chunkId": "c1f7fe414b5e1052903c3467737800e52b801b03",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 72
+            },
+            "end": {
+              "line": 1,
+              "column": 76
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/ScoreCtrl.ts": {
+      "mTimestamp": {
+        "mtime": 1760569228254.4492,
+        "uuid": "62cc9e1f-0cab-4021-9566-f63e164cf8c0"
+      },
+      "chunkId": "12ae386be10ba52f6aa92e0147ddc822c2c0d826",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 55
+            },
+            "end": {
+              "line": 1,
+              "column": 59
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/SplashCtrl.ts": {
+      "mTimestamp": {
+        "mtime": 1760636858045.7295,
+        "uuid": "4f3f88a4-1988-45bc-bba4-91d5f2b795f3"
+      },
+      "chunkId": "f7108e4bb16a3883e4b8ba236b37e5e643902bee",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 82
+            },
+            "end": {
+              "line": 1,
+              "column": 86
+            }
+          }
+        },
+        {
+          "value": "./SceneRouter",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 28
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando-cocos-editable/assets/scripts/SceneRouter.ts"
           },
           "messages": []
         }

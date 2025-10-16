@@ -20,6 +20,10 @@ export class SplashCtrl extends Component {
 
   }
   private next() {
+    // Send postMessage to parent
+    if (window.parent) {
+        window.parent.postMessage({ state: "start" }, '*');
+    }
     this.router.go('10-instructions');
   }
   private onSalirClick(): void {

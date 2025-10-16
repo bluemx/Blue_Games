@@ -89,26 +89,22 @@ export class FinalScoreCtrl extends Component {
         
         // Send postMessage to parent
         if (window.parent) {
-            window.parent.postMessage({ status: "reset" }, '*');
-            //console.log('📨 PostMessage sent to parent: {status:"reset"}');
+            window.parent.postMessage({ state: "reset" }, '*');
         }
         
         // Navigate to splash scene
         if (this.sceneRouter) {
             await this.sceneRouter.go('0-splash');
         } else {
-            console.warn('⚠️ SceneRouter not assigned! Using direct scene load.');
             director.loadScene('0-splash');
         }
     }
 
-    private onSalirClick(): void {
-        console.log('🚪 Salir button clicked - exiting game');
-        
+    private onSalirClick(): void {        
         // Send postMessage to parent
         if (window.parent) {
             window.parent.postMessage({ state: "exit" }, '*');
-            console.log('📨 PostMessage sent to parent: {state:"exit"}');
+
         }
     }
 

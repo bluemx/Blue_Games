@@ -91,13 +91,13 @@ export class BallController extends Component {
             
             if (isGoldenBall) {
                 // Emit both score events (for tracking total score) and bateo events (for bateos counter)
-                director.emit('subtract-score', 200);
-                director.emit('subtract-bateo', 10); // Golden ball touching floor reduces bateos more
+                director.emit('subtract-score', 20);
+                //director.emit('subtract-bateo', 1); // Golden ball touching floor reduces bateos more
                 this.instantiateMiniLabel(contact, 'golden-floor');
             } else {
                 // Emit both score events (for tracking total score) and bateo events (for bateos counter)
-                director.emit('subtract-score', 50);
-                director.emit('subtract-bateo', 5); // Normal ball touching floor reduces bateos
+                director.emit('subtract-score', 10);
+                //director.emit('subtract-bateo', 5); // Normal ball touching floor reduces bateos
                 this.instantiateMiniLabel(contact, '-');
             }
             this.scheduleDestroy();
@@ -105,11 +105,11 @@ export class BallController extends Component {
         } else if(other.node.name == 'Boundaries'){
             if (isGoldenBall) {
                 // Emit score events only (hitting boundaries gives points but doesn't affect bateos)
-                director.emit('add-score', 100);
+                director.emit('add-score', 50);
                 this.instantiateMiniLabel(contact, 'golden-homerun');
             } else {
                 // Emit score events only (hitting boundaries gives points but doesn't affect bateos)
-                director.emit('add-score', 4);
+                director.emit('add-score', 5);
                 this.instantiateMiniLabel(contact, '+');
             }
             this.scheduleDestroy();
