@@ -86,24 +86,24 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           // Bounds -> tag = Tag.BOUNDS
           // Safety checks for required components
           if (!this.ball) {
-            console.error('BallController not assigned to GameManager');
+            //console.error('BallController not assigned to GameManager');
             return;
           }
 
           if (!this.catcherZone) {
-            console.error('CatcherZone not assigned to GameManager');
+            //console.error('CatcherZone not assigned to GameManager');
             return;
           }
 
           if (!this.batSwing) {
-            console.error('BatSwing not assigned to GameManager');
+            //console.error('BatSwing not assigned to GameManager');
             return;
           }
 
           var all = [this.catcherZone, this.batSwing, ...this.boundsSensors];
           all.forEach((n, index) => {
             if (!n) {
-              console.error("Node at index " + index + " is null in GameManager");
+              //console.error(`Node at index ${index} is null in GameManager`);
               return;
             }
 
@@ -143,8 +143,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
           if (isBallVs(Tag.CATCHER)) {
             // punto a favor del pitcher
-            this.score += 1;
-            console.log("Score increased: " + this.score);
+            this.score += 1; //console.log(`Score increased: ${this.score}`);
+
             this.updateUI();
             this.ball.resetBall();
             return;
@@ -152,8 +152,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
           if (isBallVs(Tag.BAT)) {
             // el bateador conectó
-            this.batterHits += 1;
-            console.log("Batter hits: " + this.batterHits);
+            this.batterHits += 1; //console.log(`Batter hits: ${this.batterHits}`);
+
             this.updateUI();
             this.ball.resetBall();
 
@@ -173,7 +173,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
           if (isBallVs(Tag.BOUNDS)) {
             // balón se fue por bordes/superior → resetea
-            console.log('Ball hit bounds, resetting...');
+            //console.log('Ball hit bounds, resetting...');
             this.ball.resetBall();
             return;
           }

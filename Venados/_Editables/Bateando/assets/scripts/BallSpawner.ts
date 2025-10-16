@@ -62,6 +62,10 @@ export class BallSpawner extends Component {
         const canvasTransform = this.canvas.getComponent(UITransform);
         const worldSize = canvasTransform?.contentSize || { width: 800, height: 600 };
 
+        // Use design resolution width (640px) to ensure balls stay within game area
+        // This prevents balls from spawning outside the visible game area in web browsers
+        const gameAreaWidth = 640; // Project design resolution width from settings
+        
         // Check if this should be a golden ball (5% chance)
         const isGoldenBall = Math.random() < this.goldenBallChance;
         
@@ -77,9 +81,9 @@ export class BallSpawner extends Component {
             console.log('✨ GOLDEN BALL spawned!');
         }
 
-        // Random X position within screen bounds (with padding)
+        // Random X position within game area bounds (with padding)
         const padding = 50;
-        const randomX = math.lerp(-worldSize.width / 2 + padding, worldSize.width / 2 - padding, Math.random());
+        const randomX = math.lerp(-gameAreaWidth / 2 + padding, gameAreaWidth / 2 - padding, Math.random());
         const spawnY = worldSize.height / 2 + this.spawnHeight; // Above screen
 
         ball.setPosition(new Vec3(randomX, spawnY, 0));
@@ -91,9 +95,9 @@ export class BallSpawner extends Component {
             const randomForce = math.lerp(this.minDownwardForce, this.maxDownwardForce, Math.random());
             // Apply downward velocity (negative Y direction)
             rigidBody.linearVelocity = new Vec2(0, -randomForce);
-            console.log(`Ball spawned at: ${randomX}, ${spawnY} with downward force: ${randomForce}`);
+            console.log(`Ball spawned at: ${randomX}, ${spawnY} (within ${gameAreaWidth}px game area) with force: ${randomForce}`);
         } else {
-            console.log(`Ball spawned at: ${randomX}, ${spawnY} (no RigidBody2D found)`);
+            console.log(`Ball spawned at: ${randomX}, ${spawnY} (within ${gameAreaWidth}px game area) (no RigidBody2D found)`);
         }
     }
 }

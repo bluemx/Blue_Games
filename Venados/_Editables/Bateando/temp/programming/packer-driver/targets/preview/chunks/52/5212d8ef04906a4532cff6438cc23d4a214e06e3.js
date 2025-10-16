@@ -68,7 +68,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
           if (storedScore !== undefined) {
             console.log("\uD83D\uDD04 Found stored final score: " + storedScore);
-            this.displayScore(storedScore); // Clean up the global storage
+            this.displayScore(storedScore);
+            this.sendScoreToParent(storedScore); // Clean up the global storage
 
             delete globalThis.finalScore;
           } else {
@@ -79,8 +80,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           } // Setup button event listeners
 
 
-          this.setupButtons();
-          console.log('🏆 FinalScoreCtrl initialized, waiting for score...');
+          this.setupButtons(); //console.log('🏆 FinalScoreCtrl initialized, waiting for score...');
         }
 
         onDestroy() {
@@ -91,33 +91,40 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         onSetFinalScore(finalScore) {
           console.log("\uD83C\uDFC6 Final Score received via event: " + finalScore);
           this.displayScore(finalScore);
-          window.parent.postMessage({
-            score: finalScore
-          }, '*');
+          this.sendScoreToParent(finalScore);
+        }
+
+        sendScoreToParent(score) {
+          console.log("\uD83D\uDE80 Attempting to send score: " + score);
+
+          try {
+            window.parent.postMessage({
+              score: score
+            }, '*');
+            console.log("\uD83D\uDCE8 PostMessage sent successfully: {score: " + score + "}");
+          } catch (error) {
+            console.error('❌ Error sending postMessage:', error);
+          }
         }
 
         displayScore(score) {
           if (this.scoreLabel) {
-            this.scoreLabel.string = score.toString();
-            console.log("\uD83D\uDCF1 Score label updated to: " + score);
-          } else {
-            console.warn('⚠️ Score label not assigned to FinalScoreCtrl!');
+            this.scoreLabel.string = score.toString(); //console.log(`📱 Score label updated to: ${score}`);
+          } else {//console.warn('⚠️ Score label not assigned to FinalScoreCtrl!');
           }
         }
 
         setupButtons() {
           // Setup "Volver" sprite (return to splash screen)
           if (this.btnVolver) {
-            this.btnVolver.on(Input.EventType.TOUCH_START, this.onVolverClick, this);
-            console.log('🔄 Volver sprite event listener added');
+            this.btnVolver.on(Input.EventType.TOUCH_START, this.onVolverClick, this); //console.log('🔄 Volver sprite event listener added');
           } else {
             console.warn('⚠️ btnVolver not assigned to FinalScoreCtrl!');
           } // Setup "Salir" sprite (exit game)
 
 
           if (this.btnSalir) {
-            this.btnSalir.on(Input.EventType.TOUCH_START, this.onSalirClick, this);
-            console.log('🚪 Salir sprite event listener added');
+            this.btnSalir.on(Input.EventType.TOUCH_START, this.onSalirClick, this); //console.log('🚪 Salir sprite event listener added');
           } else {
             console.warn('⚠️ btnSalir not assigned to FinalScoreCtrl!');
           }
@@ -127,13 +134,12 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           var _this = this;
 
           return _asyncToGenerator(function* () {
-            console.log('🔄 Volver button clicked - returning to splash screen'); // Send postMessage to parent
-
+            //console.log('🔄 Volver button clicked - returning to splash screen');
+            // Send postMessage to parent
             if (window.parent) {
               window.parent.postMessage({
                 status: "reset"
-              }, '*');
-              console.log('📨 PostMessage sent to parent: {status:"reset"}');
+              }, '*'); //console.log('📨 PostMessage sent to parent: {status:"reset"}');
             } // Navigate to splash scene
 
 

@@ -56,7 +56,7 @@ export class BateosCtrl extends Component {
 
     private onScoreAdd(points: number): void {
         this.currentScore += points;
-        //console.log(`📈 Score increased by ${points}. Current score: ${this.currentScore}`);
+        console.log(`📈 Score increased by ${points}. Current score: ${this.currentScore}`);
     }
 
     private onScoreSubtract(points: number): void {
@@ -72,12 +72,12 @@ export class BateosCtrl extends Component {
     }
 
     private async triggerGameOver(): Promise<void> {
-        //console.log('🎮 GAME OVER! Bateos reached 0');
-        //console.log(`Final Score: ${this.currentScore}`);
+        console.log('🎮 GAME OVER! Bateos reached 0');
+        console.log(`Final Score: ${this.currentScore}`);
         
         // Store the final score globally so it persists across scenes
         (globalThis as any).finalScore = this.currentScore;
-        //console.log(`💾 Stored final score globally: ${this.currentScore}`);
+        console.log(`💾 Stored final score globally: ${this.currentScore}`);
         
         // Also emit the event (in case the scene is already loaded)
         director.emit('set-final-score', this.currentScore);

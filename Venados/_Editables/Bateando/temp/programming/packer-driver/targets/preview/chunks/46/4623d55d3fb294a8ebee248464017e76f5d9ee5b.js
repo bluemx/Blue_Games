@@ -113,7 +113,11 @@ System.register(["cc"], function (_export, _context) {
           var worldSize = (canvasTransform == null ? void 0 : canvasTransform.contentSize) || {
             width: 800,
             height: 600
-          }; // Check if this should be a golden ball (5% chance)
+          }; // Use design resolution width (640px) to ensure balls stay within game area
+          // This prevents balls from spawning outside the visible game area in web browsers
+
+          var gameAreaWidth = 640; // Project design resolution width from settings
+          // Check if this should be a golden ball (5% chance)
 
           var isGoldenBall = Math.random() < this.goldenBallChance;
 
@@ -128,11 +132,11 @@ System.register(["cc"], function (_export, _context) {
 
             ball.name = 'GoldenBall';
             console.log('✨ GOLDEN BALL spawned!');
-          } // Random X position within screen bounds (with padding)
+          } // Random X position within game area bounds (with padding)
 
 
           var padding = 50;
-          var randomX = math.lerp(-worldSize.width / 2 + padding, worldSize.width / 2 - padding, Math.random());
+          var randomX = math.lerp(-gameAreaWidth / 2 + padding, gameAreaWidth / 2 - padding, Math.random());
           var spawnY = worldSize.height / 2 + this.spawnHeight; // Above screen
 
           ball.setPosition(new Vec3(randomX, spawnY, 0));
@@ -144,9 +148,9 @@ System.register(["cc"], function (_export, _context) {
             var randomForce = math.lerp(this.minDownwardForce, this.maxDownwardForce, Math.random()); // Apply downward velocity (negative Y direction)
 
             rigidBody.linearVelocity = new Vec2(0, -randomForce);
-            console.log("Ball spawned at: " + randomX + ", " + spawnY + " with downward force: " + randomForce);
+            console.log("Ball spawned at: " + randomX + ", " + spawnY + " (within " + gameAreaWidth + "px game area) with force: " + randomForce);
           } else {
-            console.log("Ball spawned at: " + randomX + ", " + spawnY + " (no RigidBody2D found)");
+            console.log("Ball spawned at: " + randomX + ", " + spawnY + " (within " + gameAreaWidth + "px game area) (no RigidBody2D found)");
           }
         }
 

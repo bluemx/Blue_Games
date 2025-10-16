@@ -93,7 +93,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         }
 
         onScoreAdd(points) {
-          this.currentScore += points; //console.log(`📈 Score increased by ${points}. Current score: ${this.currentScore}`);
+          this.currentScore += points;
+          console.log(`📈 Score increased by ${points}. Current score: ${this.currentScore}`);
         }
 
         onScoreSubtract(points) {
@@ -110,11 +111,11 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         }
 
         async triggerGameOver() {
-          //console.log('🎮 GAME OVER! Bateos reached 0');
-          //console.log(`Final Score: ${this.currentScore}`);
-          // Store the final score globally so it persists across scenes
-          globalThis.finalScore = this.currentScore; //console.log(`💾 Stored final score globally: ${this.currentScore}`);
-          // Also emit the event (in case the scene is already loaded)
+          console.log('🎮 GAME OVER! Bateos reached 0');
+          console.log(`Final Score: ${this.currentScore}`); // Store the final score globally so it persists across scenes
+
+          globalThis.finalScore = this.currentScore;
+          console.log(`💾 Stored final score globally: ${this.currentScore}`); // Also emit the event (in case the scene is already loaded)
 
           director.emit('set-final-score', this.currentScore); // Navigate to game over scene
 

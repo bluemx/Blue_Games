@@ -26,7 +26,7 @@
         "progress": 1,
         "state": "success",
         "stage": "build",
-        "message": "10-15-2025 10:00:48 build success in 11 s!",
+        "message": "10-15-2025 18:01:51 build success in 17 s!",
         "detailMessage": "// ---- build task cocos-service：onAfterCompressSettings ----\r",
         "options": {
           "name": "Bateando",
@@ -95,7 +95,7 @@
           "__version__": "1.3.9",
           "logDest": "project://temp/builder/log/web-mobile10-15-2025 09-52.log"
         },
-        "time": "10-15-2025 10:00:36",
+        "time": "10-15-2025 18:01:34",
         "dirty": false
       }
     }

@@ -24,7 +24,7 @@ export class BallController extends Component {
     // Auto-destroy ball after 5 seconds
     setTimeout(() => {
       if (this.node) {
-        console.log('⏰ Ball auto-destroyed after 5 seconds');
+        //console.log('⏰ Ball auto-destroyed after 5 seconds');
         this.node.destroy();
       }
     }, 5000);
@@ -90,23 +90,25 @@ export class BallController extends Component {
             this.shakeCanvas();
             
             if (isGoldenBall) {
-
+                // Emit both score events (for tracking total score) and bateo events (for bateos counter)
                 director.emit('subtract-score', 200);
+                director.emit('subtract-bateo', 10); // Golden ball touching floor reduces bateos more
                 this.instantiateMiniLabel(contact, 'golden-floor');
             } else {
-
+                // Emit both score events (for tracking total score) and bateo events (for bateos counter)
                 director.emit('subtract-score', 50);
+                director.emit('subtract-bateo', 5); // Normal ball touching floor reduces bateos
                 this.instantiateMiniLabel(contact, '-');
             }
             this.scheduleDestroy();
 
         } else if(other.node.name == 'Boundaries'){
             if (isGoldenBall) {
-
+                // Emit score events only (hitting boundaries gives points but doesn't affect bateos)
                 director.emit('add-score', 100);
                 this.instantiateMiniLabel(contact, 'golden-homerun');
             } else {
-
+                // Emit score events only (hitting boundaries gives points but doesn't affect bateos)
                 director.emit('add-score', 4);
                 this.instantiateMiniLabel(contact, '+');
             }

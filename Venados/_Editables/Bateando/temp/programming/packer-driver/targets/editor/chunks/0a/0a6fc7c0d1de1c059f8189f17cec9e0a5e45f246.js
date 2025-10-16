@@ -66,13 +66,12 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         }
 
         onSalirClick() {
-          console.log('🚪 Salir button clicked - exiting game'); // Send postMessage to parent
-
+          //console.log('🚪 Salir button clicked - exiting game');
+          // Send postMessage to parent
           if (window.parent) {
             window.parent.postMessage({
               state: "exit"
-            }, '*');
-            console.log('📨 PostMessage sent to parent: {state:"exit"}');
+            }, '*'); //console.log('📨 PostMessage sent to parent: {state:"exit"}');
           }
         }
 

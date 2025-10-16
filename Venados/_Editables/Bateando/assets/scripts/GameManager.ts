@@ -34,24 +34,24 @@ export class GameManager extends Component {
 
     // Safety checks for required components
     if (!this.ball) {
-      console.error('BallController not assigned to GameManager');
+      //console.error('BallController not assigned to GameManager');
       return;
     }
     
     if (!this.catcherZone) {
-      console.error('CatcherZone not assigned to GameManager');
+      //console.error('CatcherZone not assigned to GameManager');
       return;
     }
     
     if (!this.batSwing) {
-      console.error('BatSwing not assigned to GameManager');
+      //console.error('BatSwing not assigned to GameManager');
       return;
     }
 
     const all: Node[] = [this.catcherZone, this.batSwing, ...this.boundsSensors];
     all.forEach((n, index) => {
       if (!n) {
-        console.error(`Node at index ${index} is null in GameManager`);
+        //console.error(`Node at index ${index} is null in GameManager`);
         return;
       }
       
@@ -89,7 +89,7 @@ export class GameManager extends Component {
     if (isBallVs(Tag.CATCHER)) {
       // punto a favor del pitcher
       this.score += 1;
-      console.log(`Score increased: ${this.score}`);
+      //console.log(`Score increased: ${this.score}`);
       this.updateUI();
       this.ball.resetBall();
       return;
@@ -98,7 +98,7 @@ export class GameManager extends Component {
     if (isBallVs(Tag.BAT)) {
       // el bateador conectó
       this.batterHits += 1;
-      console.log(`Batter hits: ${this.batterHits}`);
+      //console.log(`Batter hits: ${this.batterHits}`);
       this.updateUI();
       this.ball.resetBall();
       
@@ -117,7 +117,7 @@ export class GameManager extends Component {
 
     if (isBallVs(Tag.BOUNDS)) {
       // balón se fue por bordes/superior → resetea
-      console.log('Ball hit bounds, resetting...');
+      //console.log('Ball hit bounds, resetting...');
       this.ball.resetBall();
       return;
     }

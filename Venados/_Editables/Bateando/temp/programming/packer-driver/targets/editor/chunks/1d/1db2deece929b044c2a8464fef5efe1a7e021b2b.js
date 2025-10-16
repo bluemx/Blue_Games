@@ -56,8 +56,7 @@ System.register(["cc"], function (_export, _context) {
           director.on('add-score', this.onAddScore, this);
           director.on('subtract-score', this.onSubtractScore, this); // Initialize score display
 
-          this.updateScoreDisplay();
-          console.log('🎯 ScoreCtrl started - listening for add-score and subtract-score events');
+          this.updateScoreDisplay(); //console.log('🎯 ScoreCtrl started - listening for add-score and subtract-score events');
         }
 
         onDestroy() {
@@ -71,8 +70,7 @@ System.register(["cc"], function (_export, _context) {
           this.currentScore += points;
           this.targetScore = this.currentScore; // Start animated counting
 
-          this.startScoreAnimation();
-          console.log(`🎉 Score will animate UP from ${this.displayedScore} to ${this.currentScore}!`);
+          this.startScoreAnimation(); //console.log(`🎉 Score will animate UP from ${this.displayedScore} to ${this.currentScore}!`);
         }
 
         onSubtractScore(points) {
@@ -80,8 +78,7 @@ System.register(["cc"], function (_export, _context) {
 
           this.targetScore = this.currentScore; // Start animated counting
 
-          this.startScoreAnimation();
-          console.log(`💔 Score will animate DOWN from ${this.displayedScore} to ${this.currentScore}!`);
+          this.startScoreAnimation(); //console.log(`💔 Score will animate DOWN from ${this.displayedScore} to ${this.currentScore}!`);
         }
 
         startScoreAnimation() {
@@ -108,8 +105,7 @@ System.register(["cc"], function (_export, _context) {
               this.animationTimer = setTimeout(() => {
                 this.animateScoreStep();
               }, this.animationDelay);
-            } else {
-              console.log(`✨ Score animation completed! Final score: ${this.displayedScore}`);
+            } else {//console.log(`✨ Score animation completed! Final score: ${this.displayedScore}`);
             }
           }
         }
@@ -137,8 +133,7 @@ System.register(["cc"], function (_export, _context) {
           this.currentScore = 0;
           this.displayedScore = 0;
           this.targetScore = 0;
-          this.updateScoreDisplay();
-          console.log('🔄 Score reset to 0');
+          this.updateScoreDisplay(); //console.log('🔄 Score reset to 0');
         }
 
         addScore(points) {

@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 4882.235667,
+      "mTimestamp": 4476.439375,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -577,7 +577,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 6229.94675,
+      "mTimestamp": 729532.013583,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1526,7 +1526,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1760542721264,
+      "mTimestamp": 1760571425087,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -2350,7 +2350,7 @@
     },
     "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallCtrl.ts": {
       "mTimestamp": {
-        "mtime": 1760468265110.6829,
+        "mtime": 1760571782007.7993,
         "uuid": "f07d45ed-e1f7-41f5-82b0-aad339d25959"
       },
       "chunkId": "39d2283783d7cb5821b4058c12a49ee24a272319",
@@ -2402,7 +2402,7 @@
     },
     "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BallSpawner.ts": {
       "mTimestamp": {
-        "mtime": 1760462694779.6892,
+        "mtime": 1760571555582.784,
         "uuid": "174b6750-3b3b-4136-a3a7-1c87ae8e70d4"
       },
       "chunkId": "4623d55d3fb294a8ebee248464017e76f5d9ee5b",
@@ -2454,7 +2454,7 @@
     },
     "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BateosCtrl.ts": {
       "mTimestamp": {
-        "mtime": 1760469577778.1013,
+        "mtime": 1760571785506.0662,
         "uuid": "75749919-b8a6-4f9a-bf13-f4001eb10538"
       },
       "chunkId": "e320613626cb72a57eedc4736330232f323c4448",
@@ -2538,7 +2538,7 @@
     },
     "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/BatterAi.ts": {
       "mTimestamp": {
-        "mtime": 1760419581941.2712,
+        "mtime": 1760569082723.146,
         "uuid": "727b765f-490d-464a-9a2f-6d98a0d454be"
       },
       "chunkId": "b6fe87cd58e2e2ea1cbcde7da6d6e80cbd31ef94",
@@ -2622,7 +2622,7 @@
     },
     "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/FinalScoreCtrl.ts": {
       "mTimestamp": {
-        "mtime": 1760468027444.8682,
+        "mtime": 1760572151260.4155,
         "uuid": "1d49d1bb-125f-477a-9267-2d0f92126985"
       },
       "chunkId": "5212d8ef04906a4532cff6438cc23d4a214e06e3",
@@ -2706,7 +2706,7 @@
     },
     "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/GameManager.ts": {
       "mTimestamp": {
-        "mtime": 1760422653960.682,
+        "mtime": 1760569211661.384,
         "uuid": "ebeee66d-36ba-420e-ac1b-f68f7fe97b03"
       },
       "chunkId": "27c58e4372eed3e5fac33f285a27faef33fc3fb1",
@@ -2790,7 +2790,7 @@
     },
     "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/InstructionsCtrl.ts": {
       "mTimestamp": {
-        "mtime": 1760432087023.1162,
+        "mtime": 1760569082723.991,
         "uuid": "2dbf3b61-a403-4af1-aa62-7044c51c01ca"
       },
       "chunkId": "6d398b9b609b780ef27d35da99b427bbece89070",
@@ -2874,7 +2874,7 @@
     },
     "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/MiniLabelCtrl.ts": {
       "mTimestamp": {
-        "mtime": 1760462694272.2795,
+        "mtime": 1760569082724.2766,
         "uuid": "78d31ab9-a6d9-4098-84fb-d18920453612"
       },
       "chunkId": "158b7efafd9f31a52d5028a66ff1e89b8250b869",
@@ -2926,7 +2926,7 @@
     },
     "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/PlayerAnimationCtrl.ts": {
       "mTimestamp": {
-        "mtime": 1760465781110.0857,
+        "mtime": 1760569082724.5762,
         "uuid": "8b2764fc-d797-4b91-8367-3aebe2ca7ee9"
       },
       "chunkId": "939cd88820a259ae08c27d1e5600de6bcd9aecac",
@@ -2978,7 +2978,7 @@
     },
     "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SceneRouter.ts": {
       "mTimestamp": {
-        "mtime": 1760408035222.4065,
+        "mtime": 1760569082724.8403,
         "uuid": "cce31e0c-4610-424c-9e1f-0fa122f0fbf5"
       },
       "chunkId": "405bad47d2df039dc0506612f4470000b53c716f",
@@ -3030,7 +3030,7 @@
     },
     "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/ScoreCtrl.ts": {
       "mTimestamp": {
-        "mtime": 1760459967997.886,
+        "mtime": 1760569228254.4492,
         "uuid": "62cc9e1f-0cab-4021-9566-f63e164cf8c0"
       },
       "chunkId": "1db2deece929b044c2a8464fef5efe1a7e021b2b",
@@ -3082,7 +3082,7 @@
     },
     "file:///Users/fldsmdfr/Documents/GitHub/Blue_Games/Venados/_Editables/Bateando/assets/scripts/SplashCtrl.ts": {
       "mTimestamp": {
-        "mtime": 1760467728205.705,
+        "mtime": 1760569234821.4663,
         "uuid": "4f3f88a4-1988-45bc-bba4-91d5f2b795f3"
       },
       "chunkId": "0a6fc7c0d1de1c059f8189f17cec9e0a5e45f246",

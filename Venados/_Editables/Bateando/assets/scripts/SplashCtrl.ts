@@ -23,12 +23,12 @@ export class SplashCtrl extends Component {
     this.router.go('10-instructions');
   }
   private onSalirClick(): void {
-        console.log('🚪 Salir button clicked - exiting game');
+        //console.log('🚪 Salir button clicked - exiting game');
         
         // Send postMessage to parent
         if (window.parent) {
             window.parent.postMessage({ state: "exit" }, '*');
-            console.log('📨 PostMessage sent to parent: {state:"exit"}');
+            //console.log('📨 PostMessage sent to parent: {state:"exit"}');
         }
     }
 }

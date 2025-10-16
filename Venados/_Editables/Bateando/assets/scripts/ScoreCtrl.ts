@@ -22,7 +22,7 @@ export class ScoreCtrl extends Component {
         // Initialize score display
         this.updateScoreDisplay();
         
-        console.log('🎯 ScoreCtrl started - listening for add-score and subtract-score events');
+        //console.log('🎯 ScoreCtrl started - listening for add-score and subtract-score events');
     }
 
     onDestroy() {
@@ -39,7 +39,7 @@ export class ScoreCtrl extends Component {
         // Start animated counting
         this.startScoreAnimation();
         
-        console.log(`🎉 Score will animate UP from ${this.displayedScore} to ${this.currentScore}!`);
+        //console.log(`🎉 Score will animate UP from ${this.displayedScore} to ${this.currentScore}!`);
     }
 
     private onSubtractScore(points: number) {
@@ -49,7 +49,7 @@ export class ScoreCtrl extends Component {
         // Start animated counting
         this.startScoreAnimation();
         
-        console.log(`💔 Score will animate DOWN from ${this.displayedScore} to ${this.currentScore}!`);
+        //console.log(`💔 Score will animate DOWN from ${this.displayedScore} to ${this.currentScore}!`);
     }
 
     private startScoreAnimation() {
@@ -85,7 +85,7 @@ export class ScoreCtrl extends Component {
                     this.animateScoreStep();
                 }, this.animationDelay);
             } else {
-                console.log(`✨ Score animation completed! Final score: ${this.displayedScore}`);
+                //console.log(`✨ Score animation completed! Final score: ${this.displayedScore}`);
             }
         }
     }
@@ -114,7 +114,7 @@ export class ScoreCtrl extends Component {
         this.displayedScore = 0;
         this.targetScore = 0;
         this.updateScoreDisplay();
-        console.log('🔄 Score reset to 0');
+        //console.log('🔄 Score reset to 0');
     }
 
     public addScore(points: number): void {
