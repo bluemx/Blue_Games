@@ -1980,7 +1980,7 @@
 10-16-2025 15:49:22 - debug: Build script start, progress: 17%
 10-16-2025 15:49:22 - debug: // ---- build task Build script ----
 10-16-2025 15:49:22 - log: Run build task(build-script) in child, see: chrome://inspect/#devices
-10-16-2025 15:49:22 - log: [build-script]enter sub process 48905, /Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Frameworks/CocosCreator Helper (Renderer).app/Contents/MacOS/CocosCreator Helper (Renderer),/Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/static/sub-process-index
+10-16-2025 15:49:22 - log: [build-script]enter sub process 48905, /Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Frameworks/CocosCreator Helper (Renderer).app/Contents/MacOS/CocosCreator Helper (Renderer),/Applications/Cocos/Creator/3.8.5/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/static/sub-process-index
 10-16-2025 15:49:23 - debug: excute-script over with build-script 1590ms
 10-16-2025 15:49:23 - debug: Generate systemJs..., progress: 17%
 10-16-2025 15:49:23 - log: Run build task(build-script) in child, see: chrome://inspect/#devices
