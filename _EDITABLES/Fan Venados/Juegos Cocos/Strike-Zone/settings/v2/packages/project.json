@@ -1,0 +1,48 @@
+{
+  "__version__": "1.0.6",
+  "general": {
+    "designResolution": {
+      "width": 640,
+      "height": 960,
+      "fitHeight": true
+    }
+  },
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "Ball"
+      },
+      {
+        "index": 2,
+        "name": "Target"
+      },
+      {
+        "index": 3,
+        "name": "10p"
+      },
+      {
+        "index": 4,
+        "name": "8p"
+      },
+      {
+        "index": 5,
+        "name": "6p"
+      },
+      {
+        "index": 6,
+        "name": "4p"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 7,
+      "1": 125,
+      "2": 3,
+      "3": 2,
+      "4": 2,
+      "5": 2,
+      "6": 2
+    }
+  },
+  "custom_joint_texture_layouts": []
+}
